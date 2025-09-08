@@ -1,0 +1,84 @@
+$$Option.OverlayFileSymbolset = "UTF-8";
+$$Option.DocumentTag = "Document";
+$$Option.CarriageControl = "No";
+$$Option.EnableMultiInstance = "Yes";
+$$Option.PruneXML = "Yes";
+$$Option.FilterVersionCreated = "3.3.008.01";
+$$Option.FilterDateCreated = "2025-09-08 19:35:10 UTC";
+$$Option.LinesPerPage = "66";
+$$Option.OverlayFile = "$$X/amostra1.txt";
+$$Option.XmlDataFile = "";
+$$Option.FilterVersionNumber = "1";
+
+var $$Rules = [
+   {  // Rule #1
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,21,21).EQ("*"))
+         && $$If($$(0,1,31,31).EQ("*"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(-2,1,77,86).Trim(3).Xml("Capa.DataPostagem");
+         $$(0,1,21,31).Trim(3).Xml("Capa.CEPNET");
+         $$(1,1,15,122).Trim(3).Xml("Capa.Destinatario");
+         $$(2,1,15,122).Trim(3).Xml("Capa.Logradouro");
+         $$(3,1,15,94).Trim(3).Xml("Capa.Bairro");
+         $$(4,1,15,94).Trim(3).Xml("Capa.Cidade_UF");
+         $$(5,1,15,23).Trim(3).Xml("Capa.CEP");
+         $$(7,1,21,122).Trim(3).Xml("Capa.CodBarras1");
+         $$(8,1,21,107).Trim(3).Xml("Capa.CodBarras2");
+         $$(12,1,25,60).Trim(3).Xml("Capa.EspelhoCB");
+         $$(20,1,24,34).Trim(3).Xml("Capa.Placa");
+         $$(20,1,71,82).Trim(3).Xml("Capa.Emissao");
+         $$(0,0,0,0).Advance(22);
+      },
+   },
+
+   {  // Rule #2
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,11,22).EQ("FORMS=LAV016"))
+      ) },
+      action: null,
+   },
+
+];
+
+//Custom//
+//Custom//
+
+var $$XmlTemplate = {		// XML output template
+  Capa: {
+    DataPostagem: null,
+    Sequencia: null,
+    CEPNET: null,
+    Destinatario: null,
+    Logradouro: null,
+    Bairro: null,
+    Cidade_UF: null,
+    CEP: null,
+    CodBarras1: null,
+    CodBarras2: null,
+    EspelhoCB: null,
+    Placa: null,
+    Emissao: null,
+  },
+  LAV016: {
+    Placa: null,
+    Renavam: null,
+    Exercicio: null,
+    Versao: null,
+    Nome: null,
+    DataVencimento: null,
+    Endereco1: null,
+    Endereco2: null,
+    Endereco3: null,
+  },
+  Separator: null,
+};
+
