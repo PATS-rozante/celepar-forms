@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "UTF-8";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-08 13:46:23 UTC";
+$$Option.FilterDateModified = "2025-09-08 14:51:30 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -97,7 +97,7 @@ var $$Rules = [
          $$(10,1,1,10).Trim(3).Xml("DUT036.DataVencimento");
          $$(11,1,1,10).Trim(3).Xml("DUT036.ValorDocumento");
          $$(12,1,1,112).Trim(3).Xml("DUT036.CodigoBarras");
-         $$(12,1,1,112).Trim(3).Script("decodeInterleaved25()").Xml("DUT036.CodigoBarrasDecoded").Script("");
+         $$(12,1,1,112).Trim(3).Script("decodeInterleaved25()").Xml("DUT036.CodigoBarrasDecoded");
          $$(13,1,1,56).Trim(3).Xml("DUT036.EspelhoCB");
          $$(20,1,1,15).Trim(3).Xml("DUT036.Controle");
          $$(0,0,0,0).Advance(21);
