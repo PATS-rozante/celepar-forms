@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "UTF-8";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-08 00:25:36 UTC";
+$$Option.FilterDateModified = "2025-09-08 13:46:23 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -47,6 +47,42 @@ var $$Rules = [
       nextState: '*-',
       startNewDocument: false,
       test: function() { return(
+         $$If($$(0,1,1,6).EQ("DUT032"))
+      ) },
+      action: function() {
+         $$(1,1,1,6).Trim(3).Xml("DUT032.Sequencia");
+         $$(2,1,10,19).Trim(3).Xml("DUT032.DataEmissao");
+         $$(3,1,1,70).Trim(3).Xml("DUT032.Contribuinte");
+         $$(4,1,1,10).Trim(3).Xml("DUT032.DataVencimentoCNH");
+         $$(5,1,1,15).Trim(3).Xml("DUT032.ValorMulta");
+         $$(6,1,1,15).Trim(3).Xml("DUT032.Controle");
+         $$(0,0,0,0).Advance(7);
+      },
+   },
+
+   {  // Rule #3
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,6).EQ("DUT033"))
+      ) },
+      action: function() {
+         $$(1,1,1,6).Trim(3).Xml("DUT033.Sequencia");
+         $$(2,1,10,19).Trim(3).Xml("DUT033.DataEmissao");
+         $$(3,1,1,70).Trim(3).Xml("DUT033.Contribuinte");
+         $$(4,1,1,10).Trim(3).Xml("DUT033.DataVencimento");
+         $$(5,1,1,156).Trim(3).Xml("DUT033.Descricao");
+         $$(6,1,1,7).Trim(3).Xml("DUT033.Controle");
+         $$(0,0,0,0).Advance(6);
+      },
+   },
+
+   {  // Rule #4
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
          $$If($$(0,1,1,6).EQ("DUT036"))
       ) },
       action: function() {
@@ -68,25 +104,7 @@ var $$Rules = [
       },
    },
 
-   {  // Rule #3
-      state: '*',
-      nextState: '*-',
-      startNewDocument: false,
-      test: function() { return(
-         $$If($$(0,1,1,6).EQ("DUT032"))
-      ) },
-      action: function() {
-         $$(1,1,1,6).Trim(3).Xml("DUT032.Sequencia");
-         $$(2,1,10,19).Trim(3).Xml("DUT032.DataEmissao");
-         $$(3,1,1,70).Trim(3).Xml("DUT032.Contribuinte");
-         $$(4,1,1,10).Trim(3).Xml("DUT032.DataVencimentoCNH");
-         $$(5,1,1,15).Trim(3).Xml("DUT032.ValorMulta");
-         $$(6,1,1,15).Trim(3).Xml("DUT032.Controle");
-         $$(0,0,0,0).Advance(7);
-      },
-   },
-
-   {  // Rule #4
+   {  // Rule #5
       state: '*',
       nextState: '*-',
       startNewDocument: false,
@@ -203,6 +221,14 @@ var $$XmlTemplate = {		// XML output template
     EspelhoCB: null,
     Controle: null,
     CodigoBarrasDecoded: null,
+  },
+  DUT033: {
+    Sequencia: null,
+    DataEmissao: null,
+    Contribuinte: null,
+    DataVencimento: null,
+    Descricao: null,
+    Controle: null,
   },
 };
 

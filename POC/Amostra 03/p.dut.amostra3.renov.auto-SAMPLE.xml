@@ -98,4 +98,31 @@
     <CodigoBarrasDecoded>8600012406222420210624</CodigoBarrasDecoded>
   </DUT039>
 </Document>
+<Document>
+  <Capa>
+    <CEPNET>*812400609*</CEPNET>
+    <Destinatario>GILSON TOLEDO</Destinatario>
+    <Dest_Logradouro>RUA JOACABA, 448 BL3 AP1</Dest_Logradouro>
+    <Dest_Bairro>CIDADE INDUSTRIAL</Dest_Bairro>
+    <Dest_Cidade_UF>CURITIBA - PR</Dest_Cidade_UF>
+    <Dest_CEP>81240-060</Dest_CEP>
+    <Emissor>DEPARTAMENTO DE TRANSITO - DETRAN/PR</Emissor>
+    <Emissor_Departamento>DETRAN/PR</Emissor_Departamento>
+    <Emissor_Controle>991228857-1/2012 - DR/PR</Emissor_Controle>
+    <Emissor_Logradouro>AV VICTOR FERREIRA DO AMARAL, 2940  - TARUMA</Emissor_Logradouro>
+    <Emissor_Cidade_UF>CURITIBA - PR</Emissor_Cidade_UF>
+    <Emissor_CEP>82800-900</Emissor_CEP>
+    <Emissor_DataPostagem>19 / 10 / 2025</Emissor_DataPostagem>
+    <Emissor_CodigoDUT>DUT1</Emissor_CodigoDUT>
+    <Emissor_Sequencia>4</Emissor_Sequencia>
+  </Capa>
+  <DUT033>
+    <Sequencia>000004</Sequencia>
+    <DataEmissao>15/10/2025</DataEmissao>
+    <Contribuinte>GILSON TOLEDO</Contribuinte>
+    <DataVencimento>14/11/2025</DataVencimento>
+    <Descricao>SITUACAO IRREGULAR. CONDUTOR DEVERA ENTREGAR A CNH PARA CUMPRIR CASSACAO DO DIREITO DE DIRIGIR</Descricao>
+    <Controle>H190831</Controle>
+  </DUT033>
+</Document>
 </XMLData>
