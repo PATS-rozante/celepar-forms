@@ -1,0 +1,208 @@
+$$Option.OverlayFileSymbolset = "UTF-8";
+$$Option.FilterVersionModified = "3.3.008.01";
+$$Option.FilterDateModified = "2025-09-08 00:25:36 UTC";
+$$Option.DocumentTag = "Document";
+$$Option.CarriageControl = "No";
+$$Option.EnableMultiInstance = "Yes";
+$$Option.PruneXML = "Yes";
+$$Option.FilterVersionCreated = "3.3.008.01";
+$$Option.FilterDateCreated = "2025-09-06 20:59:20 UTC";
+$$Option.LinesPerPage = "66";
+$$Option.OverlayFile = "$$X/p.dut.amostra3.renov.auto";
+$$Option.XmlDataFile = "";
+$$Option.OverlayMaxLines = "300";
+$$Option.FilterVersionNumber = "1";
+
+var $$Rules = [
+   {  // Rule #1
+      state: '*AnyState*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,6).EQ("DUT006"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(1,1,1,9).Trim(3).Xml("Capa.Emissor_CEP");
+         $$(1,1,11,70).Trim(3).Xml("Capa.Emissor_Cidade_UF");
+         $$(2,1,1,70).Trim(3).Xml("Capa.Emissor_Logradouro");
+         $$(3,1,1,70).Trim(3).Xml("Capa.Emissor");
+         $$(4,1,1,35).Trim(3).Xml("Capa.Emissor_Controle");
+         $$(5,1,1,35).Trim(3).Xml("Capa.Emissor_Departamento");
+         $$(6,1,14,27).Trim(3).Xml("Capa.Emissor_DataPostagem");
+         $$(7,1,1,8).Trim(3).Xml("Capa.Emissor_CodigoDUT");
+         $$(8,1,1,6).Trim(3).Xml("Capa.Emissor_Sequencia");
+         $$(9,1,1,11).Trim(3).Xml("Capa.CEPNET");
+         $$(10,1,1,70).Trim(3).Xml("Capa.Destinatario");
+         $$(11,1,1,70).Trim(3).Xml("Capa.Dest_Logradouro");
+         $$(12,1,1,70).Trim(3).Xml("Capa.Dest_Bairro");
+         $$(13,1,1,70).Trim(3).Xml("Capa.Dest_Cidade_UF");
+         $$(14,1,1,9).Trim(3).Xml("Capa.Dest_CEP");
+         $$(0,0,0,0).Advance(15);
+      },
+   },
+
+   {  // Rule #2
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,6).EQ("DUT036"))
+      ) },
+      action: function() {
+         $$(1,1,1,6).Trim(3).Xml("DUT036.Sequencia");
+         $$(2,1,10,19).Trim(3).Xml("DUT036.DataEmissao");
+         $$(3,1,1,70).Trim(3).Xml("DUT036.Contribuinte");
+         $$(4,1,1,10).Trim(3).Xml("DUT036.Data");
+         $$(5,1,1,70).Trim(3).Xml("DUT036.Posto");
+         $$(7,1,1,20).Trim(3).Xml("DUT036.Processo");
+         $$(8,1,1,20).Trim(3).Xml("DUT036.NumeroGRD");
+         $$(9,1,1,70).Trim(3).Xml("DUT036.Motivo");
+         $$(10,1,1,10).Trim(3).Xml("DUT036.DataVencimento");
+         $$(11,1,1,10).Trim(3).Xml("DUT036.ValorDocumento");
+         $$(12,1,1,112).Trim(3).Xml("DUT036.CodigoBarras");
+         $$(12,1,1,112).Trim(3).Script("decodeInterleaved25()").Xml("DUT036.CodigoBarrasDecoded").Script("");
+         $$(13,1,1,56).Trim(3).Xml("DUT036.EspelhoCB");
+         $$(20,1,1,15).Trim(3).Xml("DUT036.Controle");
+         $$(0,0,0,0).Advance(21);
+      },
+   },
+
+   {  // Rule #3
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,6).EQ("DUT032"))
+      ) },
+      action: function() {
+         $$(1,1,1,6).Trim(3).Xml("DUT032.Sequencia");
+         $$(2,1,10,19).Trim(3).Xml("DUT032.DataEmissao");
+         $$(3,1,1,70).Trim(3).Xml("DUT032.Contribuinte");
+         $$(4,1,1,10).Trim(3).Xml("DUT032.DataVencimentoCNH");
+         $$(5,1,1,15).Trim(3).Xml("DUT032.ValorMulta");
+         $$(6,1,1,15).Trim(3).Xml("DUT032.Controle");
+         $$(0,0,0,0).Advance(7);
+      },
+   },
+
+   {  // Rule #4
+      state: '*',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,6).EQ("DUT039"))
+      ) },
+      action: function() {
+         $$(1,1,1,6).Trim(3).Xml("DUT039.Sequencia");
+         $$(2,1,10,19).Trim(3).Xml("DUT039.DataEmissao");
+         $$(3,1,1,70).Trim(3).Xml("DUT039.Contribuinte");
+         $$(4,1,1,10).Trim(3).Xml("DUT039.Data");
+         $$(5,1,1,70).Trim(3).Xml("DUT039.Posto");
+         $$(7,1,1,19).Trim(3).Xml("DUT039.Processo");
+         $$(8,1,1,19).Trim(3).Xml("DUT039.NumeroGRD");
+         $$(9,1,1,70).Trim(3).Xml("DUT039.Motivo");
+         $$(10,1,1,15).Trim(3).Xml("DUT039.DataVencimento");
+         $$(11,1,1,15).Trim(3).Xml("DUT039.ValorDocumento");
+         $$(12,1,1,112).Trim(3).Xml("DUT039.CodigoBarras");
+         $$(12,1,1,112).Trim(3).Script("decodeInterleaved25()").Xml("DUT039.CodigoBarrasDecoded");
+         $$(13,1,1,57).Trim(3).Xml("DUT039.EspelhoCB");
+         $$(20,1,1,15).Trim(3).Xml("DUT039.Controle");
+         $$(0,0,0,0).Advance(21);
+      },
+   },
+
+];
+
+//Custom//
+function decodeInterleaved25() {
+  const table = {
+  NNWWN: "0",
+  WNNNW: "1",
+  NWNNW: "2",
+  WWNNN: "3",
+  NNWNW: "4",
+  WNWNN: "5",
+  NWWNN: "6",
+  NNNWW: "7",
+  WNNWN: "8",
+  NWNWN: "9",
+  };
+  var barcode = $$GetText();
+  barcode = barcode.replace(/^<|>$/g, "");
+  var result = "";
+  for (var i = 0; i < barcode.length; i += 10) {
+    const segment = barcode.slice(i, i + 10);
+    if (segment.length < 10) {
+      break;
+    }
+    const bars = segment.slice(0, 5).replace(/[Nn]/g, "N").replace(/[Ww]/g, "W");
+    const spaces = segment.slice(5, 10).replace(/[Nn]/g, "N").replace(/[Ww]/g, "W");
+    const d1 = table[bars] || "?";
+    const d2 = table[spaces] || "?";
+    result += d1 + d2;
+  }
+  $$SetText(result); 
+}
+//Custom//
+
+var $$XmlTemplate = {		// XML output template
+  Capa: {
+    CEPNET: null,
+    Destinatario: null,
+    Dest_Logradouro: null,
+    Dest_Bairro: null,
+    Dest_Cidade_UF: null,
+    Dest_CEP: null,
+    Emissor: null,
+    Emissor_Departamento: null,
+    Emissor_Controle: null,
+    Emissor_Logradouro: null,
+    Emissor_Cidade_UF: null,
+    Emissor_CEP: null,
+    Emissor_DataPostagem: null,
+    Emissor_CodigoDUT: null,
+    Emissor_Sequencia: null,
+  },
+  DUT036: {
+    Sequencia: null,
+    DataEmissao: null,
+    Contribuinte: null,
+    Data: null,
+    Posto: null,
+    Processo: null,
+    NumeroGRD: null,
+    Motivo: null,
+    DataVencimento: null,
+    ValorDocumento: null,
+    CodigoBarras: null,
+    EspelhoCB: null,
+    Controle: null,
+    CodigoBarrasDecoded: null,
+  },
+  DUT032: {
+    Sequencia: null,
+    DataEmissao: null,
+    Contribuinte: null,
+    DataVencimentoCNH: null,
+    ValorMulta: null,
+    Controle: null,
+  },
+  DUT039: {
+    Sequencia: null,
+    DataEmissao: null,
+    Contribuinte: null,
+    Data: null,
+    Posto: null,
+    Processo: null,
+    NumeroGRD: null,
+    Motivo: null,
+    DataVencimento: null,
+    ValorDocumento: null,
+    CodigoBarras: null,
+    EspelhoCB: null,
+    Controle: null,
+    CodigoBarrasDecoded: null,
+  },
+};
+
