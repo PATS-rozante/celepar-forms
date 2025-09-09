@@ -31,6 +31,7 @@ var $$Rules = [
          $$(5,1,15,23).Trim(3).Xml("Capa.CEP");
          $$(7,1,21,122).Trim(3).Xml("Capa.CodBarras1");
          $$(8,1,21,107).Trim(3).Xml("Capa.CodBarras2");
+         $$(8,1,21,107).Trim(3).Script("decodeInterleaved25()").Xml("Capa.CodBarrasDecoded");
          $$(12,1,25,60).Trim(3).Xml("Capa.EspelhoCB");
          $$(20,1,24,34).Trim(3).Xml("Capa.Placa");
          $$(20,1,71,82).Trim(3).Xml("Capa.Emissao");
@@ -95,6 +96,35 @@ var $$Rules = [
 ];
 
 //Custom//
+function decodeInterleaved25() {
+  const table = {
+  NNWWN: "0",
+  WNNNW: "1",
+  NWNNW: "2",
+  WWNNN: "3",
+  NNWNW: "4",
+  WNWNN: "5",
+  NWWNN: "6",
+  NNNWW: "7",
+  WNNWN: "8",
+  NWNWN: "9",
+  };
+  var barcode = $$GetText();
+  barcode = barcode.replace(/^<|>$/g, "");
+  var result = "";
+  for (var i = 0; i < barcode.length; i += 10) {
+    const segment = barcode.slice(i, i + 10);
+    if (segment.length < 10) {
+      break;
+    }
+    const bars = segment.slice(0, 5).replace(/[Nn]/g, "N").replace(/[Ww]/g, "W");
+    const spaces = segment.slice(5, 10).replace(/[Nn]/g, "N").replace(/[Ww]/g, "W");
+    const d1 = table[bars] || "?";
+    const d2 = table[spaces] || "?";
+    result += d1 + d2;
+  }
+  $$SetText(result); 
+}
 //Custom//
 
 var $$XmlTemplate = {		// XML output template
@@ -112,6 +142,7 @@ var $$XmlTemplate = {		// XML output template
     EspelhoCB: null,
     Placa: null,
     Emissao: null,
+    CodBarrasDecoded: null,
   },
   LAV016: {
     Placa: null,
