@@ -1,10 +1,10 @@
 const fs = require("fs");
 
 // Captura os argumentos da linha de comando
-const [, , '-in', inputFile, '-out', outputFile] = process.argv;
+const [, , parmIn, inputFile, parmOut, outputFile] = process.argv;
 
 if (!inputFile || !outputFile) {
-  console.error("Uso: node script.js <arquivo_entrada.xml> <arquivo_saida.xml>");
+  console.error("Uso: node script.js -in <arquivo_entrada.xml> -out <arquivo_saida.xml>");
   process.exit(1);
 }
 
