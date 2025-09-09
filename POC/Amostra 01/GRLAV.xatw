@@ -1,39 +1,345 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<XATW name="GRLAV" paginationVersion="2" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="default" blankFront="PagBranca" blankBack="PagBranca" blankTrailing="PagBranca" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
-  <page name="PagCapa" visible="yes" size="A4" orientation="Portrait" duplex="top" inputTray="largeCapacity">
+<XATW name="Document" paginationVersion="2" collate="yes" numCopies="1" duplex="left" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
+  <page name="PagCapa" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="largeCapacity">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\LAV080.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\LAV080.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="ContainerCapa" visible="yes" shading="none">
-      <boundingRect left="0.499999 cm" top="0.499999 cm" width="20.000001 cm" height="28.699998 cm"/>
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.599999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <pane name="Capa" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
+        <boundingRect width="21.000001 cm" height="29.549999 cm"/>
+        <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+        <field name="CEPNET" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="PostNet" justify="left middle" caseShift="none">
+          <boundingRect left="1.899996 cm" top="14.499971 cm" width="3.899992 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="POSTNET" size="18.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="DataPostagem" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="15.599969 cm" top="14.79997 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Sequencia" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="17.999964 cm" top="14.79997 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Destinatario" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.899996 cm" top="15.299969 cm" width="8.399983 cm" height="0.599999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Logradouro" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.899996 cm" top="16.199968 cm" width="8.399983 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Bairro" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.899996 cm" top="17.099966 cm" width="8.399983 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Cidade_UF" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.899996 cm" top="17.999964 cm" width="3.699993 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="CodBarras1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="7.899984 cm" top="17.999964 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="CEP" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.899996 cm" top="18.699963 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="CodBarras2" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="7.999984 cm" top="18.699963 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="2de5" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="EspelhoCB" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="7.899984 cm" top="19.399961 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Placa" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="1.699997 cm" top="19.79996 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Emissao" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="7.099986 cm" top="19.79996 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Sequencia" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="12.499975 cm" top="19.79996 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+      </pane><!--Capa-->
     </container>
   </page><!--PagCapa-->
-  <page name="PagLAV016" visible="yes" size="A4" orientation="Portrait" duplex="top" inputTray="largeCapacity">
+  <page name="PagLAV016" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="largeCapacity">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\LAV016.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\LAV016.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+      <font typeface="Arial" size="10.000" italic="0" bold="0"/>
     </label>
     <container name="ContainerLAV016" visible="yes" shading="none">
-      <boundingRect left="0.499999 cm" top="0.499999 cm" width="20.000001 cm" height="28.699998 cm"/>
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.599999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <pane name="LAV016" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
+        <boundingRect width="21.000001 cm" height="29.549999 cm"/>
+        <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+        <field name="Placa" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.399995 cm" top="3.499993 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Renavam" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="6.699987 cm" top="3.499993 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Exercicio" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="12.799974 cm" top="3.499993 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Versao" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="17.299965 cm" top="3.499993 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Nome" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.499995 cm" top="4.499991 cm" width="11.799976 cm" height="0.599999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="DataVencimento" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="16.799966 cm" top="4.699991 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Endereco1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.499995 cm" top="5.399989 cm" width="10.499979 cm" height="0.400009 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Endereco2" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.5 cm" top="5.900001 cm" width="10.499999 cm" height="0.299999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Endereco3" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.5 cm" top="6.3 cm" width="10.499999 cm" height="0.299999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Debito1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="7.599985 cm" width="16.099968 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Debito2" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="8.099984 cm" width="16.099968 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Debito3" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="8.499983 cm" width="16.099968 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Debito4" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="8.999982 cm" width="16.099968 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Debito5" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="9.499981 cm" width="16.099968 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Totaldeb" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="10.599979 cm" width="16.099968 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="EspelhoCod" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="5.09999 cm" top="25.699949 cm" width="9.89998 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="CodBarra" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="5.19999 cm" top="26.499947 cm" width="9.79998 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="2de5" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="GRLAV" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="3.899992 cm" top="27.499945 cm" width="6.399987 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Vencimento" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="2.599995 cm" top="28.299943 cm" width="4.099992 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="ValorPagar" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="10.999978 cm" top="28.299943 cm" width="5.599989 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+      </pane><!--LAV016-->
     </container>
   </page><!--PagLAV016-->
-  <page name="PagSeparator" visible="yes" size="A4" orientation="Portrait" duplex="left" inputTray="tray2">
+  <page name="PagSeparator" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray2" blankBack="PagBranca">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\quebras_GRLAV.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\quebras_GRLAV.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="ContainerSeparator" visible="yes" shading="none">
-      <boundingRect left="0.499999 cm" top="0.499999 cm" width="20.000001 cm" height="28.699998 cm"/>
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.599999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <pane name="Separator" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
+        <boundingRect width="21.000001 cm" height="29.549999 cm"/>
+        <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+        <field name="Linha1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="11.599977 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha2" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="12.299975 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="12.999974 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha3" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="13.599973 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha4" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="14.399971 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha5" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="15.699969 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha6" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="16.399967 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="Linha7" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.2 cm" angle="0" justify="center middle" caseShift="none">
+          <boundingRect left="6.100001 cm" top="17.099966 cm" width="7.4 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+      </pane><!--Separator-->
     </container>
   </page><!--PagSeparator-->
   <page name="PagBranca" visible="yes" size="A4" orientation="Portrait" duplex="left" inputTray="tray2">
@@ -12530,17 +12836,17 @@ AFtCFAAAAAAAANgK7vq2V5QZTwAAAAAASUVORK5CYII=</imageData>
 <?Design GridY="0.1 cm"?>
 <?Design GridOriginX="0.0 cm"?>
 <?Design GridOriginY="0.0 cm"?>
-<?Design TestDataFile=""?>
+<?Design TestDataFile="$$F/GRLAV.xml"?>
 <?Design PreviewUserOptions=""?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
-<?Design DataExplorerFile=""?>
+<?Design DataExplorerFile="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 01\GRLAV.xml"?>
 <?Design DataExplorerDocumentTag="Document"?>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-08 13:53:39 UTC"?>
-<?Design DateModified="2025-09-08 20:10:36 UTC"?>
-<?Design InitialZoom="100"?>
-<?Design InitialPage="PageLAV016"?>
+<?Design DateModified="2025-09-09 18:27:51 UTC"?>
+<?Design InitialZoom="75"?>
+<?Design InitialPage="PagBranca"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>

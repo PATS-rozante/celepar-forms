@@ -1,4 +1,6 @@
 $$Option.OverlayFileSymbolset = "UTF-8";
+$$Option.FilterVersionModified = "3.3.008.01";
+$$Option.FilterDateModified = "2025-09-09 17:50:19 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -13,16 +15,15 @@ $$Option.FilterVersionNumber = "1";
 var $$Rules = [
    {  // Rule #1
       state: '*',
-      nextState: '*-',
+      nextState: 'Capa',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,21,21).EQ("*"))
-         && $$If($$(0,1,31,31).EQ("*"))
+         $$If($$(0,1,31,31).EQ("*"))
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
          $$(-2,1,77,86).Trim(3).Xml("Capa.DataPostagem");
-         $$(0,1,21,31).Trim(3).Xml("Capa.CEPNET");
+         $$(0,1,22,30).Trim(3).Xml("Capa.CEPNET");
          $$(1,1,15,122).Trim(3).Xml("Capa.Destinatario");
          $$(2,1,15,122).Trim(3).Xml("Capa.Logradouro");
          $$(3,1,15,94).Trim(3).Xml("Capa.Bairro");
@@ -33,18 +34,62 @@ var $$Rules = [
          $$(12,1,25,60).Trim(3).Xml("Capa.EspelhoCB");
          $$(20,1,24,34).Trim(3).Xml("Capa.Placa");
          $$(20,1,71,82).Trim(3).Xml("Capa.Emissao");
-         $$(0,0,0,0).Advance(22);
+         $$(20,1,92,96).Trim(3).Xml("Capa.Sequencia");
+         $$(0,0,0,0).Advance(21);
       },
    },
 
    {  // Rule #2
-      state: '*',
-      nextState: '*-',
+      state: '*AnyState*',
+      nextState: 'LAV016',
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,11,22).EQ("FORMS=LAV016"))
       ) },
-      action: null,
+      action: function() {
+         $$(5,1,11,18).Trim(3).Xml("LAV016.Placa");
+         $$(5,1,35,45).Trim(3).Xml("LAV016.Renavam");
+         $$(5,1,67,70).Trim(3).Xml("LAV016.Exercicio");
+         $$(5,1,90,92).Trim(3).Xml("LAV016.Versao");
+         $$(9,1,11,43).Trim(3).Xml("LAV016.Nome");
+         $$(10,1,87,96).Trim(3).Xml("LAV016.DataVencimento");
+         $$(12,1,11,77).Trim(3).Xml("LAV016.Endereco1");
+         $$(13,1,11,77).Trim(3).Xml("LAV016.Endereco2");
+         $$(14,1,11,77).Trim(3).Xml("LAV016.Endereco3");
+         $$(16,1,11,90).Trim(3).Xml("LAV016.Debito1");
+         $$(17,1,11,90).Trim(3).Xml("LAV016.Debito2");
+         $$(18,1,11,90).Trim(3).Xml("LAV016.Debito3");
+         $$(19,1,11,90).Trim(3).Xml("LAV016.Debito4");
+         $$(20,1,11,90).Trim(3).Xml("LAV016.Debito5");
+         $$(22,1,11,90).Trim(3).Xml("LAV016.Totaldeb");
+         $$(25,32,11,96).Trim(3).Xml("LAV016.Observacoes");
+         $$(57,1,4,80).Trim(3).Xml("LAV016.Mensagem1");
+         $$(60,1,16,70).Trim(3).Xml("LAV016.EspelhoCod");
+         $$(66,1,60,73).Trim(3).Xml("LAV016.ValorPagar");
+         $$(64,1,26,137).Trim(3).Xml("LAV016.CodBarra");
+         $$(65,1,18,38).Trim(3).Xml("LAV016.GRLAV");
+         $$(66,1,21,31).Trim(3).Xml("LAV016.Vencimento");
+         $$(0,0,0,0).Advance(66);
+      },
+   },
+
+   {  // Rule #3
+      state: '*',
+      nextState: 'Separator',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,21,28).EQ("FEED=AUX"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(11,1,22,81).Trim(3).Xml("Separator.Linha1");
+         $$(13,1,22,81).Trim(3).Xml("Separator.Linha2");
+         $$(16,1,37,66).Trim(3).Xml("Separator.Linha3");
+         $$(17,1,37,66).Trim(3).Xml("Separator.Linha4");
+         $$(18,1,37,66).Trim(3).Xml("Separator.Linha5");
+         $$(20,1,37,66).Trim(3).Xml("Separator.Linha6");
+         $$(21,1,37,66).Trim(3).Xml("Separator.Linha7");
+      },
    },
 
 ];
@@ -78,7 +123,28 @@ var $$XmlTemplate = {		// XML output template
     Endereco1: null,
     Endereco2: null,
     Endereco3: null,
+    Debito1: null,
+    Debito2: null,
+    Debito3: null,
+    Debito4: null,
+    Debito5: null,
+    Totaldeb: null,
+    Observacoes: null,
+    Mensagem1: null,
+    EspelhoCod: null,
+    CodBarra: null,
+    GRLAV: null,
+    Vencimento: null,
+    ValorPagar: null,
   },
-  Separator: null,
+  Separator: {
+    Linha1: null,
+    Linha2: null,
+    Linha3: null,
+    Linha4: null,
+    Linha5: null,
+    Linha6: null,
+    Linha7: null,
+  },
 };
 
