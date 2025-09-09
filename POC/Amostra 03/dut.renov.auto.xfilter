@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "UTF-8";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-08 14:51:30 UTC";
+$$Option.FilterDateModified = "2025-09-09 19:01:23 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -133,34 +133,51 @@ var $$Rules = [
 ];
 
 //Custom//
-function decodeInterleaved25() {
-  const table = {
-  NNWWN: "0",
-  WNNNW: "1",
-  NWNNW: "2",
-  WWNNN: "3",
-  NNWNW: "4",
-  WNWNN: "5",
-  NWWNN: "6",
-  NNNWW: "7",
-  WNNWN: "8",
-  NWNWN: "9",
-  };
-  var barcode = $$GetText();
-  barcode = barcode.replace(/^<|>$/g, "");
-  var result = "";
-  for (var i = 0; i < barcode.length; i += 10) {
-    const segment = barcode.slice(i, i + 10);
-    if (segment.length < 10) {
-      break;
-    }
-    const bars = segment.slice(0, 5).replace(/[Nn]/g, "N").replace(/[Ww]/g, "W");
-    const spaces = segment.slice(5, 10).replace(/[Nn]/g, "N").replace(/[Ww]/g, "W");
-    const d1 = table[bars] || "?";
-    const d2 = table[spaces] || "?";
-    result += d1 + d2;
+function decodeITF(encoded) {
+  if (!encoded || typeof encoded !== 'string') 
+	  throw new Error('encoded deve ser string');
+
+  var body = encoded.trim();
+
+  if (body.substring(0,1) == '<') {
+    body = body.slice(1, -1);
   }
-  $$SetText(result); 
+  if (body.substring(0,4) == '&lt;') {
+    body = body.slice(4, -4);
+  }
+  // agora os dados devem estar em blocos de 10 elementos (5 barras + 5 espaços) por cada par de dígitos
+  if (body.length % 5 !== 0) {
+    throw new Error('codigo invalido - tamanho deve ser multiplo de 5.');
+  }
+  const patterns = ['nnwwn','wnnnw','nwnnw','wwnnn','nnwnw','wnwnn','nwwnn','nnnww','wnnwn','nwnwn'];
+			     //  0       1       2       3       4       5       6       7       8       9  
+  var result = '';
+  for (var i = 0; i < body.length; i += 5) {
+    var chunk = body.slice(i, i + 5);
+	var d1 = '';
+	var d2 = '';
+	for (var j = 0; j < 5; j++) {
+		if        (chunk[j] == 'W') { 
+			d1 += 'w'; 
+			d2 += 'w'; 
+		} else if (chunk[j] == 'n') { 
+			d1 += 'n'; 
+			d2 += 'n'; 
+		} else if (chunk[j] == 'N') { 
+			d1 += 'n'; 
+			d2 += 'w'; 
+		} else { 
+			d1 += 'w'; 
+			d2 += 'n'; 
+		}
+	}
+    result += patterns.indexOf(d1).toString() + patterns.indexOf(d2).toString();
+  }
+  return result;
+}
+
+function decodeInterleaved25() {
+  $$SetText(decodeITF($$GetText()));
 }
 //Custom//
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<XATW name="DUT.Renov.Auto" paginationVersion="2" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="default" blankFront="Branca" blankBack="Branca" blankTrailing="Branca" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
+<XATW name="DUT.Renov.Auto" paginationVersion="2" collate="yes" numCopies="1" duplex="left" inputTray="autoSelect" outputBin="upper" paperType="default" blankFront="Branca" blankBack="Branca" blankTrailing="Branca" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
   <page name="Branca" visible="yes" size="A4" orientation="Portrait">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <container name="ContainerBranca" visible="yes" shading="none">
@@ -11,7 +11,7 @@
       </pane><!--PaneBranca-->
     </container>
   </page><!--Branca-->
-  <page name="Capa" visible="yes" size="A4" orientation="Portrait">
+  <page name="Capa" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <label name="TemplateCapa" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT_DETRAN_FACIL_FAC_PB1.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
@@ -140,7 +140,7 @@
       </pane><!--Capa-->
     </container>
   </page><!--Capa-->
-  <page name="DUT032" visible="yes" size="A4" orientation="Portrait">
+  <page name="DUT032" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <label name="TemplateDUT032" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT032.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
@@ -206,7 +206,7 @@
       </pane><!--DUT032-->
     </container>
   </page><!--DUT032-->
-  <page name="DUT036" visible="yes" size="A4" orientation="Portrait">
+  <page name="DUT036" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <label name="TemplateDUT036" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT036.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
@@ -332,7 +332,7 @@
           <tab distance="1.000001 cm"/>
         </field>
         <field name="CodigoBarrasDecoded" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="I2OF5" justify="left middle" caseShift="none">
-          <boundingRect left="5.659989 cm" top="26.939946 cm" width="9.509981 cm" height="1.1 cm"/>
+          <boundingRect left="3.66 cm" top="26.939946 cm" width="13.510001 cm" height="1.1 cm"/>
           <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
           <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
           <font typeface="Arial" size="10.000" italic="0" bold="0"/>
@@ -341,7 +341,7 @@
       </pane><!--DUT036-->
     </container>
   </page><!--DUT036-->
-  <page name="DUT039" visible="yes" size="A4" orientation="Portrait">
+  <page name="DUT039" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <label name="TemplateDUT039" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT039.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
@@ -460,8 +460,9 @@
           <tab distance="1.000001 cm"/>
         </field>
         <field name="CodigoBarrasDecoded" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="I2OF5" justify="left middle" caseShift="none">
-          <boundingRect left="5.659999 cm" top="26.939999 cm" width="9.509999 cm" height="1.1 cm"/>
+          <boundingRect left="3.66 cm" top="26.939999 cm" width="13.510001 cm" height="0.989945 cm"/>
           <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <parms>Barcode25Text:No</parms>
           <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
           <font typeface="Arial" size="10.000" italic="0" bold="0"/>
           <tab distance="1.000001 cm"/>
@@ -469,7 +470,7 @@
       </pane><!--DUT039-->
     </container>
   </page><!--DUT039-->
-  <page name="DUT033" visible="yes" size="A4" orientation="Portrait">
+  <page name="DUT033" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT033.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
@@ -32761,8 +32762,8 @@ SUVORK5CYII=</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-07 21:06:53 UTC"?>
-<?Design DateModified="2025-09-08 14:57:07 UTC"?>
+<?Design DateModified="2025-09-09 20:41:56 UTC"?>
 <?Design InitialZoom="75"?>
-<?Design InitialPage="Capa"?>
+<?Design InitialPage="DUT036"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>
