@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Configuration desc="Configuration for PDF file generation">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Configuration desc="Configuration for PDF file generation" printerName="">
 
 	<!-- Merge Configuration File
 		This file describes the fonts, printer drivers, and run-time options for a Merge run. Multiple files can be
@@ -17,8 +16,8 @@
 		The <MTXPath> setting specifies where the Font Metrics files specified in <Font> records are located.
 	-->
 
-	<TTFPath>$C;C:/Windows/Fonts</TTFPath>
-	<MTXPath>$C;$R/DO/Config</MTXPath>
+	<TTFPath>$C;C:/WINDOWS/Fonts</TTFPath>
+	<MTXPath>C:/DocOrigin/User/Config;$R/DO/Config</MTXPath>
 
 	<!-- Fonts used by forms
 		This section must list all fonts that are potentially available to Merge. Either...
@@ -37,21 +36,19 @@
 
 		An optional ID= setting can be used in conjunction with EUDC fonts below.
 	-->
-	<Font MTX="arial.mtx" desc="Arial (Regular)"/>
-	<Font MTX="arialbd.mtx" desc="Arial (Bold)"/>
-	<Font MTX="ariali.mtx" desc="Arial (Italic)"/>
-	<Font MTX="arialbi.mtx" desc="Arial (Bold-Italic)"/>
-	<Font MTX="cour.mtx" desc="Courier New (Regular)"/>
-	<Font MTX="courbd.mtx" desc="Courier New (Bold)"/>
-	<Font MTX="couri.mtx" desc="Courier New (Italic)"/>
-	<Font MTX="courbi.mtx" desc="Courier New (Bold-Italic)"/>
-	<Font MTX="times.mtx" desc="Times New Roman (Regular)"/>
-	<Font MTX="timesbd.mtx" desc="Times New Roman (Bold)"/>
-	<Font MTX="timesi.mtx" desc="Times New Roman (Italic)"/>
-	<Font MTX="timesbi.mtx" desc="Times New Roman (Bold-Italic)"/>
-	<Font TTF="tahoma*.ttf"/>
+	<Font ID="16602" MTX="arialbd.mtx" desc="Arial (Bold)"/>
+	<Font ID="16602" MTX="ariali.mtx" desc="Arial (Italic)"/>
+	<Font ID="16602" MTX="arialbi.mtx" desc="Arial (Bold-Italic)"/>
+	<Font ID="16602" MTX="arial.mtx" desc="Arial"/>
 	<Font TTF="ariblk.ttf" desc="Arial Black"/>
+	<Font TTF="AVGARDN.TTF" desc="Avant Garde Book BT"/>
 	<Font TTF="bahnschrift.ttf" desc="Bahnschrift"/>
+	<Font TTF="Bodoni Bd BT Bold.ttf" desc="Bodoni Bd BT Bold"/>
+	<Font TTF="Bodoni Bd BT Bold.ttf" desc="Bodoni Bd BT Bold (Bold)"/>
+	<Font TTF="Bodoni Bd BT Bold Italic.ttf" desc="Bodoni Bd BT Bold (Italic)"/>
+	<Font TTF="Bodoni Bd BT Bold Italic.ttf" desc="Bodoni Bd BT Bold (Bold-Italic)"/>
+	<Font TTF="Bodoni Bk BT Book.ttf" desc="Bodoni Bk BT Book"/>
+	<Font TTF="Bodoni Bk BT Book Italic.ttf" desc="Bodoni Bk BT Book (Italic)"/>
 	<Font TTF="calibri.ttf" desc="Calibri"/>
 	<Font TTF="calibrib.ttf" desc="Calibri (Bold)"/>
 	<Font TTF="calibrii.ttf" desc="Calibri (Italic)"/>
@@ -69,6 +66,17 @@
 	<Font TTF="candaraz.ttf" desc="Candara (Bold-Italic)"/>
 	<Font TTF="candaral.ttf" desc="Candara Light"/>
 	<Font TTF="candarali.ttf" desc="Candara Light (Italic)"/>
+	<Font TTF="CentSchbkCyrill BT Roman.ttf" desc="CentSchbkCyrill BT Roman"/>
+	<Font TTF="Century725 Cn BT.ttf" desc="Century725 Cn BT"/>
+	<Font TTF="Century751 BT Roman.ttf" desc="Century751 BT Roman"/>
+	<Font TTF="Century751 No2 BT Roman.ttf" desc="Century751 No2 BT Roman"/>
+	<Font TTF="Century751 SeBd BT Semi Bold.ttf" desc="Century751 SeBd BT Semi Bold"/>
+	<Font TTF="Century751 SeBd BT Semi Bold.ttf" desc="Century751 SeBd BT Semi Bold (Bold)"/>
+	<Font TTF="Century751 SeBd BT Semi Bold Italic.ttf" desc="Century751 SeBd BT Semi Bold (Italic)"/>
+	<Font TTF="Century751 SeBd BT Semi Bold Italic.ttf" desc="Century751 SeBd BT Semi Bold (Bold-Italic)"/>
+	<Font TTF="Clarendon Blk BT Black.ttf" desc="Clarendon Blk BT Black"/>
+	<Font TTF="Clarendon BT Roman.ttf" desc="Clarendon BT Roman"/>
+	<Font TTF="Clarendon Lt BT Light.ttf" desc="Clarendon Lt BT Light"/>
 	<Font TTF="comic.ttf" desc="Comic Sans MS"/>
 	<Font TTF="comicbd.ttf" desc="Comic Sans MS (Bold)"/>
 	<Font TTF="comici.ttf" desc="Comic Sans MS (Italic)"/>
@@ -87,20 +95,82 @@
 	<Font TTF="corbelz.ttf" desc="Corbel (Bold-Italic)"/>
 	<Font TTF="corbell.ttf" desc="Corbel Light"/>
 	<Font TTF="corbelli.ttf" desc="Corbel Light (Italic)"/>
+	<Font MTX="cour.mtx" desc="Courier New"/>
+	<Font MTX="courbd.mtx" desc="Courier New (Bold)"/>
+	<Font MTX="couri.mtx" desc="Courier New (Italic)"/>
+	<Font MTX="courbi.mtx" desc="Courier New (Bold-Italic)"/>
+	<Font TTF="DejaVuSans.ttf" desc="DejaVu Sans"/>
+	<Font TTF="DejaVuSans-Bold_0.ttf" desc="DejaVu Sans (Bold)"/>
+	<Font TTF="DejaVuSans-Oblique.ttf" desc="DejaVu Sans (Italic)"/>
+	<Font TTF="DejaVuSans-BoldOblique.ttf" desc="DejaVu Sans (Bold-Italic)"/>
+	<Font TTF="DejaVuSansCondensed.ttf" desc="DejaVu Sans Condensed"/>
+	<Font TTF="DejaVuSansCondensed-Bold.ttf" desc="DejaVu Sans Condensed (Bold)"/>
+	<Font TTF="DejaVuSansCondensed-Oblique.ttf" desc="DejaVu Sans Condensed (Italic)"/>
+	<Font TTF="DejaVuSansCondensed-BoldOblique.ttf" desc="DejaVu Sans Condensed (Bold-Italic)"/>
+	<Font TTF="DejaVuSans-ExtraLight.ttf" desc="DejaVu Sans ExtraLight"/>
+	<Font TTF="DejaVuSansMono.ttf" desc="DejaVu Sans Mono"/>
+	<Font TTF="DejaVuSansMono-Bold.ttf" desc="DejaVu Sans Mono (Bold)"/>
+	<Font TTF="DejaVuSansMono-Oblique.ttf" desc="DejaVu Sans Mono (Italic)"/>
+	<Font TTF="DejaVuSansMono-BoldOblique.ttf" desc="DejaVu Sans Mono (Bold-Italic)"/>
+	<Font TTF="DejaVuSerif.ttf" desc="DejaVu Serif"/>
+	<Font TTF="DejaVuSerif-Bold.ttf" desc="DejaVu Serif (Bold)"/>
+	<Font TTF="DejaVuSerif-Italic.ttf" desc="DejaVu Serif (Italic)"/>
+	<Font TTF="DejaVuSerif-BoldItalic.ttf" desc="DejaVu Serif (Bold-Italic)"/>
+	<Font TTF="DejaVuSerifCondensed.ttf" desc="DejaVu Serif Condensed"/>
+	<Font TTF="DejaVuSerifCondensed-Bold.ttf" desc="DejaVu Serif Condensed (Bold)"/>
+	<Font TTF="DejaVuSerifCondensed-Italic.ttf" desc="DejaVu Serif Condensed (Italic)"/>
+	<Font TTF="DejaVuSerifCondensed-BoldItalic.ttf" desc="DejaVu Serif Condensed (Bold-Italic)"/>
+	<Font TTF="DejaVuMathTeXGyre.ttf" desc="DejaVuMathTeXGyre-Regular"/>
+	<Font TTF="DeVinne Txt BT.ttf" desc="DeVinne Txt BT"/>
+	<Font TTF="DFGothic-EB.ttf" desc="DFGothic-EB"/>
+	<Font TTF="DFMincho-SU.ttf" desc="DFMincho-SU"/>
+	<Font TTF="DFMincho-UB.ttf" desc="DFMincho-UB"/>
+	<Font TTF="DFPOP1-W9.ttf" desc="DFPOP1-W9"/>
 	<Font TTF="ebrima.ttf" desc="Ebrima"/>
 	<Font TTF="ebrimabd.ttf" desc="Ebrima (Bold)"/>
+	<Font TTF="Embassy BT.ttf" desc="Embassy BT"/>
+	<Font TTF="EngraversGothic BT.ttf" desc="EngraversGothic BT"/>
+	<Font TTF="Eras Bold ITC.TTF" desc="Eras Bold ITC"/>
+	<Font TTF="Eras Bold ITC.TTF" desc="Eras Bold ITC (Bold)"/>
+	<Font TTF="Eras-Bold Regular.ttf" desc="Eras-Bold"/>
+	<Font TTF="Exotc350 Bd BT Bold.ttf" desc="Exotc350 Bd BT Bold"/>
+	<Font TTF="Exotc350 Bd BT Bold.ttf" desc="Exotc350 Bd BT Bold (Bold)"/>
+	<Font TTF="Exotc350 DmBd BT Demi-Bold.ttf" desc="Exotc350 DmBd BT Demi-Bold"/>
 	<Font TTF="framd.ttf" desc="Franklin Gothic Medium"/>
 	<Font TTF="framdit.ttf" desc="Franklin Gothic Medium (Italic)"/>
+	<Font TTF="Freehand521 BT.ttf" desc="Freehand521 BT"/>
+	<Font TTF="Futura Bk BT Book.ttf" desc="Futura Bk BT Book"/>
+	<Font TTF="Futura Bk BT Book Italic.ttf" desc="Futura Bk BT Book (Italic)"/>
+	<Font TTF="futura extra black font.ttf" desc="Futura Extra Black BT"/>
+	<Font TTF="Futura Md BT Medium.ttf" desc="Futura Md BT Medium"/>
+	<Font TTF="Futura Md BT Medium Italic.ttf" desc="Futura Md BT Medium (Italic)"/>
 	<Font TTF="Gabriola.ttf" desc="Gabriola"/>
 	<Font TTF="gadugi.ttf" desc="Gadugi"/>
 	<Font TTF="gadugib.ttf" desc="Gadugi (Bold)"/>
+	<Font TTF="Geometr212 BkCn BT Book.ttf" desc="Geometr212 BkCn BT Book"/>
+	<Font TTF="Geometr415 Blk BT Black.ttf" desc="Geometr415 Blk BT Black"/>
+	<Font TTF="Geometr706 BlkCn BT Black.ttf" desc="Geometr706 BlkCn BT Black"/>
 	<Font TTF="georgia.ttf" desc="Georgia"/>
 	<Font TTF="georgiab.ttf" desc="Georgia (Bold)"/>
 	<Font TTF="georgiai.ttf" desc="Georgia (Italic)"/>
 	<Font TTF="georgiaz.ttf" desc="Georgia (Bold-Italic)"/>
+	<Font TTF="GeoSlab703 Md BT Medium.ttf" desc="GeoSlab703 Md BT Medium"/>
+	<Font TTF="GeoSlab703 Md BT Medium Italic.ttf" desc="GeoSlab703 Md BT Medium (Italic)"/>
+	<Font TTF="GeoSlab703 MdCn BT Medium.ttf" desc="GeoSlab703 MdCn BT Medium"/>
+	<Font TTF="Humanst521 BT Roman.ttf" desc="Humanst521 BT Roman"/>
+	<Font TTF="Humanst521 Lt BT Light.ttf" desc="Humanst521 Lt BT Light"/>
+	<Font TTF="Humanst521 Lt BT Light Italic.ttf" desc="Humanst521 Lt BT Light (Italic)"/>
+	<Font TTF="Humnst777 Blk BT Black Italic.ttf" desc="Humnst777 Blk BT Black Italic"/>
+	<Font TTF="Humnst777 Blk BT Black Italic.ttf" desc="Humnst777 Blk BT Black Italic (Italic)"/>
+	<Font TTF="Humnst777 BlkCn BT Black.ttf" desc="Humnst777 BlkCn BT Black"/>
+	<Font TTF="Humnst777 BT Roman.ttf" desc="Humnst777 BT Roman"/>
+	<Font TTF="Humnst777 Cn BT.ttf" desc="Humnst777 Cn BT"/>
+	<Font TTF="Humnst777 Cn BT Bold.ttf" desc="Humnst777 Cn BT (Bold)"/>
+	<Font TTF="Humnst777 Lt BT Light.ttf" desc="Humnst777 Lt BT Light"/>
 	<Font TTF="impact.ttf" desc="Impact"/>
 	<Font TTF="Inkfree.ttf" desc="Ink Free"/>
 	<Font TTF="javatext.ttf" desc="Javanese Text"/>
+	<Font TTF="Kaufmann BT.ttf" desc="Kaufmann BT"/>
 	<Font TTF="leelawui.ttf" desc="Leelawadee UI"/>
 	<Font TTF="leelauib.ttf" desc="Leelawadee UI (Bold)"/>
 	<Font TTF="leeluisl.ttf" desc="Leelawadee UI Semilight"/>
@@ -133,12 +203,23 @@
 	<Font TTF="mingliub.ttc" desc="MingLiU_HKSCS-ExtB"/>
 	<Font TTF="mingliub.ttc" desc="MingLiU-ExtB"/>
 	<Font TTF="monbaiti.ttf" desc="Mongolian Baiti"/>
+	<Font TTF="MONOSPACE821BT.TTF" desc="Monospace 821 BT"/>
+	<Font TTF="MONOSPACE821BOLDBT.TTF" desc="Monospace 821 BT (Bold)"/>
+	<Font TTF="MONOSPACE821BOLDITALICBT.TTF" desc="Monospace 821 BT (Italic)"/>
+	<Font TTF="MONOSPACE821BOLDITALICBT.TTF" desc="Monospace 821 BT (Bold-Italic)"/>
+	<Font TTF="MONOSPACE 821 W26 HEBREW.TTF" desc="Monospace 821 W26 Hebrew"/>
 	<Font ID="28825" TTF="msgothic.ttc" desc="MS Gothic"/>
 	<Font TTF="msgothic.ttc" desc="MS PGothic"/>
 	<Font TTF="msgothic.ttc" desc="MS UI Gothic"/>
 	<Font TTF="mvboli.ttf" desc="MV Boli"/>
 	<Font TTF="mmrtext.ttf" desc="Myanmar Text"/>
 	<Font TTF="mmrtextb.ttf" desc="Myanmar Text (Bold)"/>
+	<Font TTF="News701 BT Bold.ttf" desc="News701 BT Bold"/>
+	<Font TTF="News701 BT Bold.ttf" desc="News701 BT Bold (Bold)"/>
+	<Font TTF="News706 BT Bold.ttf" desc="News706 BT Bold"/>
+	<Font TTF="News706 BT Bold.ttf" desc="News706 BT Bold (Bold)"/>
+	<Font TTF="NewsGoth BT Roman.ttf" desc="NewsGoth BT Roman"/>
+	<Font TTF="NewsGoth Lt BT Light.ttf" desc="NewsGoth Lt BT Light"/>
 	<Font TTF="Nirmala.ttc" desc="Nirmala Text"/>
 	<Font TTF="Nirmala.ttc" desc="Nirmala Text (Bold)"/>
 	<Font TTF="Nirmala.ttc" desc="Nirmala Text Semilight"/>
@@ -148,17 +229,24 @@
 	<Font TTF="Nirmala.ttc" desc="Nirmala UI Semilight"/>
 	<Font TTF="Nirmala.ttc" desc="Nirmala UI Semilight (Bold)"/>
 	<Font TTF="simsun.ttc" desc="NSimSun"/>
+	<Font TTF="OCR-A BT.ttf" desc="OCR-A BT"/>
+	<Font TTF="OCR-B 10 BT.ttf" desc="OCR-B 10 BT"/>
 	<Font TTF="pala.ttf" desc="Palatino Linotype"/>
 	<Font TTF="palab.ttf" desc="Palatino Linotype (Bold)"/>
 	<Font TTF="palai.ttf" desc="Palatino Linotype (Italic)"/>
 	<Font TTF="palabi.ttf" desc="Palatino Linotype (Bold-Italic)"/>
 	<Font TTF="mingliub.ttc" desc="PMingLiU-ExtB"/>
+	<Font TTF="postnet.ttf" desc="POSTNET"/>
+	<Font TTF="R212BP.ttf" desc="R212BP 9 Pts."/>
+	<Font TTF="R412BP.ttf" desc="R412BP 6 Pts."/>
 	<Font TTF="Rajdhani-Regular.ttf" desc="Rajdhani"/>
 	<Font TTF="Rajdhani-Bold.ttf" desc="Rajdhani (Bold)"/>
 	<Font TTF="Rajdhani-Light.ttf" desc="Rajdhani Light"/>
 	<Font TTF="Rajdhani-Medium.ttf" desc="Rajdhani Medium"/>
 	<Font TTF="Rajdhani-SemiBold.ttf" desc="Rajdhani SemiBold"/>
+	<Font TTF="RK26BP.ttf" desc="RK26BP 7 Pts."/>
 	<Font TTF="SansSerifCollection.ttf" desc="Sans Serif Collection"/>
+	<Font TTF="Schadow BT Roman.ttf" desc="Schadow BT Roman"/>
 	<Font TTF="SegoeIcons.ttf" desc="Segoe Fluent Icons"/>
 	<Font TTF="segmdl2.ttf" desc="Segoe MDL2 Assets"/>
 	<Font TTF="segoepr.ttf" desc="Segoe Print"/>
@@ -188,12 +276,53 @@
 	<Font TTF="SitkaVF-Italic.ttf" desc="Sitka (Italic)"/>
 	<Font TTF="SitkaVF.ttf" desc="Sitka Text"/>
 	<Font TTF="SitkaVF-Italic.ttf" desc="Sitka Text (Italic)"/>
+	<Font TTF="Square721 BT Roman.ttf" desc="Square721 BT Roman"/>
+	<Font TTF="Square721 Cn BT Roman.ttf" desc="Square721 Cn BT Roman"/>
+	<Font TTF="Swis721 Blk BT Black.ttf" desc="Swis721 Blk BT Black"/>
+	<Font TTF="Swis721 BlkCn BT Black.ttf" desc="Swis721 BlkCn BT Black"/>
+	<Font TTF="Swis721 BT Roman.ttf" desc="Swis721 BT Roman"/>
+	<Font TTF="Swis721 Cn BT Roman.ttf" desc="Swis721 Cn BT Roman"/>
+	<Font TTF="Swis721 Hv BT Heavy.ttf" desc="Swis721 Hv BT Heavy"/>
+	<Font TTF="Swis721 Lt BT Light.ttf" desc="Swis721 Lt BT Light"/>
+	<Font TTF="Swis721 Lt BT Light Italic.ttf" desc="Swis721 Lt BT Light (Italic)"/>
+	<Font TTF="Swis721 LtEx BT Light.ttf" desc="Swis721 LtEx BT Light"/>
+	<Font TTF="Swis721 WGL4 BT Roman.ttf" desc="Swis721 WGL4 BT Roman"/>
+	<Font TTF="SWISS 721 BLACK EXTENDED BT.TTF" desc="Swiss 721 Black Extended BT"/>
+	<Font TTF="SWISS 721 BLACK OUTLINE BT.TTF" desc="Swiss 721 Black Outline BT"/>
+	<Font TTF="SWISS 721 BLACK ROUNDED BT.TTF" desc="Swiss 721 Black Rounded BT"/>
+	<Font TTF="SWISS 721 BOLD CONDENSED OUTLINE BT.TTF" desc="Swiss 721 Bold Condensed Outline BT"/>
+	<Font TTF="SWISS 721 BOLD CONDENSED OUTLINE BT.TTF" desc="Swiss 721 Bold Condensed Outline BT (Bold)"/>
+	<Font TTF="SWISS 721 BOLD OUTLINE BT.TTF" desc="Swiss 721 Bold Outline BT"/>
+	<Font TTF="SWISS 721 BOLD OUTLINE BT.TTF" desc="Swiss 721 Bold Outline BT (Bold)"/>
+	<Font TTF="SWISS 721 BOLD ROUNDED BT.TTF" desc="Swiss 721 Bold Rounded BT"/>
+	<Font TTF="SWISS 721 BOLD ROUNDED BT.TTF" desc="Swiss 721 Bold Rounded BT (Bold)"/>
+	<Font TTF="SWISS 721 EXTENDED BT.TTF" desc="Swiss 721 Extended BT"/>
+	<Font TTF="SWISS 721 BOLD EXTENDED BT.TTF" desc="Swiss 721 Extended BT (Bold)"/>
+	<Font TTF="SWISS 721 LIGHT CONDENSED BT.TTF" desc="Swiss 721 Light Condensed BT"/>
+	<Font TTF="SWISS 721 LIGHT CONDENSED ITALIC BT.TTF" desc="Swiss 721 Light Condensed BT (Italic)"/>
+	<Font TTF="SWISS 721 MEDIUM BT.TTF" desc="Swiss 721 Medium BT"/>
+	<Font TTF="SWISS 721 MEDIUM ITALIC BT.TTF" desc="Swiss 721 Medium BT (Italic)"/>
+	<Font TTF="SWISS 721 THIN BT.TTF" desc="Swiss 721 Thin BT"/>
+	<Font TTF="SWISS721THINITALICBT.TTF" desc="Swiss 721 Thin BT (Italic)"/>
+	<Font TTF="SWISS 721 W26 HEBREW BOLD.TTF" desc="Swiss 721 W26 Hebrew Bold"/>
+	<Font TTF="SWISS 721 W26 HEBREW BOLD.TTF" desc="Swiss 721 W26 Hebrew Bold (Bold)"/>
+	<Font TTF="SWISS 721 W26 HEBREW ROMAN.TTF" desc="Swiss 721 W26 Hebrew Roman"/>
+	<Font TTF="SWISS 911 EXTRA COMPRESSED BT.TTF" desc="Swiss 911 Extra Compressed BT"/>
+	<Font TTF="SWISS 911 ULTRA COMPRESSED BT.TTF" desc="Swiss 911 Ultra Compressed BT"/>
+	<Font TTF="SWISS921BT.TTF" desc="Swiss 921 BT"/>
 	<Font TTF="sylfaen.ttf" desc="Sylfaen"/>
 	<Font ID="16686" TTF="symbol.ttf" desc="Symbol"/>
+	<Font TTF="tahoma.ttf" desc="Tahoma"/>
+	<Font TTF="tahomabd.ttf" desc="Tahoma (Bold)"/>
+	<Font ID="16901" MTX="times.mtx" desc="Times New Roman"/>
+	<Font ID="16901" MTX="timesbd.mtx" desc="Times New Roman (Bold)"/>
+	<Font ID="16901" MTX="timesi.mtx" desc="Times New Roman (Italic)"/>
+	<Font ID="16901" MTX="timesbi.mtx" desc="Times New Roman (Bold-Italic)"/>
 	<Font TTF="trebuc.ttf" desc="Trebuchet MS"/>
 	<Font TTF="trebucbd.ttf" desc="Trebuchet MS (Bold)"/>
 	<Font TTF="trebucit.ttf" desc="Trebuchet MS (Italic)"/>
 	<Font TTF="trebucbi.ttf" desc="Trebuchet MS (Bold-Italic)"/>
+	<Font TTF="TypoUpright BT.ttf" desc="TypoUpright BT"/>
 	<Font TTF="verdana.ttf" desc="Verdana"/>
 	<Font TTF="verdanab.ttf" desc="Verdana (Bold)"/>
 	<Font TTF="verdanai.ttf" desc="Verdana (Italic)"/>
@@ -232,18 +361,18 @@
 		Width/Height are the full physical page sizes (in inches).
 		MTop/MLeft/MRight/MBottom are the non-printable margins on each of the 4 sides.
 	-->
-	<Paper Name="Letter" Orient="Portrait" ID="2" Width="8.5 in" Height="11.0 in" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="Letter" Orient="Landscape" ID="1002" Width="11.0 in" Height="8.5 in" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="Legal" Orient="Portrait" ID="3" Width="8.5 in" Height="14.0 in" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="Legal" Orient="Landscape" ID="1003" Width="14.0 in" Height="8.5 in" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="A4" Orient="Portrait" ID="26" Width="21cm" Height="29.7cm" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="A4" Orient="Landscape" ID="1026" Width="29.7cm" Height="21cm" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="A3" Orient="Portrait" ID="27" Width="29.7cm" Height="42cm" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="A3" Orient="Landscape" ID="1027" Width="42cm" Height="29.7cm" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="A5" Orient="Portrait" ID="25" Width="14.8cm" Height="21cm" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="A5" Orient="Landscape" ID="1025" Width="21cm" Height="14.8cm" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="Email_5in" Orient="Portrait" ID="28" Width="5.5 in" Height="50 in" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
-	<Paper Name="Email_5in" Orient="Landscape" ID="1028" Width="5.5 in" Height="50 in" MTop="0" MLeft="0" MRight="0" MBottom="0"/>
+	<Paper Height="27.94 cm" ID="2" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1002" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Landscape" Width="27.94 cm"/>
+	<Paper Height="35.56 cm" ID="3" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Legal" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1003" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Legal" Orient="Landscape" Width="35.56 cm"/>
+	<Paper Height="29.699999 cm" ID="26" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A4" Orient="Portrait" Width="21.000001 cm"/>
+	<Paper Height="21.000001 cm" ID="1026" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A4" Orient="Landscape" Width="29.699999 cm"/>
+	<Paper Height="42.0 cm" ID="27" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Portrait" Width="29.699999 cm"/>
+	<Paper Height="29.699999 cm" ID="1027" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Landscape" Width="42.0 cm"/>
+	<Paper Height="21.000001 cm" ID="25" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Portrait" Width="14.800001 cm"/>
+	<Paper Height="14.800001 cm" ID="1025" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Landscape" Width="21.000001 cm"/>
+	<Paper Height="127.0 cm" ID="28" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Email_5in" Orient="Portrait" Width="13.97 cm"/>
+	<Paper Height="13.97 cm" ID="1028" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Email_5in" Orient="Landscape" Width="127.0 cm"/>
 
 	<!-- DuplexItem - each instance of this element identifies one duplex option that is to be enabled.
 		For a user-defined Duplex option use an ID value of between: 100 and 199, inclusive.
@@ -259,9 +388,16 @@
 
 		Example: <InputTrayItem ID="100" UiString="My special input tray #100"/>
 	-->
+	<InputTrayItem ID="1002" UiString="Manual Feed"/>
+	<InputTrayItem ID="1007" UiString="Printer Auto Select"/>
+	<InputTrayItem ID="1004" UiString="Tray #1"/>
+	<InputTrayItem ID="1001" UiString="Tray #2"/>
+	<InputTrayItem ID="1005" UiString="Tray #3"/>
+	<InputTrayItem ID="1008" UiString="Tray #4"/>
+	<InputTrayItem ID="1009" UiString="Tray #5"/>
+	<InputTrayItem ID="1020" UiString="Large Capacity"/>
 
 	<!-- <InputTrayItem ID="1002"/> -->		<!-- UiString="Manual Feed" -->
-	<InputTrayItem ID="1007"/>			<!-- UiString="Printer Auto Select" -->
 	<!-- <InputTrayItem ID="1004"/> -->		<!-- UiString="Tray #1" -->
 	<!-- <InputTrayItem ID="1001"/> -->		<!-- UiString="Tray #2" -->
 	<!-- <InputTrayItem ID="1005"/> -->		<!-- UiString="Tray #3" -->
@@ -292,6 +428,7 @@
 
 		Example: <PaperTypeItem ID="100" UiString="My special paper type #100"/>
 	-->
+	<PaperTypeItem ID="1008" UiString="Default Paper Type"/>
 
 	<!-- <PaperTypeItem ID="1000"/> -->		<!-- UiString="Bond Paper" -->
 	<!-- <PaperTypeItem ID="1001"/> -->		<!-- UiString="Plain Paper" -->
@@ -301,7 +438,6 @@
 	<!-- <PaperTypeItem ID="1005"/> -->		<!-- UiString="Glossy Paper" -->
 	<!-- <PaperTypeItem ID="1006"/> -->		<!-- UiString="Label Sheets" -->
 	<!-- <PaperTypeItem ID="1007"/> -->		<!-- UiString="Vellum" -->
-	<PaperTypeItem ID="1008"/>		<!-- UiString="Default Paper Type" -->
 	<!-- <PaperTypeItem ID="1009"/> -->		<!-- UiString="Recycled Paper" -->
 	<!-- <PaperTypeItem ID="1010"/> -->		<!-- UiString="Letterhead" -->
 	<!-- <PaperTypeItem ID="1011"/> -->		<!-- UiString="Card Stock" -->
@@ -349,7 +485,7 @@
 	<Barcode39FullAscii>N</Barcode39FullAscii>		<!-- Convert data to ascii encoded values -->
 	<Barcode39BarWidth>0</Barcode39BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
 
-	<Barcode25Text>N</Barcode25Text>					<!-- Draw text below barcode -->
+	<Barcode25Text>Y</Barcode25Text>					<!-- Draw text below barcode -->
 	<Barcode25Ratio>3</Barcode25Ratio>				<!-- Ratio of wide bar width to narrow bar -->
 	<Barcode25AddChecksum>N</Barcode25AddChecksum>	<!-- Compute and add a checksum digit -->
 	<Barcode25BarWidth>0</Barcode25BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
@@ -426,10 +562,9 @@
 			Set Bold="1" if only the bold version is in the printer, Bold="0" if only non-bold, or Bold="*" if both
 			bold and non-bold versions are resident in the PDF consuming application. Similarly for Italic=
 		-->
-
-		<ResidentFont Typeface="Arial" Bold="*" Italic="*" />
-		<ResidentFont Typeface="Times New Roman" Bold="*" Italic="*" />
-		<ResidentFont Typeface="Courier New" Bold="*" Italic="*" />
+	<ResidentFont Bold="*" Italic="*" Typeface="Arial"/>
+	<ResidentFont Bold="*" Italic="*" Typeface="Courier New"/>
+	<ResidentFont Bold="*" Italic="*" Typeface="Times New Roman"/>
 
 		<!-- Encryption Yes/No
 			Overrides encryption settings defined in Design.

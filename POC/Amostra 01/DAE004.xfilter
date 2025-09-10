@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "windows-1252";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-10 14:12:43 UTC";
+$$Option.FilterDateModified = "2025-09-10 18:51:24 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -60,6 +60,8 @@ var $$Rules = [
          $$(20,1,14,105).Trim(3).Xml("Capa.Logradouro");
          $$(21,1,14,105).Trim(3).Xml("Capa.CidadeUF");
          $$(22,1,14,22).Trim(3).Xml("Capa.CEP");
+         $$(37,1,59,68).Trim(0).Xml("Capa.DataPostagem");
+         $$(0,0,0,0).Advance(40);
       },
    },
 
@@ -90,6 +92,7 @@ var $$XmlTemplate = {		// XML output template
     Logradouro: null,
     CidadeUF: null,
     CEP: null,
+    DataPostagem: null,
   },
 };
 
