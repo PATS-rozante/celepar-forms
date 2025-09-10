@@ -1,0 +1,95 @@
+$$Option.OverlayFileSymbolset = "windows-1252";
+$$Option.FilterVersionModified = "3.3.008.01";
+$$Option.FilterDateModified = "2025-09-10 14:12:43 UTC";
+$$Option.DocumentTag = "Document";
+$$Option.CarriageControl = "No";
+$$Option.EnableMultiInstance = "Yes";
+$$Option.PruneXML = "Yes";
+$$Option.FilterVersionCreated = "3.3.008.01";
+$$Option.FilterDateCreated = "2025-09-10 11:19:33 UTC";
+$$Option.LinesPerPage = "66";
+$$Option.OverlayFile = "$$X/DAE004-SAMPLE.txt";
+$$Option.XmlDataFile = "";
+$$Option.FilterVersionNumber = "1";
+
+var $$Rules = [
+   {  // Rule #1
+      state: '*',
+      nextState: 'Carta',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+         && $$If($$(3,1,1,1).EQ(0))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(0,0,0,0).Advance(1);
+      },
+   },
+
+   {  // Rule #2
+      state: 'Carta',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).NE(1))
+      ) },
+      action: function() {
+         $$(0,1,1,1).Trim(0).Xml("Carta.Texto.Tipo");
+         $$(0,1,2,151).Trim(2).Xml("Carta.Texto.Texto");
+      },
+   },
+
+   {  // Rule #3
+      state: 'Carta',
+      nextState: 'Capa',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+      ) },
+      action: function() {
+         $$(0,1,2,103).Trim(2).Xml("Capa.Remetente1");
+         $$(1,1,2,103).Trim(3).Xml("Capa.Remetente2");
+         $$(2,1,2,103).Trim(3).Xml("Capa.Remetente3");
+         $$(3,1,2,103).Trim(3).Xml("Capa.Remetente4");
+         $$(15,1,53,67).Trim(3).Xml("Capa.NumeroAR");
+         $$(17,1,90,105).Trim(3).Xml("Capa.Sequencia");
+         $$(18,1,19,29).Trim(3).Xml("Capa.CEPNET");
+         $$(19,1,14,77).Trim(3).Xml("Capa.Nome");
+         $$(19,1,79,105).Trim(3).Xml("Capa.Documento");
+         $$(20,1,14,105).Trim(3).Xml("Capa.Logradouro");
+         $$(21,1,14,105).Trim(3).Xml("Capa.CidadeUF");
+         $$(22,1,14,22).Trim(3).Xml("Capa.CEP");
+      },
+   },
+
+];
+
+//Custom//
+//Custom//
+
+var $$XmlTemplate = {		// XML output template
+  Carta: {
+    Texto: {
+      Tipo: null,
+      Tipo: null,
+      Texto: null,
+      Texto: null,
+    },
+  },
+  Capa: {
+    Remetente1: null,
+    Remetente2: null,
+    Remetente3: null,
+    Remetente4: null,
+    NumeroAR: null,
+    Sequencia: null,
+    CEPNET: null,
+    Nome: null,
+    Documento: null,
+    Logradouro: null,
+    CidadeUF: null,
+    CEP: null,
+  },
+};
+
