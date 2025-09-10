@@ -1,18 +1,14 @@
-$$Option.OverlayFileSymbolset = "ISO-8859-1";
-$$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-10 17:41:35 UTC";
+$$Option.OverlayFileSymbolset = "windows-1252";
 $$Option.DocumentTag = "Document";
-$$Option.CarriageControl = "Yes";
-$$Option.EnableMultiInstance = "No";
+$$Option.CarriageControl = "No";
+$$Option.EnableMultiInstance = "Yes";
 $$Option.PruneXML = "No";
 $$Option.FilterVersionCreated = "3.3.008.01";
-$$Option.FilterDateCreated = "2025-09-10 13:36:52 UTC";
+$$Option.FilterDateCreated = "2025-09-10 19:50:23 UTC";
 $$Option.LinesPerPage = "66";
-$$Option.OverlayFile = "$$X/novo 1.txt";
-$$Option.XmlDataFile = "$$X/rhc008.xatw";
+$$Option.OverlayFile = "$$X/p.rhc.amostra5-SAMPLE.txt";
+$$Option.XmlDataFile = "";
 $$Option.FilterVersionNumber = "1";
-$$Option.FormFile = "$$X/rhc008.xatw";
-$$Option.Overlayfile1 = "$$X/novo 1.txt";
 
 var $$Rules = [
    {  // Rule #1
@@ -20,23 +16,24 @@ var $$Rules = [
       nextState: '*-',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,3,8).EQ("$DJDE$"))
+         $$If($$(0,1,1,8).EQ("+ $DJDE$"))
       ) },
       action: function() {
-         $$(0,0,0,0).Advance(60);
+         $$(0,0,0,0).Advance(2);
       },
    },
 
    {  // Rule #2
       state: '*',
-      nextState: '*-',
+      nextState: 'Texto',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,1,2).EQ("1 "))
+         $$If($$(0,1,1,1).EQ(1))
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(3,1,90,94).Trim(3).Xml("Sequencia");
+         $$(1,1,90,94).Trim(1).Xml("RHC008.sequencia");
+         $$(0,0,0,0).Advance(1);
       },
    },
 
@@ -45,11 +42,11 @@ var $$Rules = [
       nextState: '*-',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,108,108).IsNonBlank())
-         && $$If($$(0,1,108,108).NE(1))
+         $$If($$(0,1,1,1).NE(1))
       ) },
       action: function() {
-         $$(1,60,2,106).Trim(0).Xml("Linhas");
+         $$(0,1,1,1).Trim(0).Xml("RHC008.texto.pcc");
+         $$(0,1,2,107).Trim(2).Xml("RHC008.texto.texto");
       },
    },
 
@@ -60,8 +57,13 @@ var $$Rules = [
 
 var $$XmlTemplate = {		// XML output template
   RHC008: {
-    Sequencia: null,
-    Linhas: null,
+    sequencia: null,
+    texto: {
+      pcc: null,
+      pcc: null,
+      texto: null,
+      texto: null,
+    },
   },
 };
 
