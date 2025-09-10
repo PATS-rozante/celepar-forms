@@ -1,4 +1,6 @@
 $$Option.OverlayFileSymbolset = "windows-1252";
+$$Option.FilterVersionModified = "3.3.008.01";
+$$Option.FilterDateModified = "2025-09-10 14:12:43 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -34,7 +36,7 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,1,1,1).Trim(0).Xml("Carta.Texto.Tipo");
-         $$(0,1,2,103).Trim(2).Xml("Carta.Texto.Texto");
+         $$(0,1,2,151).Trim(2).Xml("Carta.Texto.Texto");
       },
    },
 
