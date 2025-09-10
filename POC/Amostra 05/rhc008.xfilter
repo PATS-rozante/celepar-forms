@@ -1,6 +1,6 @@
-$$Option.OverlayFileSymbolset = "UTF-8";
+$$Option.OverlayFileSymbolset = "ISO-8859-1";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-10 14:31:49 UTC";
+$$Option.FilterDateModified = "2025-09-10 17:41:35 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "Yes";
 $$Option.EnableMultiInstance = "No";
@@ -9,8 +9,10 @@ $$Option.FilterVersionCreated = "3.3.008.01";
 $$Option.FilterDateCreated = "2025-09-10 13:36:52 UTC";
 $$Option.LinesPerPage = "66";
 $$Option.OverlayFile = "$$X/novo 1.txt";
-$$Option.XmlDataFile = "";
+$$Option.XmlDataFile = "$$X/rhc008.xatw";
 $$Option.FilterVersionNumber = "1";
+$$Option.FormFile = "$$X/rhc008.xatw";
+$$Option.Overlayfile1 = "$$X/novo 1.txt";
 
 var $$Rules = [
    {  // Rule #1
@@ -57,7 +59,9 @@ var $$Rules = [
 //Custom//
 
 var $$XmlTemplate = {		// XML output template
-  Sequencia: null,
-  Linhas: null,
+  RHC008: {
+    Sequencia: null,
+    Linhas: null,
+  },
 };
 
