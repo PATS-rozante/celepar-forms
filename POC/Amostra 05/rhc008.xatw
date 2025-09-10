@@ -1,36 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<XATW name="Document" paginationVersion="2" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
-  <page name="PagRHC008" mandatory="yes" visible="yes" size="A4" orientation="Portrait" duplex="simplex">
+<XATW name="RHC008" paginationVersion="2" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
+  <page name="Page1" visible="yes" size="A4" orientation="Portrait">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300" imageMode="resize">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="20.000001 cm" height="29.3 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container1" visible="yes" shading="none">
-      <boundingRect left="0.499999 cm" top="0.499999 cm" width="20.000001 cm" height="28.699998 cm"/>
+      <boundingRect left="0.299999 cm" top="0.0 cm" width="20.000001 cm" height="28.699998 cm"/>
+      <margin top="0.499999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <pane name="RHC008" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
-        <boundingRect width="18.999962 cm" height="27.999944 cm"/>
+      <pane name="header" section="main" mandatory="yes" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="4.399999 cm">
+        <boundingRect width="20.000001 cm" height="4.399991 cm"/>
         <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-        <field name="Sequencia" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-          <boundingRect left="16.699967 cm" top="4.499991 cm" width="2.000001 cm" height="0.499999 cm"/>
+        <field name="sequencia" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+          <boundingRect left="13.570001 cm" top="1.129998 cm" width="2.000001 cm" height="0.499999 cm"/>
           <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-          <font typeface="Arial" size="10.000" italic="0" bold="1000"/>
+          <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="RK26BP" size="12.000" italic="0" bold="0"/>
           <tab distance="1.000001 cm"/>
         </field>
-        <field name="Linhas" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-          <boundingRect left="0.799998 cm" top="5.399989 cm" width="18.099964 cm" height="21.999956 cm"/>
-          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-          <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-          <font typeface="Courier New" size="9.000" italic="0" bold="0"/>
-          <tab distance="1.000001 cm"/>
-        </field>
-      </pane><!--RHC008-->
+      </pane><!--header-->
+      <pane name="texto" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
+        <boundingRect width="20.000001 cm" height="23.699953 cm"/>
+        <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+        <pane name="linha" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="yes" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
+          <boundingRect width="20.000001 cm" height="0.391 cm"/>
+          <script>
+// OnEndMerge start ------------------------------------------------------
+function OnEndMerge() {
+if (this.pcc._value == &apos;0&apos;) {
+	var alt = this._height;
+	this._height *= 2;
+	this.dados._top += alt;
+}
+}
+// OnEndMerge end --------------------------------------------------------
+</script>
+          <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <field name="pcc" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="0.0 cm" top="0.0 cm" width="2.000001 cm" height="0.25 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Monospac821 BT" size="6.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="dados" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="0.0 cm" top="0.0 cm" width="18.86 cm" height="0.389999 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Monospac821 BT" size="9.500" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+        </pane><!--linha-->
+      </pane><!--texto-->
     </container>
-  </page><!--PagRHC008-->
-  <imageData name="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  </page><!--Page1-->
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdZ5wUVdo34JpADpIko7KoIAoqICZMmAERBEVF3DWsYc1reFwlmSO7rou6imImI8GAEcwRVxEV
 ZR9BUIIIQ5I0gXk/zPuMbfUwuadnyuv67YfuuyucnnPqFNt/qyolNzc3AAAAAAAAAIii1GQ3AAAAAAAA
 ACBRBKIAAAAAAABAZAlEAQAAAAAAgMgSiAIAAAAAAACRJRAFAAAAAAAAIksgCgAAAAAAAESWQBQAAAAA
@@ -1904,21 +1928,20 @@ AAAAAEC0BFEAAAAAAAAgWoIoAAAAAAAAEC1BFAAAAAAAAIiWIAoAAAAAAABESxAFAAAAAAAAoiWIAgAA
 AAAAANESRAEAAAAAAIBoCaIAAAAAAABAtARRAAAAAAAAIFqCKAAAAAAAABAtQRQAAAAAAACIliAKAAAA
 AAAAREsQBQAAAAAAAKL1f7mhuMesEADGAAAAAElFTkSuQmCC</imageData>
 <?Design Uom="cm"?>
-<?Design GridX="0.1 cm"?>
-<?Design GridY="0.1 cm"?>
+<?Design GridX="0.01 cm"?>
+<?Design GridY="0.01 cm"?>
 <?Design GridOriginX="0.0 cm"?>
 <?Design GridOriginY="0.0 cm"?>
-<?Design TestDataFile="rhc008.xml"?>
+<?Design TestDataFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008-SAMPLE.xml"?>
 <?Design PreviewUserOptions=""?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
-<?Design DataExplorerFile="C:\bin\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.xml"?>
+<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008-SAMPLE.xml"?>
 <?Design DataExplorerDocumentTag="Document"?>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
-<?Design DateCreated="2025-09-10 14:09:57 UTC"?>
-<?Design DateModified="2025-09-10 17:01:34 UTC"?>
-<?Design InitialZoom="-1"?>
-<?Design InitialPage="PagRHC008"?>
-<?Design DesignVersionModified="3.3.008.01"?>
+<?Design DateCreated="2025-09-10 20:53:38 UTC"?>
+<?Design DateModified="2025-09-10 21:11:11 UTC"?>
+<?Design InitialZoom="150"?>
+<?Design InitialPage="Page1"?>
 </XATW>

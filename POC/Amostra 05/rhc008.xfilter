@@ -1,4 +1,6 @@
 $$Option.OverlayFileSymbolset = "windows-1252";
+$$Option.FilterVersionModified = "3.3.008.01";
+$$Option.FilterDateModified = "2025-09-10 20:45:45 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -19,7 +21,7 @@ var $$Rules = [
          $$If($$(0,1,1,8).EQ("+ $DJDE$"))
       ) },
       action: function() {
-         $$(0,0,0,0).Advance(2);
+         $$(0,0,0,0).Advance(1);
       },
    },
 
@@ -32,8 +34,8 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(1,1,90,94).Trim(1).Xml("RHC008.sequencia");
-         $$(0,0,0,0).Advance(1);
+         $$(1,1,90,94).Trim(1).Xml("sequencia");
+         $$(0,0,0,0).Advance(11);
       },
    },
 
@@ -45,8 +47,8 @@ var $$Rules = [
          $$If($$(0,1,1,1).NE(1))
       ) },
       action: function() {
-         $$(0,1,1,1).Trim(0).Xml("RHC008.texto.pcc");
-         $$(0,1,2,107).Trim(2).Xml("RHC008.texto.texto");
+         $$(0,1,1,1).Trim(0).Xml("texto.linha.pcc");
+         $$(0,1,2,107).Trim(2).Xml("texto.linha.dados");
       },
    },
 
@@ -56,13 +58,11 @@ var $$Rules = [
 //Custom//
 
 var $$XmlTemplate = {		// XML output template
-  RHC008: {
-    sequencia: null,
-    texto: {
+  sequencia: null,
+  texto: {
+    linha: {
       pcc: null,
-      pcc: null,
-      texto: null,
-      texto: null,
+      dados: null,
     },
   },
 };
