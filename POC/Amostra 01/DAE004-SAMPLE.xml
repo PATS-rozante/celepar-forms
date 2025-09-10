@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOTransform -->
+<XMLData>
+<Document>
+  <Carta>
+    <Texto>
+      <Tipo> </Tipo>
+      <Texto>      Senhor contribuinte: ESPECIALY TERCEIRIZAÇÃO - TESTE</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                           CNPJ       010000000/0001-XX</Texto>
+      <Tipo> </Tipo>
+      <Texto>            Informamos  que  houve  inscrição em  dívida  ativa do  Estado do Paraná  do(s)  débito(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) até 31/08/2025 ,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      sujeito a juros até a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.</Texto>
+      <Tipo> </Tipo>
+      <Texto>            De acordo com o disposto no parágrafo 1º, do art. 13, do Decreto-Lei n. 640/47 e parágrafo</Texto>
+      <Tipo> </Tipo>
+      <Texto>      2º do art. 57 da lei nº 11.580/1996, fica V.Sa. notificada sobre o(s) débito(s) inscrito(s).</Texto>
+      <Tipo> </Tipo>
+      <Texto>            O prazo legal  para  pagamento  amigável  encerra-se em 10/10/2025 . Vencido o prazo, a(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Certidão(ões) de Dívida Ativa estará(ão) sujeita(s) à:</Texto>
+      <Tipo> </Tipo>
+      <Texto>            a) protesto extrajudicial, nos termos do parágrafo único do artigo 1º, da Lei n.9.492/97 e</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiça do Paraná, com  incidência de</Texto>
+      <Tipo> </Tipo>
+      <Texto>      emolumentos e demais despesas;</Texto>
+      <Tipo> </Tipo>
+      <Texto>            b) execução  fiscal, nos termos  da Lei n. 6.830/80, com  cobrança  de  custas  judiciais,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      honorários e penhora de bens;</Texto>
+      <Tipo>-</Tipo>
+      <Texto>            c) inscrição no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                        Curitiba, 31 de    agosto de  2025</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                                                     Inspetoria Geral de Arrecadação/SEFA-CRE</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Inscrição                 Origem do débito</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Div.ativa   TIPO                Referência                     Valores devidos</Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.026,85</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                **************796,22</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.706,04</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.481,79</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.279,00</Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo>0</Tipo>
+      <Texto>                    DIVIDAS ATIVAS DESTA NOTIFICACAO</Texto>
+      <Tipo> </Tipo>
+      <Texto>       03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</Texto>
+    </Texto>
+  </Carta>
+  <Capa>
+    <Remetente1></Remetente1>
+    <Remetente2>RP                             ABITIRUC       209-02408</Remetente2>
+    <Remetente3>0529-1233)14(       000 ODAHCAM ETNECIV AUR - RRD .A71</Remetente3>
+    <Remetente4>ODATSE OD ATIECER AD OACANEDROOC - ADNEZAF AD AIRATERCES</Remetente4>
+    <NumeroAR>*YJ981215882BR*</NumeroAR>
+    <Sequencia>01 -     1</Sequencia>
+    <CEPNET>*010500301*</CEPNET>
+    <Nome>ESPECIALY TERCEIRIZAÇÃO - TESTE</Nome>
+    <Documento>CNPJ       10000000/0001-XX</Documento>
+    <Logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</Logradouro>
+    <CidadeUF>SAO PAULO - SP</CidadeUF>
+    <CEP>00000-030</CEP>
+  </Capa>
+</Document>
+<Document>
+  <Carta>
+    <Texto>
+      <Tipo> </Tipo>
+      <Texto>      Senhor contribuinte: ESPECIALY TERCEIRIZAÇÃO - TESTE</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                           CNPJ       010000000/0001-XX</Texto>
+      <Tipo> </Tipo>
+      <Texto>            Informamos  que  houve  inscrição em  dívida  ativa do  Estado do Paraná  do(s)  débito(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) até 31/08/2025 ,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      sujeito a juros até a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.</Texto>
+      <Tipo> </Tipo>
+      <Texto>            De acordo com o disposto no parágrafo 1º, do art. 13, do Decreto-Lei n. 640/47 e parágrafo</Texto>
+      <Tipo> </Tipo>
+      <Texto>      2º do art. 57 da lei nº 11.580/1996, fica V.Sa. notificada sobre o(s) débito(s) inscrito(s).</Texto>
+      <Tipo> </Tipo>
+      <Texto>            O prazo legal  para  pagamento  amigável  encerra-se em 10/10/2025 . Vencido o prazo, a(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Certidão(ões) de Dívida Ativa estará(ão) sujeita(s) à:</Texto>
+      <Tipo> </Tipo>
+      <Texto>            a) protesto extrajudicial, nos termos do parágrafo único do artigo 1º, da Lei n.9.492/97 e</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiça do Paraná, com  incidência de</Texto>
+      <Tipo> </Tipo>
+      <Texto>      emolumentos e demais despesas;</Texto>
+      <Tipo> </Tipo>
+      <Texto>            b) execução  fiscal, nos termos  da Lei n. 6.830/80, com  cobrança  de  custas  judiciais,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      honorários e penhora de bens;</Texto>
+      <Tipo>-</Tipo>
+      <Texto>            c) inscrição no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                        Curitiba, 31 de    agosto de  2025</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                                                     Inspetoria Geral de Arrecadação/SEFA-CRE</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Inscrição                 Origem do débito</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Div.ativa   TIPO                Referência                     Valores devidos</Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.026,85</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                **************796,22</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.706,04</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.481,79</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.279,00</Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo>0</Tipo>
+      <Texto>                    DIVIDAS ATIVAS DESTA NOTIFICACAO</Texto>
+      <Tipo> </Tipo>
+      <Texto>       03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</Texto>
+    </Texto>
+  </Carta>
+  <Capa>
+    <Remetente1></Remetente1>
+    <Remetente2>RP                             ABITIRUC       209-02408</Remetente2>
+    <Remetente3>0529-1233)14(       000 ODAHCAM ETNECIV AUR - RRD .A71</Remetente3>
+    <Remetente4>ODATSE OD ATIECER AD OACANEDROOC - ADNEZAF AD AIRATERCES</Remetente4>
+    <NumeroAR>*YJ981215882BR*</NumeroAR>
+    <Sequencia>01 -     1</Sequencia>
+    <CEPNET>*010500301*</CEPNET>
+    <Nome>ESPECIALY TERCEIRIZAÇÃO - TESTE</Nome>
+    <Documento>CNPJ       10000000/0001-XX</Documento>
+    <Logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</Logradouro>
+    <CidadeUF>SAO PAULO - SP</CidadeUF>
+    <CEP>00000-030</CEP>
+  </Capa>
+</Document>
+<Document>
+  <Carta>
+    <Texto>
+      <Tipo> </Tipo>
+      <Texto>      Senhor contribuinte: ESPECIALY TERCEIRIZAÇÃO - TESTE</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                           CNPJ       010000000/0001-XX</Texto>
+      <Tipo> </Tipo>
+      <Texto>            Informamos  que  houve  inscrição em  dívida  ativa do  Estado do Paraná  do(s)  débito(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) até 31/08/2025 ,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      sujeito a juros até a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.</Texto>
+      <Tipo> </Tipo>
+      <Texto>            De acordo com o disposto no parágrafo 1º, do art. 13, do Decreto-Lei n. 640/47 e parágrafo</Texto>
+      <Tipo> </Tipo>
+      <Texto>      2º do art. 57 da lei nº 11.580/1996, fica V.Sa. notificada sobre o(s) débito(s) inscrito(s).</Texto>
+      <Tipo> </Tipo>
+      <Texto>            O prazo legal  para  pagamento  amigável  encerra-se em 10/10/2025 . Vencido o prazo, a(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Certidão(ões) de Dívida Ativa estará(ão) sujeita(s) à:</Texto>
+      <Tipo> </Tipo>
+      <Texto>            a) protesto extrajudicial, nos termos do parágrafo único do artigo 1º, da Lei n.9.492/97 e</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiça do Paraná, com  incidência de</Texto>
+      <Tipo> </Tipo>
+      <Texto>      emolumentos e demais despesas;</Texto>
+      <Tipo> </Tipo>
+      <Texto>            b) execução  fiscal, nos termos  da Lei n. 6.830/80, com  cobrança  de  custas  judiciais,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      honorários e penhora de bens;</Texto>
+      <Tipo>-</Tipo>
+      <Texto>            c) inscrição no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                        Curitiba, 31 de    agosto de  2025</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                                                     Inspetoria Geral de Arrecadação/SEFA-CRE</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Inscrição                 Origem do débito</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Div.ativa   TIPO                Referência                     Valores devidos</Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.026,85</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                **************796,22</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.706,04</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.481,79</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.279,00</Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo>0</Tipo>
+      <Texto>                    DIVIDAS ATIVAS DESTA NOTIFICACAO</Texto>
+      <Tipo> </Tipo>
+      <Texto>       03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</Texto>
+    </Texto>
+  </Carta>
+  <Capa>
+    <Remetente1></Remetente1>
+    <Remetente2>RP                             ABITIRUC       209-02408</Remetente2>
+    <Remetente3>0529-1233)14(       000 ODAHCAM ETNECIV AUR - RRD .A71</Remetente3>
+    <Remetente4>ODATSE OD ATIECER AD OACANEDROOC - ADNEZAF AD AIRATERCES</Remetente4>
+    <NumeroAR>*YJ981215882BR*</NumeroAR>
+    <Sequencia>01 -     1</Sequencia>
+    <CEPNET>*010500301*</CEPNET>
+    <Nome>ESPECIALY TERCEIRIZAÇÃO - TESTE</Nome>
+    <Documento>CNPJ       10000000/0001-XX</Documento>
+    <Logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</Logradouro>
+    <CidadeUF>SAO PAULO - SP</CidadeUF>
+    <CEP>00000-030</CEP>
+  </Capa>
+</Document>
+<Document>
+  <Carta>
+    <Texto>
+      <Tipo> </Tipo>
+      <Texto>      Senhor contribuinte: ESPECIALY TERCEIRIZAÇÃO - TESTE</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                           CNPJ       010000000/0001-XX</Texto>
+      <Tipo> </Tipo>
+      <Texto>            Informamos  que  houve  inscrição em  dívida  ativa do  Estado do Paraná  do(s)  débito(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) até 31/08/2025 ,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      sujeito a juros até a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.</Texto>
+      <Tipo> </Tipo>
+      <Texto>            De acordo com o disposto no parágrafo 1º, do art. 13, do Decreto-Lei n. 640/47 e parágrafo</Texto>
+      <Tipo> </Tipo>
+      <Texto>      2º do art. 57 da lei nº 11.580/1996, fica V.Sa. notificada sobre o(s) débito(s) inscrito(s).</Texto>
+      <Tipo> </Tipo>
+      <Texto>            O prazo legal  para  pagamento  amigável  encerra-se em 10/10/2025 . Vencido o prazo, a(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Certidão(ões) de Dívida Ativa estará(ão) sujeita(s) à:</Texto>
+      <Tipo> </Tipo>
+      <Texto>            a) protesto extrajudicial, nos termos do parágrafo único do artigo 1º, da Lei n.9.492/97 e</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiça do Paraná, com  incidência de</Texto>
+      <Tipo> </Tipo>
+      <Texto>      emolumentos e demais despesas;</Texto>
+      <Tipo> </Tipo>
+      <Texto>            b) execução  fiscal, nos termos  da Lei n. 6.830/80, com  cobrança  de  custas  judiciais,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      honorários e penhora de bens;</Texto>
+      <Tipo>-</Tipo>
+      <Texto>            c) inscrição no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                        Curitiba, 31 de    agosto de  2025</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                                                     Inspetoria Geral de Arrecadação/SEFA-CRE</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Inscrição                 Origem do débito</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Div.ativa   TIPO                Referência                     Valores devidos</Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.026,85</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                **************796,22</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.706,04</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.481,79</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.279,00</Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo>0</Tipo>
+      <Texto>                    DIVIDAS ATIVAS DESTA NOTIFICACAO</Texto>
+      <Tipo> </Tipo>
+      <Texto>       03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</Texto>
+    </Texto>
+  </Carta>
+  <Capa>
+    <Remetente1></Remetente1>
+    <Remetente2>RP                             ABITIRUC       209-02408</Remetente2>
+    <Remetente3>0529-1233)14(       000 ODAHCAM ETNECIV AUR - RRD .A71</Remetente3>
+    <Remetente4>ODATSE OD ATIECER AD OACANEDROOC - ADNEZAF AD AIRATERCES</Remetente4>
+    <NumeroAR>*YJ981215882BR*</NumeroAR>
+    <Sequencia>01 -     1</Sequencia>
+    <CEPNET>*010500301*</CEPNET>
+    <Nome>ESPECIALY TERCEIRIZAÇÃO - TESTE</Nome>
+    <Documento>CNPJ       10000000/0001-XX</Documento>
+    <Logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</Logradouro>
+    <CidadeUF>SAO PAULO - SP</CidadeUF>
+    <CEP>00000-030</CEP>
+  </Capa>
+</Document>
+<Document>
+  <Carta>
+    <Texto>
+      <Tipo> </Tipo>
+      <Texto>      Senhor contribuinte: ESPECIALY TERCEIRIZAÇÃO - TESTE</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                           CNPJ       010000000/0001-XX</Texto>
+      <Tipo> </Tipo>
+      <Texto>            Informamos  que  houve  inscrição em  dívida  ativa do  Estado do Paraná  do(s)  débito(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) até 31/08/2025 ,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      sujeito a juros até a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.</Texto>
+      <Tipo> </Tipo>
+      <Texto>            De acordo com o disposto no parágrafo 1º, do art. 13, do Decreto-Lei n. 640/47 e parágrafo</Texto>
+      <Tipo> </Tipo>
+      <Texto>      2º do art. 57 da lei nº 11.580/1996, fica V.Sa. notificada sobre o(s) débito(s) inscrito(s).</Texto>
+      <Tipo> </Tipo>
+      <Texto>            O prazo legal  para  pagamento  amigável  encerra-se em 10/10/2025 . Vencido o prazo, a(s)</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Certidão(ões) de Dívida Ativa estará(ão) sujeita(s) à:</Texto>
+      <Tipo> </Tipo>
+      <Texto>            a) protesto extrajudicial, nos termos do parágrafo único do artigo 1º, da Lei n.9.492/97 e</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiça do Paraná, com  incidência de</Texto>
+      <Tipo> </Tipo>
+      <Texto>      emolumentos e demais despesas;</Texto>
+      <Tipo> </Tipo>
+      <Texto>            b) execução  fiscal, nos termos  da Lei n. 6.830/80, com  cobrança  de  custas  judiciais,</Texto>
+      <Tipo> </Tipo>
+      <Texto>      honorários e penhora de bens;</Texto>
+      <Tipo>-</Tipo>
+      <Texto>            c) inscrição no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                        Curitiba, 31 de    agosto de  2025</Texto>
+      <Tipo>0</Tipo>
+      <Texto>                                                     Inspetoria Geral de Arrecadação/SEFA-CRE</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Inscrição                 Origem do débito</Texto>
+      <Tipo> </Tipo>
+      <Texto>      Div.ativa   TIPO                Referência                     Valores devidos</Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.026,85</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                **************796,22</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.706,04</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.481,79</Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto>      03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</Texto>
+      <Tipo> </Tipo>
+      <Texto>                                                             JUROS                ************1.279,00</Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo>-</Tipo>
+      <Texto></Texto>
+      <Tipo> </Tipo>
+      <Texto></Texto>
+      <Tipo>0</Tipo>
+      <Texto>                    DIVIDAS ATIVAS DESTA NOTIFICACAO</Texto>
+      <Tipo> </Tipo>
+      <Texto>       03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</Texto>
+    </Texto>
+  </Carta>
+  <Capa>
+    <Remetente1></Remetente1>
+    <Remetente2>RP                             ABITIRUC       209-02408</Remetente2>
+    <Remetente3>0529-1233)14(       000 ODAHCAM ETNECIV AUR - RRD .A71</Remetente3>
+    <Remetente4>ODATSE OD ATIECER AD OACANEDROOC - ADNEZAF AD AIRATERCES</Remetente4>
+    <NumeroAR>*YJ981215882BR*</NumeroAR>
+    <Sequencia>01 -     1</Sequencia>
+    <CEPNET>*010500301*</CEPNET>
+    <Nome>ESPECIALY TERCEIRIZAÇÃO - TESTE</Nome>
+    <Documento>CNPJ       10000000/0001-XX</Documento>
+    <Logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</Logradouro>
+    <CidadeUF>SAO PAULO - SP</CidadeUF>
+    <CEP>00000-030</CEP>
+  </Capa>
+</Document>
+</XMLData>
