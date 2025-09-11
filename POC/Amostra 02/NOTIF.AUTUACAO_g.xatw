@@ -403,14 +403,27 @@ this.MTN103._visible = this.notificacao.frente.idForm._value == &apos;MTN103&apo
       <boundingRect left="0.499999 cm" top="0.499999 cm" width="20.000001 cm" height="29.1 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <pane name="notificacao" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="yes" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.004999 cm">
-        <boundingRect width="20.000001 cm" height="41.84 cm"/>
+        <boundingRect width="20.000001 cm" height="82.260001 cm"/>
         <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
         <pane name="verso" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="yes" pageBreak="no" allowBreakBefore="no" allowBreakAfter="yes" minHeight="0.005001 cm">
-          <boundingRect width="20.000001 cm" height="41.129951 cm"/>
+          <boundingRect width="20.000001 cm" height="82.260001 cm"/>
           <script>
 // OnEndMerge start ------------------------------------------------------
 function OnEndMerge() {
 this.numARDigital._value = this.prefixoARDigital._value + this.numARDigital._value + this.sufixoARDigital._value;
+this.numAR._value = this.prefixoAR._value + this.numAR._value + this.sufixoAR._value;
+this.espAR._value = this.numAR._value;
+this.espARDigital._value = this.numARDigital._value;
+this.espARboxRem._value = this.numAR._value;
+this.labelPostagem2._value = this.labelPostagem._value;
+this.dataPostagem2._value = this.dataPostagem._value;
+this.contratoCorreios1._value = this.contratoCorreios._value;
+this.nomeClienteChancela1._value = this.nomeClienteChancela._value;
+this.nomeDest._value = this.destinatario.nome._value;
+this.enderDest._value = this.destinatario.endereco._value;
+this.complDest._value = this.destinatario.complementoBairro._value;
+this.cepMunDest._value = this.destinatario.cepMunicipio._value;
+
 
 }
 // OnEndMerge end --------------------------------------------------------
@@ -437,6 +450,13 @@ this.numARDigital._value = this.prefixoARDigital._value + this.numARDigital._val
             <font typeface="Arial" size="7.000" italic="0" bold="1000"/>
             <tab distance="1.000001 cm"/>
           </field>
+          <field name="nomeClienteChancela1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="center middle" caseShift="none">
+            <boundingRect left="13.199974 cm" top="22.279955 cm" width="1.109998 cm" height="0.279999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="5.000" italic="0" bold="1000"/>
+            <tab distance="1.000001 cm"/>
+          </field>
           <field name="labelPostagem" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
             <boundingRect left="1.289997 cm" top="13.559973 cm" width="2.290001 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
@@ -451,6 +471,13 @@ this.numARDigital._value = this.prefixoARDigital._value + this.numARDigital._val
             <font typeface="Arial" size="7.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
+          <field name="contratoCorreios1" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="center middle" caseShift="none">
+            <boundingRect left="12.699975 cm" top="21.979956 cm" width="2.149996 cm" height="0.289999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="5.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
           <field name="dataPostagem" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
             <boundingRect left="3.679993 cm" top="13.559973 cm" width="2.739995 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
@@ -458,24 +485,70 @@ this.numARDigital._value = this.prefixoARDigital._value + this.numARDigital._val
             <font typeface="Arial" size="8.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
+          <field name="espAR" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="center middle" caseShift="upper">
+            <boundingRect left="12.769974 cm" top="17.019966 cm" width="5.3 cm" height="0.289999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <parms>Barcode128Text:No</parms>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Courier New" size="8.000" italic="0" bold="0"/>
+            <tab distance="2.000001 cm"/>
+          </field>
+          <field name="espARboxRem" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="center middle" caseShift="upper">
+            <boundingRect left="1.149998 cm" top="4.599991 cm" width="3.879992 cm" height="0.289999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <parms>Barcode128Text:No</parms>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Courier New" size="8.000" italic="0" bold="0"/>
+            <tab distance="2.000001 cm"/>
+          </field>
+          <field name="numAR" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="Code128" justify="center middle" caseShift="upper">
+            <boundingRect left="12.769974 cm" top="17.349965 cm" width="5.3 cm" height="1.269997 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <parms>Barcode128Text:No</parms>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+            <tab distance="2.000001 cm"/>
+          </field>
           <field name="prefixoARDigital" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-            <boundingRect left="1.089998 cm" top="4.569991 cm" width="0.459999 cm" height="0.499999 cm"/>
+            <boundingRect left="5.09 cm" top="4.569991 cm" width="2.000001 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Courier New" size="10.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
           <field name="sufixoARDigital" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-            <boundingRect left="4.629991 cm" top="4.569991 cm" width="0.999998 cm" height="0.499999 cm"/>
+            <boundingRect left="7.189986 cm" top="4.569991 cm" width="2.000001 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Courier New" size="10.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
-          <field name="numARDigital" type="barcode" dataType="number" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="Code128" justify="center middle" caseShift="upper" thousands="no" round="halfEven">
-            <boundingRect left="11.429977 cm" top="17.039966 cm" width="5.3 cm" height="2.000001 cm"/>
+          <field name="prefixoAR" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="9.729981 cm" top="4.569991 cm" width="2.000001 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-            <parms>Barcode128Text:Yes</parms>
+            <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="sufixoAR" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="12.149976 cm" top="4.569991 cm" width="2.000001 cm" height="0.499999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="espARDigital" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="center middle" caseShift="upper">
+            <boundingRect left="1.789996 cm" top="24.059952 cm" width="5.3 cm" height="0.329999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <parms>Barcode128Text:No</parms>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Courier New" size="8.000" italic="0" bold="0"/>
+            <tab distance="2.000001 cm"/>
+          </field>
+          <field name="numARDigital" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="Code128" justify="center middle" caseShift="upper">
+            <boundingRect left="1.789996 cm" top="24.449951 cm" width="5.3 cm" height="1.249998 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <parms>Barcode128Text:No</parms>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="10.000" italic="0" bold="0"/>
             <tab distance="2.000001 cm"/>
@@ -484,6 +557,55 @@ this.numARDigital._value = this.prefixoARDigital._value + this.numARDigital._val
             <boundingRect left="1.289997 cm" top="26.979946 cm" width="7.999999 cm" height="0.319999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="nomeDest" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
+            <boundingRect left="1.259997 cm" top="22.219956 cm" width="6.879999 cm" height="0.299999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="enderDest" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
+            <boundingRect left="1.259997 cm" top="22.559955 cm" width="6.879999 cm" height="0.299999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="complDest" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
+            <boundingRect left="1.259997 cm" top="22.899954 cm" width="6.879999 cm" height="0.299999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="cepMunDest" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
+            <boundingRect left="1.269997 cm" top="23.229954 cm" width="6.879999 cm" height="0.299999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="textoCorreios" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="8.329983 cm" top="20.14996 cm" width="4.379991 cm" height="0.499999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="dataPostagem2" type="text" dataType="date" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="10.509979 cm" top="20.649959 cm" width="2.000001 cm" height="0.439999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <field name="labelPostagem2" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <boundingRect left="8.319983 cm" top="20.669959 cm" width="2.159996 cm" height="0.399999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
@@ -511,117 +633,43 @@ this.numARDigital._value = this.prefixoARDigital._value + this.numARDigital._val
               <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
-            <field name="arDigital" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="1.589997 cm" top="4.569991 cm" width="3.019994 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Courier New" size="10.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
           </pane><!--remetente-->
-          <pane name="destinatario" section="main" mandatory="yes" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="yes" allowBreakAfter="yes" minHeight="12.84 cm">
-            <boundingRect width="20.000001 cm" height="25.22995 cm"/>
-            <script>
-// OnEndMerge start ------------------------------------------------------
-function OnEndMerge() {
-_logf(&apos;Nome: %s&apos;, this.nome._value);
-_logf(&apos;Ender: %s&apos;, this.endereco._value);
-_logf(&apos;Bairro: %s&apos;, this.complementoBairro._value);
-_logf(&apos;Cep: %s&apos;, this.cepMunicipio._value);
-
-this.nome._value = 
-	this.nome._value + &apos;\n&apos; +
-	this.endereco._value + &apos;\n&apos; +
-	this.complementoBairro._value + &apos;\n&apos; +
-	this.cepMunicipio._value;
-
-_logf(&apos;Result: %s&apos;, this.nome._value);
-}
-// OnEndMerge end --------------------------------------------------------
-</script>
-            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-            <field name="cepComDV" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="PostNet" justify="left middle" caseShift="none">
-              <boundingRect left="1.279997 cm" top="0.709966 cm" width="5.0 cm" height="0.599999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="10.000" italic="0" bold="1000"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="nome" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
-              <boundingRect left="1.219998 cm" top="5.679989 cm" width="6.819986 cm" height="2.329962 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="10.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="endereco" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
-              <boundingRect left="1.269997 cm" top="2.019963 cm" width="8.109984 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="8.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="complementoBairro" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
-              <boundingRect left="1.269997 cm" top="2.549962 cm" width="8.109984 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="8.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="cepMunicipio" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
-              <boundingRect left="1.269997 cm" top="3.079961 cm" width="8.109984 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="8.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="textoCorreios" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="8.309983 cm" top="4.219959 cm" width="4.379991 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="9.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="nome" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" caseShift="none">
-              <boundingRect left="1.269997 cm" top="1.479964 cm" width="8.109984 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="8.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="numAR" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="Code128" justify="left middle" caseShift="none">
-              <boundingRect left="1.559999 cm" top="8.029951 cm" width="5.800001 cm" height="1.779996 cm"/>
+          <field name="cepComDV" type="barcode" dataType="number" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="PostNet" justify="left middle" caseShift="none" thousands="no" round="halfEven">
+            <boundingRect left="1.179998 cm" top="16.059968 cm" width="5.699989 cm" height="0.679999 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+          </field>
+          <pane name="destinatario" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
+            <boundingRect width="20.000001 cm" height="3.269996 cm"/>
+            <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <field name="nome" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+              <boundingRect left="1.179998 cm" top="1.129965 cm" width="7.000001 cm" height="0.399999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
               <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
-            <field name="nomeClienteChancela" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="13.059974 cm" top="6.489954 cm" width="1.289997 cm" height="0.379999 cm"/>
+            <field name="endereco" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+              <boundingRect left="1.179998 cm" top="1.569964 cm" width="7.000001 cm" height="0.399999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="6.000" italic="0" bold="1000"/>
+              <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
-            <field name="contratoCorreios" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="12.689975 cm" top="5.959955 cm" width="2.000001 cm" height="0.499999 cm"/>
+            <field name="complementoBairro" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+              <boundingRect left="1.179998 cm" top="1.999963 cm" width="7.000001 cm" height="0.399999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="6.000" italic="0" bold="0"/>
+              <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
-            <field name="dataPostagem" type="text" dataType="date" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="9.78998 cm" top="4.739958 cm" width="2.000001 cm" height="0.499999 cm"/>
+            <field name="cepMunicipio" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+              <boundingRect left="1.179998 cm" top="2.439962 cm" width="7.000001 cm" height="0.399999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="9.000" italic="0" bold="0"/>
-              <tab distance="1.000001 cm"/>
-            </field>
-            <field name="labelPostagem" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="8.319983 cm" top="4.739958 cm" width="1.579997 cm" height="0.499999 cm"/>
-              <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
-              <border visible="no" color="#000000" thickness="0.025001 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-              <font typeface="Arial" size="9.000" italic="0" bold="0"/>
+              <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
           </pane><!--destinatario-->
@@ -20934,7 +20982,7 @@ RAEAAAAAAICo9f97vanstHNtxQAAAABJRU5ErkJggg==</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-08 22:34:39 UTC"?>
-<?Design DateModified="2025-09-11 18:25:44 UTC"?>
+<?Design DateModified="2025-09-11 21:59:27 UTC"?>
 <?Design CustomColors="255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;240,240,240:#F0F0F0;228,228,228:#E4E4E4;216,216,216:#D8D8D8;204,204,204:#CCCCCC;"?>
 <?Design InitialZoom="150"?>
 <?Design InitialPage="PagNotificacaoVerso"?>
