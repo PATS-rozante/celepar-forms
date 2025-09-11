@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOTransform -->
+<XMLData>
+<Document>
+  <SepJES>
+    <dados>                                                                                                      POS-IMPRESSAO:
+                                                      GRAMP/MARG                                                                    2
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   PPPPPPPPPPP   RRRRRRRRRRR   VV        VV   AAAAAAAAAA   EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS   EEEEEEEEEEEE
+   PP        PP  RR        RR  VV        VV  AA        AA  EE            OO        OO  SS        SS  EE
+   PP        PP  RR        RR  VV        VV  AA        AA  EE            OO        OO  SSS           EE
+   PPPPPPPPPPP   RRRRRRRRRRR   VV        VV  AAAAAAAAAAAA  EEEEEEEE      OO        OO    SSSSSSSSS   EEEEEEEE
+   PP            RR    RR       VV      VV   AA        AA  EE            OO        OO           SSS  EE
+   PP            RR      RR       VV  VV     AA        AA  EE            OO        OO  SS        SS  EE
+   PP            RR        RR       VV       AA        AA  EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS   EEEEEEEEEEEE
+
+
+     JJJJJJJJJJ  OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000      00000000     6666666666    6666666666
+         JJ      OO        OO  BB        BB  00        00  00        00  00        00  66        66  66        66
+         JJ      OO        OO  BB       BB   00        00  00        00  00        00  66            66
+         JJ      OO        OO  BBBBBBBBBB    00        00  00        00  00        00  666666666666  666666666666
+         JJ      OO        OO  BB       BB   00        00  00        00  00        00  66        66  66        66
+   JJ    JJ      OO        OO  BB        BB  00        00  00        00  00        00  66        66  66        66
+    JJJJJJ       OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000      00000000     6666666666    6666666666
+
+
+     **START*****START*****START*****START*****START*****START*****START*****START*****START*****START***
+     *                                                                                                  *
+     * USER ID:      EOSUSER                COPIES=001                                                  *
+     * SYSOUT CLASS: 3                      OUTPUT GROUP: 2.1.1                                         *
+     * RELATORIO:                                                                                       *
+     *                                                                                                  *                           3
+     * DESTINATION:  PR04                                                                               *                           3
+     *                                                                                                  *                           3
+     * NOME:                                                                                            *                           3
+     *                                                                                                  *                           3
+     * SALA:                                                                                            *                           3
+     *                                                                                                  *                           3
+     * ORGAO:                                                                                           *                           3
+     *                                                                                                  *                           3
+     * SETOR:                                                                                           *                           3
+     *                                                                                                  *                           3
+     * ENDERECO:                                                                                        *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     **START*****START*****START*****START*****START*****START*****START*****START*****START*****START***
+     * EXPEDICAO:                                                                                       *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     **START*****START*****START*****START*****START*****START*****START*****START*****START*****START***
+ $INICIO DO JOB 00066 PRVAEOSE 24/11/2016 08:37:50 CEL9 CELPR04</dados>
+  </SepJES>
+</Document>
+<Document>
+  <SepWSF>
+    <dados> ******************************************************* XEROX L.P.S BANNER *********************************************************
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+
+ ***********************************                                                                                                 2
+ *                                 *                                                                                                 2
+ * DEPTO DE TRANSITO - DETRAN      *         CELEPAR - CIA DE INFORMATICA DO PARANA                                                  2
+ * AV. VICTOR FERR. AMARAL, 2940   *                                                                                                 2
+ * CAPAO DA IMBUIA CURITIBA - PR   *                                                                                                 2
+ * SETOR D.A.H.                    *                                                                                                 2
+ * SR. DIMAS EDSON DA MOTA         *                                                                                                 2
+ *                                 *                                                                                                 2
+ ***********************************                                                                                                 2
+                     ---------------------------- REPORT INFORMATION -------------------------------------------------
+                     DESCRIPTION  :  CADERNO DE PROVAS -DETRAN-                                                                      2
+                     FORM NAME    :  PRVA                                                                                            2
+                     REPORT NAME  :  PRVJ20V0 PRT1 1E                                                                                2
+                     USER         :  DETRAN                                                                                          2
+                     TOTAL PAGES  :  1002                                                                                            2
+                     OUTPUT CLASS :  3                                                                                               2
+                     COPIES       :  1                                                                                               2
+                     EXPEDITION   :  GR48                                                                                            2
+                     DATE PRINT   :  24/11/16                                                                                        2
+                     TIME PRINT   :  08.37.45                                                                                        2
+                     CPU NAME     :  CEL9                                                                                            2
+                     -------------------------------------------------------------------------------------------------
+
+                     JOB NAME  :   FDLPRVA4      JOB ID : 0065                                                                       3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+
+                                                                                           GRAMP/MARG                                3
+ $INICIO DO JOB 00065 FDLPRVA4</dados>
+  </SepWSF>
+</Document>
+<Document>
+  <DET070>
+    <Ciretran>CURITIBA</Ciretran>
+    <Data>1 8  .  0 7  .  2 0 2 5</Data>
+    <Hora>1 7  .  0 9</Hora>
+    <Testes>0 0 0 7 6 1 1 6       A    0 0 0 7 6 2 1 5</Testes>
+    <seq>1</seq>
+  </DET070>
+  <Branca>
+    <seq>2</seq>
+  </Branca>
+</Document>
+<Document>
+  <DET071>
+    <seq>3</seq>
+    <teste>00.076.116-8</teste>
+    <local>CURITIBA</local>
+    <pag>PAG.01</pag>
+  </DET071>
+  <DET072>
+    <seq>4</seq>
+    <teste>00.076.116-8</teste>
+    <pag>PAG.02</pag>
+  </DET072>
+</Document>
+<Document>
+  <DET073A>
+    <seq>5</seq>
+    <teste>00.076.116-8</teste>
+    <pag>PAG.03</pag>
+    <texto>       01. Pneus carecas s o um perigo k circula+ o. Por isso, os sulcos do
+           pneu devem ter 1,6 mil%metros de profundidade, cuja fun+ o ):
+           A - Reduzir a aderªncia ao solo para facilitar as conversíes e
+               deslocamentos laterais do ve%culo
+           B - Garantir espa+o #til para facilitar a calibragem dos pneus
+           C - Permitir o escoamento de  gua e garantir a aderªncia em
+               superf%cies molhadas
+           D - Possibilitar a ventila+ o do pneu para evitar superaquecimento
+
+       02. O equipamento de seguran+a que limita a movimenta+ o dos ocupan-
+           tes do ve%culo em casos de acidentes ou em freadas bruscas ) o:
+           A - Cinto de seguran+a
+           B - Sistema de travamento dos bancos do ve%culo
+           C - Sistema de suspens o
+           D - Freio de servi+o
+
+       03. Qual alternativa abaixo n o corresponde ao procedimento correto
+           para o transporte de crian+as com idade inferior a dez anos?
+           A - O uso do cinto de seguran+a n o ) obrigatlrio para as menores de
+               um metro de altura
+           B - Em ve%culo padr o, sl poder  ser transportada nos bancos
+               traseiros
+           C - No ve%culo que n o possui banco traseiro, a crian+a pode ser
+               transportada no banco dianteiro
+           D - Poder  ser transportada em ve%culos que n o possuem banco
+               traseiro
+
+       04. A finalidade do sistema de suspens o e dos amortecedores ):
+           A - Possibilitar a dirigibilidade do ve%culo
+           B - Ser visto pelos demais usu rios da via
+           C - Garantir a eficiªncia da frenagem do ve%culo
+           D - Manter a estabilidade do ve%culo
+
+       05. A finalidade do sistema de ilumina+ o ):
+           A - Garantir a eficiªncia da frenagem do ve%culo
+           B - Ser visto pelos demais usu rios da via
+           C - Possibilitar a dirigibilidade do ve%culo
+           D - Manter a estabilidade do ve%culo
+
+       06. A finalidade do sistema de dire+ o ):
+           A - Manter a estabilidade do ve%culo
+           B - Garantir a eficiªncia da frenagem do ve%culo
+           C - Ser visto pelos demais usu rios da via
+           D - Possibilitar a dirigibilidade do ve%culo
+
+       07. Para frear o ve%culo com seguran+a ) necess rio:
+           A - Acionar primeiro o pedal de embreagem
+           B - Manter distáncia segura em rela+ o aos demais ve%culos e freios
+               em bom estado
+           C - Travar as rodas do ve%culo
+           D - Acionar simultaneamente o pedal de freio e o freio de m o
+
+       08. Para evitar desgaste f%sico e conseqõentes situa+íes de perigo,
+           deve o condutor do ve%culo:
+           A - Segurar o volante com uma das m os, alternando-as a cada quinze
+               minutos
+           B - Dirigir com os bra+os e pernas estendidos
+           C - Ajustar o encosto de cabe+a na altura do seu queixo
+           D - Apoiar bem o corpo ao assento e no encosto do banco
+
+       09. Ao ajustar os espelhos retrovisores externos, deve o condutor:
+           A - Visualizar o pavimento o mais prlximo do ve%culo
+           B - Esticar o pesco+o para buscar uma melhor visualiza+ o
+           C - Ajust -los com o ve%culo em movimento
+           D - Enxergar o limite traseiro do seu ve%culo para reduzir os  pon-
+               tos cegos</texto>
+  </DET073A>
+  <DET073B>
+    <seq>6</seq>
+    <teste>00.076.116-8</teste>
+    <pag>PAG.04</pag>
+    <texto>       10. A ingest o de bebida alcollica ou o uso de drogas influenciam
+           perigosamente a atividade de dirigir porque:
+           A - Todas as alternativas est o corretas
+           B - Mudam o comportamento e diminuem o desempenho f%sico
+           C - Reduzem a concentra+ o e afetam a coordena+ o motora
+           D - Limitam a percep+ o e reduzem a capacidade de rea+ o
+
+       11. Assinale a alternativa INCORRETA em rela+ o k utiliza+ o de
+           motocicletas e ciclomotores:
+           A -   obrigatlrio o uso de viseiras ou lculos de prote+ o
+           B - A motocicleta deve transitar com o farol aceso de dia e de noite
+           C - As ultrapassagens devem ser feitas sempre pela esquerda
+           D - Somente as crian+as com idade a partir de cinco anos podem ser
+               transportadas como passageiras
+
+       12. Sobre a circula+ o de ciclomotor ) CORRETO afirmar:
+           A -   proibida sua circula+ o em vias arteriais e coletoras
+           B -   permitido circular com este ve%culo sobre as cal+adas
+           C - Este ve%culo deve ser conduzido pela direita da pista de
+               rolamento
+           D - A utiliza+ o do capacete n o ) obrigatlria nestes ve%culos
+
+       13. A superf%cie onde transitam ve%culos,pessoas e animais compreen-
+           dendo pista,cal+ada,acostamento,ilha e canteiro central, ) a:
+           A - Pista de rolamento
+           B - Avenida
+           C - Via p#blica
+           D - Via de tránsito r pido
+
+       14. Nas curvas, os corpos dos ocupantes do ve%culo s o jogados para
+           fora da curva em raz o da for+a centr%fuga.   correto afirmar:
+           A - Quanto menor a velocidade do ve%culo, maior ) a for+a centr%fuga
+           B - Quanto maior a velocidade do ve%culo, mais f cil ) control -lo
+               na curva
+           C - Quanto maior ) a for+a centr%fuga, menor ) a chance de
+               instabilidade na curva
+           D - Quanto maior a velocidade do ve%culo, maior ) a for+a centr%fuga
+
+       15. Qual o comportamento adequado do condutor ao se deparar com um
+           declive acentuado:
+           A - Acionar por completo o pedal da embreagem
+           B - Descer com o ve%culo desengrenado para economizar combust%vel
+           C - Acionar os farlis para aumentar a visibilidade da pista
+           D - Manter o cámbio engatado em marcha reduzida durante a descida
+
+       16. A parte da via destinada k parada de ve%culos em situa+ o de
+           emergªncia e k circula+ o de pedestres e bicicletas denomina-se:
+           A - Acostamento
+           B - ]rea de escape
+           C - Cal+ada
+           D - Pista de rolamento
+
+       17. Ao perceber antecipadamente a presen+a de buracos, depressíes,
+           lombadas ou altera+íes na via, o condutor deve:
+           A - Acionar a embreagem para evitar desgaste excessivo do motor
+           B - Desviar destas condi+íes adversas
+           C - Reduzir a velocidade
+           D - Acelerar o ve%culo para livrar-se o mais r pido destes perigos
+
+       18. Ao transitar em pavimento com presen+a de lleo, barro, areia ou
+            gua na pista, tornando-o escorregadio, o condutor deve:
+           A - Acelerar o ve%culo para livrar-se o mais r pido destes perigos
+           B - Desviar destas condi+íes adversas
+           C - Posicionar o p) no pedal de freio para uma parada repentina
+           D - Evitar mudan+as abruptas de velocidade e frenagens bruscas</texto>
+  </DET073B>
+  <DET073C>
+    <seq>7</seq>
+    <teste>00.076.116-8</teste>
+    <pag>PAG.05</pag>
+    <texto>       19. Mostrar o que ) permitido ou proibido fazer,advertir sobre peri-
+           gos na via e indicar dire+íes a seguir ou pontos de interesse:
+           A - Engenharia de tránsito
+           B - Educa+ o de tránsito
+           C - Sinaliza+ o de tránsito
+           D - Fiscaliza+ o de tránsito
+
+       20. Sobre a utiliza+ o das cal+adas, ) INCORRETO afirmar:
+           A - As cal+adas s o para uso exclusivo de pedestres
+           B -   proibida a circula+ o do ve%culo sobre a cal+ada para ter
+               acesso a garagens
+           C -   proibida a parada de ve%culos automotores nas cal+adas
+           D - O estacionamento do ve%culo na cal+ada retira o espa+o prlprio
+               do pedestre
+
+       21. Ao se aproximar de um cruzamento, deve o condutor de ve%culo:
+           A - Posicionar o p) no pedal de freio para uma parada repentina
+           B - Deslocar o ve%culo para a parte mais k direita da via
+           C - Acelerar se o sinal estiver verde para o ve%culo
+           D - Redobrar a aten+ o e reduzir a velocidade
+
+       22. Em um cruzamento onde n o h  sinaliza+ o, a preferªncia de
+           passagem ) do ve%culo:
+           A - Que esteja desenvolvendo maior velocidade
+           B - Que esteja desenvolvendo menor velocidade
+           C - Que se aproxima pela direita
+           D - Que se aproxima pela esquerda
+
+       23.   noite, em pista molhada ou com neblina, qual a distáncia certa
+           para iniciar a sinaliza+ o de um acidente em uma rodovia?
+           A - 200 passos longos
+           B - 80 passos longos
+           C - 40 passos longos
+           D - 60 passos longos
+
+       24.   noite,pista molhada ou neblina,qual a distáncia p/ iniciar a
+           sinaliza+ o de acidente em vias com velocidade m x. de 60 km/h?
+           A - 120 passos longos
+           B - 40 passos longos
+           C - 60 passos longos
+           D - 80 passos longos
+
+       25.   noite,pista molhada ou neblina,qual a distáncia p/ iniciar a
+           sinaliza+ o de acidente em vias com velocidade m x. de 80 km/h?
+           A - 40 passos longos
+           B - 100 passos longos
+           C - 60 passos longos
+           D - 160 passos longos
+
+       26. Durante o dia, com pista seca, qual a distáncia para iniciar a
+           sinaliza+ o de acidente nas vias com velocidade m x. de 60 km/h?
+           A - 100 passos longos
+           B - 60 passos longos
+           C - 80 passos longos
+           D - 40 passos longos
+
+       27. Durante o dia, com pista seca, qual a distáncia para iniciar a
+           sinaliza+ o de acidente em vias com velocidade m x. de 80 km/h?
+           A - 60 passos longos
+           B - 100 passos longos
+           C - 120 passos longos
+           D - 80 passos longos</texto>
+  </DET073C>
+  <DET073D>
+    <seq>8</seq>
+    <teste>00.076.116-8</teste>
+    <pag>PAG.06</pag>
+    <texto>       28. Em caso de atropelamento a primeira providªncia do condutor
+           ser :
+           A - Sinalizar adequadamente o local, a fim de evitar um novo
+               acidente.
+           B - Apresentar-se k autoridade de tránsito.
+           C - Socorrer a v%tima.
+           D - Fugir do local do acidente sem prestar socorro.
+
+       29. Em qual local do ve%culo um extintor de incªndio jamais dever
+           ser guardado?
+           A - Sob o painel do lado do passageiro.
+           B - No porta malas.
+           C - No banco sob as pernas do motorista.
+           D - Na lateral prlximo aos pedais.
+
+       30. Como vocª deve entender primeiros socorros:
+           A - Fazer curativos em acidentados.
+           B - S o cuidados que devem ser tomados em caso de acidentes at) a
+               chegada do servi+o de socorro.
+           C -   a oportunidade de se tornar herli.
+           D -   a sua chance de testar o que aprendeu.</texto>
+  </DET073D>
+</Document>
+<Document>
+  <DET071>
+    <seq>9</seq>
+    <teste>00.076.117-6</teste>
+    <local>CURITIBA</local>
+    <pag>PAG.01</pag>
+  </DET071>
+  <DET072>
+    <seq>10</seq>
+    <teste>00.076.117-6</teste>
+    <pag>PAG.02</pag>
+  </DET072>
+</Document>
+<Document>
+  <DET073A>
+    <seq>11</seq>
+    <teste>00.076.117-6</teste>
+    <pag>PAG.03</pag>
+    <texto>       01. Em uma rotatlria onde n o h  sinaliza+ o a preferªncia de
+           passagem ) do ve%culo:
+           A - Que j  estiver circulando na rotatlria
+           B - Que se aproxima pela direita
+           C - Que esteja desenvolvendo maior velocidade
+           D - Que se aproxima pela esquerda
+
+       02. Em caso de chuvas intensas, ) INCORRETA a conduta do motorista
+           que:
+           A - Redobra a aten+ o
+           B - Acende a luz baixa do farol
+           C - Diminui a distáncia do ve%culo k sua frente
+           D - Diminui a velocidade
+
+       03. Ocorre a hidroplanagem (ou aquaplanagem) quando o ve%culo:
+           A - Perde a aderªncia do pneu com o solo, causada por  gua sobre a
+               pista
+           B - Derrapa sobre uma camada de lleo na pista
+           C - Tem os pneus cobertos por uma enxurrada
+           D - Passa por um buraco na pista coberto por  gua da chuva
+
+       04. Para evitar situa+íes de perigo causadas por hidroplanagem (ou
+           aquaplanagem) deve o motorista:
+           A - Acelerar para evitar que os pneus fiquem cobertos pela  gua
+           B - Reduzir a velocidade usando os freios antes de entrar na regi o
+               empo+ada
+           C - Utilizar os freios apls entrar na  rea com  gua empo+ada
+           D - Desviar da  rea com  gua empo+ada
+
+       05. Ao dirigir sob neblina ou cerra+ o, ) procedimento CORRETO o
+           condutor:
+           A - Diminuir a distáncia em rela+ o ao ve%culo da frente
+           B - Aumentar a velocidade para se livrar do trecho sob neblina
+           C - Usar a luz alta do farol
+           D - Acender a luz baixa do farol
+
+       06. Ao se deparar com trechos de rodovia onde s o freqõentes os
+           ventos fortes, deve o condutor do ve%culo:
+           A - Diminuir a distáncia em rela+ o ao ve%culo da frente
+           B - Reduzir a velocidade para n o perder a estabilidade
+           C - Aumentar a velocidade para se livrar do trecho com ventos
+           D - Acender a luz baixa do farol
+
+       07. Ao se deparar com trecho onde haja fuma+a produzida pelas quei-
+           madas nos terrenos k margem da via, deve o condutor do ve%culo:
+           A - Dirigir pelo acostamento da via
+           B - Aumentar a velocidade para se livrar do trecho sob fuma+a
+           C - Ligar a luz alta dos farlis
+           D - Reduzir a velocidade e evitar parar o ve%culo na pista
+
+       08. O ofuscamento da vis o do condutor, pelo farol alto do ve%culo
+           em sentido contr rio ) evitado tomando-se o seguinte cuidado:
+           A - Acionar a luz alta ao entrar em t#neis
+           B - Posicionando a m o acima dos olhos para evitar a incidªncia da
+               luz do sol
+           C - Desviando a vis o para uma referªncia na faixa, k direita da
+               pista, ao cruzar com ve%culo que esteja com luz alta k noite
+           D - Utilizando lculos escuros k noite
+
+       09. A ausªncia de luz na passagem do final da tarde para o in%cio da
+           noite ou do final da madrugada para o nascer do dia denomina-se:
+           A - Alvorada
+           B - Penumbra
+           C - Ofuscamento
+           D - Aurora</texto>
+  </DET073A>
+  <DET073B>
+    <seq>12</seq>
+    <teste>00.076.117-6</teste>
+    <pag>PAG.04</pag>
+    <texto>       10. Para evitar os riscos causados pelo ofuscamento devido k
+           inclina+ o da luz solar, ) adequado ao condutor do ve%culo:
+           A - Reduzir a velocidade
+           B - Todas as alternativas est o corretas
+           C - Utilizar o quebra-sol (pala de prote+ o interna)
+           D - Utilizar lculos protetores (lculos de sol)
+
+       11. Antes de colocar o ve%culo em movimento, deve o seu condutor:
+           A - Verificar as condi+íes clim ticas
+           B - Conferir as atividades que ser o desenvolvidas durante o
+               deslocamento
+           C - Informar-se sobre as condi+íes de tr fego das avenidas
+           D - Verificar as condi+íes de funcionamento dos equipamentos de uso
+               obrigatlrio
+
+       12. Estando numa rodovia, havendo a necessidade de fazer uma
+           convers o k esquerda, deve o condutor:
+           A - Reduzir a velocidade at) que possa fazer a convers o
+           B - Aguardar uma oportunidade segura no acostamento
+           C - Acelerar para fazª-la a partir do leito vi rio
+           D - Sinalizar, parando no leito da via e aguardar o melhor momento
+
+       13.   permitido ultrapassar pela contram o de dire+ o em vias com
+           sentido duplo de circula+ o e pista #nica:
+           A - Nas curvas
+           B - Nos trechos em aclive
+           C - Quando a sinaliza+ o regulamentar permitir
+           D - Nas pontes
+
+       14. Havendo a inadi vel necessidade de parar temporariamente o
+           ve%culo na pista de rolamento, deve o condutor:
+           A - Utilizar o triángulo de emergªncia e acionar o pisca-alerta
+           B - Acionar apenas o pisca-alerta
+           C - Ligar o farol baixo do ve%culo
+           D - Deixar abertas as portas e o capÊ do ve%culo
+
+       15. Em locais onde h  proibi+ o de estacionar, o condutor:
+           A - Poder  parar apenas e no tempo suficiente para embarque ou
+               desembarque de passageiros
+           B - Poder  parar desde que esteja com o ve%culo em funcionamento
+           C - Poder  estacionar desde que esteja dentro do ve%culo
+           D - N o pode parar o ve%culo em nenhuma situa+ o
+
+       16. O embarque e o desembarque dos passageiros de um automlvel
+           devem ocorrer:
+           A - Do lado que for mais f cil o desembarque
+           B - Pelo lado esquerdo do ve%culo
+           C - Pelo lado direito do ve%culo
+           D - Sempre do lado da cal+ada
+
+       17. Em condi+íes normais,o tempo para manter a distáncia segura,
+           reagir e acionar os freios do ve%culo parando com seguran+a ):
+           A - Cinco segundos
+           B - Dois segundos
+           C - Quatro segundos
+           D - Trªs segundos
+
+       18. Nos grandes centros urbanos os principais causadores da polui+ o
+           do ar s o:
+           A - As usinas termel)tricas
+           B - As f bricas
+           C - Os ve%culos automotores
+           D - As queimadas</texto>
+  </DET073B>
+  <DET073C>
+    <seq>13</seq>
+    <teste>00.076.117-6</teste>
+    <pag>PAG.05</pag>
+    <texto>       19. Dist#rbio do sono, estresse, perda da capacidade auditiva e
+           perda da concentra+ o s o efeitos negativos provocados pela(o):
+           A - Polui+ o visual
+           B - Congestionamento
+           C - Fuma+a expelida pelo escapamento dos ve%culos
+           D - Polui+ o sonora
+
+       20. Qual dos procedimentos abaixo contribui para o aumento da
+           polui+ o atmosf)rica:
+           A - Transitar com excesso de peso
+           B - Calibrar periodicamente os pneus
+           C - Evitar aceleradas bruscas e frenagens excessivas
+           D - Fazer a manuten+ o perildica do motor do ve%culo
+
+       21. Quando um motorista descumpre qualquer disposi+ o da legisla+ o
+           de tránsito, ele est  cometendo uma:
+           A - Irregularidade formal
+           B - Penalidade
+           C - Medida administrativa
+           D - Infra+ o de tránsito
+
+       22. De acordo com sua gravidade, as infra+íes de tránsito s o
+           classificadas em:
+           A - Leves, m)dias, graves e grav%ssimas
+           B - Pequenas, m)dias, graves e grav%ssimas
+           C - Lev%ssimas, leves, m)dias e graves
+           D - Grupo I, Grupo II, Grupo III e Grupo IV
+
+       23. Se houver perigo de incªndio em um ve%culo acidentado, que ati-
+           tudes vocª deve tomar?
+           A - Afastar curiosos e se for f cil e seguro, desligar o motor do
+               ve%culo acidentado.
+           B - Caso esteja nervoso fumar no local para aliviar a tens o.
+           C - Aguardar junto ao ve%culo acidentado a chegada do Corpo de
+               Bombeiros.
+           D - Pegar o extintor e ficar prlximo do ve%culo acidentado.
+
+       24. Onde a sinaliza+ o de um acidente deve come+ar?
+           A - Deve come+ar no local onde se encontram as v%timas envolvidas no
+               acidente.
+           B - Deve come+ar no local onde se encontram os ve%culos envolvidos
+               no acidente.
+           C - Deve come+ar sempre a dez metros do local no acidente.
+           D - Deve come+ar antes do local do acidente ser vis%vel.
+
+       25. Para garantir a seguran+a de todos em um acidente o que n o
+           podemos fazer?
+           A - Manter, dentro do poss%vel, as vias livres para o tr fego fluir.
+           B - Iniciar os procedimentos de socorro k v%tima independentemente
+               de ter sinalizado o local.
+           C - Demarcar todo o desvio do tr fego at) o acidente.
+           D - Iniciar a sinaliza+ o em um ponto em que os motoristas ainda n o
+               possam ver o acidente.
+
+       26. Em acidente com v%timas,quando poss%vel,devemos manter o tr fego
+           fluindo por v rios motivos. Para a v%tima o mais importante ):
+           A - N o atrasar as pessoas que est o em deslocamento pela via.
+           B - N o causar preju%zos ks empresas de transporte.
+           C - Possibilitar a chegada mais r pida de uma equipe de socorro.
+           D - N o gerar um congestionamento.
+
+       27.  Vocª est  medindo a distáncia p/ sinalizar o local do acidente,
+           mas existe uma curva antes de completar a medida. O que fazer?
+           A - Continuar a contagem e acrescer a medida prevista 15 passos
+               largos.
+           B - Continuar a contagem e acrescer a medida prevista 10 passos
+               largos.
+           C - Desconsiderar a curva e continuar a contagem at) alcan+ar a
+               medida prevista.
+           D - Iniciar novamente a contagem a partir da curva.</texto>
+  </DET073C>
+  <DET073D>
+    <seq>14</seq>
+    <teste>00.076.117-6</teste>
+    <pag>PAG.06</pag>
+    <texto>       28. Ao utilizar o extintor de incªndio de um ve%culo, n o se deve:
+           A - Dirigir o jato para o meio do fogo.
+           B - Quebrar o lacre e acionar o gatilho.
+           C - Fazer movimentos em forma de leque, cobrindo toda a  rea em
+               chamas.
+           D - Manter o extintor em p), na posi+ o vertical.
+
+       29. Que atitude vocª deve tomar quando uma v%tima sai andando apls
+           um acidente?
+           A - Aconselh -la a continuar a se movimentar nas proximidades do
+               acidente at) a chegada do socorro.
+           B - Aconselh -la a continuar a se movimentar e aguardar o socorro em
+               local seguro.
+           C - Aconselh -la a permanecer em p) nas proximidades do acidente at)
+               a chegada do socorro.
+           D - Aconselh -la a parar de se movimentar e aguardar o socorro em
+               local seguro.
+
+       30. Quanto ao uso de torniquete, podemos afirmar que:
+           A -   utilizado apenas por profissionais e, mesmo assim, em car ter
+               de exce+ o.
+           B - Pode ser aplicado por um condutor que n o seja um profissional
+               de sa#de.
+           C - Pode ser utilizado em qualquer situa+ o caracterizada como
+               hemorragia externa.
+           D -   recomendado para queimaduras de 2  grau.</texto>
+  </DET073D>
+</Document>
+<Document>
+  <SepWSF>
+    <dados> ******************************************************* XEROX L.P.S BANNER *********************************************************
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+
+ ***********************************                                                                                                 2
+ *                                 *                                                                                                 2
+ * DEPTO DE TRANSITO - DETRAN      *         CELEPAR - CIA DE INFORMATICA DO PARANA                                                  2
+ * AV. VICTOR FERR. AMARAL, 2940   *                                                                                                 2
+ * CAPAO DA IMBUIA CURITIBA - PR   *                                                                                                 2
+ * SETOR D.A.H.                    *                                                                                                 2
+ * SR. DIMAS EDSON DA MOTA         *                                                                                                 2
+ *                                 *                                                                                                 2
+ ***********************************                                                                                                 2
+
+
+
+                                             XXXXXXXX   XX    XX   XXXXXXX
+                                             XXXXXXXX   XXX   XX   XXXXXXXX
+                                             XX         XXXX  XX   XX    XX
+                                             XX         XX XX XX   XX    XX
+                                             XXXXXX     XX  XXXX   XX    XX
+                                             XXXXXX     XX   XXX   XX    XX
+                                             XX         XX    XX   XX    XX
+                                             XX         XX    XX   XX    XX
+                                             XXXXXXXX   XX    XX   XXXXXXXX
+                                             XXXXXXXX   XX    XX   XXXXXXX
+0
+
+
+
+
+                     JOB NAME  :   FDLPRVA4      JOB ID : 0065                                                                       3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+ ************************************************************************************************************************************
+
+                                                                                           GRAMP/MARG                                3
+ $$FINAL DO JOB 00065 FDLPRVA4
+0</dados>
+  </SepWSF>
+</Document>
+<Document>
+  <SepJES>
+    <dados>                                                                                                      POS-IMPRESSAO:
+                                                      GRAMP/MARG                                                                    2
++
+   PPPPPPPPPPP   RRRRRRRRRRR   VV        VV   AAAAAAAAAA   EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS   EEEEEEEEEEEE
+   PP        PP  RR        RR  VV        VV  AA        AA  EE            OO        OO  SS        SS  EE
+   PP        PP  RR        RR  VV        VV  AA        AA  EE            OO        OO  SSS           EE
+   PPPPPPPPPPP   RRRRRRRRRRR   VV        VV  AAAAAAAAAAAA  EEEEEEEE      OO        OO    SSSSSSSSS   EEEEEEEE
+   PP            RR    RR       VV      VV   AA        AA  EE            OO        OO           SSS  EE
+   PP            RR      RR       VV  VV     AA        AA  EE            OO        OO  SS        SS  EE
+   PP            RR        RR       VV       AA        AA  EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS   EEEEEEEEEEEE
+
+
+     JJJJJJJJJJ  OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000      00000000     6666666666    6666666666
+         JJ      OO        OO  BB        BB  00        00  00        00  00        00  66        66  66        66
+         JJ      OO        OO  BB       BB   00        00  00        00  00        00  66            66
+         JJ      OO        OO  BBBBBBBBBB    00        00  00        00  00        00  666666666666  666666666666
+         JJ      OO        OO  BB       BB   00        00  00        00  00        00  66        66  66        66
+   JJ    JJ      OO        OO  BB        BB  00        00  00        00  00        00  66        66  66        66
+    JJJJJJ       OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000      00000000     6666666666    6666666666
+
+
+     **END*******END*******END*******END*******END*******END*******END*******END*******END*******END*****
+     *                                                                                                  *
+     * USER ID:      EOSUSER                COPIES=001                                                  *
+     * SYSOUT CLASS: 3                      OUTPUT GROUP: 2.1.1                                         *
+     * RELATORIO:                                                                                       *
+     *                                                                                                  *                           3
+     * DESTINATION:  PR04                                                                               *                           3
+     *                                                                                                  *                           3
+     * NOME:                                                                                            *                           3
+     *                                                                                                  *                           3
+     * SALA:                                                                                            *                           3
+     *                                                                                                  *                           3
+     * ORGAO:                                                                                           *                           3
+     *                                                                                                  *                           3
+     * SETOR:                                                                                           *                           3
+     *                                                                                                  *                           3
+     * ENDERECO:                                                                                        *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     **END*******END*******END*******END*******END*******END*******END*******END*******END*******END*****
+     * EXPEDICAO:                                                                                       *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     *                                                                                                  *
+     **END*******END*******END*******END*******END*******END*******END*******END*******END*******END*****
+
+
+</dados>
+  </SepJES>
+</Document>
+</XMLData>
