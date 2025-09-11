@@ -1,0 +1,181 @@
+$$Option.OverlayFileSymbolset = "IBM-850";
+$$Option.DocumentTag = "Document";
+$$Option.CarriageControl = "Yes";
+$$Option.EnableMultiInstance = "Yes";
+$$Option.PruneXML = "Yes";
+$$Option.FilterVersionCreated = "3.3.008.01";
+$$Option.FilterDateCreated = "2025-09-10 22:58:21 UTC";
+$$Option.LinesPerPage = "1";
+$$Option.OverlayFile = "$$X/CELPR04_AMOSTRALPR00ZWAFIUTW3YJ0110D776AE-SAMPLE.spl.txt";
+$$Option.XmlDataFile = "";
+$$Option.FilterVersionNumber = "1";
+
+var $$Rules = [
+   {  // Rule #1
+      state: '*',
+      nextState: 'SepJES',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,24).EQ("+ $DJDE$   FORMAT=SEPARA"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(1,1,2,132).SpanNE(3,8,"$DJDE$").Trim(2).Xml("SepJES.dados");
+         $$(0,0,0,0).Advance(61);
+      },
+   },
+
+   {  // Rule #2
+      state: '*',
+      nextState: 'SepWSF',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,58,75).EQ("XEROX L.P.S BANNER"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(0,1,2,133).SpanNE(3,8,"$DJDE$").Trim(2).Xml("SepWSF.dados");
+         $$(0,0,0,0).Advance(49);
+      },
+   },
+
+   {  // Rule #3
+      state: '*',
+      nextState: 'Ignore',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,23).EQ("$DJDE$ JDE=DET070,JDL"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).Advance(2);
+      },
+   },
+
+   {  // Rule #4
+      state: '*',
+      nextState: 'Branca',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,19).EQ("$DJDE$ FORMS=NONE"))
+      ) },
+      action: function() {
+         $$(3,1,100,104).Trim(0).Xml("Branca.seq");
+         $$(0,0,0,0).Advance(2);
+      },
+   },
+
+   {  // Rule #5
+      state: '*',
+      nextState: 'DET070',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,25).EQ("$DJDE$ FORMS=DET070,FEE"))
+      ) },
+      action: function() {
+         $$(35,1,4,107).Trim(3).Xml("DET070.Ciretran");
+         $$(44,1,40,66).Trim(3).Xml("DET070.Data");
+         $$(53,1,43,63).Trim(3).Xml("DET070.Hora");
+         $$(61,1,22,76).Trim(3).Xml("DET070.Testes");
+         $$(0,0,0,0).Advance(58);
+      },
+   },
+
+   {  // Rule #6
+      state: '*',
+      nextState: 'DET071',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET071"))
+      ) },
+      action: function() {
+         $$(5,1,100,104).Trim(0).Xml("DET071.seq");
+         $$(15,1,44,63).Trim(3).Xml("DET071.teste");
+         $$(20,1,3,102).Trim(3).Xml("DET071.local");
+         $$(0,0,0,0).Advance(35);
+      },
+   },
+
+   {  // Rule #7
+      state: '*',
+      nextState: 'DET072',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET072"))
+      ) },
+      action: function() {
+         $$(3,1,100,104).Trim(0).Xml("DET072.seq");
+         $$(7,1,22,40).Trim(3).Xml("DET072.teste");
+         $$(8,1,99,104).Trim(3).Xml("DET072.pag");
+         $$(0,0,0,0).Advance(8);
+      },
+   },
+
+   {  // Rule #8
+      state: '*',
+      nextState: 'DET073',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET073"))
+      ) },
+      action: function() {
+         $$(5,1,100,104).Trim(0).Xml("DET073.seq");
+         $$(11,1,45,63).Trim(3).Xml("DET073.teste");
+         $$(8,1,99,104).Trim(3).Xml("DET073.pag");
+         $$(12,1,3,104).SpanNE(1,1,1).Trim(3).Xml("DET073.texto");
+      },
+   },
+
+   {  // Rule #9
+      state: 'DET073',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+      ) },
+      action: function() {
+         $$(3,1,100,104).Trim(3).Xml("DET073.seq");
+         $$(9,1,44,62).Trim(3).Xml("DET073.teste");
+         $$(6,1,99,104).Trim(3).Xml("DET073.pag");
+         $$(10,1,2,104).SpanNE(1,1,1).Trim(3).Xml("DET073.texto");
+      },
+   },
+
+];
+
+//Custom//
+//Custom//
+
+var $$XmlTemplate = {		// XML output template
+  SepJES: {
+    dados: null,
+  },
+  SepWSF: {
+    dados: null,
+  },
+  Branca: {
+    seq: null,
+  },
+  DET070: {
+    Ciretran: null,
+    Data: null,
+    Hora: null,
+    Testes: null,
+  },
+  DET071: {
+    seq: null,
+    teste: null,
+    local: null,
+  },
+  DET072: {
+    seq: null,
+    teste: null,
+    pag: null,
+  },
+  DET073: {
+    seq: null,
+    teste: null,
+    pag: null,
+    texto: null,
+  },
+};
+
