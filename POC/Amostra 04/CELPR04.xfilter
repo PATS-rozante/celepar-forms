@@ -1,0 +1,269 @@
+$$Option.OverlayFileSymbolset = "UTF-8";
+$$Option.FilterVersionModified = "3.3.008.01";
+$$Option.FilterDateModified = "2025-09-11 21:12:12 UTC";
+$$Option.DocumentTag = "Document";
+$$Option.CarriageControl = "No";
+$$Option.EnableMultiInstance = "Yes";
+$$Option.PruneXML = "Yes";
+$$Option.FilterVersionCreated = "3.3.008.01";
+$$Option.FilterDateCreated = "2025-09-10 22:58:21 UTC";
+$$Option.LinesPerPage = "66";
+$$Option.OverlayFile = "$$X/CELPR04_PITORRI.spl.txt";
+$$Option.XmlDataFile = "";
+$$Option.FilterVersionNumber = "1";
+
+var $$Rules = [
+   {  // Rule #1
+      state: '*',
+      nextState: 'SepJES',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,24).EQ("+ $DJDE$   FORMAT=SEPARA"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(1,1,1,133).SpanNE(3,8,"$DJDE$").Trim(2).Xml("SepJES.dados");
+         $$(0,0,0,0).Advance(58);
+      },
+   },
+
+   {  // Rule #2
+      state: '*',
+      nextState: 'SepWSF',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,58,75).EQ("XEROX L.P.S BANNER"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(0,1,1,133).SpanNE(3,8,"$DJDE$").Trim(2).Xml("SepWSF.dados");
+         $$(0,0,0,0).Advance(49);
+      },
+   },
+
+   {  // Rule #3
+      state: '*',
+      nextState: 'Ignore',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,23).EQ("$DJDE$ JDE=DET070,JDL"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).Advance(1);
+      },
+   },
+
+   {  // Rule #4
+      state: '*',
+      nextState: 'Branca',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=NONE,E"))
+      ) },
+      action: function() {
+         $$(2,1,100,104).Trim(3).Xml("Branca.seq");
+         $$(0,0,0,0).Advance(1);
+      },
+   },
+
+   {  // Rule #5
+      state: '*',
+      nextState: 'DET070',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,25).EQ("$DJDE$ FORMS=DET070,FEE"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(2,1,100,106).Trim(3).Xml("DET070.seq");
+         $$(14,1,4,107).Trim(3).Xml("DET070.Ciretran");
+         $$(19,1,40,66).Trim(3).Xml("DET070.Data");
+         $$(24,1,43,63).Trim(3).Xml("DET070.Hora");
+         $$(28,1,22,76).Trim(3).Xml("DET070.Testes");
+         $$(0,0,0,0).Advance(25);
+      },
+   },
+
+   {  // Rule #6
+      state: '*',
+      nextState: 'DET071',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET071"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(2,1,100,106).Trim(3).Xml("DET071.seq");
+         $$(5,1,99,106).Trim(3).Xml("DET071.pag");
+         $$(8,1,44,63).Trim(3).Xml("DET071.teste");
+         $$(11,1,3,102).Trim(3).Xml("DET071.local");
+         $$(0,0,0,0).Advance(15);
+      },
+   },
+
+   {  // Rule #7
+      state: '*',
+      nextState: 'DET072',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET072"))
+      ) },
+      action: function() {
+         $$(2,1,100,106).Trim(3).Xml("DET072.seq");
+         $$(6,1,22,40).Trim(3).Xml("DET072.teste");
+         $$(7,1,99,104).Trim(3).Xml("DET072.pag");
+         $$(0,0,0,0).Advance(2);
+      },
+   },
+
+   {  // Rule #8
+      state: '*',
+      nextState: 'DET073A',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET073"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(2,1,100,106).Trim(3).Xml("DET073A.seq");
+         $$(5,1,99,104).Trim(3).Xml("DET073A.pag");
+         $$(6,1,45,63).Trim(3).Xml("DET073A.teste");
+         $$(7,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073A.texto");
+         $$(0,0,0,0).Advance(56);
+      },
+   },
+
+   {  // Rule #9
+      state: 'DET073A',
+      nextState: 'DET073B',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+         && $$If($$(6,1,8,8).IsNonBlank())
+      ) },
+      action: function() {
+         $$(1,1,100,106).Trim(3).Xml("DET073B.seq");
+         $$(4,1,99,104).Trim(3).Xml("DET073B.pag");
+         $$(5,1,45,63).Trim(3).Xml("DET073B.teste");
+         $$(6,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073B.texto");
+         $$(0,0,0,0).Advance(56);
+      },
+   },
+
+   {  // Rule #10
+      state: 'DET073B',
+      nextState: 'DET073C',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+         && $$If($$(6,1,8,8).IsNonBlank())
+      ) },
+      action: function() {
+         $$(1,1,100,106).Trim(3).Xml("DET073C.seq");
+         $$(4,1,99,104).Trim(3).Xml("DET073C.pag");
+         $$(5,1,45,63).Trim(3).Xml("DET073C.teste");
+         $$(6,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073C.texto");
+         $$(0,0,0,0).Advance(56);
+      },
+   },
+
+   {  // Rule #11
+      state: 'DET073C',
+      nextState: 'DET073D',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+         && $$If($$(6,1,8,8).IsNonBlank())
+      ) },
+      action: function() {
+         $$(1,1,100,106).Trim(3).Xml("DET073D.seq");
+         $$(4,1,99,104).Trim(3).Xml("DET073D.pag");
+         $$(5,1,45,63).Trim(3).Xml("DET073D.teste");
+         $$(6,1,3,104).SpanNE(3,8,"$DJDE$").Script("removeCtrls()").Trim(2).Xml("DET073D.texto");
+         $$(0,0,0,0).Advance(10);
+      },
+   },
+
+];
+
+//Custom//
+function removeCtrls() {
+   var arr = [];
+   var txt = $$GetText();
+   var lin = '  ';
+   for(var i=0; i < txt.length; i++) {
+      var dupla = false;
+	for(var j=0; j < txt[i].length; j++) {
+	   var c = txt[i][j];
+         if (j == 0 && c == '-') {
+            c = ' ';
+            dupla = true;
+         }
+	   if (c <= ' ') {
+	      lin += ' ';
+         } else {
+            lin += c;
+         }
+      }
+      arr.push(lin);
+      lin = '';
+	if (dupla) arr.push(' ');
+   }
+   $$SetText(arr);
+}
+//Custom//
+
+var $$XmlTemplate = {		// XML output template
+  SepJES: {
+    dados: null,
+  },
+  SepWSF: {
+    dados: null,
+  },
+  DET070: {
+    Ciretran: null,
+    Data: null,
+    Hora: null,
+    Testes: null,
+    seq: null,
+  },
+  DET071: {
+    seq: null,
+    teste: null,
+    local: null,
+    pag: null,
+  },
+  DET072: {
+    seq: null,
+    teste: null,
+    pag: null,
+  },
+  DET073A: {
+    seq: null,
+    teste: null,
+    pag: null,
+    texto: null,
+  },
+  DET073B: {
+    seq: null,
+    teste: null,
+    pag: null,
+    texto: null,
+  },
+  DET073C: {
+    seq: null,
+    teste: null,
+    pag: null,
+    texto: null,
+  },
+  DET073D: {
+    seq: null,
+    teste: null,
+    pag: null,
+    texto: null,
+  },
+  Branca: {
+    seq: null,
+  },
+};
+
