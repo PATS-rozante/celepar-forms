@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Configuration desc="Configuration for PostScript Level-2 generation" printerName="">
+  <!-- PostScript Level 2 Configuration File -->
+
+  <!-- Merge Configuration File
+
+	This file describes the fonts, printer drivers, and run-time options for a Merge run. Multiple files can be
+	created for specialized purposes.
+	This file must be maintained as a valid XML file. Note that this requires that any occurrence of the 'lessthan',
+	  'greaterthan', 'ampersand', 'singlequote' or 'doublequote' characters must be replaced with &lt; &gt; &amp;,
+	  &apos; or &quot; respectively.
+	 -->
+
+  <!-- Font Paths.
+	The <TTFPath> setting specifies where truetype fonts are located. (For Windows, this is usually C:/Windows/Fonts)
+	This path is used for any <Font> records below that specify a truetype font. It is also used for any font which
+	is downloaded by Merge.
+
+	The <MTXPath> setting specifies where the Font Metrics files specified in <Font> records are located.
+	-->
+
+  <TTFPath>$C;C:/WINDOWS/Fonts</TTFPath>
+  <MTXPath>C:/DocOrigin/User/Config;$R/DO/Config</MTXPath>
+
+  <!-- Fonts used by forms
+	This section must list all fonts that are potentially available to Merge. Either...
+	    <Font TTF="truetype_fontfile"/>       ...or...
+	    <Font MTX="font metrics file"/>
+
+	Either a Truetype font (TTF=) or font metrics (MTX=) reference must be present. These refer to files
+	(not font names) and can include wildcards to specify multiple fonts.
+	Metrics for fonts are always needed but Merge automatically derives a font's metrics directly from a .ttf file.
+	If the font is resident in the printer and there is no .ttf file, then a .mtx file must be used to
+	provide Merge with the needed font metrics.
+
+	The encode= option can be used to indicate how the font will be encoded in a PDF file. encode="CID"
+	should be used when the	font contains characters outside the standard Adobe Glyph List.
+	(For Merge runs that do not use the CombineDocuments setting, the CID encoding will be detected automatically.)
+
+	An optional ID= setting can be used in conjunction with EUDC fonts below.
+	-->
+	<Font ID="16602" MTX="arialbd.mtx" desc="Arial (Bold)"/>
+	<Font ID="16602" MTX="ariali.mtx" desc="Arial (Italic)"/>
+	<Font ID="16602" MTX="arialbi.mtx" desc="Arial (Bold-Italic)"/>
+	<Font ID="16602" MTX="arial.mtx" desc="Arial"/>
+	<Font TTF="ariblk.ttf" desc="Arial Black"/>
+	<Font TTF="AVGARDN.TTF" desc="Avant Garde Book BT"/>
+	<Font TTF="bahnschrift.ttf" desc="Bahnschrift"/>
+	<Font TTF="Bodoni Bd BT Bold.ttf" desc="Bodoni Bd BT Bold"/>
+	<Font TTF="Bodoni Bd BT Bold.ttf" desc="Bodoni Bd BT Bold (Bold)"/>
+	<Font TTF="Bodoni Bd BT Bold Italic.ttf" desc="Bodoni Bd BT Bold (Italic)"/>
+	<Font TTF="Bodoni Bd BT Bold Italic.ttf" desc="Bodoni Bd BT Bold (Bold-Italic)"/>
+	<Font TTF="Bodoni Bk BT Book.ttf" desc="Bodoni Bk BT Book"/>
+	<Font TTF="Bodoni Bk BT Book Italic.ttf" desc="Bodoni Bk BT Book (Italic)"/>
+	<Font TTF="calibri.ttf" desc="Calibri"/>
+	<Font TTF="calibrib.ttf" desc="Calibri (Bold)"/>
+	<Font TTF="calibrii.ttf" desc="Calibri (Italic)"/>
+	<Font TTF="calibriz.ttf" desc="Calibri (Bold-Italic)"/>
+	<Font TTF="calibril.ttf" desc="Calibri Light"/>
+	<Font TTF="calibrili.ttf" desc="Calibri Light (Italic)"/>
+	<Font TTF="cambria.ttc" desc="Cambria"/>
+	<Font TTF="cambriab.ttf" desc="Cambria (Bold)"/>
+	<Font TTF="cambriai.ttf" desc="Cambria (Italic)"/>
+	<Font TTF="cambriaz.ttf" desc="Cambria (Bold-Italic)"/>
+	<Font TTF="cambria.ttc" desc="Cambria Math"/>
+	<Font TTF="candara.ttf" desc="Candara"/>
+	<Font TTF="candarab.ttf" desc="Candara (Bold)"/>
+	<Font TTF="candarai.ttf" desc="Candara (Italic)"/>
+	<Font TTF="candaraz.ttf" desc="Candara (Bold-Italic)"/>
+	<Font TTF="candaral.ttf" desc="Candara Light"/>
+	<Font TTF="candarali.ttf" desc="Candara Light (Italic)"/>
+	<Font TTF="CentSchbkCyrill BT Roman.ttf" desc="CentSchbkCyrill BT Roman"/>
+	<Font TTF="Century725 Cn BT.ttf" desc="Century725 Cn BT"/>
+	<Font TTF="Century751 BT Roman.ttf" desc="Century751 BT Roman"/>
+	<Font TTF="Century751 No2 BT Roman.ttf" desc="Century751 No2 BT Roman"/>
+	<Font TTF="Century751 SeBd BT Semi Bold.ttf" desc="Century751 SeBd BT Semi Bold"/>
+	<Font TTF="Century751 SeBd BT Semi Bold.ttf" desc="Century751 SeBd BT Semi Bold (Bold)"/>
+	<Font TTF="Century751 SeBd BT Semi Bold Italic.ttf" desc="Century751 SeBd BT Semi Bold (Italic)"/>
+	<Font TTF="Century751 SeBd BT Semi Bold Italic.ttf" desc="Century751 SeBd BT Semi Bold (Bold-Italic)"/>
+	<Font TTF="Clarendon Blk BT Black.ttf" desc="Clarendon Blk BT Black"/>
+	<Font TTF="Clarendon BT Roman.ttf" desc="Clarendon BT Roman"/>
+	<Font TTF="Clarendon Lt BT Light.ttf" desc="Clarendon Lt BT Light"/>
+	<Font TTF="comic.ttf" desc="Comic Sans MS"/>
+	<Font TTF="comicbd.ttf" desc="Comic Sans MS (Bold)"/>
+	<Font TTF="comici.ttf" desc="Comic Sans MS (Italic)"/>
+	<Font TTF="comicz.ttf" desc="Comic Sans MS (Bold-Italic)"/>
+	<Font TTF="consola.ttf" desc="Consolas"/>
+	<Font TTF="consolab.ttf" desc="Consolas (Bold)"/>
+	<Font TTF="consolai.ttf" desc="Consolas (Italic)"/>
+	<Font TTF="consolaz.ttf" desc="Consolas (Bold-Italic)"/>
+	<Font TTF="constan.ttf" desc="Constantia"/>
+	<Font TTF="constanb.ttf" desc="Constantia (Bold)"/>
+	<Font TTF="constani.ttf" desc="Constantia (Italic)"/>
+	<Font TTF="constanz.ttf" desc="Constantia (Bold-Italic)"/>
+	<Font TTF="corbel.ttf" desc="Corbel"/>
+	<Font TTF="corbelb.ttf" desc="Corbel (Bold)"/>
+	<Font TTF="corbeli.ttf" desc="Corbel (Italic)"/>
+	<Font TTF="corbelz.ttf" desc="Corbel (Bold-Italic)"/>
+	<Font TTF="corbell.ttf" desc="Corbel Light"/>
+	<Font TTF="corbelli.ttf" desc="Corbel Light (Italic)"/>
+	<Font MTX="cour.mtx" desc="Courier New"/>
+	<Font MTX="courbd.mtx" desc="Courier New (Bold)"/>
+	<Font MTX="couri.mtx" desc="Courier New (Italic)"/>
+	<Font MTX="courbi.mtx" desc="Courier New (Bold-Italic)"/>
+	<Font TTF="DejaVuSans.ttf" desc="DejaVu Sans"/>
+	<Font TTF="DejaVuSans-Bold_0.ttf" desc="DejaVu Sans (Bold)"/>
+	<Font TTF="DejaVuSans-Oblique.ttf" desc="DejaVu Sans (Italic)"/>
+	<Font TTF="DejaVuSans-BoldOblique.ttf" desc="DejaVu Sans (Bold-Italic)"/>
+	<Font TTF="DejaVuSansCondensed.ttf" desc="DejaVu Sans Condensed"/>
+	<Font TTF="DejaVuSansCondensed-Bold.ttf" desc="DejaVu Sans Condensed (Bold)"/>
+	<Font TTF="DejaVuSansCondensed-Oblique.ttf" desc="DejaVu Sans Condensed (Italic)"/>
+	<Font TTF="DejaVuSansCondensed-BoldOblique.ttf" desc="DejaVu Sans Condensed (Bold-Italic)"/>
+	<Font TTF="DejaVuSans-ExtraLight.ttf" desc="DejaVu Sans ExtraLight"/>
+	<Font TTF="DejaVuSansMono.ttf" desc="DejaVu Sans Mono"/>
+	<Font TTF="DejaVuSansMono-Bold.ttf" desc="DejaVu Sans Mono (Bold)"/>
+	<Font TTF="DejaVuSansMono-Oblique.ttf" desc="DejaVu Sans Mono (Italic)"/>
+	<Font TTF="DejaVuSansMono-BoldOblique.ttf" desc="DejaVu Sans Mono (Bold-Italic)"/>
+	<Font TTF="DejaVuSerif.ttf" desc="DejaVu Serif"/>
+	<Font TTF="DejaVuSerif-Bold.ttf" desc="DejaVu Serif (Bold)"/>
+	<Font TTF="DejaVuSerif-Italic.ttf" desc="DejaVu Serif (Italic)"/>
+	<Font TTF="DejaVuSerif-BoldItalic.ttf" desc="DejaVu Serif (Bold-Italic)"/>
+	<Font TTF="DejaVuSerifCondensed.ttf" desc="DejaVu Serif Condensed"/>
+	<Font TTF="DejaVuSerifCondensed-Bold.ttf" desc="DejaVu Serif Condensed (Bold)"/>
+	<Font TTF="DejaVuSerifCondensed-Italic.ttf" desc="DejaVu Serif Condensed (Italic)"/>
+	<Font TTF="DejaVuSerifCondensed-BoldItalic.ttf" desc="DejaVu Serif Condensed (Bold-Italic)"/>
+	<Font TTF="DejaVuMathTeXGyre.ttf" desc="DejaVuMathTeXGyre-Regular"/>
+	<Font TTF="DeVinne Txt BT.ttf" desc="DeVinne Txt BT"/>
+	<Font TTF="DFGothic-EB.ttf" desc="DFGothic-EB"/>
+	<Font TTF="DFMincho-SU.ttf" desc="DFMincho-SU"/>
+	<Font TTF="DFMincho-UB.ttf" desc="DFMincho-UB"/>
+	<Font TTF="DFPOP1-W9.ttf" desc="DFPOP1-W9"/>
+	<Font TTF="ebrima.ttf" desc="Ebrima"/>
+	<Font TTF="ebrimabd.ttf" desc="Ebrima (Bold)"/>
+	<Font TTF="Embassy BT.ttf" desc="Embassy BT"/>
+	<Font TTF="EngraversGothic BT.ttf" desc="EngraversGothic BT"/>
+	<Font TTF="Eras Bold ITC.TTF" desc="Eras Bold ITC"/>
+	<Font TTF="Eras Bold ITC.TTF" desc="Eras Bold ITC (Bold)"/>
+	<Font TTF="Eras-Bold Regular.ttf" desc="Eras-Bold"/>
+	<Font TTF="Exotc350 Bd BT Bold.ttf" desc="Exotc350 Bd BT Bold"/>
+	<Font TTF="Exotc350 Bd BT Bold.ttf" desc="Exotc350 Bd BT Bold (Bold)"/>
+	<Font TTF="Exotc350 DmBd BT Demi-Bold.ttf" desc="Exotc350 DmBd BT Demi-Bold"/>
+	<Font TTF="framd.ttf" desc="Franklin Gothic Medium"/>
+	<Font TTF="framdit.ttf" desc="Franklin Gothic Medium (Italic)"/>
+	<Font TTF="Freehand521 BT.ttf" desc="Freehand521 BT"/>
+	<Font TTF="Futura Bk BT Book.ttf" desc="Futura Bk BT Book"/>
+	<Font TTF="Futura Bk BT Book Italic.ttf" desc="Futura Bk BT Book (Italic)"/>
+	<Font TTF="futura extra black font.ttf" desc="Futura Extra Black BT"/>
+	<Font TTF="Futura Md BT Medium.ttf" desc="Futura Md BT Medium"/>
+	<Font TTF="Futura Md BT Medium Italic.ttf" desc="Futura Md BT Medium (Italic)"/>
+	<Font TTF="Gabriola.ttf" desc="Gabriola"/>
+	<Font TTF="gadugi.ttf" desc="Gadugi"/>
+	<Font TTF="gadugib.ttf" desc="Gadugi (Bold)"/>
+	<Font TTF="Geometr212 BkCn BT Book.ttf" desc="Geometr212 BkCn BT Book"/>
+	<Font TTF="Geometr415 Blk BT Black.ttf" desc="Geometr415 Blk BT Black"/>
+	<Font TTF="Geometr706 BlkCn BT Black.ttf" desc="Geometr706 BlkCn BT Black"/>
+	<Font TTF="georgia.ttf" desc="Georgia"/>
+	<Font TTF="georgiab.ttf" desc="Georgia (Bold)"/>
+	<Font TTF="georgiai.ttf" desc="Georgia (Italic)"/>
+	<Font TTF="georgiaz.ttf" desc="Georgia (Bold-Italic)"/>
+	<Font TTF="GeoSlab703 Md BT Medium.ttf" desc="GeoSlab703 Md BT Medium"/>
+	<Font TTF="GeoSlab703 Md BT Medium Italic.ttf" desc="GeoSlab703 Md BT Medium (Italic)"/>
+	<Font TTF="GeoSlab703 MdCn BT Medium.ttf" desc="GeoSlab703 MdCn BT Medium"/>
+	<Font TTF="Humanst521 BT Roman.ttf" desc="Humanst521 BT Roman"/>
+	<Font TTF="Humanst521 Lt BT Light.ttf" desc="Humanst521 Lt BT Light"/>
+	<Font TTF="Humanst521 Lt BT Light Italic.ttf" desc="Humanst521 Lt BT Light (Italic)"/>
+	<Font TTF="Humnst777 Blk BT Black Italic.ttf" desc="Humnst777 Blk BT Black Italic"/>
+	<Font TTF="Humnst777 Blk BT Black Italic.ttf" desc="Humnst777 Blk BT Black Italic (Italic)"/>
+	<Font TTF="Humnst777 BlkCn BT Black.ttf" desc="Humnst777 BlkCn BT Black"/>
+	<Font TTF="Humnst777 BT Roman.ttf" desc="Humnst777 BT Roman"/>
+	<Font TTF="Humnst777 Cn BT.ttf" desc="Humnst777 Cn BT"/>
+	<Font TTF="Humnst777 Cn BT Bold.ttf" desc="Humnst777 Cn BT (Bold)"/>
+	<Font TTF="Humnst777 Lt BT Light.ttf" desc="Humnst777 Lt BT Light"/>
+	<Font TTF="impact.ttf" desc="Impact"/>
+	<Font TTF="Inkfree.ttf" desc="Ink Free"/>
+	<Font TTF="javatext.ttf" desc="Javanese Text"/>
+	<Font TTF="Kaufmann BT.ttf" desc="Kaufmann BT"/>
+	<Font TTF="leelawui.ttf" desc="Leelawadee UI"/>
+	<Font TTF="leelauib.ttf" desc="Leelawadee UI (Bold)"/>
+	<Font TTF="leeluisl.ttf" desc="Leelawadee UI Semilight"/>
+	<Font TTF="lucon.TTF" desc="Lucida Console"/>
+	<Font TTF="l_10646.ttf" desc="Lucida Sans Unicode"/>
+	<Font TTF="malgun.ttf" desc="Malgun Gothic"/>
+	<Font TTF="malgunbd.ttf" desc="Malgun Gothic (Bold)"/>
+	<Font TTF="malgunsl.ttf" desc="Malgun Gothic Semilight"/>
+	<Font TTF="himalaya.ttf" desc="Microsoft Himalaya"/>
+	<Font TTF="msjh.ttc" desc="Microsoft JhengHei"/>
+	<Font TTF="msjhbd.ttc" desc="Microsoft JhengHei (Bold)"/>
+	<Font TTF="msjhl.ttc" desc="Microsoft JhengHei Light"/>
+	<Font TTF="msjh.ttc" desc="Microsoft JhengHei UI"/>
+	<Font TTF="msjhbd.ttc" desc="Microsoft JhengHei UI (Bold)"/>
+	<Font TTF="msjhl.ttc" desc="Microsoft JhengHei UI Light"/>
+	<Font TTF="ntailu.ttf" desc="Microsoft New Tai Lue"/>
+	<Font TTF="ntailub.ttf" desc="Microsoft New Tai Lue (Bold)"/>
+	<Font TTF="phagspa.ttf" desc="Microsoft PhagsPa"/>
+	<Font TTF="phagspab.ttf" desc="Microsoft PhagsPa (Bold)"/>
+	<Font TTF="micross.ttf" desc="Microsoft Sans Serif"/>
+	<Font TTF="taile.ttf" desc="Microsoft Tai Le"/>
+	<Font TTF="taileb.ttf" desc="Microsoft Tai Le (Bold)"/>
+	<Font TTF="msyh.ttc" desc="Microsoft YaHei"/>
+	<Font TTF="msyhbd.ttc" desc="Microsoft YaHei (Bold)"/>
+	<Font TTF="msyhl.ttc" desc="Microsoft YaHei Light"/>
+	<Font TTF="msyh.ttc" desc="Microsoft YaHei UI"/>
+	<Font TTF="msyhbd.ttc" desc="Microsoft YaHei UI (Bold)"/>
+	<Font TTF="msyhl.ttc" desc="Microsoft YaHei UI Light"/>
+	<Font TTF="msyi.ttf" desc="Microsoft Yi Baiti"/>
+	<Font TTF="mingliub.ttc" desc="MingLiU_HKSCS-ExtB"/>
+	<Font TTF="mingliub.ttc" desc="MingLiU-ExtB"/>
+	<Font TTF="monbaiti.ttf" desc="Mongolian Baiti"/>
+	<Font TTF="MONOSPACE821BT.TTF" desc="Monospace 821 BT"/>
+	<Font TTF="MONOSPACE821BOLDBT.TTF" desc="Monospace 821 BT (Bold)"/>
+	<Font TTF="MONOSPACE821BOLDITALICBT.TTF" desc="Monospace 821 BT (Italic)"/>
+	<Font TTF="MONOSPACE821BOLDITALICBT.TTF" desc="Monospace 821 BT (Bold-Italic)"/>
+	<Font TTF="MONOSPACE 821 W26 HEBREW.TTF" desc="Monospace 821 W26 Hebrew"/>
+	<Font ID="28825" TTF="msgothic.ttc" desc="MS Gothic"/>
+	<Font TTF="msgothic.ttc" desc="MS PGothic"/>
+	<Font TTF="msgothic.ttc" desc="MS UI Gothic"/>
+	<Font TTF="mvboli.ttf" desc="MV Boli"/>
+	<Font TTF="mmrtext.ttf" desc="Myanmar Text"/>
+	<Font TTF="mmrtextb.ttf" desc="Myanmar Text (Bold)"/>
+	<Font TTF="News701 BT Bold.ttf" desc="News701 BT Bold"/>
+	<Font TTF="News701 BT Bold.ttf" desc="News701 BT Bold (Bold)"/>
+	<Font TTF="News706 BT Bold.ttf" desc="News706 BT Bold"/>
+	<Font TTF="News706 BT Bold.ttf" desc="News706 BT Bold (Bold)"/>
+	<Font TTF="NewsGoth BT Roman.ttf" desc="NewsGoth BT Roman"/>
+	<Font TTF="NewsGoth Lt BT Light.ttf" desc="NewsGoth Lt BT Light"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala Text"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala Text (Bold)"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala Text Semilight"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala Text Semilight (Bold)"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala UI"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala UI (Bold)"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala UI Semilight"/>
+	<Font TTF="Nirmala.ttc" desc="Nirmala UI Semilight (Bold)"/>
+	<Font TTF="simsun.ttc" desc="NSimSun"/>
+	<Font TTF="OCR-A BT.ttf" desc="OCR-A BT"/>
+	<Font TTF="OCR-B 10 BT.ttf" desc="OCR-B 10 BT"/>
+	<Font TTF="pala.ttf" desc="Palatino Linotype"/>
+	<Font TTF="palab.ttf" desc="Palatino Linotype (Bold)"/>
+	<Font TTF="palai.ttf" desc="Palatino Linotype (Italic)"/>
+	<Font TTF="palabi.ttf" desc="Palatino Linotype (Bold-Italic)"/>
+	<Font TTF="mingliub.ttc" desc="PMingLiU-ExtB"/>
+	<Font TTF="postnet.ttf" desc="POSTNET"/>
+	<Font TTF="R212BP.ttf" desc="R212BP 9 Pts."/>
+	<Font TTF="R412BP.ttf" desc="R412BP 6 Pts."/>
+	<Font TTF="Rajdhani-Regular.ttf" desc="Rajdhani"/>
+	<Font TTF="Rajdhani-Bold.ttf" desc="Rajdhani (Bold)"/>
+	<Font TTF="Rajdhani-Light.ttf" desc="Rajdhani Light"/>
+	<Font TTF="Rajdhani-Medium.ttf" desc="Rajdhani Medium"/>
+	<Font TTF="Rajdhani-SemiBold.ttf" desc="Rajdhani SemiBold"/>
+	<Font TTF="RK26BP.ttf" desc="RK26BP 7 Pts."/>
+	<Font TTF="SansSerifCollection.ttf" desc="Sans Serif Collection"/>
+	<Font TTF="Schadow BT Roman.ttf" desc="Schadow BT Roman"/>
+	<Font TTF="SegoeIcons.ttf" desc="Segoe Fluent Icons"/>
+	<Font TTF="segmdl2.ttf" desc="Segoe MDL2 Assets"/>
+	<Font TTF="segoepr.ttf" desc="Segoe Print"/>
+	<Font TTF="segoeprb.ttf" desc="Segoe Print (Bold)"/>
+	<Font TTF="segoesc.ttf" desc="Segoe Script"/>
+	<Font TTF="segoescb.ttf" desc="Segoe Script (Bold)"/>
+	<Font TTF="segoeui.ttf" desc="Segoe UI"/>
+	<Font TTF="segoeuib.ttf" desc="Segoe UI (Bold)"/>
+	<Font TTF="segoeuii.ttf" desc="Segoe UI (Italic)"/>
+	<Font TTF="segoeuiz.ttf" desc="Segoe UI (Bold-Italic)"/>
+	<Font TTF="seguibl.ttf" desc="Segoe UI Black"/>
+	<Font TTF="seguibli.ttf" desc="Segoe UI Black (Italic)"/>
+	<Font TTF="seguiemj.ttf" desc="Segoe UI Emoji"/>
+	<Font TTF="seguihis.ttf" desc="Segoe UI Historic"/>
+	<Font TTF="segoeuil.ttf" desc="Segoe UI Light"/>
+	<Font TTF="seguili.ttf" desc="Segoe UI Light (Italic)"/>
+	<Font TTF="seguisb.ttf" desc="Segoe UI Semibold"/>
+	<Font TTF="seguisbi.ttf" desc="Segoe UI Semibold (Italic)"/>
+	<Font TTF="segoeuisl.ttf" desc="Segoe UI Semilight"/>
+	<Font TTF="seguisli.ttf" desc="Segoe UI Semilight (Italic)"/>
+	<Font TTF="seguisym.ttf" desc="Segoe UI Symbol"/>
+	<Font TTF="SegUIVar.ttf" desc="Segoe UI Variable"/>
+	<Font ID="37058" TTF="simsun.ttc" desc="SimSun"/>
+	<Font TTF="simsunb.ttf" desc="SimSun-ExtB"/>
+	<Font TTF="SimsunExtG.ttf" desc="SimSun-ExtG"/>
+	<Font TTF="SitkaVF.ttf" desc="Sitka"/>
+	<Font TTF="SitkaVF-Italic.ttf" desc="Sitka (Italic)"/>
+	<Font TTF="SitkaVF.ttf" desc="Sitka Text"/>
+	<Font TTF="SitkaVF-Italic.ttf" desc="Sitka Text (Italic)"/>
+	<Font TTF="Square721 BT Roman.ttf" desc="Square721 BT Roman"/>
+	<Font TTF="Square721 Cn BT Roman.ttf" desc="Square721 Cn BT Roman"/>
+	<Font TTF="Swis721 Blk BT Black.ttf" desc="Swis721 Blk BT Black"/>
+	<Font TTF="Swis721 BlkCn BT Black.ttf" desc="Swis721 BlkCn BT Black"/>
+	<Font TTF="Swis721 BT Roman.ttf" desc="Swis721 BT Roman"/>
+	<Font TTF="Swis721 Cn BT Roman.ttf" desc="Swis721 Cn BT Roman"/>
+	<Font TTF="Swis721 Hv BT Heavy.ttf" desc="Swis721 Hv BT Heavy"/>
+	<Font TTF="Swis721 Lt BT Light.ttf" desc="Swis721 Lt BT Light"/>
+	<Font TTF="Swis721 Lt BT Light Italic.ttf" desc="Swis721 Lt BT Light (Italic)"/>
+	<Font TTF="Swis721 LtEx BT Light.ttf" desc="Swis721 LtEx BT Light"/>
+	<Font TTF="Swis721 WGL4 BT Roman.ttf" desc="Swis721 WGL4 BT Roman"/>
+	<Font TTF="SWISS 721 BLACK EXTENDED BT.TTF" desc="Swiss 721 Black Extended BT"/>
+	<Font TTF="SWISS 721 BLACK OUTLINE BT.TTF" desc="Swiss 721 Black Outline BT"/>
+	<Font TTF="SWISS 721 BLACK ROUNDED BT.TTF" desc="Swiss 721 Black Rounded BT"/>
+	<Font TTF="SWISS 721 BOLD CONDENSED OUTLINE BT.TTF" desc="Swiss 721 Bold Condensed Outline BT"/>
+	<Font TTF="SWISS 721 BOLD CONDENSED OUTLINE BT.TTF" desc="Swiss 721 Bold Condensed Outline BT (Bold)"/>
+	<Font TTF="SWISS 721 BOLD OUTLINE BT.TTF" desc="Swiss 721 Bold Outline BT"/>
+	<Font TTF="SWISS 721 BOLD OUTLINE BT.TTF" desc="Swiss 721 Bold Outline BT (Bold)"/>
+	<Font TTF="SWISS 721 BOLD ROUNDED BT.TTF" desc="Swiss 721 Bold Rounded BT"/>
+	<Font TTF="SWISS 721 BOLD ROUNDED BT.TTF" desc="Swiss 721 Bold Rounded BT (Bold)"/>
+	<Font TTF="SWISS 721 EXTENDED BT.TTF" desc="Swiss 721 Extended BT"/>
+	<Font TTF="SWISS 721 BOLD EXTENDED BT.TTF" desc="Swiss 721 Extended BT (Bold)"/>
+	<Font TTF="SWISS 721 LIGHT CONDENSED BT.TTF" desc="Swiss 721 Light Condensed BT"/>
+	<Font TTF="SWISS 721 LIGHT CONDENSED ITALIC BT.TTF" desc="Swiss 721 Light Condensed BT (Italic)"/>
+	<Font TTF="SWISS 721 MEDIUM BT.TTF" desc="Swiss 721 Medium BT"/>
+	<Font TTF="SWISS 721 MEDIUM ITALIC BT.TTF" desc="Swiss 721 Medium BT (Italic)"/>
+	<Font TTF="SWISS 721 THIN BT.TTF" desc="Swiss 721 Thin BT"/>
+	<Font TTF="SWISS721THINITALICBT.TTF" desc="Swiss 721 Thin BT (Italic)"/>
+	<Font TTF="SWISS 721 W26 HEBREW BOLD.TTF" desc="Swiss 721 W26 Hebrew Bold"/>
+	<Font TTF="SWISS 721 W26 HEBREW BOLD.TTF" desc="Swiss 721 W26 Hebrew Bold (Bold)"/>
+	<Font TTF="SWISS 721 W26 HEBREW ROMAN.TTF" desc="Swiss 721 W26 Hebrew Roman"/>
+	<Font TTF="SWISS 911 EXTRA COMPRESSED BT.TTF" desc="Swiss 911 Extra Compressed BT"/>
+	<Font TTF="SWISS 911 ULTRA COMPRESSED BT.TTF" desc="Swiss 911 Ultra Compressed BT"/>
+	<Font TTF="SWISS921BT.TTF" desc="Swiss 921 BT"/>
+	<Font TTF="sylfaen.ttf" desc="Sylfaen"/>
+	<Font ID="16686" TTF="symbol.ttf" desc="Symbol"/>
+	<Font TTF="tahoma.ttf" desc="Tahoma"/>
+	<Font TTF="tahomabd.ttf" desc="Tahoma (Bold)"/>
+	<Font ID="16901" MTX="times.mtx" desc="Times New Roman"/>
+	<Font ID="16901" MTX="timesbd.mtx" desc="Times New Roman (Bold)"/>
+	<Font ID="16901" MTX="timesi.mtx" desc="Times New Roman (Italic)"/>
+	<Font ID="16901" MTX="timesbi.mtx" desc="Times New Roman (Bold-Italic)"/>
+	<Font TTF="trebuc.ttf" desc="Trebuchet MS"/>
+	<Font TTF="trebucbd.ttf" desc="Trebuchet MS (Bold)"/>
+	<Font TTF="trebucit.ttf" desc="Trebuchet MS (Italic)"/>
+	<Font TTF="trebucbi.ttf" desc="Trebuchet MS (Bold-Italic)"/>
+	<Font TTF="TypoUpright BT.ttf" desc="TypoUpright BT"/>
+	<Font TTF="verdana.ttf" desc="Verdana"/>
+	<Font TTF="verdanab.ttf" desc="Verdana (Bold)"/>
+	<Font TTF="verdanai.ttf" desc="Verdana (Italic)"/>
+	<Font TTF="verdanaz.ttf" desc="Verdana (Bold-Italic)"/>
+	<Font TTF="webdings.ttf" desc="Webdings"/>
+	<Font ID="31402" TTF="wingding.ttf" desc="Wingdings"/>
+	<Font TTF="YuGothM.ttc" desc="Yu Gothic"/>
+	<Font TTF="YuGothB.ttc" desc="Yu Gothic (Bold)"/>
+	<Font TTF="YuGothL.ttc" desc="Yu Gothic Light"/>
+	<Font TTF="YuGothM.ttc" desc="Yu Gothic Medium"/>
+	<Font TTF="YuGothM.ttc" desc="Yu Gothic UI"/>
+	<Font TTF="YuGothB.ttc" desc="Yu Gothic UI (Bold)"/>
+	<Font TTF="YuGothL.ttc" desc="Yu Gothic UI Light"/>
+	<Font TTF="YuGothB.ttc" desc="Yu Gothic UI Semibold"/>
+	<Font TTF="YuGothB.ttc" desc="Yu Gothic UI Semibold (Bold)"/>
+	<Font TTF="YuGothR.ttc" desc="Yu Gothic UI Semilight"/>
+
+  <!-- Some Chinese font samples
+	For these fonts we set encode="CID" to for PDF Cid font selection.
+	End User Defined Characters (EUDC) are defined as fonts with an eudcType of either "Default" or "Custom"
+	If "Default" this EUDC font applies to any font, if "Custom" then eudcID= must be set to a unique
+	ID value. This will match the EUDC font with any regular font which has the same ID= setting.
+	-->
+  <!-- Font TTF="simhei.ttf"  encode="CID" -->			<!-- Font: SimHei (Regular) -->
+  <!-- Font TTF="simsun.ttc"  encode="CID" -->			<!-- Font: SimSun (Regular) -->
+  <!-- Font TTF="Eudc.tte"    encode="CID" eudcType="Default" --> 	<!-- End User Defined Characters -->
+
+  <!-- Page Sizes
+	The <Paper .../> parameters specify the page sizes available to be printed. The form file specifies both the
+	  Name (eg Letter) and Orientation (eg Landscape) of a page.
+	  ID is a unique numeric identifier for this combination of page name and orientation. Values 1-499 are
+	  system assigned. Values 500-999 and above can be used for custom page sizes.
+	  Width/Height are the full physical page sizes (in inches).
+	  MTop/MLeft/MRight/MBottom are the non-printable margins on each of the 4 sides.
+	-->
+	<Paper Height="27.94 cm" ID="2" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1002" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Landscape" Width="27.94 cm"/>
+	<Paper Height="35.56 cm" ID="3" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Legal" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1003" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Legal" Orient="Landscape" Width="35.56 cm"/>
+	<Paper Height="29.699999 cm" ID="26" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A4" Orient="Portrait" Width="21.000001 cm"/>
+	<Paper Height="21.000001 cm" ID="1026" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A4" Orient="Landscape" Width="29.699999 cm"/>
+	<Paper Height="42.0 cm" ID="27" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Portrait" Width="29.699999 cm"/>
+	<Paper Height="29.699999 cm" ID="1027" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Landscape" Width="42.0 cm"/>
+	<Paper Height="21.000001 cm" ID="25" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Portrait" Width="14.800001 cm"/>
+	<Paper Height="14.800001 cm" ID="1025" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Landscape" Width="21.000001 cm"/>
+
+	<!-- DuplexItem - each instance of this element identifies one duplex option that is to be enabled.
+
+		For a user-defined Duplex option use an ID value of between: 100 and 199, inclusive.
+
+		Example: <DuplexItem ID="100" UiString="My special duplex option #100"/>
+	-->
+    <DuplexItem ID="1"/>			<!-- UiString="Print on 1 Side Only" -->
+    <DuplexItem ID="2"/>			<!-- UiString="Duplex - Top Binding" -->
+    <DuplexItem ID="3"/>			<!-- UiString="Duplex - Left Binding" -->
+    <!-- <DuplexItem ID="4"/> -->		<!-- UiString="Duplex - Right Binding" -->
+
+	<!-- InputTrayItem - each instance of this element identifies one input tray that is to be enabled.
+
+		Example: <InputTrayItem ID="100" UiString="My special input tray #100"/>
+	-->
+	<InputTrayItem ID="1002" UiString="Manual Feed"/>
+	<InputTrayItem ID="1007" UiString="Printer Auto Select"/>
+	<InputTrayItem ID="1004" UiString="Tray #1"/>
+	<InputTrayItem ID="1001" UiString="Tray #2"/>
+	<InputTrayItem ID="1005" UiString="Tray #3"/>
+	<InputTrayItem ID="1008" UiString="Tray #4"/>
+	<InputTrayItem ID="1009" UiString="Tray #5"/>
+	<InputTrayItem ID="1003" UiString="Manual Envelope"/>
+	<InputTrayItem ID="1006" UiString="Envelopes"/>
+	<InputTrayItem ID="1020" UiString="Large Capacity"/>
+    <!-- <InputTrayItem ID="1005"/> -->		<!-- UiString="Tray #3" -->
+    <!-- <InputTrayItem ID="1008"/> -->		<!-- UiString="Tray #4" -->
+    <!-- <InputTrayItem ID="1009"/> -->		<!-- UiString="Tray #5" -->
+    <!-- <InputTrayItem ID="1003"/> -->		<!-- UiString="Manual Envelope" -->
+    <!-- <InputTrayItem ID="1006"/> -->		<!-- UiString="Envelopes" -->
+    <!-- <InputTrayItem ID="1020"/> -->		<!-- UiString="Large Capacity" -->
+
+
+	<!-- OutputBinItem - each instance of this element identifies one output bin that is to be enabled.
+		Standard internally-defined bins are numbered starting at 1000
+
+	    Note: HP typically predefines bin 1 as the standard output bin, bin 2 as "lower, rear bin",
+		then assigns bin#s to any additional bins to 3,4, etc.
+	-->
+	<OutputBinItem ID="1001" UiString="Upper Output Bin"/>
+	<OutputBinItem ID="1002" UiString="Lower/Rear Output Bin"/>
+    <!-- <OutputBinItem ID="1003"/> -->		<!-- UiString="Mailbox 1" -->
+    <!-- <OutputBinItem ID="1004"/> -->		<!-- UiString="Mailbox 2" -->
+    <!-- <OutputBinItem ID="1005"/> -->		<!-- UiString="Mailbox 3" -->
+    <!-- <OutputBinItem ID="1006"/> -->		<!-- UiString="Mailbox 4" -->
+    <!-- <OutputBinItem ID="1007"/> -->		<!-- UiString="Mailbox 5" -->
+
+	<!-- PaperTypeItem - each instance of this element identifies one paper type that is to be enabled.
+		For a user-defined Paper Type use an ID value of between: 100 and 199, inclusive.
+
+		Example: <PaperTypeItem ID="100" UiString="My special paper type #100"/>
+	-->
+	<PaperTypeItem ID="1000" UiString="Bond Paper"/>
+	<PaperTypeItem ID="1001" UiString="Plain Paper"/>
+	<PaperTypeItem ID="1002" UiString="Colored Paper"/>
+	<PaperTypeItem ID="1003" UiString="Rough Paper"/>
+	<PaperTypeItem ID="1004" UiString="Heavy Paper"/>
+	<PaperTypeItem ID="1005" UiString="Glossy Paper"/>
+	<PaperTypeItem ID="1006" UiString="Label Sheets"/>
+	<PaperTypeItem ID="1007" UiString="Vellum"/>
+	<PaperTypeItem ID="1008" UiString="Default Paper Type"/>
+	<PaperTypeItem ID="1009" UiString="Recycled Paper"/>
+	<PaperTypeItem ID="1010" UiString="Letterhead"/>
+	<PaperTypeItem ID="1011" UiString="Card Stock"/>
+	<PaperTypeItem ID="1012" UiString="Prepunched Paper"/>
+	<PaperTypeItem ID="1013" UiString="Preprinted Paper"/>
+	<PaperTypeItem ID="1014" UiString="Transparency"/>
+
+   <!-- Checkbox Settings
+	<CheckboxSize> is the checkbox size in inches. If this parameter is 0 or left out, the checkbox
+	  is set to the size of the font specified for the individual checkbox.
+	<CheckboxShape> Square, Circle - how to draw the checkbox. Use "None" to not draw the 
+    outer box (if chars from symbol fonts are used in CheckboxStyle).
+	<CheckboxStyle> is how the checkbox is shown to be checked or unchecked.
+	  Set to Fill to fill the box as a solid color when checked (unfilled when unchecked)
+	  Set to Check to place a check mark in the box when checked (unfilled when unchecked)
+	  Set to a 1 or 2 character string to use those characters as the checked and unchecked characters.
+	    (If only 1 character specified, it is displayed for the checked status, unfilled for unchecked status).
+	-->
+  <CheckboxSize>0</CheckboxSize>
+  <CheckboxShape>Square</CheckboxShape>
+  <CheckboxStyle>Check</CheckboxStyle>
+
+  <!-- RadioButton Settings
+	These are identical to the Checkbox settings, but apply to RadioButton fields rather than Checkbox fields.
+	-->
+  <RadioButtonSize>0</RadioButtonSize>
+  <RadioButtonShape>Circle</RadioButtonShape>
+  <RadioButtonStyle>Fill</RadioButtonStyle>
+
+ 	<!-- SplitWord - If normal word wrap creates a line (single word) that is too wide to fit in the Text Label
+	this setting allows the word to be split at a non-word boundary. If set to N, the offending text will overflow
+	on the right of the text label.
+	-->
+    <SplitWord>Y</SplitWord>
+
+	<!-- Barcode options. -->
+	<!-- Note - all non-zero barcode widths are specified in standard DocOrigin units 
+	eg) .01" .01in .01mm .01cm .1pts or 1/1000000th of an inch if no units are specified. -->
+
+  <Barcode39Text>Y</Barcode39Text>					<!-- Draw text below barcode -->
+  <Barcode39DerivedText>N</Barcode39DerivedText>	<!-- Display text includes all ascii-encoded text and checksum -->
+  <Barcode39CompactText>N</Barcode39CompactText>	<!-- Do we display as "*BCD*" or "*    B    C    D    *" -->
+  <Barcode39Ratio>3</Barcode39Ratio>				<!-- Ratio of wide bar width to narrow bar -->
+  <Barcode39AddChecksum>N</Barcode39AddChecksum>	<!-- Compute and add a checksum digit -->
+  <Barcode39FullAscii>N</Barcode39FullAscii>		<!-- Convert data to ascii encoded values -->
+  <Barcode39BarWidth>0</Barcode39BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
+
+  <Barcode25Text>Y</Barcode25Text>					<!-- Draw text below barcode -->
+  <Barcode25Ratio>3</Barcode25Ratio>				<!-- Ratio of wide bar width to narrow bar -->
+  <Barcode25AddChecksum>N</Barcode25AddChecksum>	<!-- Compute and add a checksum digit -->
+  <Barcode25BarWidth>0</Barcode25BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
+
+  <Barcode11Text>Y</Barcode11Text>				<!-- Draw text below barcode -->
+  <Barcode11Ratio>0</Barcode11Ratio>				<!-- Ratio of wide bar width to narrow bar; 0 - auto calculate for designed width -->
+  <Barcode11Checksum>Y</Barcode11Checksum>			<!-- Compute and add a checksum digit(s) -->
+  <Barcode11NarrowBarWidth>0</Barcode11NarrowBarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
+
+  <Barcode128Text>Y</Barcode128Text>				<!-- Draw text below barcode -->
+  <Barcode128CharacterSet>8859-1</Barcode128CharacterSet>	<!-- The encoding character set to use -->
+  <Barcode128BarWidth>0</Barcode128BarWidth>        <!-- Set the width of a bar; 0 - scale to designed width -->
+  <Barcode128-GS1>N</Barcode128-GS1>				<!-- Is this a GS1-128 barcode? -->
+  <Barcode128-GS1CheckSum>N</Barcode128-GS1CheckSum>	<!-- Is Merge calculating the Mod-10 Checksum for this GS1-128 barcode -->
+  <Barcode128Esc>N</Barcode128Esc>			<!-- Enable the use of >8 to set a GS1-128 FNC1 code -->
+  
+  <BarcodePostNetBarWidth>0</BarcodePostNetBarWidth>	<!-- Set the width of a bar; 0 - scale to designed width -->
+  <BarcodePostNetRatio>1</BarcodePostNetRatio>		<!-- Set the space/bars ratio -->
+
+  <QRCodeMode>8BIT</QRCodeMode>				<!-- Encoding mode -->
+  <QRCodeCharacterSet>8859-1</QRCodeCharacterSet>	<!-- The encoding character set to use -->
+  <QRCodeLevel>M</QRCodeLevel>				<!-- Error correction level -->
+
+  <BarcodeUSIMText>Y</BarcodeUSIMText>				<!-- Display text above/below the bars -->
+  <BarcodeUSIMTextBelow>N</BarcodeUSIMTextBelow>	<!-- Display text below the bars -->
+  <BarcodeUSIMBarWidth>0</BarcodeUSIMBarWidth>      <!-- Set the width of a bar; 0 - scale to designed width -->
+
+  <BarcodeAUSPOSTText>Y</BarcodeAUSPOSTText>			<!-- Display text above/below the bars -->
+  <BarcodeAUSPOSTTextBelow>N</BarcodeAUSPOSTTextBelow>	<!-- Display text below the bars -->
+  <BarcodeAUSPOSTBarWidth>0</BarcodeAUSPOSTBarWidth>    <!-- Set the width of a bar; 0 - scale to designed width -->
+
+  <BarcodePharmacodeBarWidth>.5mm 1.5mm 1.2mm</BarcodePharmacodeBarWidth> <!-- Widths of narrow bar, wide bar, gap -->
+  <BarcodePharmacode2TrackBarWidth>.5mm .6mm</BarcodePharmacode2TrackBarWidth> <!-- Widths of bar and gap -->
+
+  <BarcodeEANBarWidth>0</BarcodeEANBarWidth>    <!-- Set the width of a narrowest bar; 0 - scale to designed width -->
+
+  <BarcodeUPCBarWidth>0</BarcodeUPCBarWidth>    <!-- Set the width of a narrowest bar; 0 - scale to designed width -->
+
+  <MaxiCodeCharacterSet>8859-1</MaxiCodeCharacterSet>	<!-- The encoding character set to use -->
+  <MaxiCodeMode>auto</MaxiCodeMode>		<!-- Define which mode of MaxiCode barcode to produce -->
+
+  <Printer Name="PS2" Type="PS2">
+
+   <!-- Resident Font list
+	This section tells Merge which font typefaces and styles are permanently resident in the printer.
+	Any font that is referenced in a form that is not in this list is considered a candidate to be downloaded
+	on-the-fly. If fonts are permanently pre-downloaded into the printer, they should also appear in this list.
+	Set Bold="1" if only the bold version is in the printer, Bold="0" if only non-bold, or Bold="*" if both
+	bold and non-bold versions are resident in the printer. Similarly for Italic=
+
+	The ID= setting specifies the PCL typeface family for HP compatible printing. These may be found by printing a font
+	status page on the printer, or in a HP PCL reference manual. This value is for only PCL printing.
+	-->
+	<ResidentFont Bold="*" Italic="*" Typeface="Arial"/>
+	<ResidentFont Bold="*" Italic="*" Typeface="Courier New"/>
+	<ResidentFont Bold="*" Italic="*" Typeface="Times New Roman"/>
+
+    <ResetStart>%% Generated by Merge\r\nsave\r\n</ResetStart>
+    <ResetEnd>restore\r\n%% Job completed by Merge\004</ResetEnd>
+
+	<!-- Selection text needed to put the various duplex IDs into effect -->
+	<Duplex1>&lt;&lt; /Duplex false /Tumble false  &gt;&gt; setpagedevice</Duplex1>
+	<Duplex2>&lt;&lt; /Duplex true  /Tumble true   &gt;&gt; setpagedevice</Duplex2>
+	<Duplex3>&lt;&lt; /Duplex true  /Tumble false  &gt;&gt; setpagedevice</Duplex3>
+
+     <!-- SynthBold controls the degree of boldness synthesized when a bold version of the font
+	is not available in the configuration. When this happens, the outline of the font glyph is
+	drawn with this line thickness (in points or 1/72 of an inch).
+	-->
+     <SynthBold>0.25</SynthBold>
+
+      <!-- <Outputfile> indicates where the output file is to be written. A '%' followed by a letter
+	  causes a text substitution at runtime, to allow dynamic creation of unique names.
+	  This template driven filename mechanism may be used for any of the printer drivers.
+	%a - abbreviated weekday name (eg "Wed")
+	%A - full weekday name (eg "Wednesday"
+	%b - abbreviated month name (eg "Mar")
+	%B - full month name (eg "March"
+	%d - replace with the 2digit current day
+	%f - replace with the current form name.
+	%H - replace with the 2digit current hour (local time, 24 hour clock)
+	%I - replace with the 2digit current hour (local time, 12 hour clock)
+	%j - replace with the 3digit day-of-year (001-366)
+	%m - replace with the 2digit current month
+	%M - replace with the 2digit current minute
+	%p - current locale's AM/PM indicator for 12hour clock
+	%S - replace with the 2digit current second
+	%U - Week of year (2digit 00-53, starting on Sunday)
+	%w - Weekday as number (0-6), starting on Sunday
+	%W - Week of year (2digit 00-53, starting on Monday)
+	%y - replace with the 2digit current year
+	%Y - replace with the 4digit current year
+
+	Note - you must include the file extension (eg .ps2) at the end
+
+     <Outputfile>$R/PS2/%f_%Y-%m-%d_%H-%M.ps2</Outputfile> -->
+
+     <OverwriteFile>Yes</OverwriteFile>
+
+       <!-- If <CombineDocuments> is set to Yes, all documents generated by this driver will be
+	 combined into a single multipage file. Otherwise each document will create
+	 it's own file.
+	 -->
+     <CombineDocuments>Yes</CombineDocuments>
+
+       <!-- Set <EmbedFonts> to Yes to have non-resident fonts downloaded.
+	-->
+
+     <EmbedFonts>Yes</EmbedFonts>
+
+     <FileHeader>%%!PS-Adobe-2.0
+%%%%Creator: %s
+%%%%Pages: (atend)
+%%%%PageOrder: Ascend
+%%%%EndComments
+save
+</FileHeader>
+
+     <FileTrailer>%%%%Trailer
+%%%%Pages: %ld
+restore
+%% Job completed by Merge\004</FileTrailer>
+
+     <DocumentSetup>%%%%BeginSetup
+%%%%EndSetup
+</DocumentSetup>
+
+     <PageHeader>%%%%Page: %d %d
+%%%%BeginPageSetup
+
+%s
+%%%%PageOrientation: %s
+%%%%EndPageSetup
+save
+</PageHeader>
+     <PageTrailer>showpage
+restore
+%%%%PageTrailer
+
+</PageTrailer>
+
+      <!-- <Duplex> controls whether a document will be output in duplex.
+      The possible settings are:
+			   <Duplex>form</Duplex>     - indicates to use the duplex settings that were set in the form.
+			   <Duplex>top</Duplex>      - indicates to print the form duplexed with top-binding no matter what is set in the form.
+			   <Duplex>left</Duplex>     - indicates to print the form duplexed with left-binding no matter what is set in the form.
+			   <Duplex>right</Duplex>    - indicates to print the form duplexed with right-binding no matter what is set in the form.
+			   <Duplex>simplex</Duplex>  - indicates to print the form as simplex (one-sided) no matter what is set in the form.
+
+            The default setting for this option is form.
+       -->
+
+     <Duplex>form</Duplex>
+
+  </Printer>
+
+</Configuration>

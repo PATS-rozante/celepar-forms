@@ -1,2 +1,2 @@
 @echo off
-ConvertTxtToXml -xfilter dut.renov.auto.xfilter -in p.dut.amostra3.renov.auto -out p.dut.amostra3.renov.auto.xml
+node renov.auto.js -in p.dut.amostra3.renov.auto.xml -out RENOV.xml

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- DOTransform -->
+<XMLDATA>
+<Document>
+<folhaSeparacao>
+	<frente>
+		<idForm>BRANCO</idForm>
+	</frente>
+	<verso>
+		<idForm>QUEBRA</idForm>
+		<chave>22</chave>
+		<dataEmissao>29/06/2025</dataEmissao>
+		<dataPostagem>04/07/2022</dataPostagem>
+		<faixaCep>80.000-000 A 81.499-999</faixaCep>
+		<titulo>DMS 11095 / SERV AUTO - RENOV AUTO, ALT DADOS SEM TOXICOLOGICO</titulo>
+		<conteudo>CTCE CURITIBA PR PL1 - LOCAL</conteudo>
+		<cifInicial>0062914464022130000000000111040722</cifInicial>
+		<objetoInicial>1</objetoInicial>
+		<cifFinal>0062914464022130000000024211040722</cifFinal>
+		<objetoFinal>242</objetoFinal>
+		<qtde>242</qtde>
+	</verso>
+</folhaSeparacao>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT031_ONLINE</idForm>
+		<idForm2>DUT031</idForm2>
+		<numSequencia>1</numSequencia>
+		<numRemessa>11095</numRemessa>
+		<info>
+			<codBarras>85610000001-2 51450016220-1 01299100120-0 01202207180-2</codBarras>
+			<cpfCnpj>72370815949</cpfCnpj>
+			<numGuia>001.2.99100507-0</numGuia>
+			<dataValidadeCNH>27/07/2025</dataValidadeCNH>
+			<valorTotal>151,45</valorTotal>
+			<dataValidade>18/07/2022</dataValidade>
+			<utr>TARUMA - CURITIBA</utr>
+			<nomeDestinatario>MADALENA SOUZA SOVRANI</nomeDestinatario>
+			<numProcesso>921945268</numProcesso>
+			<categoriaVigente>B</categoriaVigente>
+			<linkPix>00020101021226850014br.gov.bcb.pix2563qrcodepix.bb.com.br/pix/v2/9ff976b1-c7e7-4b83-8901-f25d0af1c4f65204000053039865802BR5925DEPARTAMENTO DE TRANSITO 6008CURITIBA62070503***63040587</linkPix>
+			<codBarrasImage>856100000015145001622001299121050701202207180</codBarrasImage>
+			<semPix></semPix>
+			<dataGeracao>29 de Junho de 2022</dataGeracao>
+			<idDecisaoConteudoCarta>11242616</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>04/07/2025</dataPostagem>
+		<numRemessa>11095</numRemessa>
+		<numSequencia>1</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464022130000000000111040722</numCIF>
+		<numDATAMATRIX>808103100040482899900029409010062914464022130000000000111040722000000000084107000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>808103109</cepComDV>
+		<destinatario>
+			<nome>MADALENA SOUZA SOVRANI</nome>
+			<endereco>RUA CARLOS VIEIRA, 404</endereco>
+			<complementoBairro>CASA / VISTA ALEGRE</complementoBairro>
+			<cepMunicipio>80.810-310 CURITIBA/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT038_ONLINE</idForm>
+		<idForm2>DUT038</idForm2>
+		<numSequencia>2</numSequencia>
+		<numRemessa>6656</numRemessa>
+		<info>
+			<codBarras>85620000001-1 51450016223-5 76296646500-2 01202206160-5</codBarras>
+			<cpfCnpj>2429972941</cpfCnpj>
+			<numGuia>376.2.96646500-8</numGuia>
+			<dataValidadeCNH>26/06/2025</dataValidadeCNH>
+			<valorTotal>151,45</valorTotal>
+			<dataValidade>16/06/2025</dataValidade>
+			<utr>VILA HAUER-CTBA</utr>
+			<nomeDestinatario>MARINELI SILVA VIEIRA</nomeDestinatario>
+			<numProcesso>921787496</numProcesso>
+			<categoriaVigente>B</categoriaVigente>
+			<linkPix>00020101021226870014br.gov.bcb.pix2565qrcodepix-h.bb.com.br/pix/v2/fbcf0761-ff8d-4421-886a-6f817814eb645204000053039865802BR5922MINISTERIO DA ECONOMIA6008BRASILIA62070503***63040BCB</linkPix>
+			<codBarrasImage>85620000001514500162237629664650001202206160</codBarrasImage>
+			<dataGeracao>30 de Maio de 2022</dataGeracao>
+			<idDecisaoConteudoCarta>9206374</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>02/06/2025</dataPostagem>
+		<numRemessa>6656</numRemessa>
+		<numSequencia>2</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464010490000000000111020622</numCIF>
+		<numDATAMATRIX>810501800003682800900029407010062914464010490000000000111020622000000000084107000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>810501807</cepComDV>
+		<destinatario>
+			<nome>MARINELI SILVA VIEIRA</nome>
+			<endereco>RUA ALFENEIROS, 36</endereco>
+			<complementoBairro>D / NOVO MUNDO</complementoBairro>
+			<cepMunicipio>81.050-180 CURITIBA/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT036_ONLINE</idForm>
+		<idForm2>DUT036</idForm2>
+		<numSequencia>3</numSequencia>
+		<numRemessa>6667</numRemessa>
+		<info>
+			<codBarras>85600000001-3 51450016220-1 01299069640-8 01202206230-6</codBarras>
+			<cpfCnpj>66600333187</cpfCnpj>
+			<numGuia>001.2.99069640-1</numGuia>
+			<dataValidadeCNH>03/07/2025</dataValidadeCNH>
+			<valorTotal>151,45</valorTotal>
+			<dataValidade>23/06/2025</dataValidade>
+			<utr>TARUMA - CURITIBA</utr>
+			<nomeDestinatario>VALDECIR MARCONDES IZCAK</nomeDestinatario>
+			<numProcesso>921822504</numProcesso>
+			<categoriaVigente>D</categoriaVigente>
+			<linkPix></linkPix>
+			<codBarrasImage>85600000001514500162200129906964001202206230</codBarrasImage>
+			<semPix>INDISPONÍVEL</semPix>
+			<dataGeracao>09 de Junho de 2022</dataGeracao>
+			<idDecisaoConteudoCarta>9206638</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>22/06/2025</dataPostagem>
+		<numRemessa>6667</numRemessa>
+		<numSequencia>3</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464010510000990000111140622</numCIF>
+		<numDATAMATRIX>812703220009382800900029405010062914464010510000000000111140622000000000084107000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>812703225</cepComDV>
+		<destinatario>
+			<nome>VALDECIR MARCONDES IZCAK</nome>
+			<endereco>RUA MARIA SILVA, 93</endereco>
+			<complementoBairro>CASA / CIDADE INDUSTRIAL</complementoBairro>
+			<cepMunicipio>81.270-322 CURITIBA/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT031_ONLINE</idForm>
+		<numSequencia>4</numSequencia>
+		<numRemessa>6574</numRemessa>
+		<info>
+			<codBarrasImage>85620000121514500162200229497562801202111220</codBarrasImage>
+			<situacaoCNH>VALIDADE DA CNH VENCIDA</situacaoCNH>
+			<categoriaVigente>AB</categoriaVigente>
+			<numProcesso>920761963</numProcesso>
+			<nomeDestinatario>DANIELE VITORIA MIRANDA</nomeDestinatario>
+			<utr>S.JOSE PINHAIS</utr>
+			<dataValidade>22/11/2024</dataValidade>
+			<valorTotal>151,45</valorTotal>
+			<dataValidadeCNH>02/12/2024</dataValidadeCNH>
+			<numGuia>002.2.94975628-2</numGuia>
+			<cpfCnpj>8855605910</cpfCnpj>
+			<codBarras>85620000001-1 51450016220-1 02294975628-6 01202111220-1</codBarras>
+			<dataGeracao>27 de Dezembro de 2021</dataGeracao>
+			<idDecisaoConteudoCarta>9193255</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>30/12/2024</dataPostagem>
+		<numRemessa>6574</numRemessa>
+		<numSequencia>4</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464010230000000000111301221</numCIF>
+		<numDATAMATRIX>830602050105882800900029406010062914464010230000000000111301221000000000084107000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>830602056</cepComDV>
+		<destinatario>
+			<nome>DANIELE VITORIA MIRANDA</nome>
+			<endereco>R SANTOS DUMONT, 1058</endereco>
+			<complementoBairro>CASA / GUATUPE</complementoBairro>
+			<cepMunicipio>83.060-205 S.JOSE PINHAIS/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT033_ONLINE</idForm>
+		<numSequencia>5</numSequencia>
+		<numRemessa>6572</numRemessa>
+		<info>
+			<situacaoCNH>PERMISSIONADO PENALIZADO APOS EXPEDICAO CNH, DEVERA REINICIAR PROC. HABILITACAO-ART.148, §3°E4° CTB</situacaoCNH>
+			<categoriaVigente></categoriaVigente>
+			<nomeDestinatario>CRISTIANO LOURENCO DA SILVA RIBEIRO</nomeDestinatario>
+			<dataValidadeCNH>13/12/2024</dataValidadeCNH>
+			<cpfCnpj>7744650055</cpfCnpj>
+			<dataGeracao>27 de Dezembro de 2024</dataGeracao>
+			<idDecisaoConteudoCarta>9193245</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>30/12/2024</dataPostagem>
+		<numRemessa>6572</numRemessa>
+		<numSequencia>5</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464010210000000000111301221</numCIF>
+		<numDATAMATRIX>837018200025782800900029401010062914464010210000000000111301221000000000084107000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>837018201</cepComDV>
+		<destinatario>
+			<nome>CRISTIANO LOURENCO DA SILVA RIBEIRO</nome>
+			<endereco>RUA VITORIA REGIA, 257</endereco>
+			<complementoBairro>CASA / COSTEIRA</complementoBairro>
+			<cepMunicipio>83.701-820 ARAUCARIA/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT037_ONLINE</idForm>
+		<numSequencia>6</numSequencia>
+		<numRemessa>6575</numRemessa>
+		<info>
+			<situacaoCNH>NORMAL</situacaoCNH>
+			<categoriaVigente>E</categoriaVigente>
+			<nomeDestinatario>CLEOMAR VINICIUS DA SILVA</nomeDestinatario>
+			<dataValidadeCNH>23/01/2024</dataValidadeCNH>
+			<cpfCnpj>68127119953</cpfCnpj>
+			<dataGeracao>27 de Dezembro de 2023</dataGeracao>
+			<idDecisaoConteudoCarta>9193260</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>30/12/2023</dataPostagem>
+		<numRemessa>6575</numRemessa>
+		<numSequencia>6</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464010240000000000121301221</numCIF>
+		<numDATAMATRIX>856100000137982800900029400010062914464010240000000000121301221000000000084093000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>856100000</cepComDV>
+		<destinatario>
+			<nome>CLEOMAR VINICIUS DA SILVA</nome>
+			<endereco>RUA MAL DEODORO, 1379</endereco>
+			<complementoBairro>CENTRO</complementoBairro>
+			<cepMunicipio>85.610-000 RENASCENCA/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+<Document>
+<folha>
+	<frente>
+		<idForm>DUT039_ONLINE</idForm>
+		<numSequencia>7</numSequencia>
+		<numRemessa>6577</numRemessa>
+		<info>
+			<codBarrasImage>85680000001514500162200329470567901202112300</codBarrasImage>
+			<situacaoCNH>NORMAL</situacaoCNH>
+			<categoriaVigente>D</categoriaVigente>
+			<numProcesso>920948441</numProcesso>
+			<nomeDestinatario>CRISTINA LIMA BARBOSA</nomeDestinatario>
+			<utr>COLOMBO - PST AVAN</utr>
+			<dataValidade>30/12/2023</dataValidade>
+			<valorTotal>151,45</valorTotal>
+			<dataValidadeCNH>09/01/2024</dataValidadeCNH>
+			<numGuia>003.2.94705679-3</numGuia>
+			<cpfCnpj>4501297999</cpfCnpj>
+			<codBarras>85680000001-5 51450016220-1 03294705679-5 01202112300-0</codBarras>
+			<dataGeracao>27 de Dezembro de 2021</dataGeracao>
+			<idDecisaoConteudoCarta>9193268</idDecisaoConteudoCarta>
+		</info>
+	</frente>
+	<verso>
+		<idForm>FORMVERSO</idForm>
+		<dataPostagem>30/12/2023</dataPostagem>
+		<numRemessa>6577</numRemessa>
+		<numSequencia>7</numSequencia>
+		<nomeClienteChancela>DETRAN/PR</nomeClienteChancela>
+		<contratoCorreios>991228857-1/2012-DR/PR</contratoCorreios>
+		<numCIF>0062914464010260000000000111301221</numCIF>
+		<numDATAMATRIX>834063100079682800900029405010062914464010260000000000111301221000000000084107000000000000000008411600|</numDATAMATRIX>
+		<cepComDV>834063105</cepComDV>
+		<destinatario>
+			<nome>CRISTINA LIMA BARBOSA</nome>
+			<endereco>RUA ANGELO SAMPAIO, 796</endereco>
+			<complementoBairro>CASA / JARDIM MONZA</complementoBairro>
+			<cepMunicipio>83.406-310 COLOMBO/PR</cepMunicipio>
+		</destinatario>
+	</verso>
+</folha>
+</Document>
+</XMLDATA>
