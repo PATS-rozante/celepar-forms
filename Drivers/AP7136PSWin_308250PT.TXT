@@ -1,0 +1,80 @@
+///////////////////////////////////////////////////////////////////////////////
+      PostScript3 drivers Release Note                             (2024/6/28)
+///////////////////////////////////////////////////////////////////////////////
+
+This release note contains information about the software of PostScript3 drivers.
+In addition, the problem which may happen when the software of this version is 
+used, and the solutions are mentioned.
+Read through this release note before you use PostScript3 drivers.
+
+
+Notes and Restrictions for PS(Plug-in) drivers
+
+- Regarding Account Track
+  "password" is registered as default password.
+  Please change it if necessary.
+
+- Depending on the characteristics of images in documents, moire patterns 
+  (unexpected repetitive pattern) may occur. 
+  In case that moire patterns occur, using other screen settings or changing 
+  resolution may reduce moire patterns.
+  When moire patterns occur while printing from Microsoft Office applications 
+  with transparent effect, please consider removing transparent effect, 
+  otherwise apply other screen settings or change resolution may reduce moire 
+  patterns.
+
+- Insert Blank Sheet from PI Trays (Page Settings)
+  It's not possible to let the printer feed papers of specified Paper Name 
+  automatically from PI or PI-PFU Trays.
+  Please choose a PI or PI-PFU Tray for Paper Tray instead of Auto.
+
+- The maximum number of pages guaranteed for Per Page Settings (Forms) is as 
+  follows.
+   * 144 distinct page numbers when using one single form
+   * 72 page ranges when using one single form
+   * 42 distinct page numbers when using several different forms
+   * 33 page ranges when using several different forms
+  The maximum number of pages depend on each selected form and on page digits 
+  set for that form.
+  Therefore, the number of pages more than the above description might be 
+  possible.
+
+- Printing Text on Tab on OSX
+  Text that are not supported by PS font installed in IC-604 as preset 
+  are not usable for Text on Tab on OSX.
+  The unsupported texts might cause garbles in the preview or prints.
+
+- Mixed-size or mixed-orientation files
+  Some applications divide mixed-size or mixed-orientation files into several 
+  print jobs. In this case, functions like Perfect Binding and Cover are 
+  executed for each of divided print jobs. 
+
+- Printing from Adobe Acrobat
+  1)In order to ensure that mixed-size files and files with subset fonts are 
+    printed correctly, you must instruct Acrobat to generate page independent 
+    code.
+    1. In Acrobat's Print dialog, select Advanced. This opens the Advanced 
+       Print Setup dialog.
+    2. Select PostScript Options, and set Font and Resource Policy to [Send for 
+       Each Page].
+
+  2)When [Choose paper source by PDF page size] of Acrobat's Print dialog is enabled, 
+    functions which result in the change of image size might make the image shrunk and rotated. 
+    This can be prevented by disabling [Choose paper source by PDF page size].
+
+- In the Chinese and Taiwanese environment on macOS Sierra, the following parts may be displayed in English.
+   * Paper size
+   * Printer option screen automatically displayed during and after printer registration
+   * The contents of the test page
+
+- About display resolution
+  If the resolution is low, such as "800 x 600", the print setting screen may not be displayed correctly.
+  In that case, change to a higher resolution before using.
+  Depending on your environment, it may be resolved by changing to "1024 x 768".
+
+- This PS Plug-in Driver supports AccurioPro Hot Folder.
+
+ *Company names and product names used in this Readme are the registered trademarks or trademarks of their respective companies.
+
+Copyright(C) 2020 KONICA MINOLTA, INC.
+Copyright(C) 2020 SOFHA GmbH

@@ -522,7 +522,7 @@ objTexto.texto._value = objTexto.texto._value
             </field>
           </pane><!--info-->
           <field name="numSequencia" type="text" dataType="number" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="right middle" caseShift="none" thousands="no" round="halfEven">
-            <boundingRect left="17.119966 cm" top="0.839998 cm" width="3.219994 cm" height="0.379999 cm"/>
+            <boundingRect left="16.729967 cm" top="1.399997 cm" width="3.219994 cm" height="0.379999 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
@@ -535,13 +535,13 @@ objTexto.texto._value = objTexto.texto._value
             <tab distance="1.000001 cm"/>
           </field>
           <field name="decisao_seq" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="right middle" caseShift="none">
-            <boundingRect left="17.549965 cm" top="0.19 cm" width="2.789994 cm" height="0.379999 cm"/>
+            <boundingRect left="17.159966 cm" top="0.819998 cm" width="2.789994 cm" height="0.379999 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
           <label name="lblCodigo" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="13.899972 cm" top="1.529997 cm" width="2.71 cm" height="0.868505 cm"/>
+            <boundingRect left="13.899972 cm" top="1.899996 cm" width="2.71 cm" height="0.868505 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="19.500" italic="0" bold="1000"/>
@@ -549,7 +549,7 @@ objTexto.texto._value = objTexto.texto._value
             <text>Código:</text>
           </label>
           <label name="codigo" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="16.809966 cm" top="1.339997 cm" width="2.589995 cm" height="1.124676 cm"/>
+            <boundingRect left="16.809966 cm" top="1.709997 cm" width="2.589995 cm" height="1.124676 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="26.000" italic="0" bold="1000"/>
@@ -557,7 +557,7 @@ objTexto.texto._value = objTexto.texto._value
             <text>H001</text>
           </label>
           <label name="lblProcesso" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="13.909972 cm" top="2.259995 cm" width="2.699995 cm" height="1.109315 cm"/>
+            <boundingRect left="13.909972 cm" top="2.629995 cm" width="2.699995 cm" height="1.109315 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="12.000" italic="0" bold="1000"/>
@@ -565,7 +565,7 @@ objTexto.texto._value = objTexto.texto._value
             <text>Processo nº:</text>
           </label>
           <label name="processo" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="16.609967 cm" top="2.229996 cm" width="2.639995 cm" height="1.193424 cm"/>
+            <boundingRect left="16.609967 cm" top="2.599995 cm" width="2.639995 cm" height="1.193424 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="13.000" italic="0" bold="1000"/>
@@ -573,7 +573,7 @@ objTexto.texto._value = objTexto.texto._value
             <text>999999999</text>
           </label>
           <label name="qrCode" type="barcode" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="QRCode" justify="left top">
-            <boundingRect left="17.389965 cm" top="3.099994 cm" width="1.529997 cm" height="1.529997 cm"/>
+            <boundingRect left="17.389965 cm" top="3.469993 cm" width="1.529997 cm" height="1.529997 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="1000"/>
             <text>www.detran.pr.gov.br/RENOVARCNH</text>
@@ -799,7 +799,7 @@ this.espCIF._value = this.numCIF._value;
             <font typeface="Trebuchet MS" size="10.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
-          <label name="dmatrix" type="barcode" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="DataMatrix" justify="left top">
+          <label name="dmatrix" type="barcode" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="180" barcodeType="DataMatrix" justify="left top">
             <boundingRect left="2.129996 cm" top="15.549969 cm" width="1.649997 cm" height="1.649997 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="1000"/>
@@ -32300,9 +32300,9 @@ IUYW8uDbTRgAAAAASUVORK5CYII=</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-12 17:35:18 UTC"?>
-<?Design DateModified="2025-09-12 23:27:27 UTC"?>
+<?Design DateModified="2025-09-12 23:37:20 UTC"?>
 <?Design CustomColors="255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;240,240,240:#F0F0F0;228,228,228:#E4E4E4;216,216,216:#D8D8D8;204,204,204:#CCCCCC;"?>
 <?Design InitialZoom="150"?>
-<?Design InitialPage="PagDutFrente"?>
+<?Design InitialPage="PagDutVerso"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>
