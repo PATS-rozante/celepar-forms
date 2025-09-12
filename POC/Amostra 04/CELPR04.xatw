@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<XATW name="CELPR04" paginationVersion="2" collate="yes" numCopies="1" duplex="left" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
+<XATW name="CELPR04" paginationVersion="2" collate="yes" numCopies="1" duplex="left" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPS2.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
   <page name="PagJES" visible="yes" size="A4" orientation="Landscape" duplex="simplex" inputTray="tray1">
     <boundingRect left="0.0 cm" top="0.0 cm" width="29.699999 cm" height="21.000001 cm"/>
     <container name="ContainerJES" visible="yes" shading="none">
@@ -73,6 +73,13 @@
           <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
           <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
           <font typeface="RK26BP" size="13.000" italic="0" bold="0"/>
+          <tab distance="1.000001 cm"/>
+        </field>
+        <field name="seq" type="text" dataType="number" backgroundColor="transparent" foregroundColor="#000000" visible="no" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none" thousands="no" round="halfEven">
+          <boundingRect left="17.979964 cm" top="1.269997 cm" width="2.000001 cm" height="0.499999 cm"/>
+          <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+          <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+          <font typeface="Arial" size="10.000" italic="0" bold="0"/>
           <tab distance="1.000001 cm"/>
         </field>
       </pane><!--DET070-->
@@ -159,7 +166,7 @@
       </pane><!--DET072-->
     </container>
   </page><!--Pag072-->
-  <page name="Pag073A" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
+  <page name="Pag073A" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
     <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
@@ -203,11 +210,12 @@
       </pane><!--DET073A-->
     </container>
   </page><!--Pag073A-->
-  <page name="Pag073B" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
+  <page name="Pag073B" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073B" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.689999 cm"/>
@@ -246,11 +254,12 @@
       </pane><!--DET073B-->
     </container>
   </page><!--Pag073B-->
-  <page name="Pag073C" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
+  <page name="Pag073C" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073C" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.689999 cm"/>
@@ -289,11 +298,12 @@
       </pane><!--DET073C-->
     </container>
   </page><!--Pag073C-->
-  <page name="Pag073D" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
+  <page name="Pag073D" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073D" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.689999 cm"/>
@@ -9902,7 +9912,7 @@ AAAAAABsCVEAAAAAAABgS4gCAAAAAAAAWwHIzT4QiKAGBAAAAABJRU5ErkJggg==</imageData>
 <?Design GridY="0.01 cm"?>
 <?Design GridOriginX="0.0 cm"?>
 <?Design GridOriginY="0.0 cm"?>
-<?Design TestDataFile="$$F/CELPR04-SAMPLE.xml"?>
+<?Design TestDataFile="$$F/CELPR04_PITORRI.spl.txt.xml"?>
 <?Design PreviewUserOptions=""?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
@@ -9911,8 +9921,8 @@ AAAAAABsCVEAAAAAAABgS4gCAAAAAAAAWwHIzT4QiKAGBAAAAABJRU5ErkJggg==</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-11 15:40:32 UTC"?>
-<?Design DateModified="2025-09-11 23:26:32 UTC"?>
+<?Design DateModified="2025-09-12 00:49:58 UTC"?>
 <?Design InitialZoom="150"?>
-<?Design InitialPage="Pag073A"?>
+<?Design InitialPage="Pag070"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>
