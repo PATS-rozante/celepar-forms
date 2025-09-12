@@ -211,12 +211,25 @@ this.TxtDUT037._visible = false;
 this.TxtDUT038._visible = false;
 this.TxtDUT039._visible = false;
 
-if      (cod == &apos;DUT031&apos;) objTexto = this.TxtDUT031
-else if (cod == &apos;DUT033&apos;) objTexto = this.TxtDUT033
-else if (cod == &apos;DUT036&apos;) objTexto = this.TxtDUT036
-else if (cod == &apos;DUT037&apos;) objTexto = this.TxtDUT037
-else if (cod == &apos;DUT038&apos;) objTexto = this.TxtDUT038
-else if (cod == &apos;DUT039&apos;) objTexto = this.TxtDUT039
+if        (cod == &apos;DUT031&apos;) { 
+	objTexto = this.TxtDUT031; 
+	this.codigo._value = &apos;H001&apos;;
+} else if (cod == &apos;DUT033&apos;) { 
+	objTexto = this.TxtDUT033; 
+	this.codigo._value = &apos;H007&apos;;
+} else if (cod == &apos;DUT036&apos;) { 
+	objTexto = this.TxtDUT036; 
+	this.codigo._value = &apos;H003&apos;;
+} else if (cod == &apos;DUT037&apos;) { 
+	objTexto = this.TxtDUT037; 
+	this.codigo._value = &apos;H006&apos;;
+} else if (cod == &apos;DUT038&apos;) { 
+	objTexto = this.TxtDUT038; 
+	this.codigo._value = &apos;H002&apos;;
+} else if (cod == &apos;DUT039&apos;) { 
+	objTexto = this.TxtDUT039; 
+	this.codigo._value = &apos;H004&apos;;
+}
 
 objTexto._visible = true;
 objTexto.texto._value = objTexto.texto._value
@@ -234,13 +247,15 @@ objTexto.texto._value = objTexto.texto._value
 // OnEndMerge end --------------------------------------------------------
 </script>
           <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-          <label name="DUT032" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="none" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT032.pdf?page=1&amp;dpi=300" imageMode="scale">
+          <label name="DUT032" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="none" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT032.pdf?page=1&amp;dpi=300" imageMode="scale">
             <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
             <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
           </label>
-          <label name="DUT038_PIX" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT038_QR_PIX.pdf?page=1&amp;dpi=300" imageMode="scale">
+          <label name="DUT038_PIX" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT038_QR_PIX.pdf?page=1&amp;dpi=300" imageMode="scale">
             <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
             <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="8.000" italic="0" bold="0"/>
           </label>
           <pane name="TxtDUT031" section="main" mandatory="yes" backgroundColor="transparent" visible="none" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="17.500001 cm">
             <boundingRect width="20.990001 cm" height="22.54999 cm"/>
@@ -260,7 +275,7 @@ objTexto.texto._value = objTexto.texto._value
               <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
               <font typeface="Arial" size="11.200" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
-              <text>{\rtf1{\fonttbl{\f0\fcharset0 Arial;}}\b0\i0\nosupersub\strike0\ulnone Olá, NNNNN\par \par O Detran/PR está mais moderno, ágil e dinâmico. Com o Detran InteliGENTE você resolve tudo que precisa sem sair de casa. Para renovar sua CNH, que vence no dia 99/99/9999, é só seguir estas orientações:\par 1. Verifique a validade da guia para pagamento e pague nos bancos credenciados (Banco do Brasil, Bancoob, Rendimento, Santander, Sicredi) se ela não estiver vencida.\par 2. Caso a guia esteja vencida, acesse www.detran.pr.gov.br/renovarcnh para reemitir nova guia dentro da validade, e efetue seu pagamento.\par 3. Acesse www.detran.pr.gov.br/agendarexame e agende seu exame médico obrigatório.\par 4. Se for aprovado no exame, é só aguardar o recebimento da CNH em seu endereço em até dez dias úteis.\par Agende seu exame médico no site do Detran. Assim que o pagamento for confirmado, você já pode fazê–lo.\par Durante o exame, suas impressões digitais também serão validadas e sua fotografia será reaproveitada do documento anterior.\par Para exercer atividade remunerada com o veículo é preciso passar por exames psicológicos para a inclusão da observação Exerce Atividade Remunerada (EAR) em sua carteira de motorista.\par Caso necessário, acesse www.detran.pr.gov.br/renovarcnh para reemitir nova guia de renovação incluindo a informação do EAR.\par Você já conhece o Detran InteliGENTE? É uma ferramenta interativa e segura do Detran/PR que oferece diversos serviços como: mudança de endereço e recurso de infrações de trânsito, e você nem precisa sair de casa para realizá–los.\par Nosso atendimento presencial é de segunda a sexta–feira, das 8h às 16h, mediante agendamento prévio. Em caso de dúvidas ou para maiores informações, acesse o site www.detran.pr.gov.br ou ligue 0800 643 7373.\par                                                                                     {\b1 DIRETOR PRESIDENTE DO DETRAN–PR}}</text>
+              <text>{\rtf1{\fonttbl{\f0\fcharset0 Arial;}}\b0\i0\nosupersub\strike0\ulnone Olá, NNNNN\par \par O Detran/PR está mais moderno, ágil e dinâmico. Com o Detran InteliGENTE você resolve tudo que precisa sem sair de casa. Para renovar sua CNH, que vence no dia 99/99/9999, é só seguir estas orientações:\par 1. Verifique a validade da guia para pagamento e pague nos bancos credenciados (Banco do Brasil, Bancoob, Rendimento, Santander, Sicredi) se ela não estiver vencida.\par 2. Caso a guia esteja vencida, acesse www.detran.pr.gov.br/renovarcnh para reemitir nova guia dentro da validade, e efetue seu pagamento.\par 3. Acesse www.detran.pr.gov.br/agendarexame e agende seu exame médico obrigatório.\par 4. Se for aprovado no exame, é só aguardar o recebimento da CNH em seu endereço em até dez dias úteis.\par Agende seu exame médico no site do Detran. Assim que o pagamento for confirmado, você já pode fazê–lo.\par Durante o exame, suas impressões digitais também serão validadas e sua fotografia será reaproveitada do documento anterior.\par Para exercer atividade remunerada com o veículo é preciso passar por exames psicológicos para a inclusão da observação Exerce Atividade Remunerada (EAR) em sua carteira de motorista.\par Caso necessário, acesse www.detran.pr.gov.br/renovarcnh para reemitir nova guia de renovação incluindo a informação do EAR.\par Você já conhece o Detran InteliGENTE? É uma ferramenta interativa e segura do Detran/PR que oferece diversos serviços como: mudança de endereço e recurso de infrações de trânsito, e você nem precisa sair de casa para realizá–los.\par Nosso atendimento presencial é de segunda a sexta–feira, das 8h às 16h, mediante agendamento prévio. Em caso de dúvidas ou para maiores informações, acesse o site www.detran.pr.gov.br ou ligue 0800 643 7373.\par                                                                                       {\b1 DIRETOR PRESIDENTE DO DETRAN–PR}}</text>
             </label>
           </pane><!--TxtDUT031-->
           <pane name="TxtDUT033" section="main" mandatory="yes" backgroundColor="transparent" visible="none" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="19.649999 cm">
@@ -526,7 +541,7 @@ objTexto.texto._value = objTexto.texto._value
             <tab distance="1.000001 cm"/>
           </field>
           <label name="lblCodigo" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="14.379971 cm" top="1.529997 cm" width="2.71 cm" height="0.868505 cm"/>
+            <boundingRect left="13.899972 cm" top="1.529997 cm" width="2.71 cm" height="0.868505 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="19.500" italic="0" bold="1000"/>
@@ -534,15 +549,15 @@ objTexto.texto._value = objTexto.texto._value
             <text>Código:</text>
           </label>
           <label name="codigo" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="17.189966 cm" top="1.329997 cm" width="2.589995 cm" height="1.121994 cm"/>
+            <boundingRect left="16.809966 cm" top="1.339997 cm" width="2.589995 cm" height="1.124676 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-            <font typeface="Arial" size="24.000" italic="0" bold="1000"/>
+            <font typeface="Arial" size="26.000" italic="0" bold="1000"/>
             <tab distance="1.000001 cm"/>
             <text>H001</text>
           </label>
           <label name="lblProcesso" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="14.389971 cm" top="2.189996 cm" width="2.699995 cm" height="1.109315 cm"/>
+            <boundingRect left="13.909972 cm" top="2.259995 cm" width="2.699995 cm" height="1.109315 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="12.000" italic="0" bold="1000"/>
@@ -550,15 +565,15 @@ objTexto.texto._value = objTexto.texto._value
             <text>Processo nº:</text>
           </label>
           <label name="processo" type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
-            <boundingRect left="17.209966 cm" top="2.219996 cm" width="2.359995 cm" height="0.599999 cm"/>
+            <boundingRect left="16.609967 cm" top="2.229996 cm" width="2.639995 cm" height="1.193424 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-            <font typeface="Arial" size="11.000" italic="0" bold="1000"/>
+            <font typeface="Arial" size="13.000" italic="0" bold="1000"/>
             <tab distance="1.000001 cm"/>
             <text>999999999</text>
           </label>
           <label name="qrCode" type="barcode" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="QRCode" justify="left top">
-            <boundingRect left="17.649965 cm" top="3.039994 cm" width="1.529997 cm" height="1.529997 cm"/>
+            <boundingRect left="17.389965 cm" top="3.099994 cm" width="1.529997 cm" height="1.529997 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="1000"/>
             <text>www.detran.pr.gov.br/RENOVARCNH</text>
@@ -32285,9 +32300,9 @@ IUYW8uDbTRgAAAAASUVORK5CYII=</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-12 17:35:18 UTC"?>
-<?Design DateModified="2025-09-12 23:13:28 UTC"?>
+<?Design DateModified="2025-09-12 23:27:27 UTC"?>
 <?Design CustomColors="255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;240,240,240:#F0F0F0;228,228,228:#E4E4E4;216,216,216:#D8D8D8;204,204,204:#CCCCCC;"?>
 <?Design InitialZoom="150"?>
-<?Design InitialPage="PagDutVerso"?>
+<?Design InitialPage="PagDutFrente"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>
