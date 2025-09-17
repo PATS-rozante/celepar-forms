@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- DOTransform -->
+<XMLDATA>
+<Document>
+	<folhaSeparacao>
+		<frente>
+			<idForm>BRANCO</idForm>
+		</frente>
+		<verso>
+			<idForm>QUEBRA</idForm>
+			<chave>275350-233986-1010</chave>
+			<orgaoMunicipio>SETRAN - Curitiba - PR</orgaoMunicipio>
+			<dataEmissao>17/09/2024</dataEmissao>
+			<dataPostagem>21/09/2024</dataPostagem>
+			<faixaCep>00.000-001 A 79.999-999</faixaCep>
+			<nomeCentroDistribuicao>OUTROS ESTADOS A</nomeCentroDistribuicao>
+			<destino>CORREIOS - MARECHAL FLORIANO</destino>
+			<conteudo>Notificação da Autuação</conteudo>
+			<arInicial>FJ30021825-8BR</arInicial>
+			<arFinal>FJ30022002-7BR</arFinal>
+			<objetoInicial>3274</objetoInicial>
+			<objetoFinal>3451</objetoFinal>
+			<qtdeAR>178</qtdeAR>
+			<folha>1 / 872</folha>
+		</verso>
+	</folhaSeparacao>
+</Document>
+<Document>
+	<notificacao>
+		<frente>
+			<idForm>MTN103</idForm>
+			<numSequencia>3372</numSequencia>
+			<titulo>NOTIFICAÇÃO DE AUTUAÇÃO Nº 8034424</titulo>
+			<nomeOrgaoTransito>PREFEITURA MUNICIPAL DE CURITIBA</nomeOrgaoTransito>
+			<labelAuto>AUTO DE INFRAÇÃO: </labelAuto>
+			<autoInfracao>999999-E001450890</autoInfracao>
+			<codOrgaoAutuador>999999</codOrgaoAutuador>
+			<numAuto>E001450890</numAuto>
+			<nomeProprietario>Proprietário do Veículo</nomeProprietario>
+			<placa>ABC-1234</placa>
+			<marcaModelo>NISSAN/MARCH 10S</marcaModelo>
+			<especie>Passageiro</especie>
+			<infracao>TRANSITAR EFETUANDO TRANSPORTE REMUNERADO DE PESSOAS QDO N LICENCIADO P/ESSE FIM</infracao>
+			<enquadramento>ART 231, VIII DO CTB</enquadramento>
+			<dataHoraInfracao>30/08/2024 07:44 H</dataHoraInfracao>
+			<codRenainf>02466843382</codRenainf>
+			<valor>85,13</valor>
+			<localInfracao>RODOFERROVIARIA ALA INTERESTADUAL EMFRENTE AO EMBARQUE INTERESTADUAL</localInfracao>
+			<municipioInfracao>Curitiba - PR</municipioInfracao>
+			<agente>321654987 - PR</agente>
+			<instrumento></instrumento>
+			<valorConsiderado> </valorConsiderado>
+			<unidade> </unidade>
+			<texto>NOTIFICO que foi lavrada a autuação de infração, conforme discriminado acima, e que, pelo § 2º do art. 257 do CTB, a mesma é enquadrada como de responsabilidade do proprietário do veículo. V.Sª poderá oferecer até 04/11/2024 defesa da autuação junto à(ao) SETRAN. Documentos necessários para a Defesa: Requerimento; cópia da notificação; cópia do CRLV; cópia da CNH ou de outro documento de identificação do requerente. Em caso de pessoa jurídica, além dos documentos já apontados, documento comprovando a representação (Ex. Contrato Social); e procuração quando for o caso - Res. 299/08-CONTRAN.</texto>
+			<autoridadeTransito>SECRETARIA MUNICIPAL DE TRÂNSITO</autoridadeTransito>
+			<suspensaoDireitoDirigir> </suspensaoDireitoDirigir>
+			<imagem> </imagem>
+			<semImagem> * </semImagem>
+			<dataInfracao>30/08/2024</dataInfracao>
+			<pontos>4</pontos>
+			<natureza>MEDIA</natureza>
+			<limiteRegulemantado> </limiteRegulemantado>
+			<medicaoRealizada> </medicaoRealizada>
+		</frente>
+		<verso>
+			<idForm>MTN112</idForm>
+			<labelPostagem>POSTADO EM:</labelPostagem>
+			<dataPostagem>21/09/2024</dataPostagem>
+			<numSequencia>3372</numSequencia>
+			<nomeClienteChancela>SETRAN</nomeClienteChancela>
+			<ar>FJ172501966BR</ar>
+			<arDigital>AR172501966XX</arDigital>
+			<prefixoAR>AR</prefixoAR>
+			<numAR>172501966</numAR>
+			<sufixoAR>XX</sufixoAR>
+			<prefixoARDigital>AB</prefixoARDigital>
+			<numARDigital>172501966</numARDigital>
+			<sufixoARDigital>AA</sufixoARDigital>
+			<contratoCorreios>9123333333/2012-DR/PR/BR</contratoCorreios>
+			<numContratoCorreios>9123333333</numContratoCorreios>
+			<textoCorreios>CTC/CTA/GCCAP/PR</textoCorreios>
+			<opcional>ABC-1234     999999-E12345688</opcional>
+			<cepComDV>899092199</cepComDV>
+			<destinatario>
+				<nome>Destinatário da Silva</nome>
+				<endereco>Endereco do Destinatário</endereco>
+				<complementoBairro>COMPL-1 Bairro Destinatário</complementoBairro>
+				<cepMunicipio>80530010 Curitiba-PR</cepMunicipio>
+			</destinatario>
+			<remetente>
+				<nome>SECRETARIA MUNICIPAL DE TRANSITO</nome>
+				<endereco>R. BENJAMIN CONSTANT, 157  CENTRO</endereco>
+				<cepMunicipio>80.060-020 Curitiba - PR</cepMunicipio>
+			</remetente>
+		</verso>
+	</notificacao>
+</Document>
+<Document>
+	<notificacao>
+		<frente>
+			<idForm>MTN120</idForm>
+			<numSequencia>3274</numSequencia>
+			<titulo>NOTIFICAÇÃO DE AUTUAÇÃO Nº 8034326</titulo>
+			<nomeOrgaoTransito>PREFEITURA MUNICIPAL DE CURITIBA</nomeOrgaoTransito>
+			<labelAuto>AUTO DE INFRAÇÃO: </labelAuto>
+			<autoInfracao>999999-W005222868</autoInfracao>
+			<codOrgaoAutuador>999999</codOrgaoAutuador>
+			<numAuto>W005222868</numAuto>
+			<nomeProprietario>Proprietário do Veículo</nomeProprietario>
+			<placa>ABC-1234</placa>
+			<marcaModelo>FIAT/PALIO FIRE FLEX </marcaModelo>
+			<especie>Passageiro</especie>
+			<infracao>TRANSITAR VELOC SUP MAX PERMITIDA EM ATE 20%</infracao>
+			<enquadramento>ART 218, I DO CTB</enquadramento>
+			<dataHoraInfracao>01/09/2024 13:42 H</dataHoraInfracao>
+			<codRenainf>02466881616</codRenainf>
+			<valor>85,13</valor>
+			<localInfracao>R CANADA PROX R CLEIDE IURK</localInfracao>
+			<municipioInfracao>Curitiba - PR</municipioInfracao>
+			<agente>321654987 - PR</agente>
+			<instrumento>Radar  9905008  Fixo</instrumento>
+			<valorConsiderado>63</valorConsiderado>
+			<unidade>Km/h</unidade>
+			<texto>NOTIFICO que foi lavrada a autuação de infração cometida com o veículo de sua propriedade, conforme discriminado acima, podendo V.Sª indicar o condutor infrator, bem como oferecer defesa da autuação junto à(ao) SETRAN até 04/11/2024. Documentos necessários para a Defesa: Requerimento; cópia da notificação; cópia do CRLV; cópia da CNH ou de outro documento de identificação do requerente. Em caso de pessoa jurídica, além dos documentos já apontados, documento comprovando a representação (Ex. Contrato Social); e procuração quando for o caso - Res. 299/08-CONTRAN.</texto>
+			<autoridadeTransito>SECRETARIA MUNICIPAL DE TRÂNSITO</autoridadeTransito>
+			<suspensaoDireitoDirigir> </suspensaoDireitoDirigir>
+			<imagem>/999999/20240818/A000222557.jpg</imagem>
+			<semImagem> </semImagem>
+			<dataInfracao>01/09/2024</dataInfracao>
+			<pontos>4</pontos>
+			<natureza>MEDIA</natureza>
+			<limiteRegulemantado>60</limiteRegulemantado>
+			<medicaoRealizada>70</medicaoRealizada>
+			<tipoPessoa>(PF)</tipoPessoa>
+			<prazoDefesa>04/11/2024</prazoDefesa>
+			<logradouroRecurso>R. BENJAMIN CONSTANT,157 CENTRO CEP: 80.060-020 Curitiba - PR</logradouroRecurso>
+			<horarioAtendimento>DAS 08:30 ÀS 17:00 HORAS</horarioAtendimento>
+		</frente>
+		<verso>
+			<idForm>MTN112</idForm>
+			<labelPostagem>POSTADO EM:</labelPostagem>
+			<dataPostagem>21/09/2024</dataPostagem>
+			<numSequencia>3274</numSequencia>
+			<nomeClienteChancela>SETRAN</nomeClienteChancela>
+			<ar>FJ172501966BR</ar>
+			<arDigital>AR172501966XX</arDigital>
+			<prefixoAR>AR</prefixoAR>
+			<numAR>172501966</numAR>
+			<sufixoAR>XX</sufixoAR>
+			<prefixoARDigital>AB</prefixoARDigital>
+			<numARDigital>172501966</numARDigital>
+			<sufixoARDigital>AA</sufixoARDigital>
+			<contratoCorreios>9123333333/2012-DR/PR/BR</contratoCorreios>
+			<numContratoCorreios>9123333333</numContratoCorreios>
+			<textoCorreios>CTC/CTA/GCCAP/PR</textoCorreios>
+			<opcional>ABC-1234     999999-E12345688</opcional>
+			<cepComDV>899092199</cepComDV>
+			<destinatario>
+				<nome>Destinatário da Silva</nome>
+				<endereco>Endereco do Destinatário</endereco>
+				<complementoBairro>COMPL-1 Bairro Destinatário</complementoBairro>
+				<cepMunicipio>80530010 Curitiba-PR</cepMunicipio>
+			</destinatario>
+			<remetente>
+				<nome>SECRETARIA MUNICIPAL DE TRANSITO</nome>
+				<endereco>R. BENJAMIN CONSTANT, 157  CENTRO</endereco>
+				<cepMunicipio>80.060-020 Curitiba - PR</cepMunicipio>
+			</remetente>
+		</verso>
+	</notificacao>
+</Document>
+<Document>
+	<notificacao>
+		<frente>
+			<idForm>MTN120</idForm>
+			<numSequencia>3275</numSequencia>
+			<titulo>NOTIFICAÇÃO DE AUTUAÇÃO Nº 8034327</titulo>
+			<nomeOrgaoTransito>PREFEITURA MUNICIPAL DE CURITIBA</nomeOrgaoTransito>
+			<labelAuto>AUTO DE INFRAÇÃO: </labelAuto>
+			<autoInfracao>999999-Z000953744</autoInfracao>
+			<codOrgaoAutuador>999999</codOrgaoAutuador>
+			<numAuto>Z000953744</numAuto>
+			<nomeProprietario>Proprietário do Veículo</nomeProprietario>
+			<placa>ABC-1234</placa>
+			<marcaModelo>FIAT/STILO </marcaModelo>
+			<especie>Passageiro</especie>
+			<infracao>TRANSITAR VELOC SUP MAX PERMITIDA EM MAIS DE 20% ATE 50%</infracao>
+			<enquadramento>ART 218, II DO CTB</enquadramento>
+			<dataHoraInfracao>02/09/2024 22:13 H</dataHoraInfracao>
+			<codRenainf>02466743523</codRenainf>
+			<valor>127,69</valor>
+			<localInfracao>R N SRA SAG CORACAO-S BR 116</localInfracao>
+			<municipioInfracao>Curitiba - PR</municipioInfracao>
+			<agente>321654987 - PR</agente>
+			<instrumento>Lombada Eletrônica  SAGCOR743  Fixo</instrumento>
+			<valorConsiderado>59</valorConsiderado>
+			<unidade>Km/h</unidade>
+			<texto>NOTIFICO que foi lavrada a autuação de infração cometida com o veículo de sua propriedade, conforme discriminado acima, podendo V.Sª indicar o condutor infrator, bem como oferecer defesa da autuação junto à(ao) SETRAN até 04/11/2024. Documentos necessários para a Defesa: Requerimento; cópia da notificação; cópia do CRLV; cópia da CNH ou de outro documento de identificação do requerente. Em caso de pessoa jurídica, além dos documentos já apontados, documento comprovando a representação (Ex. Contrato Social); e procuração quando for o caso - Res. 299/08-CONTRAN.</texto>
+			<autoridadeTransito>SECRETARIA MUNICIPAL DE TRÂNSITO</autoridadeTransito>
+			<suspensaoDireitoDirigir> </suspensaoDireitoDirigir>
+			<imagem>/999999/20240818/A000222557.jpg</imagem>
+			<semImagem> </semImagem>
+			<dataInfracao>02/09/2024</dataInfracao>
+			<pontos>5</pontos>
+			<natureza>GRAVE</natureza>
+			<limiteRegulemantado>40</limiteRegulemantado>
+			<medicaoRealizada>66</medicaoRealizada>
+			<tipoPessoa>(PF)</tipoPessoa>
+			<prazoDefesa>04/11/2024</prazoDefesa>
+			<logradouroRecurso>R. BENJAMIN CONSTANT,157 CENTRO CEP: 80.060-020 Curitiba - PR</logradouroRecurso>
+			<horarioAtendimento>DAS 08:30 ÀS 17:00 HORAS</horarioAtendimento>
+		</frente>
+		<verso>
+			<idForm>MTN112</idForm>
+			<labelPostagem>POSTADO EM:</labelPostagem>
+			<dataPostagem>21/09/2024</dataPostagem>
+			<numSequencia>3275</numSequencia>
+			<nomeClienteChancela>SETRAN</nomeClienteChancela>
+			<ar>FJ172501966BR</ar>
+			<arDigital>AR172501966XX</arDigital>
+			<prefixoAR>AR</prefixoAR>
+			<numAR>172501966</numAR>
+			<sufixoAR>XX</sufixoAR>
+			<prefixoARDigital>AB</prefixoARDigital>
+			<numARDigital>172501966</numARDigital>
+			<sufixoARDigital>AA</sufixoARDigital>
+			<contratoCorreios>9123333333/2012-DR/PR/BR</contratoCorreios>
+			<numContratoCorreios>9123333333</numContratoCorreios>
+			<textoCorreios>CTC/CTA/GCCAP/PR</textoCorreios>
+			<opcional>ABC-1234     999999-E12345688</opcional>
+			<cepComDV>899092199</cepComDV>
+			<destinatario>
+				<nome>Destinatário da Silva</nome>
+				<endereco>Endereco do Destinatário</endereco>
+				<complementoBairro>COMPL-1 Bairro Destinatário</complementoBairro>
+				<cepMunicipio>80530010 Curitiba-PR</cepMunicipio>
+			</destinatario>
+			<remetente>
+				<nome>SECRETARIA MUNICIPAL DE TRANSITO</nome>
+				<endereco>R. BENJAMIN CONSTANT, 157  CENTRO</endereco>
+				<cepMunicipio>80.060-020 Curitiba - PR</cepMunicipio>
+			</remetente>
+		</verso>
+	</notificacao>
+</Document>
+</XMLDATA>

@@ -2,9 +2,10 @@
 <XATW name="RHC008" paginationVersion="2" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
   <page name="Page1" visible="yes" size="A4" orientation="Portrait">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\Forms\rhc008.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container1" visible="yes" shading="none">
       <boundingRect left="0.299999 cm" top="0.0 cm" width="20.000001 cm" height="28.699998 cm"/>
@@ -54,7 +55,7 @@ if (this.pcc._value == &apos;0&apos;) {
       </pane><!--texto-->
     </container>
   </page><!--Page1-->
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\Forms\rhc008.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\Forms\rhc008.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdZ5wUVdo34JpADpIko7KoIAoqICZMmAERBEVF3DWsYc1reFwlmSO7rou6imImI8GAEcwRVxEV
 ZR9BUIIIQ5I0gXk/zPuMbfUwuadnyuv67YfuuyucnnPqFNt/qyolNzc3AAAAAAAAAIii1GQ3AAAAAAAA
 ACBRBKIAAAAAAABAZAlEAQAAAAAAgMgSiAIAAAAAAACRJRAFAAAAAAAAIksgCgAAAAAAAESWQBQAAAAA
@@ -1932,7 +1933,7 @@ AAAAREsQBQAAAAAAAKL1f7mhuMesEADGAAAAAElFTkSuQmCC</imageData>
 <?Design GridY="0.01 cm"?>
 <?Design GridOriginX="0.0 cm"?>
 <?Design GridOriginY="0.0 cm"?>
-<?Design TestDataFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 05\rhc008-SAMPLE.xml"?>
+<?Design TestDataFile="$$F/p.rhc.amostra5-SAMPLE.xml"?>
 <?Design PreviewUserOptions=""?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
@@ -1941,7 +1942,8 @@ AAAAREsQBQAAAAAAAKL1f7mhuMesEADGAAAAAElFTkSuQmCC</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-10 20:53:38 UTC"?>
-<?Design DateModified="2025-09-10 21:11:11 UTC"?>
+<?Design DateModified="2025-09-16 22:32:21 UTC"?>
 <?Design InitialZoom="150"?>
 <?Design InitialPage="Page1"?>
+<?Design DesignVersionModified="3.3.008.01"?>
 </XATW>

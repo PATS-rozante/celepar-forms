@@ -1,12 +1,12 @@
 $$Option.OverlayFileSymbolset = "windows-1252";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-10 18:51:24 UTC";
+$$Option.FilterDateModified = "2025-09-17 00:24:18 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
 $$Option.PruneXML = "Yes";
 $$Option.FilterVersionCreated = "3.3.008.01";
-$$Option.FilterDateCreated = "2025-09-10 11:19:33 UTC";
+$$Option.FilterDateCreated = "2025-09-16 22:38:57 UTC";
 $$Option.LinesPerPage = "66";
 $$Option.OverlayFile = "$$X/DAE004-SAMPLE.txt";
 $$Option.XmlDataFile = "";
@@ -14,53 +14,97 @@ $$Option.FilterVersionNumber = "1";
 
 var $$Rules = [
    {  // Rule #1
-      state: '*',
-      nextState: 'Carta',
+      state: 'capa, *Start*',
+      nextState: 'carta',
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,1,1).EQ(1))
-         && $$If($$(3,1,1,1).EQ(0))
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(0,0,0,0).Advance(1);
+         $$(3,1,29,67).Trim(3).Xml("carta.documento");
+         $$(2,1,29,103).Trim(3).Xml("carta.contribuinte");
+         $$(0,0,0,0).Advance(4);
+         $$(0,1,2,199).Trim(2).SpanNE(1,1,0).Script("var txt = $$GetText();\r\nvar res = [];\r\nfor (var i = 0; i < txt.length; i++) {\r\n   res.push(txt[i].substring(1,151));\r\n}\r\n$$SetText(res);\r\n").Xml("carta.texto");
+         $$(0,0,0,0).Advance(5);
       },
    },
 
    {  // Rule #2
-      state: 'Carta',
+      state: 'carta',
       nextState: '*-',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,1,1).NE(1))
+         $$If($$(0,1,1,1).EQ(0))
       ) },
       action: function() {
-         $$(0,1,1,1).Trim(0).Xml("Carta.Texto.Tipo");
-         $$(0,1,2,151).Trim(2).Xml("Carta.Texto.Texto");
+         $$(0,1,16,71).Trim(3).Xml("carta.cidadeData");
+         $$(1,1,17,103).Trim(3).Xml("carta.orgao");
+         $$(0,0,0,0).Advance(2);
       },
    },
 
    {  // Rule #3
-      state: 'Carta',
-      nextState: 'Capa',
+      state: 'carta',
+      nextState: 'contratos',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,8,23).EQ("Div.ativa   TIPO"))
+      ) },
+      action: null,
+   },
+
+   {  // Rule #4
+      state: 'contratos',
+      nextState: '*-',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(" "))
+         && $$If($$(0,1,8,151).IsNonBlank())
+      ) },
+      action: function() {
+         $$(0,1,8,151).Trim(2).Xml("carta.contratos.linhaContrato");
+      },
+   },
+
+   {  // Rule #5
+      state: 'contratos',
+      nextState: 'dividas',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,22,35).EQ("DIVIDAS ATIVAS"))
+         && $$If($$(0,1,1,1).NE(1))
+      ) },
+      action: function() {
+         $$(1,1,9,105).Trim(2).Xml("carta.dividas.linhaDividas");
+      },
+   },
+
+   {  // Rule #6
+      state: 'dividas',
+      nextState: 'capa',
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,1,1).EQ(1))
       ) },
       action: function() {
-         $$(0,1,2,103).Trim(2).Xml("Capa.Remetente1");
-         $$(1,1,2,103).Trim(3).Xml("Capa.Remetente2");
-         $$(2,1,2,103).Trim(3).Xml("Capa.Remetente3");
-         $$(3,1,2,103).Trim(3).Xml("Capa.Remetente4");
-         $$(15,1,53,67).Trim(3).Xml("Capa.NumeroAR");
-         $$(17,1,90,105).Trim(3).Xml("Capa.Sequencia");
-         $$(18,1,19,29).Trim(3).Xml("Capa.CEPNET");
-         $$(19,1,14,77).Trim(3).Xml("Capa.Nome");
-         $$(19,1,79,105).Trim(3).Xml("Capa.Documento");
-         $$(20,1,14,105).Trim(3).Xml("Capa.Logradouro");
-         $$(21,1,14,105).Trim(3).Xml("Capa.CidadeUF");
-         $$(22,1,14,22).Trim(3).Xml("Capa.CEP");
-         $$(37,1,59,68).Trim(0).Xml("Capa.DataPostagem");
+         $$(0,1,2,100).Trim(3).Script("reverse()\r\n").Xml("capa.remetente1");
+         $$(1,1,2,100).Trim(3).Script("reverse()\r\n").Xml("capa.remetente2");
+         $$(2,1,2,100).Trim(3).Script("reverse()\r\n").Xml("capa.remetente3");
+         $$(3,1,2,100).Trim(3).Script("reverse()\r\n").Xml("capa.remetente4");
+         $$(15,1,53,67).Trim(3).Xml("capa.numAR");
+         $$(17,1,91,110).Trim(3).Xml("capa.sequencia");
+         $$(18,1,19,29).Trim(3).Xml("capa.cepnet");
+         $$(19,1,14,110).Trim(2).Xml("capa.nomeDocto");
+         $$(20,1,14,110).Trim(2).Xml("capa.logradouro");
+         $$(21,1,14,110).Trim(2).Xml("capa.cidadeUf");
+         $$(22,1,14,22).Trim(3).Xml("capa.cep");
+         $$(28,1,15,103).Trim(3).Script("reverse()").Xml("capa.arLin1");
+         $$(29,1,15,103).Trim(3).Script("reverse()").Xml("capa.arLin2");
+         $$(30,1,15,103).Trim(3).Script("reverse()\r\n").Xml("capa.arLin3");
+         $$(31,1,15,103).Trim(3).Script("reverse()\r\n").Xml("capa.arLin4");
+         $$(32,1,15,103).Trim(3).Script("reverse()\r\n").Xml("capa.arLin5");
+         $$(37,1,59,68).Trim(3).Script("reverse()\r\n").Xml("capa.dtPostagem");
          $$(0,0,0,0).Advance(40);
       },
    },
@@ -68,31 +112,85 @@ var $$Rules = [
 ];
 
 //Custom//
+function reverse() {
+   var txt = $$GetText();
+   var res = '';
+	
+   for(var i = txt.length-1; i >= 0; i--) {
+	res += txt[i];
+   }
+   $$SetText(res);
+}
+
+function setText() {
+   var texto = $$GetText()
+   if (typeof texto == 'String') {
+      texto = [texto];
+   }
+
+   var res = [];
+   for (var i=0; i < texto.length; i++) {
+      var lin = texto[i].substring(0,151).trimRight();
+
+      var txt = lin.substring(1).trim();
+      if (! txt)
+	   continue;
+
+      if (txt.substring(0,20) == 'Senhor contribuinte:' ||
+          txt.substring(0, 6) == 'CNPJ  ' ||
+          txt.substring(0, 6) == 'CPF   ' ||
+          txt.substring(0,10) == 'Curitiba, ' ||
+          txt.substring(0,12) == 'Inspetoria G' ||
+          txt.substring(0,28) == 'Inscrição                 Or' ||
+          txt.substring(0,14) == 'Div.ativa   TI'
+      ) {
+         lin = '2' + lin.substring(1);
+      } else {
+         lin = '1' + lin.substring(1);
+      }
+      res.push(lin);  
+
+      if (texto[i][0] == '0' || texto[i][0] == '-') {
+	   res.push('1 ');		
+      }
+   }
+   $$SetText(res);
+}
 //Custom//
 
 var $$XmlTemplate = {		// XML output template
-  Carta: {
-    Texto: {
-      Tipo: null,
-      Tipo: null,
-      Texto: null,
-      Texto: null,
+  carta: {
+    contribuinte: null,
+    documento: null,
+    cidadeData: null,
+    orgao: null,
+    texto: null,
+    contratos: {
+      linhaContrato: null,
+      linhaContrato: null,
+    },
+    dividas: {
+      linhaDividas: null,
     },
   },
-  Capa: {
-    Remetente1: null,
-    Remetente2: null,
-    Remetente3: null,
-    Remetente4: null,
-    NumeroAR: null,
-    Sequencia: null,
-    CEPNET: null,
-    Nome: null,
-    Documento: null,
-    Logradouro: null,
-    CidadeUF: null,
-    CEP: null,
-    DataPostagem: null,
+  capa: {
+    remetente1: null,
+    remetente2: null,
+    remetente3: null,
+    remetente4: null,
+    numAR: null,
+    sequencia: null,
+    cepnet: null,
+    nomeDocto: null,
+    logradouro: null,
+    cidadeUf: null,
+    cep: null,
+    arLin1: null,
+    arLin2: null,
+    arLin3: null,
+    arLin4: null,
+    arLin5: null,
+    dtPostagem: null,
   },
 };
 

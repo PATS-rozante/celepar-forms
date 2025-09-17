@@ -1,3 +1,3 @@
 @echo off
-cd \DocOrigin\User\Forms\celepar
+cd %DO_ROOT%\User\Forms\celepar
 git pull

@@ -1,5 +1,6 @@
 @echo off
-cd \DocOrigin\User\Forms\celepar
+cd %DO_ROOT%\User\Forms\celepar
 git add .
-git commit -m "Pitorri"
+rem Adicionar o nome do usuário entre aspas após o -m na linha abaixo
+git commit -m 
 git push
