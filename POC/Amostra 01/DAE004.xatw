@@ -102,7 +102,7 @@ Div.ativa</text>
           <pane name="contratos" section="main" backgroundColor="transparent" visible="yes" shading="none" allowMultiple="yes" allowSplit="no" pageBreak="no" allowBreakBefore="yes" allowBreakAfter="yes" minHeight="0.439999 cm">
             <boundingRect width="21.000001 cm" height="0.499999 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-            <field name="linhaContrato" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
+            <field name="linhaContrato" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="no" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
               <boundingRect left="2.0066 cm" top="0.045999 cm" width="18.800001 cm" height="0.439001 cm"/>
               <script>
 // OnEndMerge start ------------------------------------------------------
@@ -217,7 +217,7 @@ this._value = this._value.substring(0, 100).trimRight();
           <tab distance="1.000001 cm"/>
         </field>
         <field name="nomeDocto" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-          <boundingRect left="1.913001 cm" top="15.238603 cm" width="18.0 cm" height="0.329001 cm"/>
+          <boundingRect left="1.913001 cm" top="15.238603 cm" width="17.9832 cm" height="0.329001 cm"/>
           <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
           <font typeface="R212BP" size="9.000" italic="0" bold="0"/>
           <tab distance="1.000001 cm"/>
@@ -248,11 +248,12 @@ this._value = this._value.substring(0, 100).trimRight();
           <tab distance="1.000001 cm"/>
         </field>
         <field name="nomeDocto" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="yes" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="180" justify="left middle" caseShift="none">
-          <boundingRect left="3.847 cm" top="23.249001 cm" width="15.0 cm" height="0.329001 cm"/>
+          <boundingRect left="0.643001 cm" top="23.249001 cm" width="18.204 cm" height="0.329001 cm"/>
           <script>
 // OnEndMerge start ------------------------------------------------------
 function OnEndMerge() {
 this._value = this._value.substring(0,65).trimRight();
+
 }
 // OnEndMerge end --------------------------------------------------------
 </script>
@@ -10705,18 +10706,18 @@ AAAAAAAAAAAAYLX+H+/MNvFbVMIeAAAAAElFTkSuQmCC</imageData>
 <?Design GridY="0.0254 cm"?>
 <?Design GridOriginX="0.0 cm"?>
 <?Design GridOriginY="0.0 cm"?>
-<?Design TestDataFile="$$F/DAE004-SAMPLE-v2.xml"?>
-<?Design PreviewUserOptions="-verbose=100"?>
+<?Design TestDataFile="$$F/DAE004-SAMPLE.xml"?>
+<?Design PreviewUserOptions=""?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
-<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 01\DAE004-SAMPLE-v2.xml"?>
+<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 01\DAE004-SAMPLE.xml"?>
 <?Design DataExplorerDocumentTag="Document"?>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-10 12:25:18 UTC"?>
-<?Design DateModified="2025-09-17 03:54:15 UTC"?>
+<?Design DateModified="2025-09-17 13:18:26 UTC"?>
 <?Design CustomColors="255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;240,240,240:#F0F0F0;228,228,228:#E4E4E4;216,216,216:#D8D8D8;204,204,204:#CCCCCC;"?>
-<?Design InitialZoom="150"?>
-<?Design InitialPage="PagCarta"?>
+<?Design InitialZoom="100"?>
+<?Design InitialPage="PagCapa"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>

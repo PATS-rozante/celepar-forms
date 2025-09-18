@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Configuration desc="Configuration for PostScript Level-2 generation" printerName="">
-  <!-- PostScript Level 2 Configuration File -->
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Configuration desc="Configuration for PDF file generation" printerName="">
 
-  <!-- Merge Configuration File
-
-	This file describes the fonts, printer drivers, and run-time options for a Merge run. Multiple files can be
-	created for specialized purposes.
-	This file must be maintained as a valid XML file. Note that this requires that any occurrence of the 'lessthan',
-	  'greaterthan', 'ampersand', 'singlequote' or 'doublequote' characters must be replaced with &lt; &gt; &amp;,
-	  &apos; or &quot; respectively.
-	 -->
-
-  <!-- Font Paths.
-	The <TTFPath> setting specifies where truetype fonts are located. (For Windows, this is usually C:/Windows/Fonts)
-	This path is used for any <Font> records below that specify a truetype font. It is also used for any font which
-	is downloaded by Merge.
-
-	The <MTXPath> setting specifies where the Font Metrics files specified in <Font> records are located.
+	<!-- Merge Configuration File
+		This file describes the fonts, printer drivers, and run-time options for a Merge run. Multiple files can be
+		created for specialized purposes.
+		This file must be maintained as a valid XML file. Note that this requires that any occurrence of the 'lessthan',
+		'greaterthan', 'ampersand', 'singlequote' or 'doublequote' characters must be replaced with &lt; &gt; &amp;,
+		&apos; or &quot; respectively.
 	-->
 
-  <TTFPath>$C;C:/WINDOWS/Fonts</TTFPath>
-  <MTXPath>C:/DocOrigin/User/Config;$R/DO/Config</MTXPath>
+	<!-- Font Paths.
+		The <TTFPath> setting specifies where truetype fonts are located. (For Windows, this is usually C:/Windows/Fonts)
+		This path is used for any <Font> records below that specify a truetype font. It is also used for any font which
+		is downloaded by Merge.
 
-  <!-- Fonts used by forms
-	This section must list all fonts that are potentially available to Merge. Either...
-	    <Font TTF="truetype_fontfile"/>       ...or...
-	    <Font MTX="font metrics file"/>
+		The <MTXPath> setting specifies where the Font Metrics files specified in <Font> records are located.
+	-->
 
-	Either a Truetype font (TTF=) or font metrics (MTX=) reference must be present. These refer to files
-	(not font names) and can include wildcards to specify multiple fonts.
-	Metrics for fonts are always needed but Merge automatically derives a font's metrics directly from a .ttf file.
-	If the font is resident in the printer and there is no .ttf file, then a .mtx file must be used to
-	provide Merge with the needed font metrics.
+	<TTFPath>$C;/usr/share/fonts/truetype;/Windows/Fonts</TTFPath>
+	<MTXPath>$U/User/Config;$R/DO/Config</MTXPath>
 
-	The encode= option can be used to indicate how the font will be encoded in a PDF file. encode="CID"
-	should be used when the	font contains characters outside the standard Adobe Glyph List.
-	(For Merge runs that do not use the CombineDocuments setting, the CID encoding will be detected automatically.)
+	<!-- Fonts used by forms
+		This section must list all fonts that are potentially available to Merge. Either...
+			<Font TTF="truetype_fontfile"/>       ...or...
+			<Font MTX="font metrics file"/>
 
-	An optional ID= setting can be used in conjunction with EUDC fonts below.
+		Either a Truetype font (TTF=) or font metrics (MTX=) reference must be present. These refer to files
+		(not font names) and can include wildcards to specify multiple fonts.
+		Metrics for fonts are always needed but Merge automatically derives a font's metrics directly from a .ttf file.
+		If the font is resident in the printer and there is no .ttf file, then a .mtx file must be used to
+		provide Merge with the needed font metrics.
+
+		The encode= option can be used to indicate how the font will be encoded in a PDF file. encode="CID"
+		should be used when the	font contains characters outside the standard Adobe Glyph List.
+		(For Merge runs that do not use the CombineDocuments setting, the CID encoding will be detected automatically.)
+
+		An optional ID= setting can be used in conjunction with EUDC fonts below.
 	-->
 	<Font ID="16602" MTX="arialbd.mtx" desc="Arial (Bold)"/>
 	<Font ID="16602" MTX="ariali.mtx" desc="Arial (Italic)"/>
@@ -342,23 +340,26 @@
 	<Font TTF="YuGothB.ttc" desc="Yu Gothic UI Semibold (Bold)"/>
 	<Font TTF="YuGothR.ttc" desc="Yu Gothic UI Semilight"/>
 
-  <!-- Some Chinese font samples
-	For these fonts we set encode="CID" to for PDF Cid font selection.
-	End User Defined Characters (EUDC) are defined as fonts with an eudcType of either "Default" or "Custom"
-	If "Default" this EUDC font applies to any font, if "Custom" then eudcID= must be set to a unique
-	ID value. This will match the EUDC font with any regular font which has the same ID= setting.
-	-->
-  <!-- Font TTF="simhei.ttf"  encode="CID" -->			<!-- Font: SimHei (Regular) -->
-  <!-- Font TTF="simsun.ttc"  encode="CID" -->			<!-- Font: SimSun (Regular) -->
-  <!-- Font TTF="Eudc.tte"    encode="CID" eudcType="Default" --> 	<!-- End User Defined Characters -->
+	<!-- Typeface substitution. Used to create an alternate typeface to use when the desired one is unavailable. -->
+	<!-- <TypefaceSubstitution Original="MICR300" Alternate="gnuMICR" /> -->
 
-  <!-- Page Sizes
-	The <Paper .../> parameters specify the page sizes available to be printed. The form file specifies both the
-	  Name (eg Letter) and Orientation (eg Landscape) of a page.
-	  ID is a unique numeric identifier for this combination of page name and orientation. Values 1-499 are
-	  system assigned. Values 500-999 and above can be used for custom page sizes.
-	  Width/Height are the full physical page sizes (in inches).
-	  MTop/MLeft/MRight/MBottom are the non-printable margins on each of the 4 sides.
+	<!-- Some Chinese font samples
+		For these fonts we set encode="CID" to for PDF Cid font selection.
+		End User Defined Characters (EUDC) are defined as fonts with an eudcType of either "Default" or "Custom"
+		If "Default" this EUDC font applies to any font, if "Custom" then eudcID= must be set to a unique
+		ID value. This will match the EUDC font with any regular font which has the same ID= setting.
+	-->
+	<!-- Font TTF="simhei.ttf"  encode="CID" -->			<!-- Font: SimHei (Regular) -->
+	<!-- Font TTF="simsun.ttc"  encode="CID" -->			<!-- Font: SimSun (Regular) -->
+	<!-- Font TTF="Eudc.tte"    encode="CID" eudcType="Default" --> 	<!-- End User Defined Characters -->
+
+	<!-- Page Sizes
+		The <Paper .../> parameters specify the page sizes available to be printed. The form file specifies both the
+		Name (eg Letter) and Orientation (eg Landscape) of a page.
+		ID is a unique numeric identifier for this combination of page name and orientation. Values 1-499 are
+		system assigned. Values 500-999 and above can be used for custom page sizes.
+		Width/Height are the full physical page sizes (in inches).
+		MTop/MLeft/MRight/MBottom are the non-printable margins on each of the 4 sides.
 	-->
 	<Paper Height="27.94 cm" ID="2" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Portrait" Width="21.59 cm"/>
 	<Paper Height="21.59 cm" ID="1002" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Landscape" Width="27.94 cm"/>
@@ -370,17 +371,18 @@
 	<Paper Height="29.699999 cm" ID="1027" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Landscape" Width="42.0 cm"/>
 	<Paper Height="21.000001 cm" ID="25" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Portrait" Width="14.800001 cm"/>
 	<Paper Height="14.800001 cm" ID="1025" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Landscape" Width="21.000001 cm"/>
+	<Paper Height="127.0 cm" ID="28" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Email_5in" Orient="Portrait" Width="13.97 cm"/>
+	<Paper Height="13.97 cm" ID="1028" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Email_5in" Orient="Landscape" Width="127.0 cm"/>
 
 	<!-- DuplexItem - each instance of this element identifies one duplex option that is to be enabled.
-
 		For a user-defined Duplex option use an ID value of between: 100 and 199, inclusive.
 
 		Example: <DuplexItem ID="100" UiString="My special duplex option #100"/>
 	-->
-    <DuplexItem ID="1"/>			<!-- UiString="Print on 1 Side Only" -->
-    <DuplexItem ID="2"/>			<!-- UiString="Duplex - Top Binding" -->
-    <DuplexItem ID="3"/>			<!-- UiString="Duplex - Left Binding" -->
-    <!-- <DuplexItem ID="4"/> -->		<!-- UiString="Duplex - Right Binding" -->
+	<DuplexItem ID="1"/>			<!-- UiString="Print on 1 Side Only" -->
+	<DuplexItem ID="2"/>			<!-- UiString="Duplex - Top Binding" -->
+	<DuplexItem ID="3"/>			<!-- UiString="Duplex - Left Binding" -->
+	<!-- <DuplexItem ID="4"/> -->		<!-- UiString="Duplex - Right Binding" -->
 
 	<!-- InputTrayItem - each instance of this element identifies one input tray that is to be enabled.
 
@@ -393,247 +395,302 @@
 	<InputTrayItem ID="1005" UiString="Tray #3"/>
 	<InputTrayItem ID="1008" UiString="Tray #4"/>
 	<InputTrayItem ID="1009" UiString="Tray #5"/>
-	<InputTrayItem ID="1003" UiString="Manual Envelope"/>
-	<InputTrayItem ID="1006" UiString="Envelopes"/>
 	<InputTrayItem ID="1020" UiString="Large Capacity"/>
-    <!-- <InputTrayItem ID="1005"/> -->		<!-- UiString="Tray #3" -->
-    <!-- <InputTrayItem ID="1008"/> -->		<!-- UiString="Tray #4" -->
-    <!-- <InputTrayItem ID="1009"/> -->		<!-- UiString="Tray #5" -->
-    <!-- <InputTrayItem ID="1003"/> -->		<!-- UiString="Manual Envelope" -->
-    <!-- <InputTrayItem ID="1006"/> -->		<!-- UiString="Envelopes" -->
-    <!-- <InputTrayItem ID="1020"/> -->		<!-- UiString="Large Capacity" -->
+
+	<!-- <InputTrayItem ID="1002"/> -->		<!-- UiString="Manual Feed" -->
+	<!-- <InputTrayItem ID="1004"/> -->		<!-- UiString="Tray #1" -->
+	<!-- <InputTrayItem ID="1001"/> -->		<!-- UiString="Tray #2" -->
+	<!-- <InputTrayItem ID="1005"/> -->		<!-- UiString="Tray #3" -->
+	<!-- <InputTrayItem ID="1008"/> -->		<!-- UiString="Tray #4" -->
+	<!-- <InputTrayItem ID="1009"/> -->		<!-- UiString="Tray #5" -->
+	<!-- <InputTrayItem ID="1003"/> -->		<!-- UiString="Manual Envelope" -->
+	<!-- <InputTrayItem ID="1006"/> -->		<!-- UiString="Envelopes" -->
+	<!-- <InputTrayItem ID="1020"/> -->		<!-- UiString="Large Capacity" -->
 
 
 	<!-- OutputBinItem - each instance of this element identifies one output bin that is to be enabled.
 		Standard internally-defined bins are numbered starting at 1000
 
-	    Note: HP typically predefines bin 1 as the standard output bin, bin 2 as "lower, rear bin",
+		Note: HP typically predefines bin 1 as the standard output bin, bin 2 as "lower, rear bin",
 		then assigns bin#s to any additional bins to 3,4, etc.
 	-->
-	<OutputBinItem ID="1001" UiString="Upper Output Bin"/>
-	<OutputBinItem ID="1002" UiString="Lower/Rear Output Bin"/>
-    <!-- <OutputBinItem ID="1003"/> -->		<!-- UiString="Mailbox 1" -->
-    <!-- <OutputBinItem ID="1004"/> -->		<!-- UiString="Mailbox 2" -->
-    <!-- <OutputBinItem ID="1005"/> -->		<!-- UiString="Mailbox 3" -->
-    <!-- <OutputBinItem ID="1006"/> -->		<!-- UiString="Mailbox 4" -->
-    <!-- <OutputBinItem ID="1007"/> -->		<!-- UiString="Mailbox 5" -->
+
+	<!-- <OutputBinItem ID="1001"/> -->		<!-- UiString="Upper Output Bin" -->
+	<!-- <OutputBinItem ID="1002"/> -->		<!-- UiString="Lower/Rear Output Bin" -->
+	<!-- <OutputBinItem ID="1003"/> -->		<!-- UiString="Mailbox 1" -->
+	<!-- <OutputBinItem ID="1004"/> -->		<!-- UiString="Mailbox 2" -->
+	<!-- <OutputBinItem ID="1005"/> -->		<!-- UiString="Mailbox 3" -->
+	<!-- <OutputBinItem ID="1006"/> -->		<!-- UiString="Mailbox 4" -->
+	<!-- <OutputBinItem ID="1007"/> -->		<!-- UiString="Mailbox 5" -->
 
 	<!-- PaperTypeItem - each instance of this element identifies one paper type that is to be enabled.
 		For a user-defined Paper Type use an ID value of between: 100 and 199, inclusive.
 
 		Example: <PaperTypeItem ID="100" UiString="My special paper type #100"/>
 	-->
-	<PaperTypeItem ID="1000" UiString="Bond Paper"/>
-	<PaperTypeItem ID="1001" UiString="Plain Paper"/>
-	<PaperTypeItem ID="1002" UiString="Colored Paper"/>
-	<PaperTypeItem ID="1003" UiString="Rough Paper"/>
-	<PaperTypeItem ID="1004" UiString="Heavy Paper"/>
-	<PaperTypeItem ID="1005" UiString="Glossy Paper"/>
-	<PaperTypeItem ID="1006" UiString="Label Sheets"/>
-	<PaperTypeItem ID="1007" UiString="Vellum"/>
 	<PaperTypeItem ID="1008" UiString="Default Paper Type"/>
-	<PaperTypeItem ID="1009" UiString="Recycled Paper"/>
-	<PaperTypeItem ID="1010" UiString="Letterhead"/>
-	<PaperTypeItem ID="1011" UiString="Card Stock"/>
-	<PaperTypeItem ID="1012" UiString="Prepunched Paper"/>
-	<PaperTypeItem ID="1013" UiString="Preprinted Paper"/>
-	<PaperTypeItem ID="1014" UiString="Transparency"/>
 
-   <!-- Checkbox Settings
+	<!-- <PaperTypeItem ID="1000"/> -->		<!-- UiString="Bond Paper" -->
+	<!-- <PaperTypeItem ID="1001"/> -->		<!-- UiString="Plain Paper" -->
+	<!-- <PaperTypeItem ID="1002"/> -->		<!-- UiString="Colored Paper" -->
+	<!-- <PaperTypeItem ID="1003"/> -->		<!-- UiString="Rough Paper" -->
+	<!-- <PaperTypeItem ID="1004"/> -->		<!-- UiString="Heavy Paper" -->
+	<!-- <PaperTypeItem ID="1005"/> -->		<!-- UiString="Glossy Paper" -->
+	<!-- <PaperTypeItem ID="1006"/> -->		<!-- UiString="Label Sheets" -->
+	<!-- <PaperTypeItem ID="1007"/> -->		<!-- UiString="Vellum" -->
+	<!-- <PaperTypeItem ID="1009"/> -->		<!-- UiString="Recycled Paper" -->
+	<!-- <PaperTypeItem ID="1010"/> -->		<!-- UiString="Letterhead" -->
+	<!-- <PaperTypeItem ID="1011"/> -->		<!-- UiString="Card Stock" -->
+	<!-- <PaperTypeItem ID="1012"/> -->		<!-- UiString="Prepunched Paper" -->
+	<!-- <PaperTypeItem ID="1013"/> -->		<!-- UiString="Preprinted Paper" -->
+	<!-- <PaperTypeItem ID="1014"/> -->		<!-- UiString="Transparency -->
+
+	<!-- Checkbox Settings
 	<CheckboxSize> is the checkbox size in inches. If this parameter is 0 or left out, the checkbox
-	  is set to the size of the font specified for the individual checkbox.
+		is set to the size of the font specified for the individual checkbox.
 	<CheckboxShape> Square, Circle - how to draw the checkbox. Use "None" to not draw the 
-    outer box (if chars from symbol fonts are used in CheckboxStyle).
+		outer box (if chars from symbol fonts are used in CheckboxStyle).
 	<CheckboxStyle> is how the checkbox is shown to be checked or unchecked.
-	  Set to Fill to fill the box as a solid color when checked (unfilled when unchecked)
-	  Set to Check to place a check mark in the box when checked (unfilled when unchecked)
-	  Set to a 1 or 2 character string to use those characters as the checked and unchecked characters.
-	    (If only 1 character specified, it is displayed for the checked status, unfilled for unchecked status).
+		Set to Fill to fill the box as a solid color when checked (unfilled when unchecked)
+		Set to Check to place a check mark in the box when checked (unfilled when unchecked)
+		Set to a 1 or 2 character string to use those characters as the checked and unchecked characters.
+			(If only 1 character specified, it is displayed for the checked status, unfilled for unchecked status).
 	-->
-  <CheckboxSize>0</CheckboxSize>
-  <CheckboxShape>Square</CheckboxShape>
-  <CheckboxStyle>Check</CheckboxStyle>
+	<CheckboxSize>0</CheckboxSize>
+	<CheckboxShape>Square</CheckboxShape>
+	<CheckboxStyle>Check</CheckboxStyle>
 
-  <!-- RadioButton Settings
-	These are identical to the Checkbox settings, but apply to RadioButton fields rather than Checkbox fields.
+	<!-- RadioButton Settings
+		These are identical to the Checkbox settings, but apply to RadioButton fields rather than Checkbox fields.
 	-->
-  <RadioButtonSize>0</RadioButtonSize>
-  <RadioButtonShape>Circle</RadioButtonShape>
-  <RadioButtonStyle>Fill</RadioButtonStyle>
+	<RadioButtonSize>0</RadioButtonSize>
+	<RadioButtonShape>Circle</RadioButtonShape>
+	<RadioButtonStyle>Fill</RadioButtonStyle>
 
- 	<!-- SplitWord - If normal word wrap creates a line (single word) that is too wide to fit in the Text Label
-	this setting allows the word to be split at a non-word boundary. If set to N, the offending text will overflow
-	on the right of the text label.
+	<!-- SplitWord - If normal word wrap creates a line (single word) that is too wide to fit in the Text Label
+		this setting allows the word to be split at a non-word boundary. If set to N, the offending text will overflow
+		on the right of the text label.
 	-->
-    <SplitWord>Y</SplitWord>
+	<SplitWord>Y</SplitWord>
 
 	<!-- Barcode options. -->
 	<!-- Note - all non-zero barcode widths are specified in standard DocOrigin units 
 	eg) .01" .01in .01mm .01cm .1pts or 1/1000000th of an inch if no units are specified. -->
 
-  <Barcode39Text>Y</Barcode39Text>					<!-- Draw text below barcode -->
-  <Barcode39DerivedText>N</Barcode39DerivedText>	<!-- Display text includes all ascii-encoded text and checksum -->
-  <Barcode39CompactText>N</Barcode39CompactText>	<!-- Do we display as "*BCD*" or "*    B    C    D    *" -->
-  <Barcode39Ratio>3</Barcode39Ratio>				<!-- Ratio of wide bar width to narrow bar -->
-  <Barcode39AddChecksum>N</Barcode39AddChecksum>	<!-- Compute and add a checksum digit -->
-  <Barcode39FullAscii>N</Barcode39FullAscii>		<!-- Convert data to ascii encoded values -->
-  <Barcode39BarWidth>0</Barcode39BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
+	<Barcode39Text>Y</Barcode39Text>					<!-- Draw text below barcode -->
+	<Barcode39DerivedText>N</Barcode39DerivedText>	<!-- Display text includes all ascii-encoded text and checksum -->
+	<Barcode39CompactText>N</Barcode39CompactText>	<!-- Do we display as "*BCD*" or "*    B    C    D    *" -->
+	<Barcode39Ratio>3</Barcode39Ratio>				<!-- Ratio of wide bar width to narrow bar -->
+	<Barcode39AddChecksum>N</Barcode39AddChecksum>	<!-- Compute and add a checksum digit -->
+	<Barcode39FullAscii>N</Barcode39FullAscii>		<!-- Convert data to ascii encoded values -->
+	<Barcode39BarWidth>0</Barcode39BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
 
-  <Barcode25Text>Y</Barcode25Text>					<!-- Draw text below barcode -->
-  <Barcode25Ratio>3</Barcode25Ratio>				<!-- Ratio of wide bar width to narrow bar -->
-  <Barcode25AddChecksum>N</Barcode25AddChecksum>	<!-- Compute and add a checksum digit -->
-  <Barcode25BarWidth>0</Barcode25BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
+	<Barcode25Text>Y</Barcode25Text>					<!-- Draw text below barcode -->
+	<Barcode25Ratio>3</Barcode25Ratio>				<!-- Ratio of wide bar width to narrow bar -->
+	<Barcode25AddChecksum>N</Barcode25AddChecksum>	<!-- Compute and add a checksum digit -->
+	<Barcode25BarWidth>0</Barcode25BarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
 
-  <Barcode11Text>Y</Barcode11Text>				<!-- Draw text below barcode -->
-  <Barcode11Ratio>0</Barcode11Ratio>				<!-- Ratio of wide bar width to narrow bar; 0 - auto calculate for designed width -->
-  <Barcode11Checksum>Y</Barcode11Checksum>			<!-- Compute and add a checksum digit(s) -->
-  <Barcode11NarrowBarWidth>0</Barcode11NarrowBarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
+	<Barcode11Text>Y</Barcode11Text>				<!-- Draw text below barcode -->
+	<Barcode11Ratio>0</Barcode11Ratio>				<!-- Ratio of wide bar width to narrow bar; 0 - auto calculate for designed width -->
+	<Barcode11Checksum>Y</Barcode11Checksum>			<!-- Compute and add a checksum digit(s) -->
+	<Barcode11NarrowBarWidth>0</Barcode11NarrowBarWidth>          <!-- Set the width of a bar; 0 - scale to designed width -->
 
-  <Barcode128Text>Y</Barcode128Text>				<!-- Draw text below barcode -->
-  <Barcode128CharacterSet>8859-1</Barcode128CharacterSet>	<!-- The encoding character set to use -->
-  <Barcode128BarWidth>0</Barcode128BarWidth>        <!-- Set the width of a bar; 0 - scale to designed width -->
-  <Barcode128-GS1>N</Barcode128-GS1>				<!-- Is this a GS1-128 barcode? -->
-  <Barcode128-GS1CheckSum>N</Barcode128-GS1CheckSum>	<!-- Is Merge calculating the Mod-10 Checksum for this GS1-128 barcode -->
-  <Barcode128Esc>N</Barcode128Esc>			<!-- Enable the use of >8 to set a GS1-128 FNC1 code -->
-  
-  <BarcodePostNetBarWidth>0</BarcodePostNetBarWidth>	<!-- Set the width of a bar; 0 - scale to designed width -->
-  <BarcodePostNetRatio>1</BarcodePostNetRatio>		<!-- Set the space/bars ratio -->
+	<Barcode128Text>Y</Barcode128Text>				<!-- Draw text below barcode -->
+	<Barcode128CharacterSet>8859-1</Barcode128CharacterSet>	<!-- The encoding character set to use -->
+	<Barcode128BarWidth>0</Barcode128BarWidth>        <!-- Set the width of a bar; 0 - scale to designed width -->
+	<Barcode128-GS1>N</Barcode128-GS1>				<!-- Is this a GS1-128 barcode? -->
+	<Barcode128-GS1CheckSum>N</Barcode128-GS1CheckSum>	<!-- Is Merge calculating the Mod-10 Checksum for this GS1-128 barcode -->
+	<Barcode128Esc>N</Barcode128Esc>			<!-- Enable the use of >8 to set a GS1-128 FNC1 code -->
 
-  <QRCodeMode>8BIT</QRCodeMode>				<!-- Encoding mode -->
-  <QRCodeCharacterSet>8859-1</QRCodeCharacterSet>	<!-- The encoding character set to use -->
-  <QRCodeLevel>M</QRCodeLevel>				<!-- Error correction level -->
+	<BarcodePostNetBarWidth>0</BarcodePostNetBarWidth>	<!-- Set the width of a bar; 0 - scale to designed width -->
+	<BarcodePostNetRatio>1</BarcodePostNetRatio>		<!-- Set the space/bars ratio -->
 
-  <BarcodeUSIMText>Y</BarcodeUSIMText>				<!-- Display text above/below the bars -->
-  <BarcodeUSIMTextBelow>N</BarcodeUSIMTextBelow>	<!-- Display text below the bars -->
-  <BarcodeUSIMBarWidth>0</BarcodeUSIMBarWidth>      <!-- Set the width of a bar; 0 - scale to designed width -->
+	<QRCodeMode>8BIT</QRCodeMode>				<!-- Encoding mode -->
+	<QRCodeCharacterSet>8859-1</QRCodeCharacterSet>	<!-- The encoding character set to use -->
+	<QRCodeLevel>M</QRCodeLevel>				<!-- Error correction level -->
 
-  <BarcodeAUSPOSTText>Y</BarcodeAUSPOSTText>			<!-- Display text above/below the bars -->
-  <BarcodeAUSPOSTTextBelow>N</BarcodeAUSPOSTTextBelow>	<!-- Display text below the bars -->
-  <BarcodeAUSPOSTBarWidth>0</BarcodeAUSPOSTBarWidth>    <!-- Set the width of a bar; 0 - scale to designed width -->
+	<BarcodeUSIMText>Y</BarcodeUSIMText>				<!-- Display text above/below the bars -->
+	<BarcodeUSIMTextBelow>N</BarcodeUSIMTextBelow>	<!-- Display text below the bars -->
+	<BarcodeUSIMBarWidth>0</BarcodeUSIMBarWidth>      <!-- Set the width of a bar; 0 - scale to designed width -->
 
-  <BarcodePharmacodeBarWidth>.5mm 1.5mm 1.2mm</BarcodePharmacodeBarWidth> <!-- Widths of narrow bar, wide bar, gap -->
-  <BarcodePharmacode2TrackBarWidth>.5mm .6mm</BarcodePharmacode2TrackBarWidth> <!-- Widths of bar and gap -->
+	<BarcodeAUSPOSTText>Y</BarcodeAUSPOSTText>			<!-- Display text above/below the bars -->
+	<BarcodeAUSPOSTTextBelow>N</BarcodeAUSPOSTTextBelow>	<!-- Display text below the bars -->
+	<BarcodeAUSPOSTBarWidth>0</BarcodeAUSPOSTBarWidth>    <!-- Set the width of a bar; 0 - scale to designed width -->
 
-  <BarcodeEANBarWidth>0</BarcodeEANBarWidth>    <!-- Set the width of a narrowest bar; 0 - scale to designed width -->
+	<BarcodePharmacodeBarWidth>.5mm 1.5mm 1.2mm</BarcodePharmacodeBarWidth> <!-- Widths of narrow bar, wide bar, gap -->
+	<BarcodePharmacode2TrackBarWidth>.5mm .6mm</BarcodePharmacode2TrackBarWidth> <!-- Widths of bar and gap -->
 
-  <BarcodeUPCBarWidth>0</BarcodeUPCBarWidth>    <!-- Set the width of a narrowest bar; 0 - scale to designed width -->
+	<BarcodeEANBarWidth>0</BarcodeEANBarWidth>    <!-- Set the width of a narrowest bar; 0 - scale to designed width -->
 
-  <MaxiCodeCharacterSet>8859-1</MaxiCodeCharacterSet>	<!-- The encoding character set to use -->
-  <MaxiCodeMode>auto</MaxiCodeMode>		<!-- Define which mode of MaxiCode barcode to produce -->
+	<BarcodeUPCBarWidth>0</BarcodeUPCBarWidth>    <!-- Set the width of a narrowest bar; 0 - scale to designed width -->
 
-  <Printer Name="PS2" Type="PS2">
+	<MaxiCodeCharacterSet>8859-1</MaxiCodeCharacterSet>	<!-- The encoding character set to use -->
+	<MaxiCodeMode>auto</MaxiCodeMode>		<!-- Define which mode of MaxiCode barcode to produce -->
 
-   <!-- Resident Font list
-	This section tells Merge which font typefaces and styles are permanently resident in the printer.
-	Any font that is referenced in a form that is not in this list is considered a candidate to be downloaded
-	on-the-fly. If fonts are permanently pre-downloaded into the printer, they should also appear in this list.
-	Set Bold="1" if only the bold version is in the printer, Bold="0" if only non-bold, or Bold="*" if both
-	bold and non-bold versions are resident in the printer. Similarly for Italic=
-
-	The ID= setting specifies the PCL typeface family for HP compatible printing. These may be found by printing a font
-	status page on the printer, or in a HP PCL reference manual. This value is for only PCL printing.
+	<!-- Printer Driver definitions
+		Each printer that is to be active requires a <Printer ...> definition. (all lines up to the </Printer> are
+		part of that definition). The printer Name is the name by which the printer will be known in scripting
+		and in error messages. The printer Type is the specific printer language driver that is to be used - must be
+		one of the builtin driver names in Merge.
 	-->
+
+	<!-- Setting for PDF generation
+		This is configured like another print driver, but with some
+		PDF-specific settings.
+	-->
+	<Printer Name="PDF" Type="PDF">
+
+		<!-- PDF Security
+		Configure security options for generated document here.
+		Either OpenPasswordRequired or ModifyPasswordAllowed or both are required to turn security ON.
+		-->
+		<!-- <OpenPasswordRequired>Yes</OpenPasswordRequired> -->
+		<!-- <OpenPassword>YourPassword</OpenPassword> -->
+		<!-- <ModifyPasswordAllowed>Yes</ModifyPasswordAllowed> -->
+		<!-- <ModifyPassword>YourPassword</ModifyPassword> -->
+		<!-- Acceptable values: "LowResolution", "HighResolution" or leave missing/empty for Disable -->
+		<!-- <PrintCapability>HighResolution</PrintCapability> -->
+		<!-- Acceptable values: "InsertDeleteRotate", "FillFields", "FillFieldsCommenting", "All" or leave missing/empty for Disable -->
+		<!-- <AllowChange>All</AllowChange> -->
+		<!-- <AllowCopying>Yes</AllowCopying> -->
+		<!-- <AllowAccessibility>Yes</AllowAccessibility> -->
+
+		<!-- Resident Font list
+			This section tells Merge which font typefaces and styles are resident in any PDF consuming
+			application (Adobe Reader). Any font that is referenced in a form that is not in this list is
+			considered a candidate to be embedded in the PDF.
+			Set Bold="1" if only the bold version is in the printer, Bold="0" if only non-bold, or Bold="*" if both
+			bold and non-bold versions are resident in the PDF consuming application. Similarly for Italic=
+		-->
 	<ResidentFont Bold="*" Italic="*" Typeface="Arial"/>
 	<ResidentFont Bold="*" Italic="*" Typeface="Courier New"/>
 	<ResidentFont Bold="*" Italic="*" Typeface="Times New Roman"/>
 
-    <ResetStart>%% Generated by Merge\r\nsave\r\n</ResetStart>
-    <ResetEnd>restore\r\n%% Job completed by Merge\004</ResetEnd>
+		<!-- Encryption Yes/No
+			Overrides encryption settings defined in Design.
+			Default is 'Yes' (encrypt if passwords set up in form).
+		-->
+		<!-- <Encryption>Yes</Encryption>    -->
 
-	<!-- Selection text needed to put the various duplex IDs into effect -->
-	<Duplex1>&lt;&lt; /Duplex false /Tumble false  &gt;&gt; setpagedevice</Duplex1>
-	<Duplex2>&lt;&lt; /Duplex true  /Tumble true   &gt;&gt; setpagedevice</Duplex2>
-	<Duplex3>&lt;&lt; /Duplex true  /Tumble false  &gt;&gt; setpagedevice</Duplex3>
+		<!-- SynthBold controls the degree of boldness synthesized when a bold version of the font
+			is not available in the configuration. When this happens, the outline of the font glyph is
+			drawn with this line thickness (in points or 1/72 of an inch).
+		-->
+		<SynthBold>0.25</SynthBold>
 
-     <!-- SynthBold controls the degree of boldness synthesized when a bold version of the font
-	is not available in the configuration. When this happens, the outline of the font glyph is
-	drawn with this line thickness (in points or 1/72 of an inch).
-	-->
-     <SynthBold>0.25</SynthBold>
+		<!-- HighlightURL controls if URLs and emails are automatically formatted as underlined blue text in the output.
+			If URLs or emails text has custom underline or color properties defined those are not overwritten.
+			It's also possible to control this behavior via object tags.
+			Default is Yes.
+		-->
+		<HighlightURL>Yes</HighlightURL>
 
-      <!-- <Outputfile> indicates where the output file is to be written. A '%' followed by a letter
-	  causes a text substitution at runtime, to allow dynamic creation of unique names.
-	  This template driven filename mechanism may be used for any of the printer drivers.
-	%a - abbreviated weekday name (eg "Wed")
-	%A - full weekday name (eg "Wednesday"
-	%b - abbreviated month name (eg "Mar")
-	%B - full month name (eg "March"
-	%d - replace with the 2digit current day
-	%f - replace with the current form name.
-	%H - replace with the 2digit current hour (local time, 24 hour clock)
-	%I - replace with the 2digit current hour (local time, 12 hour clock)
-	%j - replace with the 3digit day-of-year (001-366)
-	%m - replace with the 2digit current month
-	%M - replace with the 2digit current minute
-	%p - current locale's AM/PM indicator for 12hour clock
-	%S - replace with the 2digit current second
-	%U - Week of year (2digit 00-53, starting on Sunday)
-	%w - Weekday as number (0-6), starting on Sunday
-	%W - Week of year (2digit 00-53, starting on Monday)
-	%y - replace with the 2digit current year
-	%Y - replace with the 4digit current year
+		<!-- Bookmark Yes/No
+			Enables the generated PDF bookmarks to be viewed.
+			Default is Yes.
+		-->
+		<Bookmark>Yes</Bookmark>
 
-	Note - you must include the file extension (eg .ps2) at the end
+		<!-- Blend mode for PDF transparency. See "PDF Blend Modes: Addendum" document for details.
+			Possible values are:
+				Normal - Selects the source color, ignoring the backdrop.
+				Multiply - Multiplies the backdrop and source color values.
+				Screen - Multiplies the complements of the backdrop and source color values, then complements the result.
+				Overlay - Multiplies or screens the colors, depending on the backdrop color value.
+				Darken - Selects the darker of the backdrop and source colors.
+				Lighten - Selects the lighter of the backdrop and source colors.
+				ColorDodge - Brightens the backdrop color to reflect the source color.
+				ColorBurn - Darkens the backdrop color to reflect the source color.
+				HardLight - Multiplies or screens the colors, depending on the source color value.
+				SoftLight - Darkens or lightens the colors, depending on the source color value.
+				Difference - Subtracts the darker of the two constituent colors from the lighter color.
+				Exclusion - Produces an effect similar to that of the Difference mode but lower in contrast.
+			Default is Multiply.
+			If you do not want color blending use Normal.
+		-->
+		<!-- <Blend>Normal</Blend> -->
 
-     <Outputfile>$R/PS2/%f_%Y-%m-%d_%H-%M.ps2</Outputfile> -->
+		<!-- TransparencyColor defines which color is used as a background for transparent pixels in PNG images.
+			Fully transparent pixels get this color assigned.
+			Default is white - '255 255 255'.
+		-->
+		<!-- <TransparencyColor>255 255 255</TransparencyColor> -->
 
-     <OverwriteFile>Yes</OverwriteFile>
+		<!-- Color range which is treated as transparent when an image has transparency turned on.
+			Defaults to white. Make an image transparent in Merge by setting "this._transparent=true;" in image script.
+			Values represent Red1 Green1 Blue1 Red2 Green2 Blue2. All colors in range
+			(Red1-Red2, Green1-Green2, Blue1-Blue2) are considered to be transparent when displayed as PDF.
+		-->
+		<TransparencyMask>255 255 255 255 255 255</TransparencyMask>
 
-       <!-- If <CombineDocuments> is set to Yes, all documents generated by this driver will be
-	 combined into a single multipage file. Otherwise each document will create
-	 it's own file.
-	 -->
-     <CombineDocuments>Yes</CombineDocuments>
+		<!-- SupportAlpha Yes/No
+			Specifies whether alpha channel of PNG images should be used for image masking instead of TransparencyMask
+				when an image has transparency turned on.
+			Default is No.
+		-->
+		<!-- <SupportAlpha>Yes</SupportAlpha> -->
 
-       <!-- Set <EmbedFonts> to Yes to have non-resident fonts downloaded.
-	-->
+		<!-- <Outputfile> indicates where the output file is to be written. A '%' followed by a letter
+			causes a text substitution at runtime, to allow dynamic creation of unique names.
+			This template driven filename mechanism may be used for any of the printer drivers.
+			%a - abbreviated weekday name (eg "Wed")
+			%A - full weekday name (eg "Wednesday"
+			%b - abbreviated month name (eg "Mar")
+			%B - full month name (eg "March"
+			%d - replace with the 2digit current day
+			%f - replace with the current form name.
+			%H - replace with the 2digit current hour (local time, 24 hour clock)
+			%I - replace with the 2digit current hour (local time, 12 hour clock)
+			%j - replace with the 3digit day-of-year (001-366)
+			%m - replace with the 2digit current month
+			%M - replace with the 2digit current minute
+			%p - current locale's AM/PM indicator for 12hour clock
+			%S - replace with the 2digit current second
+			%U - Week of year (2digit 00-53, starting on Sunday)
+			%w - Weekday as number (0-6), starting on Sunday
+			%W - Week of year (2digit 00-53, starting on Monday)
+			%y - replace with the 2digit current year
+			%Y - replace with the 4digit current year
 
-     <EmbedFonts>Yes</EmbedFonts>
+			Note - you must include the file extension (eg .pdf) at the end
 
-     <FileHeader>%%!PS-Adobe-2.0
-%%%%Creator: %s
-%%%%Pages: (atend)
-%%%%PageOrder: Ascend
-%%%%EndComments
-save
-</FileHeader>
+			<Outputfile>$R/PDF/%f_%Y-%m-%d_%H-%M.pdf</Outputfile>
+		-->
 
-     <FileTrailer>%%%%Trailer
-%%%%Pages: %ld
-restore
-%% Job completed by Merge\004</FileTrailer>
+		<!-- The filename from the <Outputfile> may not create a unique name. If the file is
+			found to exist already, Merge will append an underscore followed by a digit to
+			the end of the filename, incrementing the digit until a unique name is found.
+			If <OverwriteFile> is set to Yes, no attempt is made to create a unique name - it will be replaced instead.
+		-->
+		<OverwriteFile>Yes</OverwriteFile>
 
-     <DocumentSetup>%%%%BeginSetup
-%%%%EndSetup
-</DocumentSetup>
+		<!-- If <CombineDocuments> is set to Yes, all documents generated by this driver will be
+			combined into a single multipage PDF file. Otherwise each document will create
+			it's own file.
+		-->
+		<CombineDocuments>Yes</CombineDocuments>
 
-     <PageHeader>%%%%Page: %d %d
-%%%%BeginPageSetup
+		<!-- Set <EmbedFonts> to Yes to have non-resident fonts embedded in the PDF file. Otherwise
+			PDF viewers will find closest match.
+		-->
+		<EmbedFonts>Yes</EmbedFonts>
 
-%s
-%%%%PageOrientation: %s
-%%%%EndPageSetup
-save
-</PageHeader>
-     <PageTrailer>showpage
-restore
-%%%%PageTrailer
+		<!-- ViewerPreferences are acrobat display defaults that can be added to the generated PDF file.
+			See the PDF Reference manual - version 1.7 (sixth edition) section 8.1 for details. (available online at Adobe and AIIM sites)
+		-->
+		<ViewerPreferences>/PrintClip/CropBox</ViewerPreferences>
 
-</PageTrailer>
+		<!-- <Duplex> controls whether a document will be output in duplex.
+			The possible settings are:
+				<Duplex>form</Duplex>     - indicates to use the duplex settings that were set in the form.
+				<Duplex>top</Duplex>      - indicates to print the form duplexed with top-binding no matter what is set in the form.
+				<Duplex>left</Duplex>     - indicates to print the form duplexed with left-binding no matter what is set in the form.
+				<Duplex>right</Duplex>    - indicates to print the form duplexed with right-binding no matter what is set in the form.
+				<Duplex>simplex</Duplex>  - indicates to print the form as simplex (one-sided) no matter what is set in the form.
+			The default setting for this option is form.
+		-->
+		<Duplex>form</Duplex>
 
-      <!-- <Duplex> controls whether a document will be output in duplex.
-      The possible settings are:
-			   <Duplex>form</Duplex>     - indicates to use the duplex settings that were set in the form.
-			   <Duplex>top</Duplex>      - indicates to print the form duplexed with top-binding no matter what is set in the form.
-			   <Duplex>left</Duplex>     - indicates to print the form duplexed with left-binding no matter what is set in the form.
-			   <Duplex>right</Duplex>    - indicates to print the form duplexed with right-binding no matter what is set in the form.
-			   <Duplex>simplex</Duplex>  - indicates to print the form as simplex (one-sided) no matter what is set in the form.
-
-            The default setting for this option is form.
-       -->
-
-     <Duplex>form</Duplex>
-
-  </Printer>
+	</Printer>
 
 </Configuration>

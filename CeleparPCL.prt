@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Configuration desc="Configuration for PDF file generation" printerName="">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Configuration desc="Configuration for PCL printers" printerName="">
 
 	<!-- Merge Configuration File
 		This file describes the fonts, printer drivers, and run-time options for a Merge run. Multiple files can be
@@ -16,8 +16,8 @@
 		The <MTXPath> setting specifies where the Font Metrics files specified in <Font> records are located.
 	-->
 
-	<TTFPath>$C;C:/WINDOWS/Fonts</TTFPath>
-	<MTXPath>C:/DocOrigin/User/Config;$R/DO/Config</MTXPath>
+	<TTFPath>$C;/usr/share/fonts/truetype;/Windows/Fonts</TTFPath>
+	<MTXPath>$U/User/Config;$R/DO/Config</MTXPath>
 
 	<!-- Fonts used by forms
 		This section must list all fonts that are potentially available to Merge. Either...
@@ -340,8 +340,7 @@
 	<Font TTF="YuGothB.ttc" desc="Yu Gothic UI Semibold (Bold)"/>
 	<Font TTF="YuGothR.ttc" desc="Yu Gothic UI Semilight"/>
 
-	<!-- Typeface substitution. Used to create an alternate typeface to use when the desired one is unavailable. -->
-	<!-- <TypefaceSubstitution Original="MICR300" Alternate="gnuMICR" /> -->
+	<!-- <Font MTX="MICR300.mtx" /> example showing a non-ttf font added to font list. See <DownloadFont_MICR300> below -->
 
 	<!-- Some Chinese font samples
 		For these fonts we set encode="CID" to for PDF Cid font selection.
@@ -361,31 +360,48 @@
 		Width/Height are the full physical page sizes (in inches).
 		MTop/MLeft/MRight/MBottom are the non-printable margins on each of the 4 sides.
 	-->
-	<Paper Height="27.94 cm" ID="2" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Portrait" Width="21.59 cm"/>
-	<Paper Height="21.59 cm" ID="1002" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Letter" Orient="Landscape" Width="27.94 cm"/>
-	<Paper Height="35.56 cm" ID="3" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Legal" Orient="Portrait" Width="21.59 cm"/>
-	<Paper Height="21.59 cm" ID="1003" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Legal" Orient="Landscape" Width="35.56 cm"/>
-	<Paper Height="29.699999 cm" ID="26" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A4" Orient="Portrait" Width="21.000001 cm"/>
-	<Paper Height="21.000001 cm" ID="1026" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A4" Orient="Landscape" Width="29.699999 cm"/>
-	<Paper Height="42.0 cm" ID="27" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Portrait" Width="29.699999 cm"/>
-	<Paper Height="29.699999 cm" ID="1027" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A3" Orient="Landscape" Width="42.0 cm"/>
-	<Paper Height="21.000001 cm" ID="25" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Portrait" Width="14.800001 cm"/>
-	<Paper Height="14.800001 cm" ID="1025" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="A5" Orient="Landscape" Width="21.000001 cm"/>
-	<Paper Height="127.0 cm" ID="28" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Email_5in" Orient="Portrait" Width="13.97 cm"/>
-	<Paper Height="13.97 cm" ID="1028" MBottom="0.0 cm" MLeft="0.0 cm" MRight="0.0 cm" MTop="0.0 cm" Name="Email_5in" Orient="Landscape" Width="127.0 cm"/>
+	<Paper Height="27.94 cm" ID="2" MBottom="1.27 cm" MLeft="0.635 cm" MRight="0.3175 cm" MTop="0.0 cm" Name="Letter" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1002" MBottom="1.27 cm" MLeft="0.635 cm" MRight="0.3175 cm" MTop="0.0 cm" Name="Letter" Orient="Landscape" Width="27.94 cm"/>
+	<Paper Height="35.56 cm" ID="3" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Legal" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1003" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Legal" Orient="Landscape" Width="35.56 cm"/>
+	<Paper Height="29.6926 cm" ID="26" MBottom="1.27 cm" MLeft="0.5969 cm" MRight="0.3175 cm" MTop="0.0 cm" Name="A4" Orient="Portrait" Width="21.0058 cm"/>
+	<Paper Height="21.0058 cm" ID="1026" MBottom="1.27 cm" MLeft="0.5969 cm" MRight="0.3175 cm" MTop="0.0 cm" Name="A4" Orient="Landscape" Width="29.6926 cm"/>
+	<Paper Height="35.4 cm" ID="46" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="B4 (JIS)" Orient="Portrait" Width="25.000001 cm"/>
+	<Paper Height="25.000001 cm" ID="1046" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="B4 (JIS)" Orient="Landscape" Width="35.4 cm"/>
+	<Paper Height="42.0 cm" ID="27" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="A3" Orient="Portrait" Width="29.699999 cm"/>
+	<Paper Height="29.699999 cm" ID="1027" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="A3" Orient="Landscape" Width="42.0 cm"/>
+	<Paper Height="21.000001 cm" ID="25" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="A5" Orient="Portrait" Width="14.800001 cm"/>
+	<Paper Height="14.800001 cm" ID="1025" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="A5" Orient="Landscape" Width="21.000001 cm"/>
+	<Paper Height="25.699999 cm" ID="45" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="B5 (JIS)" Orient="Portrait" Width="18.199999 cm"/>
+	<Paper Height="18.199999 cm" ID="1045" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="B5 (JIS)" Orient="Landscape" Width="25.699999 cm"/>
+	<Paper Height="19.05 cm" ID="80" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope Monarch" Orient="Portrait" Width="9.840001 cm"/>
+	<Paper Height="9.840001 cm" ID="1080" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope Monarch" Orient="Landscape" Width="19.05 cm"/>
+	<Paper Height="24.1 cm" ID="81" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope #10" Orient="Portrait" Width="10.499999 cm"/>
+	<Paper Height="10.499999 cm" ID="1081" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope #10" Orient="Landscape" Width="24.1 cm"/>
+	<Paper Height="21.999999 cm" ID="90" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope DL" Orient="Portrait" Width="11.000001 cm"/>
+	<Paper Height="11.000001 cm" ID="1090" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope DL" Orient="Landscape" Width="21.999999 cm"/>
+	<Paper Height="22.9 cm" ID="91" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope C5" Orient="Portrait" Width="16.200001 cm"/>
+	<Paper Height="16.200001 cm" ID="1091" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope C5" Orient="Landscape" Width="22.9 cm"/>
+	<Paper Height="25.000001 cm" ID="100" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope B5" Orient="Portrait" Width="17.6 cm"/>
+	<Paper Height="17.6 cm" ID="1100" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Envelope B5" Orient="Landscape" Width="25.000001 cm"/>
+	<Paper Height="26.67 cm" ID="1" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Executive" Orient="Portrait" Width="18.415 cm"/>
+	<Paper Height="18.415 cm" ID="1001" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Executive" Orient="Landscape" Width="26.67 cm"/>
+	<Paper Height="33.02 cm" ID="23" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="8.5x13" Orient="Portrait" Width="21.59 cm"/>
+	<Paper Height="21.59 cm" ID="1023" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="8.5x13" Orient="Landscape" Width="33.02 cm"/>
+	<Paper Height="33.0 cm" ID="18" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Executive (JIS)" Orient="Portrait" Width="21.6 cm"/>
+	<Paper Height="21.6 cm" ID="1018" MBottom="0.3175 cm" MLeft="0.3175 cm" MRight="0.3175 cm" MTop="0.3175 cm" Name="Executive (JIS)" Orient="Landscape" Width="33.0 cm"/>
 
 	<!-- DuplexItem - each instance of this element identifies one duplex option that is to be enabled.
 		For a user-defined Duplex option use an ID value of between: 100 and 199, inclusive.
 
 		Example: <DuplexItem ID="100" UiString="My special duplex option #100"/>
 	-->
-	<DuplexItem ID="1"/>			<!-- UiString="Print on 1 Side Only" -->
-	<DuplexItem ID="2"/>			<!-- UiString="Duplex - Top Binding" -->
-	<DuplexItem ID="3"/>			<!-- UiString="Duplex - Left Binding" -->
-	<!-- <DuplexItem ID="4"/> -->		<!-- UiString="Duplex - Right Binding" -->
+		<DuplexItem ID="1"/>			<!-- UiString="Print on 1 Side Only" -->
+		<DuplexItem ID="2"/>			<!-- UiString="Duplex - Top Binding" -->
+		<DuplexItem ID="3"/>			<!-- UiString="Duplex - Left Binding" -->
+		<!-- <DuplexItem ID="4"/> -->		<!-- UiString="Duplex - Right Binding" -->
 
 	<!-- InputTrayItem - each instance of this element identifies one input tray that is to be enabled.
-
 		Example: <InputTrayItem ID="100" UiString="My special input tray #100"/>
 	-->
 	<InputTrayItem ID="1002" UiString="Manual Feed"/>
@@ -395,11 +411,9 @@
 	<InputTrayItem ID="1005" UiString="Tray #3"/>
 	<InputTrayItem ID="1008" UiString="Tray #4"/>
 	<InputTrayItem ID="1009" UiString="Tray #5"/>
+	<InputTrayItem ID="1003" UiString="Manual Envelope"/>
+	<InputTrayItem ID="1006" UiString="Envelopes"/>
 	<InputTrayItem ID="1020" UiString="Large Capacity"/>
-
-	<!-- <InputTrayItem ID="1002"/> -->		<!-- UiString="Manual Feed" -->
-	<!-- <InputTrayItem ID="1004"/> -->		<!-- UiString="Tray #1" -->
-	<!-- <InputTrayItem ID="1001"/> -->		<!-- UiString="Tray #2" -->
 	<!-- <InputTrayItem ID="1005"/> -->		<!-- UiString="Tray #3" -->
 	<!-- <InputTrayItem ID="1008"/> -->		<!-- UiString="Tray #4" -->
 	<!-- <InputTrayItem ID="1009"/> -->		<!-- UiString="Tray #5" -->
@@ -407,16 +421,14 @@
 	<!-- <InputTrayItem ID="1006"/> -->		<!-- UiString="Envelopes" -->
 	<!-- <InputTrayItem ID="1020"/> -->		<!-- UiString="Large Capacity" -->
 
-
 	<!-- OutputBinItem - each instance of this element identifies one output bin that is to be enabled.
 		Standard internally-defined bins are numbered starting at 1000
 
 		Note: HP typically predefines bin 1 as the standard output bin, bin 2 as "lower, rear bin",
 		then assigns bin#s to any additional bins to 3,4, etc.
 	-->
-
-	<!-- <OutputBinItem ID="1001"/> -->		<!-- UiString="Upper Output Bin" -->
-	<!-- <OutputBinItem ID="1002"/> -->		<!-- UiString="Lower/Rear Output Bin" -->
+	<OutputBinItem ID="1001" UiString="Upper Output Bin"/>
+	<OutputBinItem ID="1002" UiString="Lower/Rear Output Bin"/>
 	<!-- <OutputBinItem ID="1003"/> -->		<!-- UiString="Mailbox 1" -->
 	<!-- <OutputBinItem ID="1004"/> -->		<!-- UiString="Mailbox 2" -->
 	<!-- <OutputBinItem ID="1005"/> -->		<!-- UiString="Mailbox 3" -->
@@ -428,22 +440,21 @@
 
 		Example: <PaperTypeItem ID="100" UiString="My special paper type #100"/>
 	-->
+	<PaperTypeItem ID="1000" UiString="Bond Paper"/>
+	<PaperTypeItem ID="1001" UiString="Plain Paper"/>
+	<PaperTypeItem ID="1002" UiString="Colored Paper"/>
+	<PaperTypeItem ID="1003" UiString="Rough Paper"/>
+	<PaperTypeItem ID="1004" UiString="Heavy Paper"/>
+	<PaperTypeItem ID="1005" UiString="Glossy Paper"/>
+	<PaperTypeItem ID="1006" UiString="Label Sheets"/>
+	<PaperTypeItem ID="1007" UiString="Vellum"/>
 	<PaperTypeItem ID="1008" UiString="Default Paper Type"/>
-
-	<!-- <PaperTypeItem ID="1000"/> -->		<!-- UiString="Bond Paper" -->
-	<!-- <PaperTypeItem ID="1001"/> -->		<!-- UiString="Plain Paper" -->
-	<!-- <PaperTypeItem ID="1002"/> -->		<!-- UiString="Colored Paper" -->
-	<!-- <PaperTypeItem ID="1003"/> -->		<!-- UiString="Rough Paper" -->
-	<!-- <PaperTypeItem ID="1004"/> -->		<!-- UiString="Heavy Paper" -->
-	<!-- <PaperTypeItem ID="1005"/> -->		<!-- UiString="Glossy Paper" -->
-	<!-- <PaperTypeItem ID="1006"/> -->		<!-- UiString="Label Sheets" -->
-	<!-- <PaperTypeItem ID="1007"/> -->		<!-- UiString="Vellum" -->
-	<!-- <PaperTypeItem ID="1009"/> -->		<!-- UiString="Recycled Paper" -->
-	<!-- <PaperTypeItem ID="1010"/> -->		<!-- UiString="Letterhead" -->
-	<!-- <PaperTypeItem ID="1011"/> -->		<!-- UiString="Card Stock" -->
-	<!-- <PaperTypeItem ID="1012"/> -->		<!-- UiString="Prepunched Paper" -->
-	<!-- <PaperTypeItem ID="1013"/> -->		<!-- UiString="Preprinted Paper" -->
-	<!-- <PaperTypeItem ID="1014"/> -->		<!-- UiString="Transparency -->
+	<PaperTypeItem ID="1009" UiString="Recycled Paper"/>
+	<PaperTypeItem ID="1010" UiString="Letterhead"/>
+	<PaperTypeItem ID="1011" UiString="Card Stock"/>
+	<PaperTypeItem ID="1012" UiString="Prepunched Paper"/>
+	<PaperTypeItem ID="1013" UiString="Preprinted Paper"/>
+	<PaperTypeItem ID="1014" UiString="Transparency"/>
 
 	<!-- Checkbox Settings
 	<CheckboxSize> is the checkbox size in inches. If this parameter is 0 or left out, the checkbox
@@ -475,8 +486,9 @@
 
 	<!-- Barcode options. -->
 	<!-- Note - all non-zero barcode widths are specified in standard DocOrigin units 
-	eg) .01" .01in .01mm .01cm .1pts or 1/1000000th of an inch if no units are specified. -->
-
+		eg) .01" .01in .01mm .01cm .1pts or 1/1000000th of an inch if no units are specified.
+	-->
+	
 	<Barcode39Text>Y</Barcode39Text>					<!-- Draw text below barcode -->
 	<Barcode39DerivedText>N</Barcode39DerivedText>	<!-- Display text includes all ascii-encoded text and checksum -->
 	<Barcode39CompactText>N</Barcode39CompactText>	<!-- Do we display as "*BCD*" or "*    B    C    D    *" -->
@@ -504,7 +516,7 @@
 
 	<BarcodePostNetBarWidth>0</BarcodePostNetBarWidth>	<!-- Set the width of a bar; 0 - scale to designed width -->
 	<BarcodePostNetRatio>1</BarcodePostNetRatio>		<!-- Set the space/bars ratio -->
-
+	
 	<QRCodeMode>8BIT</QRCodeMode>				<!-- Encoding mode -->
 	<QRCodeCharacterSet>8859-1</QRCodeCharacterSet>	<!-- The encoding character set to use -->
 	<QRCodeLevel>M</QRCodeLevel>				<!-- Error correction level -->
@@ -534,43 +546,65 @@
 		one of the builtin driver names in Merge.
 	-->
 
-	<!-- Setting for PDF generation
-		This is configured like another print driver, but with some
-		PDF-specific settings.
-	-->
-	<Printer Name="PDF" Type="PDF">
-
-		<!-- PDF Security
-		Configure security options for generated document here.
-		Either OpenPasswordRequired or ModifyPasswordAllowed or both are required to turn security ON.
-		-->
-		<!-- <OpenPasswordRequired>Yes</OpenPasswordRequired> -->
-		<!-- <OpenPassword>YourPassword</OpenPassword> -->
-		<!-- <ModifyPasswordAllowed>Yes</ModifyPasswordAllowed> -->
-		<!-- <ModifyPassword>YourPassword</ModifyPassword> -->
-		<!-- Acceptable values: "LowResolution", "HighResolution" or leave missing/empty for Disable -->
-		<!-- <PrintCapability>HighResolution</PrintCapability> -->
-		<!-- Acceptable values: "InsertDeleteRotate", "FillFields", "FillFieldsCommenting", "All" or leave missing/empty for Disable -->
-		<!-- <AllowChange>All</AllowChange> -->
-		<!-- <AllowCopying>Yes</AllowCopying> -->
-		<!-- <AllowAccessibility>Yes</AllowAccessibility> -->
+	<Printer Name="PCL5" Type="PCL">
 
 		<!-- Resident Font list
-			This section tells Merge which font typefaces and styles are resident in any PDF consuming
-			application (Adobe Reader). Any font that is referenced in a form that is not in this list is
-			considered a candidate to be embedded in the PDF.
+			This section tells Merge which font typefaces and styles are permanently resident in the printer.
+			Any font that is referenced in a form that is not in this list is considered a candidate to be downloaded
+			on-the-fly. If fonts are permanently pre-downloaded into the printer, they should also appear in this list.
 			Set Bold="1" if only the bold version is in the printer, Bold="0" if only non-bold, or Bold="*" if both
-			bold and non-bold versions are resident in the PDF consuming application. Similarly for Italic=
+			bold and non-bold versions are resident in the printer. Similarly for Italic=
+
+			The ID= setting specifies the PCL typeface family for HP compatible printing. These may be found by printing a font
+			status page on the printer, or in a HP PCL reference manual. This value is for only PCL printing.
 		-->
 	<ResidentFont Bold="*" Italic="*" Typeface="Arial"/>
 	<ResidentFont Bold="*" Italic="*" Typeface="Courier New"/>
 	<ResidentFont Bold="*" Italic="*" Typeface="Times New Roman"/>
 
-		<!-- Encryption Yes/No
-			Overrides encryption settings defined in Design.
-			Default is 'Yes' (encrypt if passwords set up in form).
+		<!-- Custom PCL escape sequences. Use this if you want to override default PCL codes for different events.
+
+			Font selection escape sequence. This is used to select the desired font instead of the standard internal font selection.
+			Example for font "Univers Condensed":	
+				<Select_Univers_Condensed>\033(s1p%.2fv4s0b4148T</Select_Univers_Condensed>
+
+			Font download. The contents of this file will be sent to the printer instead of creating downloaded TTF.
+			Example for font MICR300: 
+				<DownloadFont_MICR300>MICR300.SFP</DownloadFont_MICR300>
+
+			Escape codes for Duplex, Tray, OutputBin, Page side and PaperType can be overridden here:
+			
+			For example, to change the sequence written when duplex option 3 (left binding) is to generated 
+			(this will send the string "My own sequence" to the printer rather than the default escape sequence), use:
+				<Duplex3>My own sequence</Duplex3>
+
+			<PageSizexx>My own sequence</PageSizexx>
+				Example for A4: <PageSize26>\033&amp;l%dAHello World</PageSize26>
+
+			In duplex mode, which side(s) of the paper may this page appear. 1 is front, 2 is back:
+			<PagePlacexx>My own sequence</PagePlacexx>
+				Example for front: <PagePlace1>My own sequence</PagePlace1>
+
+			<InputTrayxx>My own sequence</InputTrayxx>
+				Example for "Tray #1": <InputTray1004>My own sequence</InputTray1004>
+
+			<OutputBinxx>My own sequence</OutputBinxx>
+				Example for "Upper Output Bin": <InputTray1001>My own sequence</InputTray1001>
+
+			<PaperTypexx>My own sequence</PaperTypexx>
+				Default value: "\033&n%dWd%s", where %s is paper type, %d is string length.
+				For "Plain" paper it should produce command: \033&n6WdPlain
+				Example for "Plain Paper": <PaperType1001>My own sequence</PaperType1001>
 		-->
-		<!-- <Encryption>Yes</Encryption>    -->
+
+	 	<DPI>300</DPI>
+		<ResetStart>\033E</ResetStart>
+		<ResetEnd>\033E</ResetEnd>
+
+		<!-- Custom escape sequence for setting the number of copies. Note: %d is replaced with the actual number of 
+			copies as specified by the -numCopies command line option or as specified in the form design. 
+		-->
+		<Copies>\033&amp;l%dX</Copies>
 
 		<!-- SynthBold controls the degree of boldness synthesized when a bold version of the font
 			is not available in the configuration. When this happens, the outline of the font glyph is
@@ -578,57 +612,32 @@
 		-->
 		<SynthBold>0.25</SynthBold>
 
-		<!-- HighlightURL controls if URLs and emails are automatically formatted as underlined blue text in the output.
-			If URLs or emails text has custom underline or color properties defined those are not overwritten.
-			It's also possible to control this behavior via object tags.
-			Default is Yes.
-		-->
-		<HighlightURL>Yes</HighlightURL>
+		<!-- Does this printer handle Color? PCL5 level printer. -->
+		<Color>No</Color>
 
-		<!-- Bookmark Yes/No
-			Enables the generated PDF bookmarks to be viewed.
-			Default is Yes.
+		<!-- List of thresholds for conversion from percentage gray to gray shading patterns.
+			if %gray < 1st threshold, use lightest pattern; if %gray < 2nd threshold use next lightest etc.
+			if %gray >= last threshold, use darkest pattern.
 		-->
-		<Bookmark>Yes</Bookmark>
+		<Graymap>10 20 40 70</Graymap>
 
-		<!-- Blend mode for PDF transparency. See "PDF Blend Modes: Addendum" document for details.
-			Possible values are:
-				Normal - Selects the source color, ignoring the backdrop.
-				Multiply - Multiplies the backdrop and source color values.
-				Screen - Multiplies the complements of the backdrop and source color values, then complements the result.
-				Overlay - Multiplies or screens the colors, depending on the backdrop color value.
-				Darken - Selects the darker of the backdrop and source colors.
-				Lighten - Selects the lighter of the backdrop and source colors.
-				ColorDodge - Brightens the backdrop color to reflect the source color.
-				ColorBurn - Darkens the backdrop color to reflect the source color.
-				HardLight - Multiplies or screens the colors, depending on the source color value.
-				SoftLight - Darkens or lightens the colors, depending on the source color value.
-				Difference - Subtracts the darker of the two constituent colors from the lighter color.
-				Exclusion - Produces an effect similar to that of the Difference mode but lower in contrast.
-			Default is Multiply.
-			If you do not want color blending use Normal.
+		<!-- GrayEdgeOption if 1, enables colored edges to be generated on non-colour printers 
+	 		using grayscale shading pattern and pure-PCL (i.e. not GL/2) commands.
+			Only solid not rounded edges are supported.
 		-->
-		<!-- <Blend>Normal</Blend> -->
+		<GrayEdgeOption>0</GrayEdgeOption>
 
-		<!-- TransparencyColor defines which color is used as a background for transparent pixels in PNG images.
-			Fully transparent pixels get this color assigned.
-			Default is white - '255 255 255'.
+		<!-- Dither setting causes full color images to be drawn as simple black/white images with dithering to simulate shades of gray.
+			"No" does very simple conversion to black and white pixels.
+			"Yes" enables smarter dithering methods, which you can specify by DitheringMethod option.
 		-->
-		<!-- <TransparencyColor>255 255 255</TransparencyColor> -->
+		<Dither>Yes</Dither>
 
-		<!-- Color range which is treated as transparent when an image has transparency turned on.
-			Defaults to white. Make an image transparent in Merge by setting "this._transparent=true;" in image script.
-			Values represent Red1 Green1 Blue1 Red2 Green2 Blue2. All colors in range
-			(Red1-Red2, Green1-Green2, Blue1-Blue2) are considered to be transparent when displayed as PDF.
+		<!-- Supported dithering methods are "default", "Atkinson". 
+			default - does dithering without error propagation. This one is faster.
+			Atkinson - Atkinson Dithering does 2D dithering with error propagation.
 		-->
-		<TransparencyMask>255 255 255 255 255 255</TransparencyMask>
-
-		<!-- SupportAlpha Yes/No
-			Specifies whether alpha channel of PNG images should be used for image masking instead of TransparencyMask
-				when an image has transparency turned on.
-			Default is No.
-		-->
-		<!-- <SupportAlpha>Yes</SupportAlpha> -->
+		<!--DitheringMethod>Atkinson<DitheringMethod-->
 
 		<!-- <Outputfile> indicates where the output file is to be written. A '%' followed by a letter
 			causes a text substitution at runtime, to allow dynamic creation of unique names.
@@ -654,31 +663,27 @@
 
 			Note - you must include the file extension (eg .pdf) at the end
 
-			<Outputfile>$R/PDF/%f_%Y-%m-%d_%H-%M.pdf</Outputfile>
+			<Outputfile>$R/PCL/%f_%Y-%m-%d_%H-%M.pcl</Outputfile>
 		-->
 
-		<!-- The filename from the <Outputfile> may not create a unique name. If the file is
-			found to exist already, Merge will append an underscore followed by a digit to
-			the end of the filename, incrementing the digit until a unique name is found.
-			If <OverwriteFile> is set to Yes, no attempt is made to create a unique name - it will be replaced instead.
-		-->
 		<OverwriteFile>Yes</OverwriteFile>
 
 		<!-- If <CombineDocuments> is set to Yes, all documents generated by this driver will be
-			combined into a single multipage PDF file. Otherwise each document will create
+			combined into a single multipage file. Otherwise each document will create
 			it's own file.
 		-->
 		<CombineDocuments>Yes</CombineDocuments>
 
-		<!-- Set <EmbedFonts> to Yes to have non-resident fonts embedded in the PDF file. Otherwise
-			PDF viewers will find closest match.
+		<!-- Set <EmbedFonts> to Yes to have non-resident fonts downloaded.
 		-->
+
 		<EmbedFonts>Yes</EmbedFonts>
 
-		<!-- ViewerPreferences are acrobat display defaults that can be added to the generated PDF file.
-			See the PDF Reference manual - version 1.7 (sixth edition) section 8.1 for details. (available online at Adobe and AIIM sites)
+		<!-- <BoundFont> controls whether a PCL "bound" font is downloaded, or whether to use "unbound"
+			Older printers may not support the default "unbound" fonts, so will require this setting to be "Yes".
 		-->
-		<ViewerPreferences>/PrintClip/CropBox</ViewerPreferences>
+
+		<BoundFont>No</BoundFont>
 
 		<!-- <Duplex> controls whether a document will be output in duplex.
 			The possible settings are:
@@ -687,9 +692,14 @@
 				<Duplex>left</Duplex>     - indicates to print the form duplexed with left-binding no matter what is set in the form.
 				<Duplex>right</Duplex>    - indicates to print the form duplexed with right-binding no matter what is set in the form.
 				<Duplex>simplex</Duplex>  - indicates to print the form as simplex (one-sided) no matter what is set in the form.
+
 			The default setting for this option is form.
 		-->
+
 		<Duplex>form</Duplex>
+
+		<!-- Set <Rotate180> to true if you want the output to be rotated to 180 degrees. -->
+		<!--Rotate180>true</Rotate180-->
 
 	</Printer>
 
