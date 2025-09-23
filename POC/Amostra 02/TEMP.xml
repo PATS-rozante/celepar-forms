@@ -2,6 +2,13 @@
 <!-- DOTransform -->
 <XMLDATA>
 <Document>
+	<SeparatorInicial>
+		<filename>2016.09.17_NOTIFI.AUTUACAO.xml</filename>
+		<dateprint>20/08/2025</dateprint>
+		<timeprint>15:13:32</timeprint>
+	</SeparatorInicial>
+</Document>
+<Document>
 	<folhaSeparacao>
 		<frente>
 			<idForm>BRANCO</idForm>
@@ -37080,5 +37087,12 @@
 			</remetente>
 		</verso>
 	</notificacao>
+</Document>
+<Document>
+	<SeparatorFinal>
+		<filename>2016.09.17_NOTIFI.AUTUACAO.xml</filename>
+		<dateprint>20/08/2025</dateprint>
+		<timeprint>15:13:32</timeprint>
+	</SeparatorFinal>
 </Document>
 </XMLDATA>

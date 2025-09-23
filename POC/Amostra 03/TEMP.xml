@@ -2,6 +2,13 @@
 <!-- DOTransform -->
 <XMLDATA>
 <Document>
+	<SeparatorInicial>
+		<filename>p.dut.amostra3.renov.auto.xml</filename>
+		<dateprint>09/09/2025</dateprint>
+		<timeprint>11:02:11</timeprint>
+	</SeparatorInicial>
+</Document>
+<Document>
 <folhaSeparacao>
 	<frente>
 		<idForm>BRANCO</idForm>
@@ -306,5 +313,12 @@
 		</destinatario>
 	</verso>
 </folha>
+</Document>
+<Document>
+	<SeparatorFinal>
+		<filename>p.dut.amostra3.renov.auto.xml</filename>
+		<dateprint>09/09/2025</dateprint>
+		<timeprint>11:02:11</timeprint>
+	</SeparatorFinal>
 </Document>
 </XMLDATA>
