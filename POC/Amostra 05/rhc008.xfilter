@@ -1,54 +1,139 @@
 $$Option.OverlayFileSymbolset = "windows-1252";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-10 20:45:45 UTC";
+$$Option.FilterDateModified = "2025-09-23 00:08:14 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
-$$Option.PruneXML = "No";
+$$Option.PruneXML = "Yes";
 $$Option.FilterVersionCreated = "3.3.008.01";
 $$Option.FilterDateCreated = "2025-09-10 19:50:23 UTC";
 $$Option.LinesPerPage = "66";
-$$Option.OverlayFile = "$$X/p.rhc.amostra5-SAMPLE.txt";
+$$Option.OverlayFile = "$$X/p.rhc.amostra5-BANNER.txt";
 $$Option.XmlDataFile = "";
 $$Option.FilterVersionNumber = "1";
 
 var $$Rules = [
    {  // Rule #1
       state: '*',
-      nextState: '*-',
+      nextState: 'SepJES',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,1,8).EQ("+ $DJDE$"))
+         $$If($$(0,1,1,24).EQ("+ $DJDE$   FORMAT=SEPARA"))
       ) },
       action: function() {
-         $$(0,0,0,0).Advance(1);
+         $$(0,0,0,0).XmlNewDocument();
+         $$(2,1,43,75).Trim(3).Xml("SepJES.obs1");
+         $$(22,1,8,12).Trim(3).Xml("SepJES.type");
+         $$(24,1,17,43).Trim(3).Xml("SepJES.userid");
+         $$(24,1,52,57).Trim(3).Xml("SepJES.copies");
+         $$(25,1,22,27).Trim(3).Xml("SepJES.sysout_class");
+         $$(25,1,59,76).Trim(3).Xml("SepJES.output_group");
+         $$(26,1,19,102).Trim(3).Xml("SepJES.relatorio");
+         $$(28,1,20,63).Trim(3).Xml("SepJES.destination");
+         $$(30,1,14,103).Trim(3).Xml("SepJES.nome");
+         $$(32,1,14,103).Trim(3).Xml("SepJES.sala");
+         $$(34,1,15,103).Trim(3).Xml("SepJES.orgao");
+         $$(36,1,15,103).Trim(3).Xml("SepJES.setor");
+         $$(38,1,18,103).Trim(2).Xml("SepJES.endereco1");
+         $$(39,1,18,103).Trim(2).Xml("SepJES.endereco2");
+         $$(40,1,18,103).Trim(2).Xml("SepJES.endereco3");
+         $$(41,1,18,103).Trim(2).Xml("SepJES.endereco4");
+         $$(42,1,18,103).Trim(2).Xml("SepJES.endereco5");
+         $$(59,1,2,84).Trim(3).Xml("SepJES.obs2");
+         $$(59,1,23,30).Trim(3).Xml("SepJES.jobname");
+         $$(59,1,17,21).Trim(3).Xml("SepJES.jobid");
+         $$(59,1,32,41).Trim(3).Xml("SepJES.jobdate");
+         $$(59,1,43,50).Trim(3).Xml("SepJES.jobtime");
+         $$(59,1,52,55).Trim(3).Xml("SepJES.cpu");
+         $$(59,1,57,84).Trim(3).Xml("SepJES.form");
+         $$(0,0,0,0).Advance(58);
       },
    },
 
    {  // Rule #2
-      state: '*',
-      nextState: 'Texto',
+      state: '*AnyState*',
+      nextState: 'SepWSFI',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,1,1).EQ(1))
+         $$If($$(0,1,58,75).EQ("XEROX L.P.S BANNER"))
+         && $$If($$(17,1,46,48).NE("XXX"))
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(1,1,90,94).Trim(1).Xml("sequencia");
-         $$(0,0,0,0).Advance(11);
+         $$(7,1,46,102).Trim(2).Xml("SepWSFI.processadora");
+         $$(7,1,4,34).Trim(2).Xml("SepWSFI.lin1box");
+         $$(8,1,4,34).Trim(2).Xml("SepWSFI.lin2box");
+         $$(9,1,4,34).Trim(2).Xml("SepWSFI.lin3box");
+         $$(10,1,4,34).Trim(2).Xml("SepWSFI.lin4box");
+         $$(11,1,4,34).Trim(2).Xml("SepWSFI.lin5box");
+         $$(15,1,38,118).Trim(2).Xml("SepWSFI.description");
+         $$(16,1,38,118).Trim(2).Xml("SepWSFI.form_name");
+         $$(17,1,38,118).Trim(2).Xml("SepWSFI.report_name");
+         $$(18,1,38,118).Trim(2).Xml("SepWSFI.user");
+         $$(19,1,38,50).Trim(2).Xml("SepWSFI.total_pages");
+         $$(20,1,38,50).Trim(2).Xml("SepWSFI.output_class");
+         $$(21,1,38,50).Trim(2).Xml("SepWSFI.copies");
+         $$(22,1,38,118).Trim(2).Xml("SepWSFI.expedition");
+         $$(23,1,38,50).Trim(2).Xml("SepWSFI.date_print");
+         $$(24,1,38,50).Trim(2).Xml("SepWSFI.time_print");
+         $$(25,1,38,118).Trim(2).Xml("SepWSFI.cpu_name");
+         $$(28,1,36,48).Trim(2).Xml("SepWSFI.job_name");
+         $$(28,1,59,68).Trim(2).Xml("SepWSFI.job_id");
+         $$(49,1,2,81).Trim(2).Xml("SepWSFI.obs1");
+         $$(48,1,92,133).Trim(2).Xml("SepWSFI.obs2");
+         $$(0,0,0,0).Advance(48);
       },
    },
 
    {  // Rule #3
-      state: '*',
+      state: '*AnyState*',
+      nextState: 'SepWSFF',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,58,75).EQ("XEROX L.P.S BANNER"))
+         && $$If($$(17,1,46,48).EQ("XXX"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(7,1,46,102).Trim(2).Xml("SepWSFF.processadora");
+         $$(7,1,4,34).Trim(2).Xml("SepWSFF.lin1box");
+         $$(8,1,4,34).Trim(2).Xml("SepWSFF.lin2box");
+         $$(9,1,4,34).Trim(2).Xml("SepWSFF.lin3box");
+         $$(10,1,4,34).Trim(2).Xml("SepWSFF.lin4box");
+         $$(11,1,4,34).Trim(2).Xml("SepWSFF.lin5box");
+         $$(32,1,36,48).Trim(2).Xml("SepWSFF.job_name");
+         $$(32,1,59,68).Trim(2).Xml("SepWSFF.job_id");
+         $$(53,1,2,81).Trim(2).Xml("SepWSFF.obs1");
+         $$(52,1,92,133).Trim(2).Xml("SepWSFF.obs2");
+         $$(0,0,0,0).Advance(48);
+      },
+   },
+
+   {  // Rule #4
+      state: '*AnyState*',
+      nextState: 'Texto',
+      startNewDocument: false,
+      test: function() { return(
+         $$If($$(0,1,1,1).EQ(1))
+         && $$If($$(1,1,58,75).NE("XEROX L.P.S BANNER"))
+      ) },
+      action: function() {
+         $$(0,0,0,0).XmlNewDocument();
+         $$(1,1,90,94).Trim(1).Xml("Carta.sequencia");
+         $$(0,0,0,0).Advance(11);
+      },
+   },
+
+   {  // Rule #5
+      state: 'Texto',
       nextState: '*-',
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,1,1).NE(1))
       ) },
       action: function() {
-         $$(0,1,1,1).Trim(0).Xml("texto.linha.pcc");
-         $$(0,1,2,107).Trim(2).Xml("texto.linha.dados");
+         $$(0,1,1,1).Trim(0).Xml("Carta.texto.linha.pcc");
+         $$(0,1,2,107).Trim(2).Xml("Carta.texto.linha.dados");
       },
    },
 
@@ -58,11 +143,75 @@ var $$Rules = [
 //Custom//
 
 var $$XmlTemplate = {		// XML output template
-  sequencia: null,
-  texto: {
-    linha: {
-      pcc: null,
-      dados: null,
+  SepJES: {
+    type: null,
+    obs1: null,
+    userid: null,
+    copies: null,
+    sysout_class: null,
+    output_group: null,
+    relatorio: null,
+    destination: null,
+    nome: null,
+    sala: null,
+    orgao: null,
+    setor: null,
+    endereco1: null,
+    endereco2: null,
+    endereco3: null,
+    endereco4: null,
+    endereco5: null,
+    obs2: null,
+    jobid: null,
+    jobname: null,
+    jobdate: null,
+    jobtime: null,
+    cpu: null,
+    form: null,
+  },
+  SepWSFI: {
+    dados: null,
+    processadora: null,
+    lin1box: null,
+    lin2box: null,
+    lin3box: null,
+    lin4box: null,
+    lin5box: null,
+    description: null,
+    form_name: null,
+    report_name: null,
+    user: null,
+    total_pages: null,
+    output_class: null,
+    copies: null,
+    expedition: null,
+    date_print: null,
+    time_print: null,
+    cpu_name: null,
+    job_name: null,
+    job_id: null,
+    obs1: null,
+    obs2: null,
+  },
+  SepWSFF: {
+    processadora: null,
+    lin1box: null,
+    lin2box: null,
+    lin3box: null,
+    lin4box: null,
+    lin5box: null,
+    job_name: null,
+    job_id: null,
+    obs1: null,
+    obs2: null,
+  },
+  Carta: {
+    sequencia: null,
+    texto: {
+      linha: {
+        pcc: null,
+        dados: null,
+      },
     },
   },
 };
