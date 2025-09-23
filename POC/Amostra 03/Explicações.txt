@@ -1,0 +1,3 @@
+Esse arquivo não encontrei no Workflow de 2020 em XML. A versão na época era txt.
+Mas o form do banner pela amostra continua o mesmo. Segue os PDFs anexo. No Workflow é gerado de foram fixa os dados do banner variando o nome do arquivo e datas quando aparecem que é a data no momento da impressão.
+Teríamos que criar na mão essa massa para a POC.

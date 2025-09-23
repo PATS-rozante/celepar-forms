@@ -1,0 +1,2 @@
+O arquivo BANNER.PDF é como o banner é impresso nessa aplicação. Ele não tem form. É desenhado com fontes e linhas pegos da massa de dados.
+O arquivo de massa de dados enviado é como é recebido do mainframe por LPR. A amostra que enviaram veio sem o banner. Esta está com banner.
