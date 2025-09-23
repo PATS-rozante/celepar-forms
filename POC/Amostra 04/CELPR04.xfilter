@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "UTF-8";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-11 21:12:12 UTC";
+$$Option.FilterDateModified = "2025-09-16 19:41:00 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -8,7 +8,7 @@ $$Option.PruneXML = "Yes";
 $$Option.FilterVersionCreated = "3.3.008.01";
 $$Option.FilterDateCreated = "2025-09-10 22:58:21 UTC";
 $$Option.LinesPerPage = "66";
-$$Option.OverlayFile = "$$X/CELPR04_PITORRI.spl.txt";
+$$Option.OverlayFile = "$$X/CELPR04_AMOSTRALPR00ZWAFIUTW3YJ0110D776AE-SAMPLE.spl.txt";
 $$Option.XmlDataFile = "";
 $$Option.FilterVersionNumber = "1";
 
@@ -22,7 +22,7 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(1,1,1,133).SpanNE(3,8,"$DJDE$").Trim(2).Xml("SepJES.dados");
+         $$(1,1,2,132).SpanNE(3,8,"$DJDE$").Trim(2).Script("var dados = $$GetText();\r\nvar res = [];\r\nres.push(\' \' + dados[0]);\r\nfor(var i = 1; i < dados.length; i++) {\r\n  res.push(dados[i].substring(0,132));\r\n}\r\n$$SetText(res);").Xml("SepJES.dados");
          $$(0,0,0,0).Advance(58);
       },
    },
@@ -36,7 +36,7 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(0,1,1,133).SpanNE(3,8,"$DJDE$").Trim(2).Xml("SepWSF.dados");
+         $$(0,1,2,133).SpanNE(3,8,"$DJDE$").Trim(2).Script("var dados = $$GetText();\r\nvar res = [];\r\nres.push(\' \' + dados[0]);\r\nfor(var i = 1; i < dados.length; i++) {\r\n  res.push(dados[i].substring(0,133));\r\n}\r\n$$SetText(res);").Xml("SepWSF.dados");
          $$(0,0,0,0).Advance(49);
       },
    },

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<XATW name="CELPR04" paginationVersion="2" collate="yes" numCopies="1" duplex="left" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPS2.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
+<XATW name="CELPR04" paginationVersion="2" collate="yes" numCopies="1" duplex="simplex" inputTray="autoSelect" outputBin="upper" paperType="default" blankBack="PagBranca" blankTrailing="PagBranca" configFile="CeleparPCL.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
   <page name="PagJES" visible="yes" size="A4" orientation="Landscape" duplex="simplex" inputTray="tray1">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="29.699999 cm" height="21.000001 cm"/>
+    <boundingRect left="0.0 cm" top="0.0 cm" width="29.6926 cm" height="21.0058 cm"/>
     <container name="ContainerJES" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="29.699999 cm" height="21.000001 cm"/>
       <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
@@ -18,7 +18,7 @@
     </container>
   </page><!--PagJES-->
   <page name="PagWSF" visible="yes" size="A4" orientation="Landscape" duplex="simplex" inputTray="tray1">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="29.699999 cm" height="21.000001 cm"/>
+    <boundingRect left="0.0 cm" top="0.0 cm" width="29.6926 cm" height="21.0058 cm"/>
     <container name="ContainerWSF" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="29.699999 cm" height="21.000001 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
@@ -34,9 +34,9 @@
       </pane><!--SepWSF-->
     </container>
   </page><!--PagWSF-->
-  <page name="Pag070" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="tray2">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET070.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag070" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray2" blankBack="PagBranca" blankTrailing="PagBranca">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET070.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -85,9 +85,9 @@
       </pane><!--DET070-->
     </container>
   </page><!--Pag070-->
-  <page name="Pag071" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="tray3">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET071.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag071" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray3">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET071.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -129,9 +129,9 @@
       </pane><!--DET071-->
     </container>
   </page><!--Pag071-->
-  <page name="Pag072" visible="yes" size="A4" orientation="Portrait" duplex="simplex" inputTray="tray3">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET072.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag072" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray4">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET072.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -166,9 +166,9 @@
       </pane><!--DET072-->
     </container>
   </page><!--Pag072-->
-  <page name="Pag073A" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag073A" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray4">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -210,9 +210,9 @@
       </pane><!--DET073A-->
     </container>
   </page><!--Pag073A-->
-  <page name="Pag073B" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag073B" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray4">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -254,9 +254,9 @@
       </pane><!--DET073B-->
     </container>
   </page><!--Pag073B-->
-  <page name="Pag073C" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag073C" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray4">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -298,9 +298,9 @@
       </pane><!--DET073C-->
     </container>
   </page><!--Pag073C-->
-  <page name="Pag073D" visible="none" size="A4" orientation="Portrait" duplex="simplex" inputTray="largeCapacity">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+  <page name="Pag073D" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray4">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -342,8 +342,8 @@
       </pane><!--DET073D-->
     </container>
   </page><!--Pag073D-->
-  <page name="PagBranca" visible="yes" size="A4" orientation="Portrait" duplex="simplex">
-    <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+  <page name="PagBranca" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
+    <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
     <container name="ContainerBranca" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="28.700001 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
@@ -360,7 +360,7 @@
       </pane><!--Branca-->
     </container>
   </page><!--PagBranca-->
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET070.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET070.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET070.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET070.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdeXwT1fr48elCoSxhrwJRVLxAK1Bka6+KC9AFEFRaFKwLVAVFWbyC6FVAQVQsXEsBEdSyKJei
 LSrQgi16XfhJyiooKaIIaABtWSQsBbr9/ojf3t42k8xMJpnJ5PN+8fIlOTNnHk6bZ5I8OecEVVVVCQAA
 AAAAAAAAAABgRMFaBwAAAAAAAAAAAAAA3kJBFAAAAAAAAAAAAIBhURAFAAAAAAAAAAAAYFgURAEAAAAA
@@ -1559,7 +1559,7 @@ gigAAAAAAAAQSxAFAAAAAAAAYgmiAAAAAAAAQCxBFAAAAAAAAIgliAIAAAAAAACxBFEAAAAAAAAgliAK
 AAAAAAAAxBJEAQAAAAAAgFiCKAAAAAAAABBLEAUAAAAAAABiCaIAAAAAAABALEEUAAAAAAAAiCWIAgAA
 AAAAALEEUQAAAAAAACCWIAoAAAAAAADEEkQBAAAAAACAWIIoAAAAAAAAEEsQBQAAAAAAAGIJogAAAAAA
 AEAsQRQAAAAAAACIJYgCAAAAAAAAsf4Dou4lPIfTirEAAAAASUVORK5CYII=</imageData>
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET071.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET071.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET071.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET071.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdeXwT1fr48elCoSxhrwJRVLxAK1Bka6+KC9AFEFRaFKwLVAVFWbyC6FVAQVQsXEsBEdSyKJei
 LSrQgi16XfhJyiooKaIIaABtWSQsBbr9/ojf3t42k8xMJpnJ5PN+8fIlOTNnHk6bZ5I8OecEVVVVCQAA
 AAAAAAAAAABgRMFaBwAAAAAAAAAAAAAA3kJBFAAAAAAAAAAAAIBhURAFAAAAAAAAAAAAYFgURAEAAAAA
@@ -6909,7 +6909,7 @@ IJYgCgAAAAAAAMQSRAEAAAAAAIBYgigAAAAAAAAQSxAFAAAAAAAAYgmiAAAAAAAAQCxBFAAAAAAAAIgl
 iAIAAAAAAACxBFEAAAAAAAAgliAKAAAAAAAAxBJEAQAAAAAAgFiCKAAAAAAAABBLEAUAAAAAAABiCaIA
 AAAAAABALEEUAAAAAAAAiCWIAgAAAAAAALEEUQAAAAAAACCWIAoAAAAAAADEEkQBAAAAAACAWIIoAAAA
 AAAAEEsQBQAAAAAAAGIJogAAAAAAAEAsQRQAAAAAAACI9T9aFpuCuDxPPQAAAABJRU5ErkJggg==</imageData>
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET072.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET072.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET072.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET072.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdeXwT1fr48elCoSxhrwJRVLxAK1Bka6+KC9AFEFRaFKwLVAVFWbyC6FVAQVQsXEsBEdSyKJei
 LSrQgi16XfhJyiooKaIIaABtWSQsBbr9/ojf3t42k8xMJpnJ5PN+8fIlOTNnHk6bZ5I8OecEVVVVCQAA
 AAAAAAAAAABgRMFaBwAAAAAAAAAAAAAA3kJBFAAAAAAAAAAAAIBhURAFAAAAAAAAAAAAYFgURAEAAAAA
@@ -8991,7 +8991,7 @@ AACILYEoAAAAAAAAEFsCUQAAAAAAACC2BKIAAAAAAABAbAlEAQAAAAAAgNgSiAIAAAAAAACxJRAFAAAA
 AAAAYksgCgAAAAAAAMSWQBQAAAAAAACILYEoAAAAAAAAEFsCUQAAAAAAACC2BKIAAAAAAABAbAlEAQAA
 AAAAgNgSiAIAAAAAAACxJRAFAAAAAAAAYksgCgAAAAAAAMSWQBQAAAAAAACILYEoAAAAAAAAEFsCUQAA
 AAAAACC2BKIAAAAAAABAbP0/u3Z3nynD6OUAAAAASUVORK5CYII=</imageData>
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\DET073.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdeXwT1fr48elCoSxhrwJRVLxAK1Bka6+KC9AFEFRaFKwLVAVFWbyC6FVAQVQsXEsBEdSyKJei
 LSrQgi16XfhJyiooKaIIaABtWSQsBbr9/ojf3t42k8xMJpnJ5PN+8fIlOTNnHk6bZ5I8OecEVVVVCQAA
 AAAAAAAAAABgRMFaBwAAAAAAAAAAAAAA3kJBFAAAAAAAAAAAAIBhURAFAAAAAAAAAAAAYFgURAEAAAAA
@@ -9912,17 +9912,17 @@ AAAAAABsCVEAAAAAAABgS4gCAAAAAAAAWwHIzT4QiKAGBAAAAABJRU5ErkJggg==</imageData>
 <?Design GridY="0.01 cm"?>
 <?Design GridOriginX="0.0 cm"?>
 <?Design GridOriginY="0.0 cm"?>
-<?Design TestDataFile="$$F/CELPR04_PITORRI.spl.txt.xml"?>
+<?Design TestDataFile="$$F/CELPR04-sample.xml"?>
 <?Design PreviewUserOptions=""?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
-<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\CELPR04_PITORRI.spl.txt.xml"?>
+<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\CELPR04-sample.xml"?>
 <?Design DataExplorerDocumentTag="Document"?>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-11 15:40:32 UTC"?>
-<?Design DateModified="2025-09-12 00:49:58 UTC"?>
-<?Design InitialZoom="150"?>
-<?Design InitialPage="Pag070"?>
+<?Design DateModified="2025-09-18 00:21:05 UTC"?>
+<?Design InitialZoom="75"?>
+<?Design InitialPage="PagJES"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>

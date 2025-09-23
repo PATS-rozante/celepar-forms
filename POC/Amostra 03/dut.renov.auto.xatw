@@ -2,7 +2,7 @@
 <XATW name="RENOV.AUTO" paginationVersion="2" collate="yes" numCopies="1" duplex="left" inputTray="autoSelect" outputBin="upper" paperType="default" configFile="CeleparPDF.prt" designVersion="3.3.008.01" designFileVersion="1.0.0.34">
   <page name="PagSepFrente" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="quebra" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\QUEBRA.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="quebra" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\QUEBRA.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -29,7 +29,7 @@
   </page><!--PagSepFrente-->
   <page name="PagSepVerso" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="quebra" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\QUEBRA.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="quebra" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\QUEBRA.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -247,12 +247,12 @@ objTexto.texto._value = objTexto.texto._value
 // OnEndMerge end --------------------------------------------------------
 </script>
           <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-          <label name="DUT032" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="none" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT032.pdf?page=1&amp;dpi=300" imageMode="scale">
+          <label name="DUT032" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="none" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT032.pdf?page=1&amp;dpi=300" imageMode="scale">
             <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
             <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="0"/>
           </label>
-          <label name="DUT038_PIX" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT038_QR_PIX.pdf?page=1&amp;dpi=300" imageMode="scale">
+          <label name="DUT038_PIX" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT038_QR_PIX.pdf?page=1&amp;dpi=300" imageMode="scale">
             <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
             <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -653,7 +653,7 @@ objTexto.texto._value = objTexto.texto._value
   </page><!--PagDutFrente-->
   <page name="PagDutVerso" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="DUT006" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT006.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="DUT006" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT006.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
       <font typeface="Arial" size="8.000" italic="0" bold="0"/>
@@ -740,38 +740,38 @@ this.espCIF._value = this.numCIF._value;
             <tab distance="1.000001 cm"/>
           </field>
           <field name="cepComDV" type="barcode" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" barcodeType="PostNet" justify="left middle" caseShift="none">
-            <boundingRect left="4.059992 cm" top="14.749971 cm" width="6.989986 cm" height="0.519999 cm"/>
+            <boundingRect left="4.059992 cm" top="14.749971 cm" width="6.409987 cm" height="0.549999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-            <font typeface="Arial" size="16.000" italic="0" bold="0"/>
+            <font typeface="Arial" size="14.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
           <pane name="destinatario" section="main" backgroundColor="transparent" visible="none" shading="none" allowMultiple="no" allowSplit="no" pageBreak="no" allowBreakBefore="no" allowBreakAfter="no" minHeight="0.005001 cm">
             <boundingRect width="21.000001 cm" height="3.269996 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <field name="nome" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="0.254 cm" top="0.254 cm" width="2.000001 cm" height="0.499999 cm"/>
+              <boundingRect left="0.254 cm" top="0.254 cm" width="12.999999 cm" height="0.499999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
               <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
             <field name="endereco" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="0.254 cm" top="1.007999 cm" width="2.000001 cm" height="0.499999 cm"/>
+              <boundingRect left="0.254 cm" top="1.007999 cm" width="12.999999 cm" height="0.499999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
               <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
             <field name="complementoBairro" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="0.254 cm" top="1.761998 cm" width="2.000001 cm" height="0.499999 cm"/>
+              <boundingRect left="0.254 cm" top="1.761998 cm" width="12.999999 cm" height="0.499999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
               <font typeface="Arial" size="10.000" italic="0" bold="0"/>
               <tab distance="1.000001 cm"/>
             </field>
             <field name="cepMunicipio" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-              <boundingRect left="0.254 cm" top="2.515997 cm" width="2.000001 cm" height="0.499999 cm"/>
+              <boundingRect left="0.254 cm" top="2.515997 cm" width="12.999999 cm" height="0.499999 cm"/>
               <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
               <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
               <font typeface="Arial" size="10.000" italic="0" bold="0"/>
@@ -779,21 +779,21 @@ this.espCIF._value = this.numCIF._value;
             </field>
           </pane><!--destinatario-->
           <field name="nome" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-            <boundingRect left="4.049992 cm" top="15.579969 cm" width="12.999999 cm" height="0.499999 cm"/>
+            <boundingRect left="4.049992 cm" top="15.579969 cm" width="14.0 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Trebuchet MS" size="10.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
           <field name="endereco" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-            <boundingRect left="4.049992 cm" top="16.129968 cm" width="12.999999 cm" height="0.499999 cm"/>
+            <boundingRect left="4.049992 cm" top="16.129968 cm" width="14.0 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Trebuchet MS" size="10.000" italic="0" bold="0"/>
             <tab distance="1.000001 cm"/>
           </field>
           <field name="cepMunicipio" type="text" dataType="string" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" singleLine="yes" allowSplit="no" global="no" resizableWidth="no" resizableHeight="yes" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left middle" caseShift="none">
-            <boundingRect left="4.049992 cm" top="16.679967 cm" width="12.999999 cm" height="0.499999 cm"/>
+            <boundingRect left="4.049992 cm" top="16.679967 cm" width="14.0 cm" height="0.499999 cm"/>
             <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
             <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
             <font typeface="Trebuchet MS" size="10.000" italic="0" bold="0"/>
@@ -848,7 +848,7 @@ this.espCIF._value = this.numCIF._value;
       </pane><!--folha-->
     </container>
   </page><!--PagDutVerso-->
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\QUEBRA.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\QUEBRA.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\QUEBRA.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\QUEBRA.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdaaxs2Vkf/OcMd+jBPbont6e2IdixacAkRHIUQMS8OJBgLKJEiRICMUpC5pAoyqDEQVGkCBIE
 EhlIFCISMhpCBvyi8BoTsIKDGYyxHU94ttvubrfd83DvPee8H/639n3O3bcO59zuOnfX7t/vQ6m06qld
 e69aa+9VVeuptbG3t1cAAAAAAAAAc7R5pXcAAAAAAAAAYFX8IAoAAAAAAADMlh9EAQAAAAAAgNnygygA
@@ -5627,7 +5627,7 @@ AAAAAACWJSAKAAAAAAAALEtAFAAAAAAAAFiWgCgAAAAAAACwLAFRAAAAAAAAYFkCogAAAAAAAMCyBEQB
 AAAAAACAZQmIAgAAAAAAAMsSEAUAAAAAAACWJSAKAAAAAAAALEtAFAAAAAAAAFiWgCgAAAAAAACwLAFR
 AAAAAAAAYFkCogAAAAAAAMCyBEQBAAAAAACAZQmIAgAAAAAAAMsSEAUAAAAAAACWJSAKAAAAAAAALEtA
 FAAAAAAAAFiWgCgAAAAAAACwrP8D/12w5njYsYAAAAAASUVORK5CYII=</imageData>
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT006.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT006.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT006.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT006.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOy923bkOK52SzkifEpnj/WE6+HXG/xdlZk+hK19wWFsGB8AyVWVWd1Rc154hBUUCZIgAImHWNZ1
 HQAAAAAAAAAAAAAAAAAAl8jV3y0AAAAAAAAAAAAAAAAAAMDPgglRAAAAAAAAAAAAAAAAALhYmBAFAAAA
 AAAAAAAAAAAAgIuFCVEAAAAAAAAAAAAAAAAAuFiYEAUAAAAAAAAAAAAAAACAi4UJUQAAAAAAAAAAAAAA
@@ -29348,7 +29348,7 @@ QVQIIYQQQgghhBBCCCGEEEIIcbJoQVQIIYQQQgghhBBCCCGEEEIIcbJoQVQIIYQQQgghhBBCCCGEEEII
 cbJoQVQIIYQQQgghhBBCCCGEEEIIcbJoQVQIIYQQQgghhBBCCCGEEEIIcbJoQVQIIYQQQgghhBBCCCGE
 EEIIcbJoQVQIIYQQQgghhBBCCCGEEEIIcbJoQVQIIYQQQgghhBBCCCGEEEIIcbJoQVQIIYQQQgghhBBC
 CCGEEEIIcbL8Pxf5zhlvONp/AAAAAElFTkSuQmCC</imageData>
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT032.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT032.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT032.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT032.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdZ5jedZk37s9k0nsjIZUAofeOFGmCoCwK9o5YV9fV1ZUt6rr/dffxcd1dy+6669qwICqogIp0
 pJdQkpBOeu+ZSTKZPvN/ca88iJBMuWfu5JfzfMGR3PMt19R4+Jnr+lW1t7cHAAAAAAAAoIj6VLoAAAAA
 AAAAgJ4iEAUAAAAAAAAKSyAKAAAAAAAAFJZAFAAAAAAAACgsgSgAAAAAAABQWAJRAAAAAAAAoLAEogAA
@@ -30269,7 +30269,7 @@ AAAAIEsQBQAAAAAAALIEUQAAAAAAACBLEAUAAAAAAACyBFEAAAAAAAAgSxAFAAAAAAAAsgRRAAAAAAAA
 IEsQBQAAAAAAALIEUQAAAAAAACBLEAUAAAAAAACyBFEAAAAAAAAgSxAFAAAAAAAAsgRRAAAAAAAAIEsQ
 BQAAAAAAALIEUQAAAAAAACBLEAUAAAAAAACyBFEAAAAAAAAgSxAFAAAAAAAAsgRRAAAAAAAAIEsQBQAA
 AAAAALK+3X29AQAAAAAAAOAKD1EAAAAAAAAg6wBGLQMTJ2x6ywAAAABJRU5ErkJggg==</imageData>
-  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT038_QR_PIX.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\DUT038_QR_PIX.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
+  <imageData name="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT038_QR_PIX.pdf?page=1&amp;dpi=300" encoding="base64-gzip" type="image/png" file="C:\DocOrigin\User\Forms\celepar\POC\Amostra 03\Forms\DUT038_QR_PIX.pdf?page=1&amp;dpi=300">iVBORw0KGgoAAAANSUhEUgAACbAAAA20CAIAAACh3m5aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElE
 QVR4nOzdZ3hc5Zn/8d+oV0tuKsZN7r03jDu2QzGd0BICCSWNLCQLm4TsPyFt2fRsNoVQTQoJmGJTbdww
 7nKTLdlqltV7733m/+IkXse4zIzO6GiOvp8XXMPMOc9zSxrZ1+Xf3PfjcLlcAgAAAAAAAAAAAAA7CrC6
 AAAAAAAAAAAAAADwFQJRAAAAAAAAAAAAALZFIAoAAAAAAAAAAADAtghEAQAAAAAAAAAAANgWgSgAAAAA
@@ -32300,9 +32300,9 @@ IUYW8uDbTRgAAAAASUVORK5CYII=</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-12 17:35:18 UTC"?>
-<?Design DateModified="2025-09-12 23:37:20 UTC"?>
+<?Design DateModified="2025-09-16 21:50:44 UTC"?>
 <?Design CustomColors="255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;240,240,240:#F0F0F0;228,228,228:#E4E4E4;216,216,216:#D8D8D8;204,204,204:#CCCCCC;"?>
-<?Design InitialZoom="150"?>
+<?Design InitialZoom="100"?>
 <?Design InitialPage="PagDutVerso"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>
