@@ -690,10 +690,9 @@ ________________________________________________________________________________
   </page><!--PagWSFF-->
   <page name="Pag070" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray2" blankBack="PagBranca" blankTrailing="PagBranca">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET070.pdf?page=1&amp;dpi=300" imageMode="scale">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET070.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container070" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -741,10 +740,9 @@ ________________________________________________________________________________
   </page><!--Pag070-->
   <page name="Pag071" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray1">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET071.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET071.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container071" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -785,10 +783,9 @@ ________________________________________________________________________________
   </page><!--Pag071-->
   <page name="Pag072" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray1">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET072.pdf?page=1&amp;dpi=300" imageMode="scale">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET072.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container072" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -822,10 +819,9 @@ ________________________________________________________________________________
   </page><!--Pag072-->
   <page name="Pag073A" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray3">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073A" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -866,10 +862,9 @@ ________________________________________________________________________________
   </page><!--Pag073A-->
   <page name="Pag073B" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray3">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073B" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -910,10 +905,9 @@ ________________________________________________________________________________
   </page><!--Pag073B-->
   <page name="Pag073C" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="front" inputTray="tray3">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073C" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -954,10 +948,9 @@ ________________________________________________________________________________
   </page><!--Pag073C-->
   <page name="Pag073D" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray3">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
-    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
-      <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
+    <label name="Template" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 04\Forms\DET073.pdf?page=1&amp;dpi=300" imageMode="scale">
+      <boundingRect left="0.0 cm" top="0.0 cm" width="21.0058 cm" height="29.6926 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
-      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="Container073D" visible="yes" shading="none">
       <boundingRect left="0.0 cm" top="0.0 cm" width="20.990001 cm" height="29.689999 cm"/>
@@ -53318,8 +53311,8 @@ AABALEEUAAAAAAAAiPW/kBdk9/o00usAAAAASUVORK5CYII=</imageData>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-11 15:40:32 UTC"?>
-<?Design DateModified="2025-09-24 15:50:49 UTC"?>
+<?Design DateModified="2025-09-25 16:39:06 UTC"?>
 <?Design InitialZoom="100"?>
-<?Design InitialPage="Pag071"?>
+<?Design InitialPage="Pag073A"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>
