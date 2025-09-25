@@ -1,3 +1,0 @@
-Esse aplicação vem em XML via FTP.
-Não vem com banners no XML. Ele e gerado pelo PlanetWorkflow que cria as massas (Conforme mandei o exemplo e usa os forms anexos. 
-O Workflow gera a pagina de banner e depois concatena no documento. Tem o banner final e inicial.
