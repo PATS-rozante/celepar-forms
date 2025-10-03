@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOTransform -->
+<XMLData>
+<Document>
+  <SepJES>
+    <type>START</type>
+    <obs1></obs1>
+    <userid>N000732</userid>
+    <copies>001</copies>
+    <sysout_class>3</sysout_class>
+    <output_group>3.1.1</output_group>
+    <relatorio></relatorio>
+    <destination>LOCAL</destination>
+    <nome>ODAIR.CRISTOVAO</nome>
+    <sala></sala>
+    <orgao>CELEPAR</orgao>
+    <setor>DITIS</setor>
+    <endereco1>    MATEUS LEME , 1561                            X--------X</endereco1>
+    <endereco2>    CENTRO CIVICO</endereco2>
+    <endereco3>    CURITIBA.                     PR</endereco3>
+    <endereco4>    80530-010</endereco4>
+    <endereco5></endereco5>
+    <obs2>$INICIO DO JOB 00177 DAEEOS01 01/10/2025 11:04:42 CEL3 CELPOC</obs2>
+    <jobid>00177</jobid>
+    <jobname>DAEEOS01</jobname>
+    <jobdate>01/10/2025</jobdate>
+    <jobtime>11:04:42</jobtime>
+    <cpu>CEL3</cpu>
+    <form>CELPOC</form>
+  </SepJES>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+    <contratos>
+      <linhaContrato>03678248-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.987,52</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.026,85</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678249-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************5.765,54</linhaContrato>
+      <linhaContrato>                                                       JUROS                **************796,22</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678250-1  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********13.225,12</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.706,04</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678251-0  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ***********11.486,75</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.481,79</linhaContrato>
+      <linhaContrato>                                                                                                                                               .</linhaContrato>
+      <linhaContrato>03678252-8  CONTRATOS      SID  23.969.028-9           MULTA CONTRATUAL     ************9.914,79</linhaContrato>
+      <linhaContrato>                                                       JUROS                ************1.279,00</linhaContrato>
+    </contratos>
+    <dividas>
+      <linhaDividas>03678248-0       03678249-8       03678250-1       03678251-0       03678252-8</linhaDividas>
+    </dividas>
+  </carta>
+  <capa>
+    <remetente1></remetente1>
+    <remetente2>80420-902       CURITIBA                             PR</remetente2>
+    <remetente3>17A. DRR - RUA VICENTE MACHADO 000       (41)3321-9250</remetente3>
+    <remetente4>SECRETARIA DA FAZENDA - COORDENACAO DA RECEITA DO ESTADO</remetente4>
+    <numAR>*YJ981215882BR*</numAR>
+    <sequencia>01 -     1</sequencia>
+    <cepnet>*010500301*</cepnet>
+    <nomeDocto>ESPECIALY TERCEIRIZAGCO - TESTE                                  CNPJ       10000000/0001-XX</nomeDocto>
+    <logradouro>RUA MAJOR QUEIJINHO 000 98 ANDAR CENTRO - SAO PAULO</logradouro>
+    <cidadeUf>SAO PAULO - SP</cidadeUf>
+    <cep>00000-030</cep>
+    <arLin1>01050-030     SAO PAULO                  SP</arLin1>
+    <arLin2>18 ANDAR                CENTRO - SAO PAULO</arLin2>
+    <arLin3>RUA MAJOR QUEIJINHO 000</arLin3>
+    <arLin4>ESPECIALY TERCEIRIZAGCO - ETSET</arLin4>
+    <arLin5>CNPJ       10000000/0001-XX</arLin5>
+    <dtPostagem>05/09/2025</dtPostagem>
+  </capa>
+</Document>
+<Document>
+  <carta>
+    <contribuinte>ESPECIALY TERCEIRIZAGCO - TESTE</contribuinte>
+    <documento>CNPJ       010000000/0001-XX</documento>
+    <cidadeData>Curitiba, 31 de    agosto de  2025</cidadeData>
+    <orgao>Inspetoria Geral de Arrecadagco/SEFA-CRE</orgao>
+    <texto>           Informamos  que  houve  inscrigco em  dmvida  ativa do  Estado do Parana  do(s)  dibito(s)
+      fiscal(is)  abaixo  discriminado(s),  de  sua  responsabilidade,  atualizado(s) ati 31/08/2025 ,                                                
+      sujeito a juros ati a data do pagamento, nos termos do art. 38 da Lei n. 11.580/1996.                                                           
+            De acordo com o disposto no paragrafo 1:, do art. 13, do Decreto-Lei n. 640/47 e paragrafo                                                
+      2: do art. 57 da lei n: 11.580/1996, fica V.Sa. notificada sobre o(s) dibito(s) inscrito(s).                                                    
+            O prazo legal  para  pagamento  amigavel  encerra-se em 10/10/2025 . Vencido o prazo, a(s)                                                
+      Certidco(ues) de Dmvida Ativa estara(co) sujeita(s) `:                                                                                          
+            a) protesto extrajudicial, nos termos do paragrafo znico do artigo 1:, da Lei n.9.492/97 e                                                
+      Provimento 230/12, da  Corregedoria-Geral  do  Tribunal de Justiga do Parana, com  incidjncia de                                                
+      emolumentos e demais despesas;                                                                                                                  
+            b) execugco  fiscal, nos termos  da Lei n. 6.830/80, com  cobranga  de  custas  judiciais,                                                
+      honorarios e penhora de bens;                                                                                                                   
+            c) inscrigco no Cadastro Informativo Estatual - Cadin, nos termos da Lei n.18.466/2015.                                                   </texto>
+  </carta>
+</Document>
+</XMLData>

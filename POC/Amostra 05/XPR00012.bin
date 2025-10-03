@@ -1,0 +1,327 @@
+1 $DJDE$   FORMAT=SEPARA,FORMS=NONE,FONTINDEX=131,FEED=AUX,END;                                                                      
+                                                                                                      POS-IMPRESSAO:                 
+                                                                                                                                    2
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   RRRRRRRRRRR   HH        HH   CCCCCCCCCC   EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS     00000000         11                         
+   RR        RR  HH        HH  CC        CC  EE            OO        OO  SS        SS  00        00     1111                         
+   RR        RR  HH        HH  CC            EE            OO        OO  SSS           00        00       11                         
+   RRRRRRRRRRR   HHHHHHHHHHHH  CC            EEEEEEEE      OO        OO    SSSSSSSSS   00        00       11                         
+   RR    RR      HH        HH  CC            EE            OO        OO           SSS  00        00       11                         
+   RR      RR    HH        HH  CC        CC  EE            OO        OO  SS        SS  00        00       11                         
+   RR        RR  HH        HH   CCCCCCCCCC   EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS     00000000     1111111111                     
+                                                                                                                                     
+                                                                                                                                     
+     JJJJJJJJJJ  OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000     2222222222    2222222222    9999999999                     
+         JJ      OO        OO  BB        BB  00        00  00        00  22        22  22        22  99        99                    
+         JJ      OO        OO  BB       BB   00        00  00        00            22            22  99        99                    
+         JJ      OO        OO  BBBBBBBBBB    00        00  00        00         22            22     999999999999                    
+         JJ      OO        OO  BB       BB   00        00  00        00       22            22                 99                    
+   JJ    JJ      OO        OO  BB        BB  00        00  00        00   22            22           99        99                    
+    JJJJJJ       OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000    222222222222  222222222222   9999999999                     
+                                                                                                                                     
+                                                                                                                                     
+     **START*****START*****START*****START*****START*****START*****START*****START*****START*****START***                            
+     *                                                                                                  *                            
+     * USER ID:      N000732                COPIES=001                                                  *                            
+     * SYSOUT CLASS: 3                      OUTPUT GROUP: 3.1.1                                         *                            
+     * RELATORIO:                                                                                       *                            
+     *                                                                                                  *                           3
+     * DESTINATION:  LOCAL                                                                              *                           3
+     *                                                                                                  *                           3
+     * NOME:         ODAIR.CRISTOVAO                                                                    *                           3
+     *                                                                                                  *                           3
+     * SALA:                                                                                            *                           3
+     *                                                                                                  *                           3
+     * ORGAO:        CELEPAR                                                                            *                           3
+     *                                                                                                  *                           3
+     * SETOR:        DITIS                                                                              *                           3
+     *                                                                                                  *                           3
+     * ENDERECO:     MATEUS LEME , 1561                            X--------X                           *                           3
+     *               CENTRO CIVICO                                                                      *                           3
+     *               CURITIBA.                     PR                                                   *                           3
+     *               80530-010                                                                          *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     **START*****START*****START*****START*****START*****START*****START*****START*****START*****START***                            
+     * EXPEDICAO:                                                                                       *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     **START*****START*****START*****START*****START*****START*****START*****START*****START*****START***                            
+ $INICIO DO JOB 00229 RHCEOS01 30/09/2025 16:23:10 CEL3 CELPOC                                                                       
+  $DJDE$   JDL=DFAULT,JDE=LDO044,FEED=MAIN,END;                                                                                      
+                                                                                                                                     
+  $DJDE$ JDE=RHC008,JDL=SEAD00,DUPLEX=NO,COLLATE=NO,END;                                                    
+1                                                                                                           
+-                                                                                          001             1
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+0          NOME: FULANO DA SILVA HGAFYVAV                                        ORGAO: SEFA               2
+           R.G.: 999.999.999-9 CARGO: AGENTE FAZENDARIO ESTADUAL A                  LF: 1                  2
+                                                                                                           2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   3:,   Inciso  I,  II  e  III,  '  znico  da  Emenda                         2
+                      Constitucional n: 47/05.                                                             2
+                      Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70                                      2
+                      Lei 13666/02,art.15,II,c/c art.170 e 171, Lei 6174/70-EC19                           2
+                      Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70                                     2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 84.237/14                                  2
+                      VALOR  MENSAL  DOS PROVENTOS: R$ 23.771,06(Vinte e Trjs Mil,                         2
+                      Setecentos e Setenta e Um Reais e Seis Centavos)                                     2
+                      CALCULOS A FL. 46-PRPREV. - FF - PROTOCOLO N. 13.130.801-9                           2
+           _________________________________________________________________________________               -
+0          NOME: BELTRANO DE SOUSA KASDTYIGVA                                    ORGAO: SESP               2
+           R.G.: 999.999.999-9 CARGO: Agente Profissional                           LF: 1                  2
+                                     Economista                                                            2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   3:,   Inciso  I,  II  e  III,  '  znico  da  Emenda                         2
+                      Constitucional n: 47/05.                                                             2
+                      Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70                                      2
+                      Lei 13666/02,art.15,II,c/c art.170 e 171, Lei 6174/70-EC19                           2
+                      Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70                                     2
+                      Lei 13666/02, art.18 e Lei 15044/06, art.6:                                          2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 80.497/13                                  2
+                      VALOR  MENSAL  DOS  PROVENTOS:  R$  14.561,61(Quatorze  Mil,                         2
+                      Quinhentos e Sessenta e Um Reais e Sessenta e Um Centavos)                           2
+                      CALCULOS A FL. 55-PRPREV. - FF - PROTOCOLO N. 11.958.914-2                           2
+           _________________________________________________________________________________               -
+0          CURITIBA, 20 DE OUTUBRO DE 2025                                                                 2
+0                                         REINHOLD STEPHANES                                               2
+                                SECRETARIO DE ESTADO DA ADMINISTRACAO E                                    2
+                                            DA PREVIDENCIA                                                 2
+1                                                                                                           
+-                                                                                          002             1
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+0          NOME: SICRANO DA SILVA DE SOUDA OOSIDJHUC                         ORGAO: FUNSAUDE               2
+           R.G.: 999.999.999-9 CARGO: PROMOTOR DE SAUDE EXECUCAO                LF: 1                      2
+                                     TECNICO DE SAUDE                                                      2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   3:,   Inciso  I,  II  e  III,  '  znico  da  Emenda                         2
+                      Constitucional n: 47/05.                                                             2
+                      Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70                                      2
+                      Lei 13666/02,art.15,II,c/c art.170,Lei 6174/70-EC19/98                               2
+                      Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70                                     2
+                      Lei 13666/02, art.18 e Lei 15044/06, art.6:                                          2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 83.639/14                                  2
+                      VALOR  MENSAL  DOS PROVENTOS: R$ 4.026,22(Quatro Mil e Vinte                         2
+                      e Seis Reais e Vinte e Dois Centavos)                                                2
+                      CALCULOS A FL. 31-PRPREV. - FF - PROTOCOLO N. 13.119.918-0                           2
+           _________________________________________________________________________________               -
+0          NOME: FULANO DA SILVA HGAFYVAV                                        ORGAO: SEED               2
+           R.G.: 999.999.999-9 CARGO: Professor                                     LF: 1                  2
+                                     Professor                                                             2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo  40, '' 1:, Inciso III, almnea A e 8:, c/c com o ' 5:                         2
+                      do  mesmo  Artigo,  da  Constituigco  Federal, com a redagco                         2
+                      dada pela Emenda Constitucional n: 41/03.                                            2
+                      Art.40, '' 3: e 17:, da Const.Federal                                                2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. /                                          2
+                      VALOR  MENSAL  DOS PROVENTOS: R$ 3.024,79(Trjs Mil e Vinte e                         2
+                      Quatro Reais e Setenta e Nove Centavos)                                              2
+                                                                                                           2
+           _________________________________________________________________________________               -
+0          CURITIBA, 20 DE OUTUBRO DE 2025                                                                 2
+0                                         REINHOLD STEPHANES                                               2
+                                SECRETARIO DE ESTADO DA ADMINISTRACAO E                                    2
+                                            DA PREVIDENCIA                                                 2
+1                                                                                                           
+-                                                                                          003             1
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+0          NOME: BELTRANO DE SOUSA KASDTYIGVA                                    ORGAO: SEJU               2
+           R.G.: 999.999.999-9 CARGO: Agente Profissional                           LF: 1                  2
+                                     Assistente Social                                                     2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   3:,   Inciso  I,  II  e  III,  '  znico  da  Emenda                         2
+                      Constitucional n: 47/05.                                                             2
+                      Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70                                      2
+                      Lei 13666/02,art.15,II,c/c art.170,Lei 6174/70-EC19/98                               2
+                      Lei 13666/02,art.15,II, c/c art.170 e 171, Lei 6174/70                               2
+                      Lei 13666/02, art.18 e Lei 15044/06, art.6:                                          2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 89.869/15                                  2
+                      VALOR  MENSAL  DOS  PROVENTOS:  R$  16.227,90(Dezesseis Mil,                         2
+                      Duzentos e Vinte e Sete Reais e Noventa Centavos)                                    2
+                      CALCULOS A FL. 34-PRPREV. - FF - PROTOCOLO N. 13.521.577-5                           2
+           _________________________________________________________________________________               -
+0          NOME: SICRANO DA SILVA DE SOUDA OOSIDJHUC                             ORGAO: SEED               2
+           R.G.: 999.999.999-9 CARGO: Professor                                     LF: 3                  2
+                                     Professor                                                             2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   6:,   Incisos   I,   II,   III   e  IV,  da  Emenda                         2
+                      Constitucional  n:  41/03,  c/c  o  '  5:  do  Artigo 40, da                         2
+                      Constituigco  Federal  e  Artigo 2: da Emenda Constitucional                         2
+                      n: 47/05.                                                                            2
+                      LC 103/04, art.23                                                                    2
+                      LC 103/04,art.25,inc.I a X,' zn, EC 19/98                                            2
+                      LC 103/04, art.25, inc.I a X, ' zn                                                   2
+                      LC 103/04, art.27, I c/c art.22, ' 2:                                                2
+                      LC 103/04, art.22, ' 3:                                                              2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 94.367/16                                  2
+                      VALOR  MENSAL DOS PROVENTOS: R$ 5.091,65(Cinco Mil e Noventa                         2
+                      e Um Reais e Sessenta e Cinco Centavos)                                              2
+                      CALCULOS A FL. 39-PRPREV. - FF - PROTOCOLO N. 14.013.367-1                           2
+           _________________________________________________________________________________               -
+0          CURITIBA, 20 DE OUTUBRO DE 2025                                                                 2
+0                                         REINHOLD STEPHANES                                               2
+                                SECRETARIO DE ESTADO DA ADMINISTRACAO E                                    2
+                                            DA PREVIDENCIA                                                 2
+1                                                                                                           
+-                                                                                          500             1
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+                                                                                                           2
+0          NOME: BELTRANO DE SOUSA KASDTYIGVA                                     ORGAO: CRE               2
+           R.G.: 999.999.999-9 CARGO: AGENTE FAZENDARIO ESTADUAL C                   LF: 1                 2
+                                                                                                           2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   3:,   Inciso  I,  II  e  III,  '  znico  da  Emenda                         2
+                      Constitucional n: 47/05.                                                             2
+                      Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70                                      2
+                      Lei 13666/02,art.15,II,c/c art.170 e 171, Lei 6174/70-EC19                           2
+                      Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70                                     2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 84.092/14                                  2
+                      VALOR   MENSAL   DOS   PROVENTOS:   R$  5.989,28(Cinco  Mil,                         2
+                      Novecentos e Oitenta e Nove Reais e Vinte e Oito Centavos)                           2
+                      CALCULOS A FL. 27-PRPREV. - FF - PROTOCOLO N. 13.148.012-1                           2
+           _________________________________________________________________________________               -
+0          NOME: SICRANO DA SILVA DE SOUDA OOSIDJHUC                             ORGAO: SEED               2
+           R.G.: 999.999.999-9 CARGO: Professor                                     LF: 2                  2
+                                     Professor                                                             2
+           TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.                              2
+0          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----               2
+                                                                                                           2
+                      Artigo   6:,   Incisos   I,   II,   III   e  IV,  da  Emenda                         2
+                      Constitucional  n:  41/03,  c/c  o  '  5:  do  Artigo 40, da                         2
+                      Constituigco  Federal  e  Artigo 2: da Emenda Constitucional                         2
+                      n: 47/05.                                                                            2
+                      LC 103/04, art.23                                                                    2
+                      LC 103/04,art.25,inc.I a X,' zn, EC 19/98                                            2
+                      LC 103/04, art.25, inc.I a X, ' zn                                                   2
+                      LC 103/04, art.27, I c/c art.22, ' 2:                                                2
+                      LC 103/04, art.22, ' 3:                                                              2
+                      ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 94.368/16                                  2
+                      VALOR  MENSAL DOS PROVENTOS: R$ 5.242,29(Cinco Mil, Duzentos                         2
+                      e Quarenta e Dois Reais e Vinte e Nove Centavos)                                     2
+                      CALCULOS A FL. 40-PRPREV. - FF - PROTOCOLO N. 14.013.329-9                           2
+           _________________________________________________________________________________               -
+0          CURITIBA, 20 DE OUTUBRO DE 2025                                                                 2
+0                                         REINHOLD STEPHANES                                               2
+                                SECRETARIO DE ESTADO DA ADMINISTRACAO E                                    2
+                                            DA PREVIDENCIA                                                 2
+1 $DJDE$   FORMAT=SEPARA,FORMS=NONE,ASS=(1,1),FONTINDEX=131,END;                                                                     
+                                                                                                      POS-IMPRESSAO:                 
+                                                                                                                                    2
+                                                                                                                                     
+   RRRRRRRRRRR   HH        HH   CCCCCCCCCC   EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS     00000000         11                         
+   RR        RR  HH        HH  CC        CC  EE            OO        OO  SS        SS  00        00     1111                         
+   RR        RR  HH        HH  CC            EE            OO        OO  SSS           00        00       11                         
+   RRRRRRRRRRR   HHHHHHHHHHHH  CC            EEEEEEEE      OO        OO    SSSSSSSSS   00        00       11                         
+   RR    RR      HH        HH  CC            EE            OO        OO           SSS  00        00       11                         
+   RR      RR    HH        HH  CC        CC  EE            OO        OO  SS        SS  00        00       11                         
+   RR        RR  HH        HH   CCCCCCCCCC   EEEEEEEEEEEE  OOOOOOOOOOOO   SSSSSSSSSS     00000000     1111111111                     
+                                                                                                                                     
+                                                                                                                                     
+     JJJJJJJJJJ  OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000     2222222222    2222222222    9999999999                     
+         JJ      OO        OO  BB        BB  00        00  00        00  22        22  22        22  99        99                    
+         JJ      OO        OO  BB       BB   00        00  00        00            22            22  99        99                    
+         JJ      OO        OO  BBBBBBBBBB    00        00  00        00         22            22     999999999999                    
+         JJ      OO        OO  BB       BB   00        00  00        00       22            22                 99                    
+   JJ    JJ      OO        OO  BB        BB  00        00  00        00   22            22           99        99                    
+    JJJJJJ       OOOOOOOOOOOO  BBBBBBBBBBB     00000000      00000000    222222222222  222222222222   9999999999                     
+                                                                                                                                     
+                                                                                                                                     
+     **END*******END*******END*******END*******END*******END*******END*******END*******END*******END*****                            
+     *                                                                                                  *                            
+     * USER ID:      N000732                COPIES=001                                                  *                            
+     * SYSOUT CLASS: 3                      OUTPUT GROUP: 3.1.1                                         *                            
+     * RELATORIO:                                                                                       *                            
+     *                                                                                                  *                           3
+     * DESTINATION:  LOCAL                                                                              *                           3
+     *                                                                                                  *                           3
+     * NOME:         ODAIR.CRISTOVAO                                                                    *                           3
+     *                                                                                                  *                           3
+     * SALA:                                                                                            *                           3
+     *                                                                                                  *                           3
+     * ORGAO:        CELEPAR                                                                            *                           3
+     *                                                                                                  *                           3
+     * SETOR:        DITIS                                                                              *                           3
+     *                                                                                                  *                           3
+     * ENDERECO:     MATEUS LEME , 1561                            X--------X                           *                           3
+     *               CENTRO CIVICO                                                                      *                           3
+     *               CURITIBA.                     PR                                                   *                           3
+     *               80530-010                                                                          *                           3
+     *                                                                                                  *                           3
+     *                                                                                                  *                           3
+     **END*******END*******END*******END*******END*******END*******END*******END*******END*******END*****                            
+     * EXPEDICAO:                                                                                       *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     *                                                                                                  *                            
+     **END*******END*******END*******END*******END*******END*******END*******END*******END*******END*****                            
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     

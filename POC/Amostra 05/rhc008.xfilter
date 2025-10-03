@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "windows-1252";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-25 12:17:43 UTC";
+$$Option.FilterDateModified = "2025-10-01 01:51:05 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -8,7 +8,7 @@ $$Option.PruneXML = "Yes";
 $$Option.FilterVersionCreated = "3.3.008.01";
 $$Option.FilterDateCreated = "2025-09-10 19:50:23 UTC";
 $$Option.LinesPerPage = "66";
-$$Option.OverlayFile = "$$X/p.rhc.amostra5-BANNER.txt";
+$$Option.OverlayFile = "$$X/XPR00012.bin";
 $$Option.XmlDataFile = "";
 $$Option.FilterVersionNumber = "1";
 
@@ -18,7 +18,7 @@ var $$Rules = [
       nextState: 'SepJES',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,1,24).EQ("+ $DJDE$   FORMAT=SEPARA"))
+         $$If($$(0,1,3,24).EQ("$DJDE$   FORMAT=SEPARA"))
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();

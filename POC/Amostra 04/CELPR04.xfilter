@@ -1,6 +1,6 @@
 $$Option.OverlayFileSymbolset = "UTF-8";
 $$Option.FilterVersionModified = "3.3.008.01";
-$$Option.FilterDateModified = "2025-09-23 00:11:17 UTC";
+$$Option.FilterDateModified = "2025-10-01 12:23:50 UTC";
 $$Option.DocumentTag = "Document";
 $$Option.CarriageControl = "No";
 $$Option.EnableMultiInstance = "Yes";
@@ -8,9 +8,10 @@ $$Option.PruneXML = "Yes";
 $$Option.FilterVersionCreated = "3.3.008.01";
 $$Option.FilterDateCreated = "2025-09-10 22:58:21 UTC";
 $$Option.LinesPerPage = "66";
-$$Option.OverlayFile = "$$X/CELPR04_AMOSTRALPR00ZWAFIUTW3YJ0110D776AE-SAMPLE.spl.txt";
+$$Option.OverlayFile = "C:/DocOrigin/User/Forms/celepar/POC/JOBS_XPS_01.10.2025/XPR00022_PRVEOS01_CPOC_01_10_2025_09_13_50.bin";
 $$Option.XmlDataFile = "";
 $$Option.FilterVersionNumber = "1";
+$$Option.OverlayMaxLines = "2000";
 
 var $$Rules = [
    {  // Rule #1
@@ -18,7 +19,7 @@ var $$Rules = [
       nextState: 'SepJES',
       startNewDocument: false,
       test: function() { return(
-         $$If($$(0,1,1,24).EQ("+ $DJDE$   FORMAT=SEPARA"))
+         $$If($$(0,1,3,24).EQ("$DJDE$   FORMAT=SEPARA"))
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
@@ -143,11 +144,11 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(2,1,100,106).Trim(3).Xml("DET070.seq");
-         $$(14,1,4,107).Trim(3).Xml("DET070.Ciretran");
-         $$(19,1,40,66).Trim(3).Xml("DET070.Data");
-         $$(24,1,43,63).Trim(3).Xml("DET070.Hora");
-         $$(28,1,22,76).Trim(3).Xml("DET070.Testes");
+         $$(1,1,100,106).Trim(3).Xml("DET070.seq");
+         $$(13,1,4,107).Trim(3).Xml("DET070.Ciretran");
+         $$(18,1,40,66).Trim(3).Xml("DET070.Data");
+         $$(23,1,43,63).Trim(3).Xml("DET070.Hora");
+         $$(27,1,22,76).Trim(3).Xml("DET070.Testes");
          $$(0,0,0,0).Advance(25);
       },
    },
@@ -161,10 +162,10 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(2,1,100,106).Trim(3).Xml("DET071.seq");
-         $$(5,1,99,106).Trim(3).Xml("DET071.pag");
-         $$(8,1,44,63).Trim(3).Xml("DET071.teste");
-         $$(11,1,3,102).Trim(3).Xml("DET071.local");
+         $$(1,1,100,106).Trim(3).Xml("DET071.seq");
+         $$(4,1,99,106).Trim(3).Xml("DET071.pag");
+         $$(7,1,44,63).Trim(3).Xml("DET071.teste");
+         $$(10,1,3,102).Trim(3).Xml("DET071.local");
          $$(0,0,0,0).Advance(15);
       },
    },
@@ -177,9 +178,9 @@ var $$Rules = [
          $$If($$(0,1,3,21).EQ("$DJDE$ FORMS=DET072"))
       ) },
       action: function() {
-         $$(2,1,100,106).Trim(3).Xml("DET072.seq");
-         $$(6,1,22,40).Trim(3).Xml("DET072.teste");
-         $$(7,1,99,104).Trim(3).Xml("DET072.pag");
+         $$(1,1,100,106).Trim(3).Xml("DET072.seq");
+         $$(5,1,22,40).Trim(3).Xml("DET072.teste");
+         $$(6,1,99,104).Trim(3).Xml("DET072.pag");
          $$(0,0,0,0).Advance(2);
       },
    },
@@ -193,10 +194,10 @@ var $$Rules = [
       ) },
       action: function() {
          $$(0,0,0,0).XmlNewDocument();
-         $$(2,1,100,104).Trim(3).Xml("DET073A.seq");
-         $$(5,1,99,104).Trim(3).Xml("DET073A.pag");
-         $$(6,1,45,63).Trim(3).Xml("DET073A.teste");
-         $$(7,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073A.texto");
+         $$(1,1,100,104).Trim(3).Xml("DET073A.seq");
+         $$(4,1,99,104).Trim(3).Xml("DET073A.pag");
+         $$(5,1,45,63).Trim(3).Xml("DET073A.teste");
+         $$(6,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073A.texto");
          $$(0,0,0,0).Advance(56);
       },
    },
@@ -207,13 +208,13 @@ var $$Rules = [
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,1,1).EQ(1))
-         && $$If($$(6,1,8,8).IsNonBlank())
+         && $$If($$(5,1,8,8).IsNonBlank())
       ) },
       action: function() {
-         $$(1,1,100,104).Trim(3).Xml("DET073B.seq");
-         $$(4,1,99,104).Trim(3).Xml("DET073B.pag");
-         $$(5,1,45,63).Trim(3).Xml("DET073B.teste");
-         $$(6,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073B.texto");
+         $$(0,1,100,104).Trim(3).Xml("DET073B.seq");
+         $$(3,1,99,104).Trim(3).Xml("DET073B.pag");
+         $$(4,1,45,63).Trim(3).Xml("DET073B.teste");
+         $$(5,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073B.texto");
          $$(0,0,0,0).Advance(56);
       },
    },
@@ -224,13 +225,13 @@ var $$Rules = [
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,1,1).EQ(1))
-         && $$If($$(6,1,8,8).IsNonBlank())
+         && $$If($$(5,1,8,8).IsNonBlank())
       ) },
       action: function() {
-         $$(1,1,100,104).Trim(3).Xml("DET073C.seq");
-         $$(4,1,99,104).Trim(3).Xml("DET073C.pag");
-         $$(5,1,45,63).Trim(3).Xml("DET073C.teste");
-         $$(6,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073C.texto");
+         $$(0,1,100,104).Trim(3).Xml("DET073C.seq");
+         $$(3,1,99,104).Trim(3).Xml("DET073C.pag");
+         $$(4,1,45,63).Trim(3).Xml("DET073C.teste");
+         $$(5,1,3,104).SpanNE(1,1,1).Script("removeCtrls()").Trim(2).Xml("DET073C.texto");
          $$(0,0,0,0).Advance(56);
       },
    },
@@ -241,13 +242,13 @@ var $$Rules = [
       startNewDocument: false,
       test: function() { return(
          $$If($$(0,1,1,1).EQ(1))
-         && $$If($$(6,1,8,8).IsNonBlank())
+         && $$If($$(5,1,8,8).IsNonBlank())
       ) },
       action: function() {
-         $$(1,1,100,104).Trim(3).Xml("DET073D.seq");
-         $$(4,1,99,104).Trim(3).Xml("DET073D.pag");
-         $$(5,1,45,63).Trim(3).Xml("DET073D.teste");
-         $$(6,1,3,104).SpanNE(3,8,"$DJDE$").Script("removeCtrls()").Trim(2).Xml("DET073D.texto");
+         $$(0,1,100,104).Trim(3).Xml("DET073D.seq");
+         $$(3,1,99,104).Trim(3).Xml("DET073D.pag");
+         $$(4,1,45,63).Trim(3).Xml("DET073D.teste");
+         $$(5,1,3,104).SpanNE(3,8,"$DJDE$").Script("removeCtrls()").Trim(2).Xml("DET073D.texto");
          $$(0,0,0,0).Advance(10);
       },
    },

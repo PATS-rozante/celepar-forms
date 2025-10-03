@@ -563,15 +563,24 @@ this.notificacao.frente.placa1._value = this.notificacao.frente.placa._value;
             <tab distance="1.000001 cm"/>
             <text>-</text>
           </label>
+          <label type="text" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top">
+            <boundingRect left="18.549963 cm" top="14.99997 cm" width="0.449999 cm" height="0.494106 cm"/>
+            <margin left="0.05 cm" right="0.05 cm" top="0.05 cm" bottom="0.05 cm"/>
+            <border visible="no" color="#000000" thickness="0.01 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+            <font typeface="Arial" size="10.000" italic="0" bold="0"/>
+            <tab distance="1.000001 cm"/>
+            <text>*</text>
+          </label>
         </pane><!--frente-->
       </pane><!--notificacao-->
     </container>
   </page><!--PagNotifFrente-->
   <page name="PagNotificacaoVerso" visible="yes" size="A4" orientation="Portrait" duplex="left" pagePlace="back" inputTray="tray3">
     <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
-    <label name="MTN112" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 02\Forms\MTN112.pdf?page=1&amp;dpi=300" imageMode="scale">
+    <label name="MTN112" type="image" backgroundColor="transparent" foregroundColor="#000000" visible="yes" shading="none" hasEmbeddedFields="no" maxHeight="0.0 cm" lineSpacing="0.0 cm" angle="0" justify="left top" imageName="C:\DocOrigin\User\Forms\celepar\POC\Amostra 02\Forms\MTN112.pdf?page=1&amp;dpi=300" imageMode="scale">
       <boundingRect left="0.0 cm" top="0.0 cm" width="21.000001 cm" height="29.699999 cm"/>
       <border visible="no" color="#000000" thickness="0.021166 cm" lineStyle="solid" edges="all" radius="0.0 cm"/>
+      <font typeface="Arial" size="8.000" italic="0" bold="0"/>
     </label>
     <container name="ContainerNotifVerso" visible="yes" shading="none">
       <boundingRect left="0.499999 cm" top="0.499999 cm" width="20.5 cm" height="29.1 cm"/>
@@ -26686,14 +26695,14 @@ Kr7Kb68AAAAASUVORK5CYII=</imageData>
 "?>
 <?Design PreviewFillable="No"?>
 <?Design PreviewHtmlBatOption=""?>
-<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 02\NOTIFIv1.xml"?>
+<?Design DataExplorerFile="C:\DocOrigin\User\Forms\celepar\POC\Amostra 02\TEMP.xml"?>
 <?Design DataExplorerDocumentTag="Document"?>
 <?Design DesignVersionCreated="3.3.008.01"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 <?Design DateCreated="2025-09-08 22:34:39 UTC"?>
-<?Design DateModified="2025-09-25 13:32:04 UTC"?>
+<?Design DateModified="2025-09-30 12:15:25 UTC"?>
 <?Design CustomColors="255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;255,255,255:#FFFFFF;240,240,240:#F0F0F0;228,228,228:#E4E4E4;216,216,216:#D8D8D8;204,204,204:#CCCCCC;"?>
 <?Design InitialZoom="200"?>
-<?Design InitialPage="PagNotificacaoVerso"?>
+<?Design InitialPage="PagNotifFrente"?>
 <?Design DesignVersionModified="3.3.008.01"?>
 </XATW>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOTransform -->
+<XMLData>
+<Document>
+  <SepJES>
+    <type>START</type>
+    <obs1></obs1>
+    <userid>N000732</userid>
+    <copies>001</copies>
+    <sysout_class>3</sysout_class>
+    <output_group>3.1.1</output_group>
+    <relatorio></relatorio>
+    <destination>LOCAL</destination>
+    <nome>ODAIR.CRISTOVAO</nome>
+    <sala></sala>
+    <orgao>CELEPAR</orgao>
+    <setor>DITIS</setor>
+    <endereco1>    MATEUS LEME , 1561                            X--------X</endereco1>
+    <endereco2>    CENTRO CIVICO</endereco2>
+    <endereco3>    CURITIBA.                     PR</endereco3>
+    <endereco4>    80530-010</endereco4>
+    <endereco5></endereco5>
+    <obs2>$INICIO DO JOB 00229 RHCEOS01 30/09/2025 16:23:10 CEL3 CELPOC</obs2>
+    <jobid>00229</jobid>
+    <jobname>RHCEOS01</jobname>
+    <jobdate>30/09/2025</jobdate>
+    <jobtime>16:23:10</jobtime>
+    <cpu>CEL3</cpu>
+    <form>CELPOC</form>
+  </SepJES>
+</Document>
+<Document>
+  <Carta>
+    <sequencia>001</sequencia>
+    <texto>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: FULANO DA SILVA HGAFYVAV                                        ORGAO: SEFA</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: AGENTE FAZENDARIO ESTADUAL A                  LF: 1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   3:,   Inciso  I,  II  e  III,  &apos;  znico  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II,c/c art.170 e 171, Lei 6174/70-EC19</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 84.237/14</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL  DOS PROVENTOS: R$ 23.771,06(Vinte e Trjs Mil,</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Setecentos e Setenta e Um Reais e Seis Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 46-PRPREV. - FF - PROTOCOLO N. 13.130.801-9</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: BELTRANO DE SOUSA KASDTYIGVA                                    ORGAO: SESP</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: Agente Profissional                           LF: 1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                    Economista</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   3:,   Inciso  I,  II  e  III,  &apos;  znico  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II,c/c art.170 e 171, Lei 6174/70-EC19</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02, art.18 e Lei 15044/06, art.6:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 80.497/13</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL  DOS  PROVENTOS:  R$  14.561,61(Quatorze  Mil,</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Quinhentos e Sessenta e Um Reais e Sessenta e Um Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 55-PRPREV. - FF - PROTOCOLO N. 11.958.914-2</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          CURITIBA, 20 DE OUTUBRO DE 2025</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>                                         REINHOLD STEPHANES</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                               SECRETARIO DE ESTADO DA ADMINISTRACAO E</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                           DA PREVIDENCIA</dados>
+      </linha>
+    </texto>
+  </Carta>
+</Document>
+<Document>
+  <Carta>
+    <sequencia>002</sequencia>
+    <texto>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: SICRANO DA SILVA DE SOUDA OOSIDJHUC                         ORGAO: FUNSAUDE</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: PROMOTOR DE SAUDE EXECUCAO                LF: 1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                    TECNICO DE SAUDE</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   3:,   Inciso  I,  II  e  III,  &apos;  znico  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II,c/c art.170,Lei 6174/70-EC19/98</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02, art.18 e Lei 15044/06, art.6:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 83.639/14</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL  DOS PROVENTOS: R$ 4.026,22(Quatro Mil e Vinte</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     e Seis Reais e Vinte e Dois Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 31-PRPREV. - FF - PROTOCOLO N. 13.119.918-0</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: FULANO DA SILVA HGAFYVAV                                        ORGAO: SEED</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: Professor                                     LF: 1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                    Professor</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo  40, &apos;&apos; 1:, Inciso III, almnea A e 8:, c/c com o &apos; 5:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     do  mesmo  Artigo,  da  Constituigco  Federal, com a redagco</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     dada pela Emenda Constitucional n: 41/03.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Art.40, &apos;&apos; 3: e 17:, da Const.Federal</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. /</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL  DOS PROVENTOS: R$ 3.024,79(Trjs Mil e Vinte e</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Quatro Reais e Setenta e Nove Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          CURITIBA, 20 DE OUTUBRO DE 2025</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>                                         REINHOLD STEPHANES</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                               SECRETARIO DE ESTADO DA ADMINISTRACAO E</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                           DA PREVIDENCIA</dados>
+      </linha>
+    </texto>
+  </Carta>
+</Document>
+<Document>
+  <Carta>
+    <sequencia>003</sequencia>
+    <texto>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: BELTRANO DE SOUSA KASDTYIGVA                                    ORGAO: SEJU</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: Agente Profissional                           LF: 1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                    Assistente Social</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   3:,   Inciso  I,  II  e  III,  &apos;  znico  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II,c/c art.170,Lei 6174/70-EC19/98</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II, c/c art.170 e 171, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02, art.18 e Lei 15044/06, art.6:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 89.869/15</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL  DOS  PROVENTOS:  R$  16.227,90(Dezesseis Mil,</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Duzentos e Vinte e Sete Reais e Noventa Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 34-PRPREV. - FF - PROTOCOLO N. 13.521.577-5</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: SICRANO DA SILVA DE SOUDA OOSIDJHUC                             ORGAO: SEED</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: Professor                                     LF: 3</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                    Professor</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   6:,   Incisos   I,   II,   III   e  IV,  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional  n:  41/03,  c/c  o  &apos;  5:  do  Artigo 40, da</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constituigco  Federal  e  Artigo 2: da Emenda Constitucional</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.23</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04,art.25,inc.I a X,&apos; zn, EC 19/98</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.25, inc.I a X, &apos; zn</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.27, I c/c art.22, &apos; 2:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.22, &apos; 3:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 94.367/16</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL DOS PROVENTOS: R$ 5.091,65(Cinco Mil e Noventa</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     e Um Reais e Sessenta e Cinco Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 39-PRPREV. - FF - PROTOCOLO N. 14.013.367-1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          CURITIBA, 20 DE OUTUBRO DE 2025</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>                                         REINHOLD STEPHANES</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                               SECRETARIO DE ESTADO DA ADMINISTRACAO E</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                           DA PREVIDENCIA</dados>
+      </linha>
+    </texto>
+  </Carta>
+</Document>
+<Document>
+  <Carta>
+    <sequencia>500</sequencia>
+    <texto>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: BELTRANO DE SOUSA KASDTYIGVA                                     ORGAO: CRE</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: AGENTE FAZENDARIO ESTADUAL C                   LF: 1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   3:,   Inciso  I,  II  e  III,  &apos;  znico  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,I, c/c art.156, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II,c/c art.170 e 171, Lei 6174/70-EC19</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Lei 13666/02,art.15,II, c/c art.170, Lei 6174/70</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 84.092/14</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR   MENSAL   DOS   PROVENTOS:   R$  5.989,28(Cinco  Mil,</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Novecentos e Oitenta e Nove Reais e Vinte e Oito Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 27-PRPREV. - FF - PROTOCOLO N. 13.148.012-1</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          NOME: SICRANO DA SILVA DE SOUDA OOSIDJHUC                             ORGAO: SEED</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          R.G.: 999.999.999-9 CARGO: Professor                                     LF: 2</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                    Professor</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          TIPO: Aposentadoria Voluntaria Integral por Tempo de Contribuigco.</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          ----- EMBASAMENTO LEGAL E DETALHAMENTO DOS PROVENTOS PELA PARANAPREVIDENCIA -----</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados></dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Artigo   6:,   Incisos   I,   II,   III   e  IV,  da  Emenda</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constitucional  n:  41/03,  c/c  o  &apos;  5:  do  Artigo 40, da</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     Constituigco  Federal  e  Artigo 2: da Emenda Constitucional</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     n: 47/05.</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.23</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04,art.25,inc.I a X,&apos; zn, EC 19/98</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.25, inc.I a X, &apos; zn</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.27, I c/c art.22, &apos; 2:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     LC 103/04, art.22, &apos; 3:</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     ATO DE BENEFICIO PREVIDENCIARIO-PRPREV N. 94.368/16</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     VALOR  MENSAL DOS PROVENTOS: R$ 5.242,29(Cinco Mil, Duzentos</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     e Quarenta e Dois Reais e Vinte e Nove Centavos)</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                     CALCULOS A FL. 40-PRPREV. - FF - PROTOCOLO N. 14.013.329-9</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>          _________________________________________________________________________________</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>          CURITIBA, 20 DE OUTUBRO DE 2025</dados>
+      </linha>
+      <linha>
+        <pcc>0</pcc>
+        <dados>                                         REINHOLD STEPHANES</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                               SECRETARIO DE ESTADO DA ADMINISTRACAO E</dados>
+      </linha>
+      <linha>
+        <pcc> </pcc>
+        <dados>                                           DA PREVIDENCIA</dados>
+      </linha>
+    </texto>
+  </Carta>
+</Document>
+<Document>
+  <SepJES>
+    <type>END**</type>
+    <obs1></obs1>
+    <userid>N000732</userid>
+    <copies>001</copies>
+    <sysout_class>3</sysout_class>
+    <output_group>3.1.1</output_group>
+    <relatorio></relatorio>
+    <destination>LOCAL</destination>
+    <nome>ODAIR.CRISTOVAO</nome>
+    <sala></sala>
+    <orgao>CELEPAR</orgao>
+    <setor>DITIS</setor>
+    <endereco1>    MATEUS LEME , 1561                            X--------X</endereco1>
+    <endereco2>    CENTRO CIVICO</endereco2>
+    <endereco3>    CURITIBA.                     PR</endereco3>
+    <endereco4>    80530-010</endereco4>
+    <endereco5></endereco5>
+    <obs2></obs2>
+    <jobid></jobid>
+    <jobname></jobname>
+    <jobdate></jobdate>
+    <jobtime></jobtime>
+    <cpu></cpu>
+    <form></form>
+  </SepJES>
+</Document>
+</XMLData>
