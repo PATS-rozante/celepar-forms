@@ -1,0 +1,93 @@
+  $DJDE$ JDE=AFC033,JDL=ESPECI,DUPLEX=YES,COLLATE=NO,END;                                                                                                                                                                                                      
+1                                                                                                                                                                                                                                                              
+ AFC060                                                                                                                                                                                                                                                        
+ 0001                                                                                                                                                                                                                                                          
+ MICRO EMPREENDEDOR BNDES 2      -  APUCARANA - AG. DO TRABALHADOR                                                                                                                                                                                   
+ EDUARD HOSP PORTO 06960104882                                                                                                                                                                                                                       
+ END : EST GRANJA BOTOLO S/N-ESTRADA DO XAXIM                                                                                                                                                                                                   
+ CEP : 86800-000                                                                                                                                                                                                                                
+1
+ AFC064                                                                                                                                                                                                                                                              
+ 0002                                                                                                                                                                                                                                                          
+ 00190.00009 02477.644005 00584.118186 3 59080000043191                                                                                                                                                      
+ 001/36    10/12/2013                                                                                                                                                                                                        
+ 3793-1     10061-7                                                                                                                                                                       
+ 24776440000584118                                                                                                                                      
+ R$          431,91
+
+
+
+********************
+   R$                     
+ AGENCIA DE FOMENTO DO PARANA S/A                
+ 24/10/2013   62708              OUT      SIM    28/10/2013
+                18     R$   
+ CONTRATO N.:AFPR/MIC EMP BNDES 2/16852013                                                                                                                                                                           
+
+ NAO RECEBER PAGAMENTO EM CHEQUE.                                                                                                                                                                                    
+                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                              
+ APOS O VENCIMENTO COBRAR MULTA DE R$8,63.                                                                                                                                                    
+ JUROS MORATORIOS DE 0,0317 % AO DIA A PARTIR DO VENCIMENTO.                                                                                                                                                         
+                                                                                                                                                                                                                   
+ EDUARD HOSP PORTO 06960104882       
+ EDUARD HOSP PORTO 06960104882                - 15.416.733/0001-89                                                                                                                                             
+ EST GRANJA BOTOLO S/N-ESTRADA DO XAXIM                                                                                                                                                                        
+ 86800-000 APUCARANA-PR                       3793-1     10061-7                                                                                                                                               
+ <nnWWnwNnNwWwNnnnwNWnwnNWnnnWWnnnWWnNNwnwwNnNwwnNNwnnWWnnnWWnnNwwNnnwNWnNNwwnnWnWnnWWnnnWWnWnwNnNnwnWWnnNwWnnNw>              
+
+ 00190.00009 02477.644005 00584.130181 5 62730000043191                                                                                                                                                      
+ 013/36    10/12/2014                                                                                                                                                                                                       
+ 3793-1     10061-7                                                                                                                                                                        
+ 24776440000584130                                                                                                                                           
+ R$          431,91
+
+
+
+********************
+   R$                     
+ AGENCIA DE FOMENTO DO PARANA S/A                
+ 24/10/2013   62708              OUT       SIM    28/10/2013
+                18     R$   
+ CONTRATO N.:AFPR/MIC EMP BNDES 2/16852013                                                                                                                                                                           
+
+ NAO RECEBER PAGAMENTO EM CHEQUE.                                                                                                                                                                                    
+                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                              
+ APOS O VENCIMENTO COBRAR MULTA DE R$8,63.                                                                                                                                             
+ JUROS MORATORIOS DE 0,0317 % AO DIA A PARTIR DO VENCIMENTO.                                                                                                                                                          
+                                                                                                                                                                                                                
+ EDUARD HOSP PORTO 06960104882       
+ EDUARD HOSP PORTO 06960104882                - 15.416.733/0001-89                                                                                                                                             
+ EST GRANJA BOTOLO S/N-ESTRADA DO XAXIM                                                                                                                                                                        
+ 86800-000 APUCARANA-PR                       3793-1     10061-7                                                                                                                                               
+                                                                                                                                                                                                                                                            
+ <nnWWnwNnNwwNWnnnwnNWwwNNnnnWWnnnWWnNNwnwwNnNwwnNNwnnWWnnnWWnnNwwNnnwNWnNNwwnnWnWnnWWnnnWWnWnwNnNnwnWwwNNnWnnNw>                                                                   
+                                                                                                                                                                                                                                                             
+ 00190.00009 02477.644005 00584.142186 7 66380000043191                                                                                                                                                      
+ 024/36    10/12/2014                                                                                                                                                                                                       
+ 3793-1     10061-7                                                                                                                                     
+ 24776440000584142                                                                                                                                   
+ R$          431,91
+ 
+
+
+********************
+   R$                     
+ AGENCIA DE FOMENTO DO PARANA S/A                
+ 24/10/2013   62708             OUT       SIM    28/10/2013
+                18     R$   
+ CONTRATO N.:AFPR/MIC EMP BNDES 2/16852013                                                                                                                                                                           
+
+ NAO RECEBER PAGAMENTO EM CHEQUE.                                                                                                                                                                                    
+                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                            
+ APOS O VENCIMENTO COBRAR MULTA DE R$8,63.                                                                                                                                                      
+ JUROS MORATORIOS DE 0,0317 % AO DIA A PARTIR DO VENCIMENTO.                                                                                                                                                         
+                                                                                                                                                                                                       
+ EDUARD HOSP PORTO 06960104882       
+ EDUARD HOSP PORTO 06960104882                - 15.416.733/0001-89                                                                                                                                             
+ EST GRANJA BOTOLO S/N-ESTRADA DO XAXIM                                                                                                                                                                        
+ 86800-000 APUCARANA-PR                       3793-1     10061-7                                                                                                                                               
+                                                                                                                                                                                                                                                             
+ <nnWWnwNnNwnNNwwNWwnnwnNWnnnWWnnnWWnNNwnwwNnNwwnNNwnnWWnnnWWnnNwwNnnwNWnNNwwnnWnWnnWWnnnWWnWnwNnNnwnWnNwnWWnnNw>                                                                   
