@@ -1,0 +1,263 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*LanguageVersion: Danish
+*LanguageEncoding: ISOLatin1
+*FileVersion: "3.0.1"
+*% Linux Version
+
+*Manufacturer: "KONICA MINOLTA"
+*ModelName: "KONICA MINOLTA 7136/7120 OpenOffice PPD"
+*ShortNickName: "KONICA MINOLTA 7136/7120"
+*NickName: "KONICA MINOLTA 7136/7120 OpenOffice PPD"
+*PCFileName: "KO7136opn.ppd"
+*Product: "(7136)"
+*PSVersion: "(3021.101) 0"
+
+*% === Device Capabilities ============
+*LanguageLevel: "3"
+
+*ColorDevice: False
+*DefaultColorSpace: Gray
+
+*Protocols: TBCP
+
+*OpenUI *PageSize/Papirformat: PickOne
+*OrderDependency: 60 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize A3/A3:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [842 1191] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize A4/A4:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [595 842] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize A5/A5:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [420 595] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize B4/JIS-B4:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [729 1032] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize B5/JIS-B5:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [516 729] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize ISOB4/ISO-B4:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [709 1001] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize ISOB5/ISO-B5:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [499 709] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize SRA3/SRA3:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [907 1276] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize SRA4/SRA4:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [638 907] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize 12x18/Tabloid ekstra:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [864 1296] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize Tabloid/Tabloid:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [792 1224] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize 9x11/9x11:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [648 792] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize Legal/Legal:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [612 1008] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize 8x13/8x13:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [576 936] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize Letter/Letter:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [612 792] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize Statement/Statement:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [396 612] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize 8K/8K:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [765 1105] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize 16K/16K:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [553 765] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize JapanesePostCard/Postkort:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [284 419] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize A4Tab/A4-fane, lang kant 12,7 mm:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [631 841] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize A4Tab15mm/A4-fane, lang kant 15,0 mm:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [638 841] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize LetterTab/Letter-fane på lang kant:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [648 792] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize A4STab/A4-fane, kort kant 12,7 mm:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [595 878] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize A4STab15mm/A4-fane, kort kant 15,0 mm:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [595 884] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageSize LetterSTab/Letter-fane på kort kant:  "<< /MediaPosition null >> setpagedevice
+ << /PageSize [612 828] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 60 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion A3/A3:  "<< /PageSize [842 1191] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion A4/A4:  "<< /PageSize [595 842] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion A5/A5:  "<< /PageSize [420 595] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion B4/JIS-B4:  "<< /PageSize [729 1032] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion B5/JIS-B5:  "<< /PageSize [516 729] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion ISOB4/ISO-B4:  "<< /PageSize [709 1001] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion ISOB5/ISO-B5:  "<< /PageSize [499 709] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion SRA3/SRA3:  "<< /PageSize [907 1276] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion SRA4/SRA4:  "<< /PageSize [638 907] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion 12x18/Tabloid ekstra:  "<< /PageSize [864 1296] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion Tabloid/Tabloid:  "<< /PageSize [792 1224] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion 9x11/9x11:  "<< /PageSize [648 792] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion Legal/Legal:  "<< /PageSize [612 1008] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion 8x13/8x13:  "<< /PageSize [576 936] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion Letter/Letter:  "<< /PageSize [612 792] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion Statement/Statement:  "<< /PageSize [396 612] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion 8K/8K:  "<< /PageSize [765 1105] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion 16K/16K:  "<< /PageSize [553 765] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion JapanesePostCard/Postkort:  "<< /PageSize [284 419] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (None) /FullBleed false /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion A4Tab/A4-fane, lang kant 12,7 mm:  "<< /PageSize [631 841] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion A4Tab15mm/A4-fane, lang kant 15,0 mm:  "<< /PageSize [638 841] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion LetterTab/Letter-fane på lang kant:  "<< /PageSize [648 792] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion A4STab/A4-fane, kort kant 12,7 mm:  "<< /PageSize [595 878] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion A4STab15mm/A4-fane, kort kant 15,0 mm:  "<< /PageSize [595 884] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*PageRegion LetterSTab/Letter-fane på kort kant:  "<< /PageSize [612 828] /ImagingBBox null >> setpagedevice
+ << /WideMode false /MediaTabType (Other) /FullBleed true /CustomPaper false >> /KMOptions /ProcSet findresource /setKMoptions get exec"
+*End
+*CloseUI: *PageRegion
+
+*DefaultPaperDimension: Letter
+*PaperDimension A3/A3:  "842 1191"
+*PaperDimension A4/A4:  "595 842"
+*PaperDimension A5/A5:  "420 595"
+*PaperDimension B4/JIS-B4:  "729 1032"
+*PaperDimension B5/JIS-B5:  "516 729"
+*PaperDimension ISOB4/ISO-B4:  "709 1001"
+*PaperDimension ISOB5/ISO-B5:  "499 709"
+*PaperDimension SRA3/SRA3:  "907 1276"
+*PaperDimension SRA4/SRA4:  "638 907"
+*PaperDimension 12x18/Tabloid ekstra:  "864 1296"
+*PaperDimension Tabloid/Tabloid:  "792 1224"
+*PaperDimension 9x11/9x11:  "648 792"
+*PaperDimension Legal/Legal:  "612 1008"
+*PaperDimension 8x13/8x13:  "576 936"
+*PaperDimension Letter/Letter:  "612 792"
+*PaperDimension Statement/Statement:  "396 612"
+*PaperDimension 8K/8K:  "765 1105"
+*PaperDimension 16K/16K:  "553 765"
+*PaperDimension JapanesePostCard/Postkort:  "284 419"
+*PaperDimension A4Tab/A4-fane, lang kant 12,7 mm:  "631 841"
+*PaperDimension A4Tab15mm/A4-fane, lang kant 15,0 mm:  "638 841"
+*PaperDimension LetterTab/Letter-fane på lang kant:  "648 792"
+*PaperDimension A4STab/A4-fane, kort kant 12,7 mm:  "595 878"
+*PaperDimension A4STab15mm/A4-fane, kort kant 15,0 mm:  "595 884"
+*PaperDimension LetterSTab/Letter-fane på kort kant:  "612 828"
+
+*DefaultImageableArea: Letter
+*ImageableArea A3/A3:  "9 9 833 1182"
+*ImageableArea A4/A4:  "9 9 586 833"
+*ImageableArea A5/A5:  "9 9 411 586"
+*ImageableArea B4/JIS-B4:  "9 9 720 1023"
+*ImageableArea B5/JIS-B5:  "9 9 507 720"
+*ImageableArea ISOB4/ISO-B4:  "9 9 700 992"
+*ImageableArea ISOB5/ISO-B5:  "9 9 490 700"
+*ImageableArea SRA3/SRA3:  "9 9 898 1267"
+*ImageableArea SRA4/SRA4:  "9 9 629 898"
+*ImageableArea 12x18/Tabloid ekstra:  "9 9 855 1287"
+*ImageableArea Tabloid/Tabloid:  "9 9 783 1215"
+*ImageableArea 9x11/9x11:  "0 0 648 792"
+*ImageableArea Legal/Legal:  "9 9 603 999"
+*ImageableArea 8x13/8x13:  "9 9 567 927"
+*ImageableArea Letter/Letter:  "9 9 603 783"
+*ImageableArea Statement/Statement:  "9 9 387 603"
+*ImageableArea 8K/8K:  "9 9 756 1096"
+*ImageableArea 16K/16K:  "9 9 544 756"
+*ImageableArea JapanesePostCard/Postkort:  "9 9 275 410"
+*ImageableArea A4Tab/A4-fane, lang kant 12,7 mm:  "0 0 630 841"
+*ImageableArea A4Tab15mm/A4-fane, lang kant 15,0 mm:  "0 0 638 841"
+*ImageableArea LetterTab/Letter-fane på lang kant:  "0 0 648 792"
+*ImageableArea A4STab/A4-fane, kort kant 12,7 mm:  "0 0 595 878"
+*ImageableArea A4STab15mm/A4-fane, kort kant 15,0 mm:  "0 0 595 884"
+*ImageableArea LetterSTab/Letter-fane på kort kant:  "0 0 612 828"
+
+*% end of PPD
