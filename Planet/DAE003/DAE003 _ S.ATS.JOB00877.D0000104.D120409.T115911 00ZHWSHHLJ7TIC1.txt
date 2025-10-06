@@ -1,0 +1,31 @@
+	 $DJDE$ JDE=DAE003,JDL=SEFA00,DUPLEX=NO,COLLATE=NO,END;                                                                             
+1                                                                                                                                    
+-                                                                                                                                    
+-                                                                                                                                    
+-                                                                                                                                    
+-                                                                                                                                    
+	                                                                                                                                    
+	           ____________________________________________________________.                                                            
+0          RELATORIOS:- CERTIDAO DE DIVIDA ATIVA                                                                                     
+0                    :- RELACAO DAS RETIFICACOES DE DIV. ATIVA AJUIZADAS                                                             
+0          QUANTIDADE DE VIAS:- CERTIDAO DE DIVIDA ATIVA        1 (UMA)                                                              
+0                             - RELACAO DE RETIFICACAO DE D.A.  2 (DUAS)                                                             
+0          ---------------- PREPARACAO DOS DOCUMENTOS -------------------                                                            
+	          1 - MONTAR PACOTES JUNTANDO CERTIDOES E RELACAO (PRIMEIRA VIA)                                                            
+0              CORRESPONDENTE A CADA COMARCA JUDICIARIA                                                                              
+	          2 - MONTAR PACOTES POR PROCURADORIA REGIONAL JUNTANDO OS                                                                  
+0              PACOTES DAS COMARCAS JUDICIARIAS CORRESPONDENTES.                                                                     
+	          3 - MONTAR PASTA GERAL DA RELACAO DE RETIFICACOES                                                                         
+	              (SEGUNDA VIA).                                                                                                        
+	              COLAR ETIQUETA NA CAPA, CONTENDO: NOME DO RELATORIO, DATA                                                             
+0              E DESTINATARIO - SEFA/CRE                                                                                             
+0          ---------------------------- ENTREGA -------------------------                                                            
+	          PROCURADORIA EFV - CDA : A/C BALDI.                                                                                       
+	              PACOTE COM AS CERTIDOES E 1 VIA DO RELATORIO                                                                          
+0              - ENDERECO CONSELHEIRO LAURINDO - 561 - SEGUNDO ANDAR                                                                 
+	          SEFA/CRE/IGA - A/C LUCIANA                                                                                                
+	              PACOTE COM 1 VIA DO RELATORIO                                                                                         
+-              - ENDERECO VICENTE MACHADO - 445 - 11 ANDAR                                                                           
+-                                                                                                                                    
+-                                                                                                                                    
+	                                                                                                                                    
