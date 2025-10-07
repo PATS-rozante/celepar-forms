@@ -1,0 +1,2448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOTransform -->
+<XMLData>
+<Document>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        1
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  S05      16    215     AAB       1      B        AAB    043
+  S66      16    050     AAB       1      B        AAB    043
+  Y94       0    215     AAB       1
+  V01      16    155     AAB       1      B        AAB    043
+  V02      16    724     AAB       1      B        AAB    043
+  J13      16    001     AAB       1      B        AAB    043
+  J15      16    003     AAB       1      B        AAB    043
+  J16      16    005     AAB       1      B        AAB    043
+  J17      16    006     AAB       1      B        AAB    043
+  J18      16    007     AAB       1      B        AAB    043
+  J19      16    008     AAB       1      B        AAB    043
+  J20      16    009     AAB       1      B        AAB    043
+  J21      16    010     AAB       1      B        AAB    043
+  J22      16    011     AAB       1      B        AAB    043
+  J24      16    015     AAB       1      B        AAB    043
+  J26      16    017     AAB       1      B        AAB    043
+  J28      16    021     AAB       1      B        AAB    043
+  J29      16    022     AAB       1      B        AAB    043
+  J30      16    025     AAB       1      B        AAB    043
+  J34      16    044     AAB       1      B        AAB    043
+  J35      16    045     AAB       1      B        AAB    043
+  J36      16    047     AAB       1      B        AAB    043
+  J37      16    049     AAB       1      B        AAB    043
+  J38      16    055     AAB       1      B        AAB    043
+  J42      16    069     AAB       1      B        AAB    043
+  J43      16    086     AAB       1      B        AAB    043
+  J44      16    119     AAB       1      B        AAB    043
+  J45      16    733     AAB       1      B        AAB    043
+  Q31      16    717     AAB       1      B        AAB    043
+  Q73      16    026     AAB       1      B        AAB    043
+  Q74      16    066     AAB       1      B        AAB    043
+  Q87      16    726     AAB       1      B        AAB    043
+  U03      16    067     AAB       1      B        AAB    043
+  X39      16    041     AAB       1      B        AAB    043
+  X71      16    729     AAB       1      B        AAB    043
+  X92      16    153     AAB       1      B        AAB    043
+  C48      16    031     AAB       1      B        AAB    043
+  C97      16    052     AAB       1      B        AAB    043
+  R74      16    115     AAB       1      B        AAB    043
+  AAB       1    043     AAB       1      A        AAB    043
+  J14      16    002     AAB       1      B        AAB    043
+  J23      16    013     AAB       1      B        AAB    043
+  J27      16    018     AAB       1      B        AAB    043
+  J31      16    030     AAB       1      B        AAB    043
+  J32      16    034     AAB       1      B        AAB    043
+  J33      16    039     AAB       1      B        AAB    043
+  J39      16    061     AAB       1      B        AAB    043
+  J40      16    064     AAB       1      B        AAB    043
+  J41      16    065     AAB       1      B        AAB    043
+  J46      16    736     AAB       1      B        AAB    043
+  X70      16    164     AAB       1      B        AAB    043
+  C86      16    723     AAB       1      B        AAB    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        2
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  R70      16    019     AAB       1      B        AAB    043
+  J25      16    016     AAB       1      B        AAB    043
+  E52      16    710     AAB       1      B        AAB    043
+  E67      16    004     AAB       1      B        AAB    043
+  E81      16    166     AAB       1      B        AAB    043
+  AAL       1    043     AAL       1      A        AAL    043
+  S78      16    050     AAL       1      B        AAL    043
+  S80      16    017     AAL       1      B        AAL    043
+  J50      16    015     AAL       1      B        AAL    043
+  Y96       0    215     AAL       1
+  J49      16    005     AAL       1      B        AAL    043
+  J54      16    064     AAL       1      B        AAL    043
+  J55      16    065     AAL       1      B        AAL    043
+  J56      16    069     AAL       1      B        AAL    043
+  J57      16    075     AAL       1      B        AAL    043
+  T51      16    119     AAL       1      B        AAL    043
+  C33      16    007     AAL       1      B        AAL    043
+  C41      16    036     AAL       1      B        AAL    043
+  C88      16    117     AAL       1      B        AAL    043
+  F02      16    009     AAL       1      B        AAL    043
+  X84      16    625     AAL       1      B        AAL    043
+  J47      16    001     AAL       1      B        AAL    043
+  J48      16    002     AAL       1      B        AAL    043
+  J51      16    039     AAL       1      B        AAL    043
+  J52      16    041     AAL       1      B        AAL    043
+  C82      16    717     AAL       1      B        AAL    043
+  C57      16    021     AAL       1      B        AAL    043
+  J53      16    049     AAL       1      B        AAL    043
+  T55      16    052     AAL       1      B        AAL    043
+  SPI       1    043     AAX       1      R
+  WEL      16    052     SPI       1      R
+  WIP      16    631     SPI       1      N
+  WIL      16    044     SPI       1      R
+  WIO      16    013     SPI       1      R
+  WIU      16    017     SPI       1      R
+  WJC       1    010     SPI       1      R
+  WJI       1    004     SPI       1      R
+  WLO      16    052     SPI       1      R
+  WJG      16    030     SPI       1      R
+  WIV      16    001     SPI       1      R
+  WIM      16    011     SPI       1      R
+  WIQ      16    018     SPI       1      R
+  WIR      16    016     SPI       1      R
+  WJF      16    047     SPI       1      R
+  WJO      16    002     SPI       1      R
+  WJJ       1    003     SPI       1      R
+  S84      16    503     AAX       1      B        AAX    043
+  J90      16    019     AAX       1      B        AAX    043
+  Y95       0    215     AAX       1
+  X81      16    735     AAX       1      B        AAX    043
+  V04      16    068     AAX       1      B        AAX    043
+  V05      16    154     AAX       1      B        AAX    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        3
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  V06      16    732     AAX       1      B        AAX    043
+  V08      16    910     AAX       1      B        AAX    043
+  J58      16    001     AAX       1      B        AAX    043
+  J59      16    002     AAX       1      B        AAX    043
+  J60      16    003     AAX       1      B        AAX    043
+  J61      16    005     AAX       1      B        AAX    043
+  J62      16    006     AAX       1      B        AAX    043
+  J64      16    008     AAX       1      B        AAX    043
+  J65      16    009     AAX       1      B        AAX    043
+  J66      16    010     AAX       1      B        AAX    043
+  J67      16    011     AAX       1      B        AAX    043
+  J68      16    013     AAX       1      B        AAX    043
+  J69      16    015     AAX       1      B        AAX    043
+  J70      16    016     AAX       1      B        AAX    043
+  J73      16    021     AAX       1      B        AAX    043
+  J74      16    022     AAX       1      B        AAX    043
+  J75      16    025     AAX       1      B        AAX    043
+  J76      16    030     AAX       1      B        AAX    043
+  J77      16    034     AAX       1      B        AAX    043
+  J78      16    044     AAX       1      B        AAX    043
+  J79      16    045     AAX       1      B        AAX    043
+  J80      16    047     AAX       1      B        AAX    043
+  J81      16    049     AAX       1      B        AAX    043
+  J82      16    055     AAX       1      B        AAX    043
+  J83      16    061     AAX       1      B        AAX    043
+  J84      16    064     AAX       1      B        AAX    043
+  J85      16    065     AAX       1      B        AAX    043
+  J86      16    069     AAX       1      B        AAX    043
+  J88      16    119     AAX       1      B        AAX    043
+  J92      16    052     AAX       1      B        AAX    043
+  J93      16    066     AAX       1      B        AAX    043
+  J96      16    083     AAX       1      B        AAX    043
+  J97      16    731     AAX       1      B        AAX    043
+  J98      16    153     AAX       1      B        AAX    043
+  J99      16    724     AAX       1      B        AAX    043
+  K01      16    730     AAX       1      B        AAX    043
+  K02      16    151     AAX       1      B        AAX    043
+  Q40      16    026     AAX       1      B        AAX    043
+  Q52      16    039     AAX       1      B        AAX    043
+  Q65      16    067     AAX       1      B        AAX    043
+  Q68      16    051     AAX       1      B        AAX    043
+  Q82      16    723     AAX       1      B        AAX    043
+  T37      16    031     AAX       1      B        AAX    043
+  U01      16    031     AAX       1      B        AAX    043
+  U02      16    625     AAX       1      B        AAX    043
+  X14      16    032     AAX       1      B        AAX    043
+  X75      16    036     AAX       1      B        AAX    043
+  C46      16    726     AAX       1      B        AAX    043
+  R75      16    115     AAX       1      B        AAX    043
+  Q80      16    729     AAX       1      B        AAX    043
+  J89      16    736     AAX       1      B        AAX    043
+  AAX       1    043     AAX       1      A        AAX    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        4
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  J63      16    007     AAX       1      B        AAX    043
+  J87      16    086     AAX       1      B        AAX    043
+  J94      16    059     AAX       1      B        AAX    043
+  J95      16    164     AAX       1      B        AAX    043
+  X23      16    050     AAX       1      B        AAX    043
+  X24      16    040     AAX       1      B        AAX    043
+  X73      16    058     AAX       1      B        AAX    043
+  C23      16    808     AAX       1      B        AAX    043
+  C36      16    038     AAX       1      B        AAX    043
+  C55      16    073     AAX       1      B        AAX    043
+  C70      16    733     AAX       1      B        AAX    043
+  R90      16    215     AAX       1      B        AAX    043
+  C65      16    725     AAX       1      B        AAX    043
+  J72      16    018     AAX       1      B        AAX    043
+  J91      16    041     AAX       1      B        AAX    043
+  Q81      16    127     AAX       1      B        AAX    043
+  S33      16    070     AAX       1      B        AAX    043
+  J71      16    017     AAX       1      B        AAX    043
+  E53      16    710     AAX       1      B        AAX    043
+  E65      16    425     AAX       1      B        AAX    043
+  E68      16    004     AAX       1      B        AAX    043
+  E77      16    046     AAX       1      B        AAX    043
+  E80      16    056     AAX       1      B        AAX    043
+  E82      16    166     AAX       1      B        AAX    043
+  E89      16    098     AAX       1      B        AAX    043
+  E91      16    026     AAX       1      B        AAX    043
+  E93      16    074     AAX       1      B        AAX    043
+  E95      16    045     AAX       1      B        AAX    043
+  E97      16    024     AAX       1      B        AAX    043
+  F33      16    955     AAX       1      B        AAX    043
+  F39      16    855     AAX       1      B        AAX    043
+  F49      16    055     AAX       1      B        AAX    043
+  F25      16    117     AAX       1      B        AAX    043
+  I33      16    041     ABC       1      B        ABC    017
+  ABC       1    017     ABC       1      A        ABC    017
+  F28      16    117     ABC       1      B        ABC    017
+  ACF       1    017     ACF       1      A        ACF    017
+  ADC       1    043     ADC       1      A        ADC    043
+  Q11      16    066     ADC       1      B        ADC    043
+  P40      16    019     ADC       1      B        ADC    043
+  P41      16    022     ADC       1      B        ADC    043
+  P42      16    055     ADC       1      B        ADC    043
+  P43      16    069     ADC       1      B        ADC    043
+  K03      16    001     ADC       1      B        ADC    043
+  K05      16    007     ADC       1      B        ADC    043
+  K06      16    009     ADC       1      B        ADC    043
+  K07      16    011     ADC       1      B        ADC    043
+  K08      16    013     ADC       1      B        ADC    043
+  K09      16    015     ADC       1      B        ADC    043
+  K14      16    039     ADC       1      B        ADC    043
+  K15      16    044     ADC       1      B        ADC    043
+  K18      16    717     ADC       1      B        ADC    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        5
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  K19      16    729     ADC       1      B        ADC    043
+  P95      16    022     ADC       1      B        ADC    043
+  P96      16    025     ADC       1      B        ADC    043
+  P97      16    003     ADC       1      B        ADC    043
+  P98      16    002     ADC       1      B        ADC    043
+  P99      16    008     ADC       1      B        ADC    043
+  Q03      16    061     ADC       1      B        ADC    043
+  Q04      16    021     ADC       1      B        ADC    043
+  Q05      16    045     ADC       1      B        ADC    043
+  Q06      16    052     ADC       1      B        ADC    043
+  Q07      16    064     ADC       1      B        ADC    043
+  Q08      16    065     ADC       1      B        ADC    043
+  Q09      16    119     ADC       1      B        ADC    043
+  Q12      16    164     ADC       1      B        ADC    043
+  Q13      16    067     ADC       1      B        ADC    043
+  Q14      16    068     ADC       1      B        ADC    043
+  Q15      16    153     ADC       1      B        ADC    043
+  Q16      16    731     ADC       1      B        ADC    043
+  Q17      16    055     ADC       1      B        ADC    043
+  Q18      16    730     ADC       1      B        ADC    043
+  Q19      16    736     ADC       1      B        ADC    043
+  Q21      16    154     ADC       1      B        ADC    043
+  Q23      16    725     ADC       1      B        ADC    043
+  Q25      16    734     ADC       1      B        ADC    043
+  Q26      16    005     ADC       1      B        ADC    043
+  Q27      16    732     ADC       1      B        ADC    043
+  Q28      16    726     ADC       1      B        ADC    043
+  Q29      16    735     ADC       1      B        ADC    043
+  T38      16    031     ADC       1      B        ADC    043
+  R04      16    014     ADC       1      B        ADC    043
+  R05      16    074     ADC       1      B        ADC    043
+  R06      16    113     ADC       1      B        ADC    043
+  R11      16    040     ADC       1      B        ADC    043
+  R00      16    000     ADC       1      B        ADC    043
+  R13      16    127     ADC       1      B        ADC    043
+  R14      16    035     ADC       1      B        ADC    043
+  C53      16    026     ADC       1      B        ADC    043
+  C56      16    625     ADC       1      B        ADC    043
+  C61      16    050     ADC       1      B        ADC    043
+  P39      16    005     ADC       1      B        ADC    043
+  K04      16    006     ADC       1      B        ADC    043
+  K11      16    017     ADC       1      B        ADC    043
+  K12      16    018     ADC       1      B        ADC    043
+  K13      16    030     ADC       1      B        ADC    043
+  K16      16    047     ADC       1      B        ADC    043
+  Q01      16    041     ADC       1      B        ADC    043
+  Q10      16    151     ADC       1      B        ADC    043
+  Q22      16    733     ADC       1      B        ADC    043
+  Q24      16    724     ADC       1      B        ADC    043
+  R01      16    023     ADC       1      B        ADC    043
+  R03      16    036     ADC       1      B        ADC    043
+  R07      16    056     ADC       1      B        ADC    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        6
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  R08      16    058     ADC       1      B        ADC    043
+  R09      16    046     ADC       1      B        ADC    043
+  R10      16    020     ADC       1      B        ADC    043
+  R12      16    073     ADC       1      B        ADC    043
+  C60      16    032     ADC       1      B        ADC    043
+  R02      16    048     ADC       1      B        ADC    043
+  R65      16    038     ADC       1      B        ADC    043
+  K10      16    016     ADC       1      B        ADC    043
+  Q20      16    723     ADC       1      B        ADC    043
+  K17      16    086     ADC       1      B        ADC    043
+  Q02      16    083     ADC       1      B        ADC    043
+  ADF       1    015     ADF       1      A        ADF    015
+  Y80       0    115     ADF       1
+  Y99       0    215     ADF       1
+  V23      16    215     ADF       1      B        ADF    015
+  V24      16    115     ADF       1      B        ADF    015
+  R76      16    115     ADF       1      B        ADF    015
+  R91      16    215     ADF       1      B        ADF    015
+  W45      20    015     ADF       1      D
+  ADO       1    007     ADO       1      A        ADO    007
+  AFC       1    116     AFC       1      A        AFC    116
+  AFP       1    009     AFP       1      R
+  S85      16    503     AGA       1      B        AGA    043
+  K70      16    049     AGA       1      B        AGA    043
+  Y97       0    215     AGA       1
+  V09      16    910     AGA       1      B        AGA    043
+  V10      16    515     AGA       1      B        AGA    043
+  V12      16    215     AGA       1      B        AGA    043
+  K47      16    002     AGA       1      B        AGA    043
+  K48      16    003     AGA       1      B        AGA    043
+  K49      16    005     AGA       1      B        AGA    043
+  K51      16    007     AGA       1      B        AGA    043
+  K52      16    008     AGA       1      B        AGA    043
+  K58      16    016     AGA       1      B        AGA    043
+  K62      16    022     AGA       1      B        AGA    043
+  K65      16    034     AGA       1      B        AGA    043
+  K67      16    044     AGA       1      B        AGA    043
+  K68      16    045     AGA       1      B        AGA    043
+  K75      16    069     AGA       1      B        AGA    043
+  K76      16    086     AGA       1      B        AGA    043
+  K77      16    119     AGA       1      B        AGA    043
+  K79      16    041     AGA       1      B        AGA    043
+  K80      16    052     AGA       1      B        AGA    043
+  K83      16    067     AGA       1      B        AGA    043
+  K84      16    068     AGA       1      B        AGA    043
+  K86      16    083     AGA       1      B        AGA    043
+  K87      16    075     AGA       1      B        AGA    043
+  K90      16    153     AGA       1      B        AGA    043
+  K93      16    625     AGA       1      B        AGA    043
+  K94      16    717     AGA       1      B        AGA    043
+  K97      16    725     AGA       1      B        AGA    043
+  L01      16    730     AGA       1      B        AGA    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        7
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  L02      16    731     AGA       1      B        AGA    043
+  L05      16    734     AGA       1      B        AGA    043
+  Q75      16    036     AGA       1      B        AGA    043
+  T29      16    038     AGA       1      B        AGA    043
+  X15      16    032     AGA       1      B        AGA    043
+  X22      16    050     AGA       1      B        AGA    043
+  T39      16    031     AGA       1      B        AGA    043
+  X72      16    058     AGA       1      B        AGA    043
+  C22      16    808     AGA       1      B        AGA    043
+  C39      16    038     AGA       1      B        AGA    043
+  C58      16    020     AGA       1      B        AGA    043
+  R92      16    215     AGA       1      B        AGA    043
+  Q69      16    051     AGA       1      B        AGA    043
+  AGA       1    043     AGA       1      A        AGA    043
+  K69      16    047     AGA       1      B        AGA    043
+  K46      16    001     AGA       1      B        AGA    043
+  K53      16    009     AGA       1      B        AGA    043
+  K54      16    010     AGA       1      B        AGA    043
+  K56      16    013     AGA       1      B        AGA    043
+  K57      16    015     AGA       1      B        AGA    043
+  K60      16    018     AGA       1      B        AGA    043
+  K61      16    021     AGA       1      B        AGA    043
+  K63      16    025     AGA       1      B        AGA    043
+  K64      16    030     AGA       1      B        AGA    043
+  K66      16    039     AGA       1      B        AGA    043
+  K71      16    055     AGA       1      B        AGA    043
+  K73      16    064     AGA       1      B        AGA    043
+  K74      16    065     AGA       1      B        AGA    043
+  K78      16    019     AGA       1      B        AGA    043
+  K81      16    059     AGA       1      B        AGA    043
+  K82      16    066     AGA       1      B        AGA    043
+  K88      16    127     AGA       1      B        AGA    043
+  K89      16    151     AGA       1      B        AGA    043
+  K91      16    154     AGA       1      B        AGA    043
+  K92      16    164     AGA       1      B        AGA    043
+  K95      16    723     AGA       1      B        AGA    043
+  K96      16    724     AGA       1      B        AGA    043
+  K98      16    726     AGA       1      B        AGA    043
+  K99      16    729     AGA       1      B        AGA    043
+  L04      16    733     AGA       1      B        AGA    043
+  L07      16    736     AGA       1      B        AGA    043
+  Q99      16    031     AGA       1      B        AGA    043
+  S07      16    115     AGA       1      B        AGA    043
+  S34      16    070     AGA       1      B        AGA    043
+  K50      16    006     AGA       1      B        AGA    043
+  K59      16    017     AGA       1      B        AGA    043
+  K72      16    061     AGA       1      B        AGA    043
+  K85      16    073     AGA       1      B        AGA    043
+  L03      16    732     AGA       1      B        AGA    043
+  Q39      16    026     AGA       1      B        AGA    043
+  Q66      16    040     AGA       1      B        AGA    043
+  K55      16    011     AGA       1      B        AGA    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        8
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  L06      16    735     AGA       1      B        AGA    043
+  E54      16    710     AGA       1      B        AGA    043
+  E66      16    425     AGA       1      B        AGA    043
+  E69      16    004     AGA       1      B        AGA    043
+  E78      16    046     AGA       1      B        AGA    043
+  E79      16    056     AGA       1      B        AGA    043
+  E83      16    166     AGA       1      B        AGA    043
+  E88      16    098     AGA       1      B        AGA    043
+  E90      16    026     AGA       1      B        AGA    043
+  E92      16    074     AGA       1      B        AGA    043
+  E94      16    045     AGA       1      B        AGA    043
+  E98      16    024     AGA       1      B        AGA    043
+  F34      16    955     AGA       1      B        AGA    043
+  F38      16    855     AGA       1      B        AGA    043
+  F48      16    055     AGA       1      B        AGA    043
+  F26      16    117     AGA       1      B        AGA    043
+  AGD       1    043     AGD       1      A        AGD    043
+  AHA       1    043     AHA       1      A        AHA    043
+  X79      16    005     AHA       1      B        AHA    043
+  L09      16    030     AHA       1      B        AHA    043
+  L11      16    117     AHA       1      B        AHA    043
+  L08      16    025     AHA       1      B        AHA    043
+  L10      16    053     AHA       1      B        AHA    043
+  AID       1    002     AID       1      A        AID    002
+  AIF       1    015     AIF       1      R
+  AIM       1    039     AIM       1      A        AIM    039
+  J11      16    086     AIM       1      B        AIM    039
+  J12      16    117     AIM       1      B        AIM    039
+  I87      16    005     AIM       1      B        AIM    039
+  I89      16    007     AIM       1      B        AIM    039
+  I90      16    009     AIM       1      B        AIM    039
+  I91      16    010     AIM       1      B        AIM    039
+  I93      16    015     AIM       1      B        AIM    039
+  I96      16    018     AIM       1      B        AIM    039
+  I98      16    022     AIM       1      B        AIM    039
+  I99      16    025     AIM       1      B        AIM    039
+  J01      16    030     AIM       1      B        AIM    039
+  J03      16    043     AIM       1      B        AIM    039
+  J04      16    044     AIM       1      B        AIM    039
+  J05      16    083     AIM       1      B        AIM    039
+  J07      16    049     AIM       1      B        AIM    039
+  J10      16    069     AIM       1      B        AIM    039
+  X76      16    026     AIM       1      B        AIM    039
+  C51      16    164     AIM       1      B        AIM    039
+  R68      16    003     AIM       1      B        AIM    039
+  I86      16    001     AIM       1      B        AIM    039
+  I88      16    006     AIM       1      B        AIM    039
+  I92      16    013     AIM       1      B        AIM    039
+  I94      16    016     AIM       1      B        AIM    039
+  I95      16    017     AIM       1      B        AIM    039
+  I97      16    021     AIM       1      B        AIM    039
+  J02      16    034     AIM       1      B        AIM    039
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:        9
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  J06      16    047     AIM       1      B        AIM    039
+  J09      16    055     AIM       1      B        AIM    039
+  T40      16    031     AIM       1      B        AIM    039
+  C95      16    002     AIM       1      B        AIM    039
+  C49      16    050     AIM       1      B        AIM    039
+  J08      16    052     AIM       1      B        AIM    039
+  P62      16    011     AIM       1      B        AIM    039
+  S38      16    066     AIM       1      B        AIM    039
+  AIT       1    043     AIT       1      A        AIT    043
+  AMA       1    045     AMA       1      A        AMA    045
+  APH       1    004     APH       1      A        APH    004
+  ATI       1    031     ATI       1      A        ATI    031
+  AVA       1    017     AVA       1      A        AVA    017
+  BCB       1    020     BAS       1      A        BAS    020
+  BCC       1    020     BAS       1      A        BAS    020
+  BAS       1    020     BAS       1      A        BAS    020
+  BCA       1    020     BAS       1      A        BAS    020
+  BCR       1    015     BCR       1      A        BCR    015
+  Y92       0    115     BCR       1
+  R93      16    215     BCR       1      B        BCR    015
+  R77      16    115     BCR       1      B        BCR    015
+  W48      20    015     BCR       1
+  BDE       1    018     BDE       1      R
+  L13      16    008     BIE       1      B        BIE    043
+  L12      16    005     BIE       1      B        BIE    043
+  L16      16    025     BIE       1      B        BIE    043
+  L18      16    061     BIE       1      B        BIE    043
+  L19      16    069     BIE       1      B        BIE    043
+  X21      16    049     BIE       1      B        BIE    043
+  X85      16    002     BIE       1      B        BIE    043
+  C09      16    047     BIE       1      B        BIE    043
+  BIE       1    043     BIE       1      A        BIE    043
+  L14      16    009     BIE       1      B        BIE    043
+  L15      16    015     BIE       1      B        BIE    043
+  L17      16    045     BIE       1      B        BIE    043
+  X74      16    036     BIE       1      B        BIE    043
+  BLT       1    015     BLT       1      A        BLT    015
+  Y81       0    115     BLT       1
+  R94      16    215     BLT       1      B        BLT    015
+  BOP       1    025     BOP       1      R
+  BPN       1    055     BPN       1      R
+  CBI       1    503     CBI       1      A        CBI    503
+  S90      16    503     CBI       1      B        CBI    503
+  CBS       1    004     CBS       1      A        CBS    004
+  CCF       1    015     CCF       1      E
+  W19      20    015     CCF       1
+  CDF       1    001     CDF       1      R
+  CDV       1    031     CDV       1      A        CDV    031
+  CFC       1    017     CFC       1      A        CFC    017
+  CFO       1    009     CFO       1      A        CFO    009
+  CIA       1    047     CIA       1      R
+  O93      16    009     CIA       1      B        CIA    047
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       10
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  JBV      16    668     CIA       1      B        CIA    047
+  O94      16    011     CIA       1      B        CIA    047
+  O88      16    001     CIA       1      B        CIA    047
+  O91      16    007     CIA       1      B        CIA    047
+  O92      16    008     CIA       1      B        CIA    047
+  O98      16    017     CIA       1      B        CIA    047
+  O99      16    018     CIA       1      B        CIA    047
+  P01      16    019     CIA       1      B        CIA    047
+  P02      16    022     CIA       1      B        CIA    047
+  P03      16    021     CIA       1      B        CIA    047
+  P05      16    040     CIA       1      B        CIA    047
+  P06      16    043     CIA       1      B        CIA    047
+  P07      16    041     CIA       1      B        CIA    047
+  P08      16    044     CIA       1      B        CIA    047
+  P09      16    045     CIA       1      B        CIA    047
+  P13      16    065     CIA       1      B        CIA    047
+  P14      16    066     CIA       1      B        CIA    047
+  P15      16    086     CIA       1      B        CIA    047
+  P16      16    117     CIA       1      B        CIA    047
+  P17      16    730     CIA       1      B        CIA    047
+  Q71      16    729     CIA       1      B        CIA    047
+  Q88      16    026     CIA       1      B        CIA    047
+  T52      16    003     CIA       1      B        CIA    047
+  T62      16    625     CIA       1      B        CIA    047
+  T63      16            CIA       1      B        CIA    047
+  T64      16            CIA       1      B        CIA    047
+  T65      16    075     CIA       1      B        CIA    047
+  T66      16    009     CIA       1      B        CIA    047
+  T67      16    024     CIA       1      B        CIA    047
+  U07      16    625     CIA       1      B        CIA    047
+  R64      16    014     CIA       1      B        CIA    047
+  Q72      16    030     CIA       1      B        CIA    047
+  Q84      16    031     CIA       1      B        CIA    047
+  UDC      16    081     CIA       1      N
+  O89      16    005     CIA       1      B        CIA    047
+  O90      16    006     CIA       1      B        CIA    047
+  O95      16    013     CIA       1      B        CIA    047
+  O97      16    016     CIA       1      B        CIA    047
+  P10      16    048     CIA       1      B        CIA    047
+  P12      16    055     CIA       1      B        CIA    047
+  Q30      16    010     CIA       1      B        CIA    047
+  T53      16    061     CIA       1      B        CIA    047
+  P11      16    049     CIA       1      B        CIA    047
+  X09      16    164     CIA       1      B        CIA    047
+  T61      16    164     CIA       1      B        CIA    047
+  Z02      16    717     CIA       1      B        CIA    047
+  C94      16    075     CIA       1      B        CIA    047
+  C13      16    050     CIA       1      B        CIA    047
+  P04      16    034     CIA       1      B        CIA    047
+  R63      16    068     CIA       1      B        CIA    047
+  T68      16    083     CIA       1      B        CIA    047
+  CID       1    008     CID       1      A        CID    008
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       11
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  CII      12    657     CID       1      R
+  I13      16    002     CID       1      B        CID    008
+  I15      16    022     CID       1      B        CID    008
+  I16      16    025     CID       1      B        CID    008
+  I17      16    043     CID       1      B        CID    008
+  I18      16    055     CID       1      B        CID    008
+  X51      16    117     CID       1      B        CID    008
+  X88      16    010     CID       1      B        CID    008
+  C11      16    047     CID       1      B        CID    008
+  C31      16    808     CID       1      B        CID    008
+  F03      16    090     CID       1      B        CID    008
+  F14      16    828     CID       1      B        CID    008
+  I14      16    019     CID       1      B        CID    008
+  P63      16    080     CID       1      B        CID    008
+  Q32      16    007     CID       1      B        CID    008
+  X43      16    808     CID       1      B        CID    008
+  S25      16    030     CID       1      B        CID    008
+  S26      16    036     CID       1      B        CID    008
+  F40      16    855     CID       1      B        CID    008
+  F46      16    055     CID       1      B        CID    008
+  CIF       1    015     CIF       1      A        CIF    015
+  Y83       0    115     CIF       1
+  X83      16    551     CIF       1      B        CIF    015
+  V13      16    515     CIF       1      B        CIF    015
+  V14      16    115     CIF       1      B        CIF    015
+  V15      16    415     CIF       1      B        CIF    015
+  I23      16    001     CIF       1      B        CIF    015
+  I24      16    030     CIF       1      B        CIF    015
+  I25      16    075     CIF       1      B        CIF    015
+  P64      16    007     CIF       1      B        CIF    015
+  P65      16    019     CIF       1      B        CIF    015
+  F05      16    651     CIF       1      B        CIF    015
+  R95      16    215     CIF       1      B        CIF    015
+  X34      16    218     CIF       1      B        CIF    015
+  R78      16    115     CIF       1      B        CIF    015
+  S14      16    338     CIF       1      B        CIF    015
+  S45      16    117     CIF       1      B        CIF    015
+  S57      16    117     CIF       1      B        CIF    015
+  W22      20    015     CIF       1
+  W23      20    015     CIF       1      D
+  W25      20    015     CIF       1      D
+  W26      20    015     CIF       1      D
+  W27      20    015     CIF       1      D
+  CLI       1    822     CLI       1      A        CLI    822
+  CMI       1    503     CMI       1      A        CMI    503
+  X44      16    808     CNH       1      B        CNH    008
+  F15      16    828     CNH       1      B        CNH    008
+  CNH       1    008     CNH       1      R
+  C28      16    808     CNH       1      B        CNH    008
+  C18      16    117     CNH       1      B        CNH    008
+  CNM       1    045     CNM       1      A        CNM    045
+  COP       1    018     COP       1      A        COP    018
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       12
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  S74      16    731     COP       1      B        COP    018
+  S83      16    044     COP       1      B        COP    018
+  I71      16    022     COP       1      B        COP    018
+  I37      16    001     COP       1      B        COP    018
+  I38      16    002     COP       1      B        COP    018
+  I39      16    003     COP       1      B        COP    018
+  I40      16    005     COP       1      B        COP    018
+  I41      16    006     COP       1      B        COP    018
+  I42      16    007     COP       1      B        COP    018
+  I43      16    008     COP       1      B        COP    018
+  I44      16    009     COP       1      B        COP    018
+  I45      16    011     COP       1      B        COP    018
+  I46      16    013     COP       1      B        COP    018
+  I47      16    014     COP       1      B        COP    018
+  I49      16    017     COP       1      B        COP    018
+  I50      16    021     COP       1      B        COP    018
+  I51      16    034     COP       1      B        COP    018
+  I52      16    039     COP       1      B        COP    018
+  I54      16    041     COP       1      B        COP    018
+  I55      16    044     COP       1      T
+  I56      16    045     COP       1      B        COP    018
+  I57      16    075     COP       1      B        COP    018
+  I58      16    043     COP       1      B        COP    018
+  I59      16    047     COP       1      B        COP    018
+  I60      16    049     COP       1      B        COP    018
+  I61      16    052     COP       1      B        COP    018
+  I62      16    061     COP       1      B        COP    018
+  I63      16    064     COP       1      B        COP    018
+  I65      16    066     COP       1      B        COP    018
+  I66      16    069     COP       1      B        COP    018
+  I67      16    083     COP       1      B        COP    018
+  I68      16    086     COP       1      B        COP    018
+  I70      16    119     COP       1      B        COP    018
+  I72      16    151     COP       1      B        COP    018
+  I73      16    164     COP       1      B        COP    018
+  I74      16    724     COP       1      B        COP    018
+  I75      16    725     COP       1      B        COP    018
+  I76      16    730     COP       1      B        COP    018
+  T99      16    728     COP       1      B        COP    018
+  X13      16    067     COP       1      B        COP    018
+  X61      16    019     COP       1      B        COP    018
+  X78      16    051     COP       1      B        COP    018
+  C14      16    050     COP       1      B        COP    018
+  C85      16    018     COP       1      B        COP    018
+  Q53      16    729     COP       1      B        COP    018
+  R60      16    032     COP       1      B        COP    018
+  Q83      16    031     COP       1      B        COP    018
+  UDB      16    081     COP       1      N
+  I48      16    016     COP       1      B        COP    018
+  I64      16    065     COP       1      B        COP    018
+  Q51      16    026     COP       1      B        COP    018
+  Z01      16    717     COP       1      B        COP    018
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       13
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  C81      16    073     COP       1      B        COP    018
+  S23      16    153     COP       1      B        COP    018
+  S42      16    055     COP       1      B        COP    018
+  S43      16    113     COP       1      B        COP    018
+  S49      16    025     COP       1      B        COP    018
+  S50      16    038     COP       1      B        COP    018
+  S51      16    127     COP       1      B        COP    018
+  S52      16    726     COP       1      B        COP    018
+  I53      16    040     COP       1      B        COP    018
+  I69      16    117     COP       1      B        COP    018
+  E86      16    166     COP       1      B        COP    018
+  CPV       1    045     CPV       1      A        CPV    045
+  CRL       1    008     CRL       1      R
+  CVD       1    105     CVD       1      A        CVD    105
+  S65      16    034     CVD       1      B        CVD    105
+  S73      16    034     CVD       1      B        CVD    105
+  S75      16    729     CVD       1      B        CVD    105
+  L21      16    005     CVD       1      B        CVD    105
+  L22      16    006     CVD       1      B        CVD    105
+  L23      16    007     CVD       1      B        CVD    105
+  L24      16    009     CVD       1      B        CVD    105
+  L25      16    011     CVD       1      B        CVD    105
+  L26      16    013     CVD       1      B        CVD    105
+  L27      16    015     CVD       1      B        CVD    105
+  L29      16    017     CVD       1      B        CVD    105
+  L31      16    022     CVD       1      B        CVD    105
+  L32      16    044     CVD       1      B        CVD    105
+  L33      16    047     CVD       1      B        CVD    105
+  L34      16    055     CVD       1      B        CVD    105
+  L35      16    069     CVD       1      B        CVD    105
+  P61      16    055     CVD       1      B        CVD    105
+  X86      16    003     CVD       1      B        CVD    105
+  X87      16    010     CVD       1      B        CVD    105
+  X91      16    030     CVD       1      B        CVD    105
+  X93      16    736     CVD       1      B        CVD    105
+  C89      16    031     CVD       1      B        CVD    105
+  L20      16    001     CVD       1      B        CVD    105
+  L30      16    019     CVD       1      B        CVD    105
+  L36      16    086     CVD       1      B        CVD    105
+  C45      16    164     CVD       1      B        CVD    105
+  C67      16    066     CVD       1      B        CVD    105
+  C69      16    041     CVD       1      B        CVD    105
+  C72      16    045     CVD       1      B        CVD    105
+  C73      16    052     CVD       1      B        CVD    105
+  S29      16    026     CVD       1      B        CVD    105
+  L28      16    016     CVD       1      B        CVD    105
+  S36      16    026     CVD       1      B        CVD    105
+  E55      16    710     CVD       1      B        CVD    105
+  CVE       1    043     CVE       1      A        CVE    043
+  S61      16    009     DAE       1      B        DAE    015
+  S72      16    009     DAE       1      B        DAE    015
+  S79      16    001     DAE       1      B        DAE    015
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       14
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  Y88       0    115     DAE       1
+  R79      16    115     DAE       1      B        DAE    015
+  DAE       1    015     DAE       1      A        DAE    015
+  S44      16    075     DAE       1      B        DAE    015
+  W31      20    015     DAE       1
+  W32      20    015     DAE       1      D
+  DAF       1    015     DAF       1      R
+  DAT       1    008     DAT       1      R
+  F16      16    828     DCR       1      B        DCR    008
+  DCR       1    008     DCR       1      A        DCR    008
+  C29      16    808     DCR       1      B        DCR    008
+  DCV       1    008     DCV       1      A        DCV    008
+  GRN       5    008     DCV       1      A        DCV    008
+  S31      16    025     GRN       1      B        DCV    008
+  S30      16    022     GRN       1      B        DCV    008
+  E20      16    125     GRN       1      B        DCV    008
+  E21      16    225     GRN       1      B        DCV    008
+  E22      16    325     GRN       1      B        DCV    008
+  E23      16    425     GRN       1      B        DCV    008
+  S63      16    015     DCV       1      B        DCV    008
+  P67      16    015     DCV       1      B        DCV    008
+  X45      16    808     DCV       1      B        DCV    008
+  C16      16    055     DCV       1      B        DCV    008
+  C17      16    117     DCV       1      B        DCV    008
+  C64      16    080     DCV       1      B        DCV    008
+  F17      16    828     DCV       1      B        DCV    008
+  R71      16    818     DCV       1      B        DCV    008
+  R80      16    115     DCV       1      B        DCV    008
+  MUL       1    008     DCV       1      A        DCV    008
+  X46      16    808     MUL       1      B        DCV    008
+  F21      16    110     MUL       1      B        DCV    008
+  C27      16    808     MUL       1      B        DCV    008
+  RV2       6    008     DCV       1      B        RV2    008
+  RV9       6    008     DCV       1      B        RV9    008
+  P66      16    002     DCV       1      B        DCV    008
+  P68      16    025     DCV       1      B        DCV    008
+  C26      16    808     DCV       1      B        DCV    008
+  C99      16    043     DCV       1      B        DCV    008
+  S27      16    030     DCV       1      B        DCV    008
+  S28      16    115     DCV       1      B        DCV    008
+  S53      16    107     DCV       1      B        DCV    008
+  S54      16    215     DCV       1      B        DCV    008
+  C12      16    047     DCV       1      B        DCV    008
+  E61      16    125     DCV       1      B        DCV    008
+  F41      16    855     DCV       1      B        DCV    008
+  DML       1    008     DML       1      A        DML    008
+  R67      16    651     DML       1      B        DML    008
+  F18      16    828     DML       1      B        DML    008
+  C24      16    808     DML       1      B        DML    008
+  DMR       1    017     DMR       1      A        DMR    017
+  DPA       1    008     DPA       1      A        DPA    008
+  C30      16    808     DPA       1      B        DPA    008
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       15
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  C92      16    818     DUT       1      B        DUT    008
+  F20      16    110     DUT       1      B        DUT    008
+  R72      16    818     DUT       1      B        DUT    008
+  DUT       1    008     DUT       1      A        DUT    008
+  ECF       1    015     ECF       1      A        ECF    015
+  W57      20    015     ECF       1
+  ECQ       1    040     ECQ       1      A        ECQ    040
+  EDQ       1    017     EDQ       1      A        EDQ    017
+  EGO       1    018     EGO       1      A        EGO    018
+  EQU       1    017     EQU       1      A        EQU    017
+  ERF       1    045     ERF       1      A        ERF    045
+  FDI       1    001     FAA       1      A        FAA    001
+  G64      16    003     FDI       1      B        FAA    001
+  G65      16    005     FDI       1      B        FAA    001
+  G67      16    007     FDI       1      B        FAA    001
+  G73      16    017     FDI       1      B        FAA    001
+  G74      16    018     FDI       1      B        FAA    001
+  G75      16    022     FDI       1      B        FAA    001
+  G77      16    041     FDI       1      B        FAA    001
+  G80      16    047     FDI       1      B        FAA    001
+  G82      16    075     FDI       1      B        FAA    001
+  G83      16    086     FDI       1      B        FAA    001
+  P87      16    052     FDI       1      B        FAA    001
+  Q44      16    026     FDI       1      B        FAA    001
+  Q56      16    729     FDI       1      B        FAA    001
+  Q91      16    021     FDI       1      B        FAA    001
+  G68      16    008     FDI       1      B        FAA    001
+  G69      16    009     FDI       1      B        FAA    001
+  G70      16    011     FDI       1      B        FAA    001
+  G71      16    013     FDI       1      B        FAA    001
+  G72      16    016     FDI       1      B        FAA    001
+  G76      16    039     FDI       1      B        FAA    001
+  G78      16    043     FDI       1      B        FAA    001
+  G79      16    045     FDI       1      B        FAA    001
+  G81      16    061     FDI       1      B        FAA    001
+  G84      16    117     FDI       1      B        FAA    001
+  G66      16    006     FDI       1      B        FAA    001
+  FPF       1    001     FAA       1      A        FAA    001
+  H28      16    003     FPF       1      B        FAA    001
+  H30      16    006     FPF       1      B        FAA    001
+  H31      16    007     FPF       1      B        FAA    001
+  H32      16    008     FPF       1      B        FAA    001
+  H33      16    009     FPF       1      B        FAA    001
+  H34      16    011     FPF       1      B        FAA    001
+  H36      16    016     FPF       1      B        FAA    001
+  H37      16    017     FPF       1      B        FAA    001
+  H38      16    018     FPF       1      B        FAA    001
+  H41      16    041     FPF       1      B        FAA    001
+  H42      16    043     FPF       1      B        FAA    001
+  H43      16    045     FPF       1      B        FAA    001
+  H44      16    047     FPF       1      B        FAA    001
+  H45      16    061     FPF       1      B        FAA    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       16
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  H46      16    075     FPF       1      B        FAA    001
+  P89      16    052     FPF       1      B        FAA    001
+  Q58      16    729     FPF       1      B        FAA    001
+  Q77      16    044     FPF       1      B        FAA    001
+  Q93      16    021     FPF       1      B        FAA    001
+  T42      16    031     FPF       1      B        FAA    001
+  U13      16            FPF       1      B        FAA    001
+  U14      16            FPF       1      B        FAA    001
+  X02      16    034     FPF       1      B        FAA    001
+  X55      16    044     FPF       1      B        FAA    001
+  C34      16    065     FPF       1      B        FAA    001
+  C35      16    066     FPF       1      B        FAA    001
+  H29      16    005     FPF       1      B        FAA    001
+  H35      16    013     FPF       1      B        FAA    001
+  H39      16    022     FPF       1      B        FAA    001
+  H40      16    039     FPF       1      B        FAA    001
+  H47      16    086     FPF       1      B        FAA    001
+  H48      16    117     FPF       1      B        FAA    001
+  Q47      16    026     FPF       1      B        FAA    001
+  X07      16    030     FPF       1      B        FAA    001
+  X48      16    164     FPF       1      B        FAA    001
+  C50      16    050     FPF       1      B        FAA    001
+  FAA       1    001     FAA       1      A        FAA    001
+  FVV       1    001     FAA       1      A        FAA    001
+  I01      16    017     FVV       1      B        FAA    001
+  I02      16    018     FVV       1      B        FAA    001
+  I04      16    039     FVV       1      B        FAA    001
+  I05      16    041     FVV       1      B        FAA    001
+  I06      16    043     FVV       1      B        FAA    001
+  I07      16    045     FVV       1      B        FAA    001
+  I09      16    061     FVV       1      B        FAA    001
+  I10      16    075     FVV       1      B        FAA    001
+  I11      16    086     FVV       1      B        FAA    001
+  H91      16    003     FVV       1      B        FAA    001
+  H92      16    005     FVV       1      B        FAA    001
+  H93      16    006     FVV       1      B        FAA    001
+  H96      16    009     FVV       1      B        FAA    001
+  H97      16    011     FVV       1      B        FAA    001
+  H99      16    016     FVV       1      B        FAA    001
+  H98      16    013     FVV       1      B        FAA    001
+  Q79      16    044     FVV       1      B        FAA    001
+  X04      16    034     FVV       1      B        FAA    001
+  X05      16    030     FVV       1      B        FAA    001
+  X42      16    066     FVV       1      B        FAA    001
+  X50      16    164     FVV       1      B        FAA    001
+  Q62      16    729     FVV       1      B        FAA    001
+  Q96      16    021     FVV       1      B        FAA    001
+  I03      16    022     FVV       1      B        FAA    001
+  I12      16    117     FVV       1      B        FAA    001
+  P92      16    052     FVV       1      B        FAA    001
+  H94      16    007     FVV       1      B        FAA    001
+  H95      16    008     FVV       1      B        FAA    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       17
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  Q50      16    026     FVV       1      B        FAA    001
+  U20      16    034     FVV       1      B        FAA    001
+  X10      16    065     FVV       1      B        FAA    001
+  X36      16    031     FVV       1      B        FAA    001
+  X56      16    044     FVV       1      B        FAA    001
+  C80      16    055     FVV       1      B        FAA    001
+  C96      16    050     FVV       1      B        FAA    001
+  I08      16    047     FVV       1      B        FAA    001
+  FRR       1    001     FAA       1      A        FAA    001
+  P94      16    052     FRR       1      B        FAA    001
+  H70      16    003     FRR       1      B        FAA    001
+  H71      16    005     FRR       1      B        FAA    001
+  H72      16    006     FRR       1      B        FAA    001
+  H75      16    009     FRR       1      B        FAA    001
+  H76      16    011     FRR       1      B        FAA    001
+  H78      16    016     FRR       1      B        FAA    001
+  H79      16    017     FRR       1      B        FAA    001
+  H80      16    018     FRR       1      B        FAA    001
+  H81      16    022     FRR       1      B        FAA    001
+  H82      16    039     FRR       1      B        FAA    001
+  H83      16    041     FRR       1      B        FAA    001
+  H85      16    045     FRR       1      B        FAA    001
+  H86      16    047     FRR       1      B        FAA    001
+  H87      16    061     FRR       1      B        FAA    001
+  H88      16    075     FRR       1      B        FAA    001
+  H89      16    086     FRR       1      B        FAA    001
+  H90      16    117     FRR       1      B        FAA    001
+  Q49      16    026     FRR       1      B        FAA    001
+  Q64      16    729     FRR       1      B        FAA    001
+  Q78      16    044     FRR       1      B        FAA    001
+  Q98      16    021     FRR       1      B        FAA    001
+  T43      16    031     FRR       1      B        FAA    001
+  X41      16    066     FRR       1      B        FAA    001
+  X49      16    164     FRR       1      B        FAA    001
+  X57      16    044     FRR       1      B        FAA    001
+  Q86      16    065     FRR       1      B        FAA    001
+  H73      16    007     FRR       1      B        FAA    001
+  H74      16    008     FRR       1      B        FAA    001
+  H77      16    013     FRR       1      B        FAA    001
+  H84      16    043     FRR       1      B        FAA    001
+  U16      16    034     FRR       1      B        FAA    001
+  U17      16            FRR       1      B        FAA    001
+  X03      16    034     FRR       1      B        FAA    001
+  X06      16    030     FRR       1      B        FAA    001
+  C79      16    055     FRR       1      B        FAA    001
+  X08      16    030     FAA       1      B        FAA    001
+  G03      16    006     FAA       1      B        FAA    001
+  G04      16    007     FAA       1      B        FAA    001
+  G05      16    008     FAA       1      B        FAA    001
+  G06      16    009     FAA       1      B        FAA    001
+  G07      16    011     FAA       1      B        FAA    001
+  G09      16    016     FAA       1      B        FAA    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       18
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  G11      16    018     FAA       1      B        FAA    001
+  G12      16    022     FAA       1      B        FAA    001
+  G13      16    039     FAA       1      B        FAA    001
+  G14      16    041     FAA       1      B        FAA    001
+  G16      16    045     FAA       1      B        FAA    001
+  G17      16    047     FAA       1      B        FAA    001
+  G19      16    075     FAA       1      B        FAA    001
+  G21      16    117     FAA       1      B        FAA    001
+  P85      16    052     FAA       1      B        FAA    001
+  Q60      16    729     FAA       1      B        FAA    001
+  Q76      16    044     FAA       1      B        FAA    001
+  Q89      16    021     FAA       1      B        FAA    001
+  T41      16    031     FAA       1      B        FAA    001
+  U10      16            FAA       1      B        FAA    001
+  X47      16    164     FAA       1      B        FAA    001
+  S13      16    002     FAA       1      B        FAA    001
+  FCO       1    001     FAA       1      A        FAA    001
+  G22      16    003     FCO       1      B        FAA    001
+  G23      16    005     FCO       1      B        FAA    001
+  G27      16    009     FCO       1      B        FAA    001
+  G28      16    011     FCO       1      B        FAA    001
+  G30      16    016     FCO       1      B        FAA    001
+  G32      16    018     FCO       1      B        FAA    001
+  G33      16    022     FCO       1      B        FAA    001
+  G36      16    043     FCO       1      B        FAA    001
+  G37      16    045     FCO       1      B        FAA    001
+  G39      16    061     FCO       1      B        FAA    001
+  G40      16    075     FCO       1      B        FAA    001
+  G41      16    086     FCO       1      B        FAA    001
+  G42      16    117     FCO       1      B        FAA    001
+  P86      16    052     FCO       1      B        FAA    001
+  Q42      16    026     FCO       1      B        FAA    001
+  Q90      16    021     FCO       1      B        FAA    001
+  Q55      16    729     FCO       1      B        FAA    001
+  G24      16    006     FCO       1      B        FAA    001
+  G25      16    007     FCO       1      B        FAA    001
+  G26      16    008     FCO       1      B        FAA    001
+  G31      16    017     FCO       1      B        FAA    001
+  G35      16    041     FCO       1      B        FAA    001
+  G38      16    047     FCO       1      B        FAA    001
+  G29      16    013     FCO       1      B        FAA    001
+  G34      16    039     FCO       1      B        FAA    001
+  FOR       1    001     FAA       1      A        FAA    001
+  G85      16    003     FOR       1      B        FAA    001
+  G87      16    006     FOR       1      B        FAA    001
+  G88      16    007     FOR       1      B        FAA    001
+  G89      16    008     FOR       1      B        FAA    001
+  G90      16    009     FOR       1      B        FAA    001
+  G91      16    011     FOR       1      B        FAA    001
+  G92      16    013     FOR       1      B        FAA    001
+  G93      16    016     FOR       1      B        FAA    001
+  G94      16    017     FOR       1      B        FAA    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       19
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  G95      16    018     FOR       1      B        FAA    001
+  H01      16    045     FOR       1      B        FAA    001
+  H04      16    075     FOR       1      B        FAA    001
+  H05      16    086     FOR       1      B        FAA    001
+  H06      16    117     FOR       1      B        FAA    001
+  Q45      16    026     FOR       1      B        FAA    001
+  Q92      16    021     FOR       1      B        FAA    001
+  X54      16    044     FOR       1      B        FAA    001
+  C21      16    164     FOR       1      B        FAA    001
+  Q57      16    729     FOR       1      B        FAA    001
+  G96      16    022     FOR       1      B        FAA    001
+  G97      16    039     FOR       1      B        FAA    001
+  G98      16    041     FOR       1      B        FAA    001
+  H02      16    047     FOR       1      B        FAA    001
+  H03      16    061     FOR       1      B        FAA    001
+  P88      16    052     FOR       1      B        FAA    001
+  G86      16    005     FOR       1      B        FAA    001
+  G99      16    043     FOR       1      B        FAA    001
+  FRE       1    001     FAA       1      A        FAA    001
+  H49      16    003     FRE       1      B        FAA    001
+  H52      16    007     FRE       1      B        FAA    001
+  H53      16    008     FRE       1      B        FAA    001
+  H54      16    009     FRE       1      B        FAA    001
+  H55      16    011     FRE       1      B        FAA    001
+  H57      16    016     FRE       1      B        FAA    001
+  H58      16    017     FRE       1      B        FAA    001
+  P90      16    052     FRE       1      B        FAA    001
+  H60      16    022     FRE       1      B        FAA    001
+  H61      16    039     FRE       1      B        FAA    001
+  H62      16    041     FRE       1      B        FAA    001
+  H63      16    043     FRE       1      B        FAA    001
+  H65      16    047     FRE       1      B        FAA    001
+  H66      16    061     FRE       1      B        FAA    001
+  H67      16    075     FRE       1      B        FAA    001
+  H68      16    086     FRE       1      B        FAA    001
+  H69      16    117     FRE       1      B        FAA    001
+  Q48      16    026     FRE       1      B        FAA    001
+  Q59      16    729     FRE       1      B        FAA    001
+  Q94      16    021     FRE       1      B        FAA    001
+  H50      16    005     FRE       1      B        FAA    001
+  H51      16    006     FRE       1      B        FAA    001
+  H56      16    013     FRE       1      B        FAA    001
+  H59      16    018     FRE       1      B        FAA    001
+  H64      16    045     FRE       1      B        FAA    001
+  FPE       1    001     FAA       1      A        FAA    001
+  H14      16    013     FPE       1      B        FAA    001
+  H07      16    003     FPE       1      B        FAA    001
+  H09      16    006     FPE       1      B        FAA    001
+  H10      16    007     FPE       1      B        FAA    001
+  H11      16    008     FPE       1      B        FAA    001
+  H12      16    009     FPE       1      B        FAA    001
+  H13      16    011     FPE       1      B        FAA    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       20
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  H17      16    018     FPE       1      B        FAA    001
+  H18      16    022     FPE       1      B        FAA    001
+  H21      16    043     FPE       1      B        FAA    001
+  H22      16    045     FPE       1      B        FAA    001
+  H24      16    061     FPE       1      B        FAA    001
+  H19      16    039     FPE       1      B        FAA    001
+  Q61      16    729     FPE       1      B        FAA    001
+  Q95      16    021     FPE       1      B        FAA    001
+  H08      16    005     FPE       1      B        FAA    001
+  H16      16    017     FPE       1      B        FAA    001
+  H20      16    041     FPE       1      B        FAA    001
+  H25      16    075     FPE       1      B        FAA    001
+  H26      16    086     FPE       1      B        FAA    001
+  P91      16    052     FPE       1      B        FAA    001
+  Q46      16    026     FPE       1      B        FAA    001
+  H15      16    016     FPE       1      B        FAA    001
+  H23      16    047     FPE       1      B        FAA    001
+  H27      16    117     FPE       1      B        FAA    001
+  FDD       1    001     FAA       1      A        FAA    001
+  G43      16    003     FDD       1      B        FAA    001
+  G44      16    005     FDD       1      B        FAA    001
+  G45      16    006     FDD       1      B        FAA    001
+  G46      16    007     FDD       1      B        FAA    001
+  G48      16    009     FDD       1      B        FAA    001
+  G50      16    013     FDD       1      B        FAA    001
+  G51      16    016     FDD       1      B        FAA    001
+  G52      16    017     FDD       1      B        FAA    001
+  G53      16    018     FDD       1      B        FAA    001
+  G54      16    022     FDD       1      B        FAA    001
+  G55      16    039     FDD       1      B        FAA    001
+  G56      16    041     FDD       1      B        FAA    001
+  G59      16    047     FDD       1      B        FAA    001
+  G61      16    075     FDD       1      B        FAA    001
+  G62      16    086     FDD       1      B        FAA    001
+  P93      16    052     FDD       1      B        FAA    001
+  Q43      16    026     FDD       1      B        FAA    001
+  Q97      16    021     FDD       1      B        FAA    001
+  X53      16    044     FDD       1      B        FAA    001
+  Q63      16    729     FDD       1      B        FAA    001
+  G47      16    008     FDD       1      B        FAA    001
+  G49      16    011     FDD       1      B        FAA    001
+  G57      16    043     FDD       1      B        FAA    001
+  G58      16    045     FDD       1      B        FAA    001
+  G60      16    061     FDD       1      B        FAA    001
+  G63      16    117     FDD       1      B        FAA    001
+  C20      16    164     FDD       1      B        FAA    001
+  G01      16    003     FAA       1      B        FAA    001
+  G02      16    005     FAA       1      B        FAA    001
+  G08      16    013     FAA       1      B        FAA    001
+  G10      16    017     FAA       1      B        FAA    001
+  G15      16    043     FAA       1      B        FAA    001
+  G18      16    061     FAA       1      B        FAA    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       21
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  G20      16    086     FAA       1      B        FAA    001
+  P69      16    052     FAA       1      B        FAA    001
+  P70      16    065     FAA       1      B        FAA    001
+  Q41      16    026     FAA       1      B        FAA    001
+  U08      16    034     FAA       1      B        FAA    001
+  X01      16    034     FAA       1      B        FAA    001
+  X40      16    066     FAA       1      B        FAA    001
+  C15      16    050     FAA       1      B        FAA    001
+  C75      16    055     FAA       1      B        FAA    001
+  X58      16    044     FAA       1      B        FAA    001
+  E87      16    166     FAA       1      B        FAA    001
+  FAB       1    018     FAB       1      R
+  FCF       1    015     FCF       1      R
+  Y84       0    115     FCF       1
+  R81      16    115     FCF       1      B        FCF    015
+  FDW       1    015     FDW       1      A        FDW    015
+  W06      20    015     FDW       1
+  FHF       1    015     FHF       1      A        FHF    015
+  FIH       1    015     FIH       1      A        FIH    015
+  W07      20    015     FIH       1
+  S58      16    117     FIR       1      B        FIR    015
+  Y86       0    115     FIR       1
+  V18      16    115     FIR       1      B        FIR    015
+  I26      16    001     FIR       1      B        FIR    015
+  I27      16    030     FIR       1      B        FIR    015
+  I28      16    075     FIR       1      B        FIR    015
+  R82      16    115     FIR       1      B        FIR    015
+  R96      16    215     FIR       1      B        FIR    015
+  S46      16    117     FIR       1      B        FIR    015
+  FIR       1    015     FIR       1      A        FIR    015
+  S40      16    338     FIR       1      B        FIR    015
+  W33      20    015     FIR       1
+  FIS       1    015     FIS       1      A        FIS    015
+  S69      16    015     FIS       1      B        FIS    015
+  FLD       1    017     FLD       1      A        FLD    017
+  FLU       1    164     FLU       1      A        FLU    164
+  X97      16    045     FLU       1      B        FLU    164
+  P71      16    164     FLU       1      B        FLU    164
+  C03      16    050     FLU       1      B        FLU    164
+  FMR       1    017     FMR       1      A        FMR    017
+  E76      16    074     FMR       1      B        FMR    017
+  FOO       1    017     FOO       1      A        FOO    017
+  FPI       1    503     FPI       1      A        FPI    503
+  S86      16    503     FPI       1      B        FPI    503
+  F04      16    003     FPI       1      B        FPI    503
+  S21      16    055     FPI       1      B        FPI    503
+  S24      16    043     FPI       1      B        FPI    503
+  X35      16    218     FPM       1      B        FPM    001
+  X77      16    551     FPM       1      B        FPM    001
+  F06      16    651     FPM       1      B        FPM    001
+  F12      16    451     FPM       1      B        FPM    001
+  R83      16    115     FPM       1      B        FPM    001
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       22
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  S12      16    338     FPM       1      B        FPM    001
+  FAP      16    015     FPM       1      B        FPM    001
+  FPM       1    001     FPM       1      A        FPM    001
+  P55      16    075     FPM       1      B        FPM    001
+  W17      20    015     FPM       1
+  FRD       1    017     FRD       1      A        FRD    017
+  FRI       1    017     FRI       1      A        FRI    017
+  FSA       1    017     FSA       1      A        FSA    017
+  FSH       1    041     FSH       1      A        FSH    041
+  FSU       1    041     FSU       1      A        FSU    041
+  FTX       1    015     FTX       1      R
+  GAR       1    015     GAR       1      A        GAR    015
+  S81      16    075     GAR       1      B        GAR    015
+  Y87       0    115     GAR       1
+  S16      16    115     GAR       1      B        GAR    015
+  S15      16    030     GAR       1      B        GAR    015
+  S17      16    215     GAR       1      B        GAR    015
+  GHI       1    503     GHI       1      A        GHI    503
+  S20      16    055     GHI       1      B        GHI    503
+  SGI       1    503     GHI       1      A        GHI    503
+  S88      16    503     SGI       1      B        GHI    503
+  F23      16    503     SGI       1      B        GHI    503
+  S41      16    055     SGI       1      B        GHI    503
+  GIP       1    025     GIP       1      R
+  GPE       1    022     GPE       1      A        GPE    022
+  GPP       1    503     GPP       1      A        GPP    503
+  GPS       1    043     GPS       1      A        GPS    043
+  GPV       1    503     GPV       1      A        GPV    503
+  GTA       1    009     GTA       1      A        GTA    009
+  HAD       1    008     HAD       1      A        HAD    008
+  IFD       1    008     IFD       1      R
+  T74      16    047     IJR       1      B        IJR    043
+  X82      16    735     IJR       1      B        IJR    043
+  L66      16    164     IJR       1      B        IJR    043
+  Q67      16    030     IJR       1      B        IJR    043
+  T70      16    009     IJR       1      B        IJR    043
+  T71      16    024     IJR       1      B        IJR    043
+  T72      16    083     IJR       1      B        IJR    043
+  T73      16    019     IJR       1      B        IJR    043
+  T77      16    006     IJR       1      B        IJR    043
+  T78      16    022     IJR       1      B        IJR    043
+  T79      16    025     IJR       1      B        IJR    043
+  T80      16    055     IJR       1      B        IJR    043
+  T82      16    026     IJR       1      B        IJR    043
+  T84      16    013     IJR       1      B        IJR    043
+  T85      16    031     IJR       1      B        IJR    043
+  T86      16    065     IJR       1      B        IJR    043
+  T87      16    067     IJR       1      B        IJR    043
+  T89      16    151     IJR       1      B        IJR    043
+  T91      16    007     IJR       1      B        IJR    043
+  T93      16    625     IJR       1      B        IJR    043
+  T94      16    005     IJR       1      B        IJR    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       23
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  T97      16    119     IJR       1      B        IJR    043
+  X59      16    036     IJR       1      B        IJR    043
+  T96      16    031     IJR       1      B        IJR    043
+  X94      16    731     IJR       1      B        IJR    043
+  X96      16    736     IJR       1      B        IJR    043
+  C40      16    001     IJR       1      B        IJR    043
+  C68      16    016     IJR       1      B        IJR    043
+  R66      16    018     IJR       1      B        IJR    043
+  T75      16    008     IJR       1      B        IJR    043
+  T76      16    017     IJR       1      B        IJR    043
+  T69      16    075     IJR       1      B        IJR    043
+  T81      16    045     IJR       1      B        IJR    043
+  T83      16    086     IJR       1      B        IJR    043
+  T90      16    730     IJR       1      B        IJR    043
+  T95      16    011     IJR       1      B        IJR    043
+  X16      16    032     IJR       1      B        IJR    043
+  T88      16    044     IJR       1      B        IJR    043
+  C71      16    734     IJR       1      B        IJR    043
+  T92      16    068     IJR       1      B        IJR    043
+  X95      16    733     IJR       1      B        IJR    043
+  S99      16    503     IJR       1      B        IJR    043
+  IMU       1    004     IMU       1      R
+  INV       1    008     INV       1      A        INV    008
+  T56      16    080     INV       1      B        INV    008
+  F19      16    828     INV       1      B        INV    008
+  I19      16    015     INV       1      B        INV    008
+  I78      16    007     IPC       1      B        IPC    022
+  I79      16    010     IPC       1      B        IPC    022
+  I81      16    047     IPC       1      B        IPC    022
+  X31      16    654     IPC       1      B        IPC    022
+  X32      16    655     IPC       1      B        IPC    022
+  R62      16    055     IPC       1      B        IPC    022
+  F08      16    125     IPC       1      B        IPC    022
+  IPC       1    022     IPC       1      A        IPC    022
+  I80      16    022     IPC       1      B        IPC    022
+  X30      16    653     IPC       1      B        IPC    022
+  R61      16    049     IPC       1      B        IPC    022
+  E24      16    025     IPC       1      B        IPC    022
+  E25      16    125     IPC       1      B        IPC    022
+  E26      16    225     IPC       1      B        IPC    022
+  E27      16    325     IPC       1      B        IPC    022
+  E28      16    425     IPC       1      B        IPC    022
+  E56      16    710     IPC       1      B        IPC    022
+  F35      16    955     IPC       1      B        IPC    022
+  F42      16    855     IPC       1      B        IPC    022
+  F51      16    055     IPC       1      B        IPC    022
+  F27      16    117     IPC       1      B        IPC    022
+  ISA       1    009     ISA       1      R
+  ITD       1    008     ITD       1      A        ITD    008
+  IVA       1    015     IVA       1      A        IVA    015
+  S59      16    117     IVA       1      B        IVA    015
+  I32      16    008     IVA       1      B        IVA    015
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       24
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  Y90       0    115     IVA       1
+  V20      16    115     IVA       1      B        IVA    015
+  I29      16    001     IVA       1      B        IVA    015
+  I30      16    030     IVA       1      B        IVA    015
+  I31      16    075     IVA       1      B        IVA    015
+  C90      16    808     IVA       1      B        IVA    015
+  R85      16    115     IVA       1      B        IVA    015
+  S47      16    117     IVA       1      B        IVA    015
+  R97      16    215     IVA       1      B        IVA    015
+  W37      20    015     IVA       1
+  W38      20    015     IVA       1      D
+  IVT       1    055     IVT       1      A        IVT    055
+  LAV       1    008     LAV       1      A        LAV    008
+  ECT      16    670     LAV       1      B        LAV    008
+  ABA      16    671     LAV       1      B        LAV    008
+  LDR       1    011     LDR       1      A        LDR    011
+  LOP       1    018     LOP       1      A        LOP    018
+  MAD       1    008     MAD       1      A        MAD    008
+  MAI       1    503     MAI       1      A        MAI    503
+  MCI       1    003     MCI       1      A        MCI    003
+  MDO       1    119     MDO       1      R
+  MEF       1    015     MEF       1      A        MEF    015
+  Y85       0    115     MEF       1
+  P57      16    001     MEF       1      B        MEF    015
+  X33      16    218     MEF       1      B        MEF    015
+  R98      16    215     MEF       1      B        MEF    015
+  P58      16    030     MEF       1      B        MEF    015
+  R86      16    115     MEF       1      B        MEF    015
+  W39      20    015     MEF       1
+  MER       1    017     MER       1      A        MER    017
+  MOR       1    004     MOR       1      A        MOR    004
+  MPC       1    017     MPC       1      A        MPC    017
+  R69      16    017     MPC       1      B        MPC    017
+  MPD       1    025     MPD       1      A        MPD    025
+  MTD       1    008     MTD       1      A        MTD    008
+  MTI       1    002     MTI       1      A        MTI    002
+  MTM       1    110     MTM       1      A        MTM    110
+  F37      16    955     MTM       1      B        MTM    110
+  F45      16    855     MTM       1      B        MTM    110
+  F54      16    055     MTM       1      B        MTM    110
+  MUS       1    013     MUS       1      A        MUS    013
+  NCV       1    043     NCV       1      A        NCV    043
+  NDC       1    007     NDC       1      A        NDC    007
+  NEP       1    004     NEP       1      R
+  OUA       1    164     OUA       1      A        OUA    164
+  PAF       1    015     PAF       1      A        PAF    015
+  Y91       0    115     PAF       1
+  V16      16    515     PAF       1      B        PAF    015
+  R87      16    115     PAF       1      B        PAF    015
+  S18      16    215     PAF       1      B        PAF    015
+  S48      16    117     PAF       1      B        PAF    015
+  S60      16    117     PAF       1      B        PAF    015
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       25
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  W93      20    015     PAF       1
+  PEG       1    044     PEG       1      A        PEG    044
+  PLU       1    164     PLU       1      A        PLU    164
+  P72      16    164     PLU       1      B        PLU    164
+  X98      16    045     PLU       1      B        PLU    164
+  C05      16    050     PLU       1      B        PLU    164
+  PON       1    022     PON       1      A        PON    022
+  E29      16    025     PON       1      B        PON    022
+  E30      16    125     PON       1      B        PON    022
+  E31      16    225     PON       1      B        PON    022
+  E32      16    325     PON       1      B        PON    022
+  E33      16    425     PON       1      B        PON    022
+  F29      16    117     PON       1      B        PON    022
+  PPE       1    043     PPE       1      A        PPE    043
+  L71      16    006     PPE       1      B        PPE    043
+  L72      16    007     PPE       1      B        PPE    043
+  L73      16    008     PPE       1      B        PPE    043
+  L74      16    009     PPE       1      B        PPE    043
+  L75      16    011     PPE       1      B        PPE    043
+  L76      16    013     PPE       1      B        PPE    043
+  L77      16    016     PPE       1      B        PPE    043
+  L78      16    017     PPE       1      B        PPE    043
+  L79      16    018     PPE       1      B        PPE    043
+  L80      16    021     PPE       1      B        PPE    043
+  L81      16    022     PPE       1      B        PPE    043
+  L82      16    030     PPE       1      B        PPE    043
+  L84      16    044     PPE       1      B        PPE    043
+  L85      16    045     PPE       1      B        PPE    043
+  L88      16    061     PPE       1      B        PPE    043
+  L89      16    065     PPE       1      B        PPE    043
+  L90      16    069     PPE       1      B        PPE    043
+  L95      16    052     PPE       1      B        PPE    043
+  L99      16    151     PPE       1      B        PPE    043
+  M02      16    154     PPE       1      B        PPE    043
+  M03      16    164     PPE       1      B        PPE    043
+  M04      16    625     PPE       1      B        PPE    043
+  M05      16    717     PPE       1      B        PPE    043
+  M06      16    723     PPE       1      B        PPE    043
+  M07      16    724     PPE       1      B        PPE    043
+  M09      16    726     PPE       1      B        PPE    043
+  M31      16    729     PPE       1      B        PPE    043
+  M32      16    731     PPE       1      B        PPE    043
+  M33      16    732     PPE       1      B        PPE    043
+  M34      16    733     PPE       1      B        PPE    043
+  M37      16    736     PPE       1      B        PPE    043
+  P52      16    083     PPE       1      B        PPE    043
+  P53      16    730     PPE       1      B        PPE    043
+  Q36      16    026     PPE       1      B        PPE    043
+  T24      16    031     PPE       1      B        PPE    043
+  T35      16    038     PPE       1      B        PPE    043
+  T45      16    031     PPE       1      B        PPE    043
+  X17      16    032     PPE       1      B        PPE    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       26
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  M01      16    153     PPE       1      B        PPE    043
+  L67      16    001     PPE       1      B        PPE    043
+  L68      16    002     PPE       1      B        PPE    043
+  L69      16    003     PPE       1      B        PPE    043
+  L70      16    005     PPE       1      B        PPE    043
+  L83      16    039     PPE       1      B        PPE    043
+  L87      16    055     PPE       1      B        PPE    043
+  L91      16    086     PPE       1      B        PPE    043
+  L92      16    119     PPE       1      B        PPE    043
+  L93      16    019     PPE       1      B        PPE    043
+  L94      16    041     PPE       1      B        PPE    043
+  L96      16    066     PPE       1      B        PPE    043
+  L97      16    067     PPE       1      B        PPE    043
+  L98      16    068     PPE       1      B        PPE    043
+  M08      16    725     PPE       1      B        PPE    043
+  M36      16    735     PPE       1      B        PPE    043
+  S37      16    010     PPE       1      B        PPE    043
+  L86      16    047     PPE       1      B        PPE    043
+  M35      16    734     PPE       1      B        PPE    043
+  X62      16    050     PPE       1      B        PPE    043
+  S91      16    503     PPE       1      B        PPE    043
+  M38      16    001     PPH       1      B        PPH    043
+  M39      16    002     PPH       1      B        PPH    043
+  M41      16    005     PPH       1      B        PPH    043
+  M42      16    006     PPH       1      B        PPH    043
+  M45      16    009     PPH       1      B        PPH    043
+  M46      16    010     PPH       1      B        PPH    043
+  M47      16    013     PPH       1      B        PPH    043
+  M50      16    018     PPH       1      B        PPH    043
+  M51      16    021     PPH       1      B        PPH    043
+  M54      16    030     PPH       1      B        PPH    043
+  M55      16    039     PPH       1      B        PPH    043
+  M56      16    044     PPH       1      B        PPH    043
+  M58      16    047     PPH       1      B        PPH    043
+  M60      16    055     PPH       1      B        PPH    043
+  M61      16    061     PPH       1      B        PPH    043
+  M62      16    065     PPH       1      B        PPH    043
+  M63      16    086     PPH       1      B        PPH    043
+  M65      16    019     PPH       1      B        PPH    043
+  M66      16    052     PPH       1      B        PPH    043
+  M70      16    083     PPH       1      B        PPH    043
+  M71      16    164     PPH       1      B        PPH    043
+  M74      16    151     PPH       1      B        PPH    043
+  M75      16    723     PPH       1      B        PPH    043
+  M76      16    724     PPH       1      B        PPH    043
+  M77      16    725     PPH       1      B        PPH    043
+  M78      16    726     PPH       1      B        PPH    043
+  M79      16    729     PPH       1      B        PPH    043
+  M83      16    736     PPH       1      B        PPH    043
+  P50      16    022     PPH       1      B        PPH    043
+  P73      16    011     PPH       1      B        PPH    043
+  Q37      16    026     PPH       1      B        PPH    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       27
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  M40      16    003     PPH       1      B        PPH    043
+  T23      16    031     PPH       1      B        PPH    043
+  T28      16    038     PPH       1      B        PPH    043
+  X12      16    069     PPH       1      B        PPH    043
+  X38      16    032     PPH       1      B        PPH    043
+  X65      16    050     PPH       1      B        PPH    043
+  C47      16    735     PPH       1      B        PPH    043
+  Q70      16    625     PPH       1      B        PPH    043
+  PPH       1    043     PPH       1      A        PPH    043
+  M43      16    007     PPH       1      B        PPH    043
+  M48      16    016     PPH       1      B        PPH    043
+  M49      16    017     PPH       1      B        PPH    043
+  M53      16    025     PPH       1      B        PPH    043
+  M57      16    045     PPH       1      B        PPH    043
+  M59      16    049     PPH       1      B        PPH    043
+  M64      16    119     PPH       1      B        PPH    043
+  M67      16    066     PPH       1      B        PPH    043
+  M68      16    067     PPH       1      B        PPH    043
+  M72      16    717     PPH       1      B        PPH    043
+  M73      16    153     PPH       1      B        PPH    043
+  M80      16    730     PPH       1      B        PPH    043
+  M81      16    733     PPH       1      B        PPH    043
+  M82      16    734     PPH       1      B        PPH    043
+  P51      16    041     PPH       1      B        PPH    043
+  X11      16    067     PPH       1      B        PPH    043
+  T46      16    031     PPH       1      B        PPH    043
+  S56      16    154     PPH       1      B        PPH    043
+  M44      16    008     PPH       1      B        PPH    043
+  M69      16    068     PPH       1      B        PPH    043
+  E57      16    710     PPH       1      B        PPH    043
+  E70      16    004     PPH       1      B        PPH    043
+  PRD       1    017     PRD       1      A        PRD    017
+  PRH       1    017     PRH       1      A        PRH    017
+  PRV       1    008     PRV       1      E
+  PTG       1    030     PTG       1      R
+  I84      16    009     PTG       1      B        PTG    030
+  I85      16    015     PTG       1      B        PTG    030
+  PUD       1    009     PUD       1      A        PUD    009
+  PUP       1    009     PUP       1      A        PUP    009
+  PVD       1    009     PVD       1      A        PVD    009
+  RDF       1    015     RDF       1      R
+  S68      16    015     RDF       1      B        RDF    015
+  S71      16    115     RDF       1      B        RDF    015
+  Y82       0    115     RDF       1
+  P74      16    001     RDF       1      B        RDF    015
+  REG       1    015     REG       1      E
+  W40      20    015     REG       1
+  T27      16    038     RHC       1      B        RHC    043
+  RHC       1    043     RHC       1      A        RHC    043
+  N32      16    002     RHC       1      B        RHC    043
+  N33      16    003     RHC       1      B        RHC    043
+  N34      16    005     RHC       1      B        RHC    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       28
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  N35      16    006     RHC       1      B        RHC    043
+  N36      16    007     RHC       1      B        RHC    043
+  N37      16    008     RHC       1      B        RHC    043
+  N38      16    009     RHC       1      B        RHC    043
+  N40      16    013     RHC       1      B        RHC    043
+  N41      16    016     RHC       1      B        RHC    043
+  N43      16    015     RHC       1      B        RHC    043
+  N44      16    018     RHC       1      B        RHC    043
+  N45      16    021     RHC       1      B        RHC    043
+  N47      16    025     RHC       1      B        RHC    043
+  N48      16    030     RHC       1      B        RHC    043
+  N52      16    047     RHC       1      B        RHC    043
+  N53      16    049     RHC       1      B        RHC    043
+  N54      16    055     RHC       1      B        RHC    043
+  N55      16    061     RHC       1      B        RHC    043
+  N56      16    041     RHC       1      B        RHC    043
+  N57      16    064     RHC       1      B        RHC    043
+  N59      16    069     RHC       1      B        RHC    043
+  N60      16    086     RHC       1      B        RHC    043
+  N62      16    019     RHC       1      B        RHC    043
+  N63      16    052     RHC       1      B        RHC    043
+  N64      16    066     RHC       1      B        RHC    043
+  N66      16    068     RHC       1      B        RHC    043
+  N67      16    083     RHC       1      B        RHC    043
+  N70      16    717     RHC       1      B        RHC    043
+  N74      16    723     RHC       1      B        RHC    043
+  N75      16    724     RHC       1      B        RHC    043
+  N76      16    725     RHC       1      B        RHC    043
+  N77      16    726     RHC       1      B        RHC    043
+  N79      16    730     RHC       1      B        RHC    043
+  N80      16    731     RHC       1      B        RHC    043
+  N81      16    733     RHC       1      B        RHC    043
+  N82      16    732     RHC       1      B        RHC    043
+  N84      16    734     RHC       1      B        RHC    043
+  N85      16    736     RHC       1      B        RHC    043
+  N86      16    127     RHC       1      B        RHC    043
+  N87      16    073     RHC       1      B        RHC    043
+  Q35      16    026     RHC       1      B        RHC    043
+  T19      16    031     RHC       1      B        RHC    043
+  T48      16    031     RHC       1      B        RHC    043
+  X18      16    032     RHC       1      B        RHC    043
+  X64      16    050     RHC       1      B        RHC    043
+  R88      16    115     RHC       1      B        RHC    043
+  R99      16    215     RHC       1      B        RHC    043
+  N31      16    001     RHC       1      B        RHC    043
+  N46      16    022     RHC       1      B        RHC    043
+  N49      16    039     RHC       1      B        RHC    043
+  N50      16    044     RHC       1      B        RHC    043
+  N61      16    119     RHC       1      B        RHC    043
+  N68      16    164     RHC       1      B        RHC    043
+  N71      16    153     RHC       1      B        RHC    043
+  N72      16    151     RHC       1      B        RHC    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       29
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  N73      16    154     RHC       1      B        RHC    043
+  N78      16    729     RHC       1      B        RHC    043
+  S08      16    010     RHC       1      B        RHC    043
+  N39      16    011     RHC       1      B        RHC    043
+  N58      16    065     RHC       1      B        RHC    043
+  N65      16    067     RHC       1      B        RHC    043
+  N42      16    017     RHC       1      B        RHC    043
+  N51      16    045     RHC       1      B        RHC    043
+  N69      16    625     RHC       1      B        RHC    043
+  N83      16    735     RHC       1      B        RHC    043
+  E58      16    710     RHC       1      B        RHC    043
+  E72      16    004     RHC       1      B        RHC    043
+  E84      16    166     RHC       1      B        RHC    043
+  RHP       1    043     RHP       1      A        RHP    043
+  RHS       1    017     RHS       1      R
+  RLC       1    004     RLC       1      A        RLC    004
+  SAC       1    722     SAC       1      A        SAC    722
+  F13      16    125     SAC       1      B        SAC    722
+  S22      16    022     SAC       1      B        SAC    722
+  E34      16    025     SAC       1      B        SAC    722
+  E36      16    125     SAC       1      B        SAC    722
+  E37      16    225     SAC       1      B        SAC    722
+  E38      16    425     SAC       1      B        SAC    722
+  E39      16    325     SAC       1      B        SAC    722
+  SAE       1    017     SAE       1      A        SAE    017
+  I34      16    041     SAE       1      B        SAE    017
+  I36      16    043     SAE       1      B        SAE    017
+  P75      16    013     SAE       1      B        SAE    017
+  S19      16    075     SAE       1      B        SAE    017
+  SAR       1    047     SAR       1      R
+  P19      16    006     SAR       1      B        SAR    047
+  P20      16    009     SAR       1      B        SAR    047
+  P21      16    016     SAR       1      B        SAR    047
+  P22      16    017     SAR       1      B        SAR    047
+  P23      16    018     SAR       1      B        SAR    047
+  P18      16    005     SAR       1      B        SAR    047
+  P24      16    044     SAR       1      B        SAR    047
+  SAV       1    008     SAV       1      A        SAV    008
+  F09      16    125     SCI       1      B        SCI    025
+  SCI       1    025     SCI       1      A        SCI    025
+  E44      16    125     SCI       1      B        SCI    025
+  E45      16    225     SCI       1      B        SCI    025
+  E46      16    325     SCI       1      B        SCI    025
+  E47      16    425     SCI       1      B        SCI    025
+  SCW       1    043     SCW       1      A        SCW    043
+  SDP       1    025     SDP       1      A        SDP    025
+  SDT       1    164     SDT       1      A        SDT    164
+  P76      16    164     SDT       1      B        SDT    164
+  C01      16    045     SDT       1      B        SDT    164
+  C07      16    164     SDT       1      B        SDT    164
+  SDV       1    055     SDV       1      A        SDV    055
+  SED       1    041     SED       1      R
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       30
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  P77      16    017     SED       1      B        SED    041
+  SEI       1    041     SEI       1      A        SEI    041
+  SFE       1    004     SFE       1      A        SFE    004
+  SGE       1    017     SGE       1      A        SGE    017
+  SGN       1    121     SGN       1      A        SGN    121
+  S82      16    075     SGR       1      B        SGR    015
+  Y93       0    115     SGR       1
+  SGR       1    015     SGR       1      A        SGR    015
+  R89      16    115     SGR       1      B        SGR    015
+  S01      16    215     SGR       1      B        SGR    015
+  W41      20    015     SGR       1
+  W73      20    015     SGR       1
+  SGS       1    004     SGS       1      A        SGS    004
+  SHT       1    004     SHT       1      A        SHT    004
+  E73      16    004     SHT       1      B        SHT    004
+  SIA       1    045     SIA       1      A        SIA    045
+  SI3      13    045     SIA       1      E
+  SI4      13    045     SIA       1      E
+  SI5      13    045     SIA       1      E
+  SI1      13    045     SIA       1      E
+  X99      16    045     SIA       1      B        SIA    045
+  SI2      13    045     SIA       1      E
+  S09      16    045     SIA       1      B        SIA    045
+  S32      16    164     SIA       1      B        SIA    045
+  SIC       1    026     SIC       1      A        SIC    026
+  P78      16    730     SIC       1      B        SIC    026
+  SID       1    016     SID       1      R
+  P80      16    164     SID       1      B        SID    016
+  P79      16    061     SID       1      B        SID    016
+  SIL       1    011     SIL       1      A        SIL    011
+  RHI       1    043     SIP       1      A        SIP    043
+  S76      16    022     RHI       1      B        SIP    043
+  F01      16    503     RHI       1      B        SIP    043
+  N88      16    003     RHI       1      B        SIP    043
+  Q85      16    041     RHI       1      B        SIP    043
+  X68      16    050     RHI       1      B        SIP    043
+  C66      16    018     RHI       1      B        SIP    043
+  N90      16    044     RHI       1      B        SIP    043
+  N91      16    047     RHI       1      B        SIP    043
+  X69      16    065     RHI       1      B        SIP    043
+  S04      16    119     RHI       1      B        SIP    043
+  N89      16    006     RHI       1      B        SIP    043
+  CQF       1    043     SIP       1      A        SIP    043
+  S35      16    070     CQF       1      B        SIP    043
+  S98      16    503     CQF       1      B        SIP    043
+  CDI       1    043     SIP       1      A        SIP    043
+  S96      16    503     CDI       1      B        SIP    043
+  ERH       1    043     SIP       1      A        SIP    043
+  L37      16    017     ERH       1      B        SIP    043
+  S94      16    503     ERH       1      B        SIP    043
+  PPP       1    043     SIP       1      A        SIP    043
+  S95      16    503     PPP       1      B        SIP    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       31
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  T26      16    038     SIP       1      B        SIP    043
+  SCD       1    043     SIP       1      A        SIP    043
+  S62      16    010     SCD       1      B        SIP    043
+  S77      16    730     SCD       1      B        SIP    043
+  N93      16    002     SCD       1      B        SIP    043
+  N95      16    005     SCD       1      B        SIP    043
+  N96      16    006     SCD       1      B        SIP    043
+  N97      16    008     SCD       1      B        SIP    043
+  O01      16    016     SCD       1      B        SIP    043
+  O03      16    018     SCD       1      B        SIP    043
+  O05      16    030     SCD       1      B        SIP    043
+  O07      16    044     SCD       1      B        SIP    043
+  O12      16    065     SCD       1      B        SIP    043
+  O13      16    086     SCD       1      B        SIP    043
+  O14      16    019     SCD       1      B        SIP    043
+  O18      16    068     SCD       1      B        SIP    043
+  O19      16    083     SCD       1      B        SIP    043
+  O20      16    164     SCD       1      B        SIP    043
+  O21      16    625     SCD       1      B        SIP    043
+  O23      16    153     SCD       1      B        SIP    043
+  O26      16    725     SCD       1      B        SIP    043
+  O27      16    726     SCD       1      B        SIP    043
+  O30      16    732     SCD       1      B        SIP    043
+  O31      16    733     SCD       1      B        SIP    043
+  O32      16    734     SCD       1      B        SIP    043
+  O33       1    008     SCD       1      B        O33    008
+  O34      16    151     SCD       1      B        SIP    043
+  P48      16    069     SCD       1      B        SIP    043
+  P49      16    009     SCD       1      B        SIP    043
+  P82      16    041     SCD       1      B        SIP    043
+  P83      16    119     SCD       1      B        SIP    043
+  O04      16    021     SCD       1      B        SIP    043
+  O10      16    055     SCD       1      B        SIP    043
+  O15      16    052     SCD       1      B        SIP    043
+  T25      16    031     SCD       1      B        SIP    043
+  T36      16    038     SCD       1      B        SIP    043
+  T49      16    031     SCD       1      B        SIP    043
+  X19      16    032     SCD       1      B        SIP    043
+  X67      16    050     SCD       1      B        SIP    043
+  O24      16    723     SCD       1      B        SIP    043
+  X80      16    026     SCD       1      B        SIP    043
+  N94      16    003     SCD       1      B        SIP    043
+  N99      16    013     SCD       1      B        SIP    043
+  O08      16    045     SCD       1      B        SIP    043
+  O09      16    047     SCD       1      B        SIP    043
+  O11      16    061     SCD       1      B        SIP    043
+  O16      16    066     SCD       1      B        SIP    043
+  O17      16    067     SCD       1      B        SIP    043
+  O22      16    717     SCD       1      B        SIP    043
+  O25      16    724     SCD       1      B        SIP    043
+  O28      16    729     SCD       1      B        SIP    043
+  O29       1    008     SCD       1      B        O29    008
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       32
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  O35      16    154     SCD       1      B        SIP    043
+  P46      16    022     SCD       1      B        SIP    043
+  P47      16    735     SCD       1      B        SIP    043
+  P59      16    007     SCD       1      B        SIP    043
+  N92      16    001     SCD       1      B        SIP    043
+  N98      16    011     SCD       1      B        SIP    043
+  O06      16    039     SCD       1      B        SIP    043
+  O02      16    017     SCD       1      B        SIP    043
+  S93      16    503     SCD       1      B        SIP    043
+  E62      16    710     SCD       1      B        SIP    043
+  ADP       1    043     SIP       1      A        SIP    043
+  K29      16    013     ADP       1      B        SIP    043
+  K20      16    001     ADP       1      B        SIP    043
+  K21      16    002     ADP       1      B        SIP    043
+  K22      16    003     ADP       1      B        SIP    043
+  K23      16    006     ADP       1      B        SIP    043
+  K25      16    008     ADP       1      B        SIP    043
+  K27      16    010     ADP       1      B        SIP    043
+  K30      16    016     ADP       1      B        SIP    043
+  K31      16    018     ADP       1      B        SIP    043
+  K32      16    021     ADP       1      B        SIP    043
+  K33      16    022     ADP       1      B        SIP    043
+  K37      16    047     ADP       1      B        SIP    043
+  K38      16    061     ADP       1      B        SIP    043
+  K43      16    119     ADP       1      B        SIP    043
+  T34      16    038     ADP       1      B        SIP    043
+  K24      16    007     ADP       1      B        SIP    043
+  K26      16    009     ADP       1      B        SIP    043
+  K34      16    030     ADP       1      B        SIP    043
+  K35      16    039     ADP       1      B        SIP    043
+  K39      16    052     ADP       1      B        SIP    043
+  K40      16    065     ADP       1      B        SIP    043
+  K41      16    069     ADP       1      B        SIP    043
+  K44      16    068     ADP       1      B        SIP    043
+  K45      16    066     ADP       1      B        SIP    043
+  P84      16    017     ADP       1      B        SIP    043
+  K28      16    011     ADP       1      B        SIP    043
+  T22      16    031     ADP       1      B        SIP    043
+  K36      16    045     ADP       1      B        SIP    043
+  K42      16    086     ADP       1      B        SIP    043
+  S97      16    503     ADP       1      B        SIP    043
+  O53      16    030     SIP       1      B        SIP    043
+  O36      16    001     SIP       1      B        SIP    043
+  O38      16    003     SIP       1      B        SIP    043
+  O39      16    005     SIP       1      B        SIP    043
+  O40      16    006     SIP       1      B        SIP    043
+  O42      16    008     SIP       1      B        SIP    043
+  O43      16    009     SIP       1      B        SIP    043
+  O44      16    011     SIP       1      B        SIP    043
+  O45      16    013     SIP       1      B        SIP    043
+  O47      16    016     SIP       1      B        SIP    043
+  O48      16    017     SIP       1      B        SIP    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       33
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  O49      16    018     SIP       1      B        SIP    043
+  O50      16    021     SIP       1      B        SIP    043
+  O51      16    022     SIP       1      B        SIP    043
+  O52      16    025     SIP       1      B        SIP    043
+  O56      16    044     SIP       1      B        SIP    043
+  O57      16    045     SIP       1      B        SIP    043
+  O60      16    055     SIP       1      B        SIP    043
+  O61      16    061     SIP       1      B        SIP    043
+  O62      16    065     SIP       1      B        SIP    043
+  O63      16    069     SIP       1      B        SIP    043
+  O64      16    086     SIP       1      B        SIP    043
+  O65      16    119     SIP       1      B        SIP    043
+  O66      16    019     SIP       1      B        SIP    043
+  O71      16    164     SIP       1      B        SIP    043
+  O72      16    625     SIP       1      B        SIP    043
+  O73      16    717     SIP       1      B        SIP    043
+  O74      16    153     SIP       1      B        SIP    043
+  O75      16    151     SIP       1      B        SIP    043
+  O76      16    154     SIP       1      B        SIP    043
+  O77      16    723     SIP       1      B        SIP    043
+  O78      16    724     SIP       1      B        SIP    043
+  O79      16    725     SIP       1      B        SIP    043
+  O80      16    726     SIP       1      B        SIP    043
+  O82      16    730     SIP       1      B        SIP    043
+  O84      16    733     SIP       1      B        SIP    043
+  O85      16    734     SIP       1      B        SIP    043
+  O86      16    735     SIP       1      B        SIP    043
+  O87      16    736     SIP       1      B        SIP    043
+  P45      16    083     SIP       1      B        SIP    043
+  Q34      16    026     SIP       1      B        SIP    043
+  T54      16    034     SIP       1      B        SIP    043
+  X20      16    032     SIP       1      B        SIP    043
+  SIP       1    043     SIP       1      A        SIP    043
+  GAS       1    043     SIP       1      A        SIP    043
+  L52      16    025     GAS       1      B        SIP    043
+  T44      16    031     GAS       1      B        SIP    043
+  L53      16    030     GAS       1      B        SIP    043
+  L40      16    005     GAS       1      B        SIP    043
+  L41      16    006     GAS       1      B        SIP    043
+  L42      16    007     GAS       1      B        SIP    043
+  L43      16    008     GAS       1      B        SIP    043
+  L44      16    009     GAS       1      B        SIP    043
+  L45      16    011     GAS       1      B        SIP    043
+  L46      16    013     GAS       1      B        SIP    043
+  L47      16    016     GAS       1      B        SIP    043
+  L48      16    017     GAS       1      B        SIP    043
+  L50      16    019     GAS       1      B        SIP    043
+  L51      16    022     GAS       1      B        SIP    043
+  L56      16    044     GAS       1      B        SIP    043
+  L57      16    047     GAS       1      B        SIP    043
+  L58      16    052     GAS       1      B        SIP    043
+  L59      16    055     GAS       1      B        SIP    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       34
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  L60      16    061     GAS       1      B        SIP    043
+  L61      16    066     GAS       1      B        SIP    043
+  L62      16    069     GAS       1      B        SIP    043
+  L64      16    164     GAS       1      B        SIP    043
+  L65      16    730     GAS       1      B        SIP    043
+  T21      16    031     GAS       1      B        SIP    043
+  X37      16    032     GAS       1      B        SIP    043
+  L38      16    001     GAS       1      B        SIP    043
+  L39      16    003     GAS       1      B        SIP    043
+  L54      16    039     GAS       1      B        SIP    043
+  L55      16    041     GAS       1      B        SIP    043
+  S06      16    083     GAS       1      B        SIP    043
+  L49      16    018     GAS       1      B        SIP    043
+  L63      16    086     GAS       1      B        SIP    043
+  O54      16    039     SIP       1      B        SIP    043
+  O55      16    041     SIP       1      B        SIP    043
+  O59      16    049     SIP       1      B        SIP    043
+  O68      16    066     SIP       1      B        SIP    043
+  O69      16    067     SIP       1      B        SIP    043
+  O81      16    729     SIP       1      B        SIP    043
+  P44      16    010     SIP       1      B        SIP    043
+  P60      16    073     SIP       1      B        SIP    043
+  T18      16    031     SIP       1      B        SIP    043
+  X63      16    050     SIP       1      B        SIP    043
+  O58      16    047     SIP       1      B        SIP    043
+  O67      16    052     SIP       1      B        SIP    043
+  IJR       1    043     SIP       1      A        SIP    043
+  T74      16    047     IJR       1      B        SIP    043
+  X82      16    735     IJR       1      B        SIP    043
+  L66      16    164     IJR       1      B        SIP    043
+  Q67      16    030     IJR       1      B        SIP    043
+  T70      16    009     IJR       1      B        SIP    043
+  T71      16    024     IJR       1      B        SIP    043
+  T72      16    083     IJR       1      B        SIP    043
+  T73      16    019     IJR       1      B        SIP    043
+  T77      16    006     IJR       1      B        SIP    043
+  T78      16    022     IJR       1      B        SIP    043
+  T79      16    025     IJR       1      B        SIP    043
+  T80      16    055     IJR       1      B        SIP    043
+  T82      16    026     IJR       1      B        SIP    043
+  T84      16    013     IJR       1      B        SIP    043
+  T85      16    031     IJR       1      B        SIP    043
+  T86      16    065     IJR       1      B        SIP    043
+  T87      16    067     IJR       1      B        SIP    043
+  T89      16    151     IJR       1      B        SIP    043
+  T91      16    007     IJR       1      B        SIP    043
+  T93      16    625     IJR       1      B        SIP    043
+  T94      16    005     IJR       1      B        SIP    043
+  T97      16    119     IJR       1      B        SIP    043
+  X59      16    036     IJR       1      B        SIP    043
+  T96      16    031     IJR       1      B        SIP    043
+  X94      16    731     IJR       1      B        SIP    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       35
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  X96      16    736     IJR       1      B        SIP    043
+  C40      16    001     IJR       1      B        SIP    043
+  C68      16    016     IJR       1      B        SIP    043
+  R66      16    018     IJR       1      B        SIP    043
+  T75      16    008     IJR       1      B        SIP    043
+  T76      16    017     IJR       1      B        SIP    043
+  T69      16    075     IJR       1      B        SIP    043
+  T81      16    045     IJR       1      B        SIP    043
+  T83      16    086     IJR       1      B        SIP    043
+  T90      16    730     IJR       1      B        SIP    043
+  T95      16    011     IJR       1      B        SIP    043
+  X16      16    032     IJR       1      B        SIP    043
+  T88      16    044     IJR       1      B        SIP    043
+  C71      16    734     IJR       1      B        SIP    043
+  T92      16    068     IJR       1      B        SIP    043
+  X95      16    733     IJR       1      B        SIP    043
+  S99      16    503     IJR       1      B        SIP    043
+  O46      16    015     SIP       1      B        SIP    043
+  O70      16    068     SIP       1      B        SIP    043
+  O83      16    732     SIP       1      B        SIP    043
+  PPI       1    043     SIP       1      A        SIP    043
+  S70      16    119     PPI       1      B        SIP    043
+  S92      16    503     PPI       1      B        SIP    043
+  M85      16    002     PPI       1      B        SIP    043
+  M87      16    006     PPI       1      B        SIP    043
+  M88      16    007     PPI       1      B        SIP    043
+  M89      16    008     PPI       1      B        SIP    043
+  M91      16    011     PPI       1      B        SIP    043
+  M92      16    013     PPI       1      B        SIP    043
+  M93      16    016     PPI       1      B        SIP    043
+  M94      16    017     PPI       1      B        SIP    043
+  M95      16    018     PPI       1      B        SIP    043
+  M96      16    021     PPI       1      B        SIP    043
+  M97      16    022     PPI       1      B        SIP    043
+  M99      16    030     PPI       1      B        SIP    043
+  N01      16    039     PPI       1      B        SIP    043
+  N02      16    044     PPI       1      B        SIP    043
+  N03      16    045     PPI       1      B        SIP    043
+  N04      16    047     PPI       1      B        SIP    043
+  N05      16    055     PPI       1      B        SIP    043
+  N06      16    061     PPI       1      B        SIP    043
+  N08      16    069     PPI       1      B        SIP    043
+  N10      16    019     PPI       1      B        SIP    043
+  N11      16    052     PPI       1      B        SIP    043
+  N14      16    067     PPI       1      B        SIP    043
+  N15      16    083     PPI       1      B        SIP    043
+  N16      16    164     PPI       1      B        SIP    043
+  N17      16    625     PPI       1      B        SIP    043
+  N18      16    153     PPI       1      B        SIP    043
+  N19      16    151     PPI       1      B        SIP    043
+  N22      16    725     PPI       1      B        SIP    043
+  N23      16    726     PPI       1      B        SIP    043
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       36
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  N24      16    729     PPI       1      B        SIP    043
+  N25      16    730     PPI       1      B        SIP    043
+  N26      16    733     PPI       1      B        SIP    043
+  N28      16    736     PPI       1      B        SIP    043
+  P54      16    005     PPI       1      B        SIP    043
+  P81      16    154     PPI       1      B        SIP    043
+  Q38      16    026     PPI       1      B        SIP    043
+  T20      16    031     PPI       1      B        SIP    043
+  X60      16    032     PPI       1      B        SIP    043
+  X66      16    050     PPI       1      B        SIP    043
+  T33      16    038     PPI       1      B        SIP    043
+  M84      16    001     PPI       1      B        SIP    043
+  M86      16    003     PPI       1      B        SIP    043
+  N12      16    041     PPI       1      B        SIP    043
+  N13      16    066     PPI       1      B        SIP    043
+  N20      16    723     PPI       1      B        SIP    043
+  N27      16    734     PPI       1      B        SIP    043
+  N30      16    735     PPI       1      B        SIP    043
+  T47      16    031     PPI       1      B        SIP    043
+  X52      16    068     PPI       1      B        SIP    043
+  S03      16    010     PPI       1      B        SIP    043
+  M90      16    009     PPI       1      B        SIP    043
+  N07      16    065     PPI       1      B        SIP    043
+  N21      16    724     PPI       1      B        SIP    043
+  M98      16    025     PPI       1      B        SIP    043
+  N09      16    086     PPI       1      B        SIP    043
+  N29      16    732     PPI       1      B        SIP    043
+  E71      16    004     PPI       1      B        SIP    043
+  T50      16    031     SIP       1      B        SIP    043
+  O37      16    002     SIP       1      B        SIP    043
+  O41      16    007     SIP       1      B        SIP    043
+  S89      16    503     SIP       1      B        SIP    043
+  E59      16    710     SIP       1      B        SIP    043
+  E85      16    166     SIP       1      B        SIP    043
+  F36      16    955     SIP       1      B        SIP    043
+  F50      16    055     SIP       1      B        SIP    043
+  SIS       1    004     SIS       1      R
+  SIU       1    045     SIU       1      A        SIU    045
+  SIV       1    025     SIV       1      A        SIV    025
+  V30      16    825     SIV       1      B        SIV    025
+  V31      16    325     SIV       1      B        SIV    025
+  V32      16    425     SIV       1      B        SIV    025
+  V77      16    225     SIV       1      B        SIV    025
+  F07      16    503     SIV       1      B        SIV    025
+  F10      16    125     SIV       1      B        SIV    025
+  F24      16    503     SIV       1      B        SIV    025
+  S39      16    022     SIV       1      B        SIV    025
+  SIY       1    047     SIY       1      A        SIY    047
+  SIZ       1    503     SIZ       1      A        SIZ    503
+  SMU       1    043     SMU       1      A        SMU    043
+  SNF       1    001     SNF       1      A        SNF    001
+  SNV       1    004     SNV       1      A        SNV    004
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       37
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  SPB       1    017     SPB       1      A        SPB    017
+  WEL      16    052     SPI       1      R
+  WIP      16    631     SPI       1      N
+  WIL      16    044     SPI       1      R
+  WIO      16    013     SPI       1      R
+  WIU      16    017     SPI       1      R
+  WJC       1    010     SPI       1      R
+  WJI       1    004     SPI       1      R
+  WLO      16    052     SPI       1      R
+  WJG      16    030     SPI       1      R
+  WIV      16    001     SPI       1      R
+  WIM      16    011     SPI       1      R
+  WIQ      16    018     SPI       1      R
+  WIR      16    016     SPI       1      R
+  WJF      16    047     SPI       1      R
+  WJO      16    002     SPI       1      R
+  WJJ       1    003     SPI       1      R
+  S67      16    115     SPJ       1      B        SPJ    030
+  SPJ       1    030     SPJ       1      R
+  X90      16    009     SPJ       1      B        SPJ    030
+  C32      16    015     SPJ       1      B        SPJ    030
+  X89      16    015     SPJ       1      B        SPJ    030
+  SPR       1    010     SPR       1      A        SPR    010
+  I22      16    117     SPR       1      B        SPR    010
+  T98      16    053     SPR       1      B        SPR    010
+  I20      16    007     SPR       1      B        SPR    010
+  I21      16    025     SPR       1      B        SPR    010
+  E60      16    710     SPR       1      B        SPR    010
+  F44      16    855     SPR       1      B        SPR    010
+  F53      16    055     SPR       1      B        SPR    010
+  SQA       1    045     SQA       1      A        SQA    045
+  SRA       1    025     SRA       1      A        SRA    025
+  E64      16    325     SRA       1      B        SRA    025
+  SRC       1    025     SRC       1      A        SRC    025
+  E40      16    125     SRC       1      B        SRC    025
+  E41      16    225     SRC       1      B        SRC    025
+  E42      16    325     SRC       1      B        SRC    025
+  E43      16    425     SRC       1      B        SRC    025
+  SRG       1    018     SRG       1      A        SRG    018
+  P25      16    005     SRG       1      B        SRG    018
+  P26      16    006     SRG       1      B        SRG    018
+  P31      16    021     SRG       1      B        SRG    018
+  P32      16    022     SRG       1      B        SRG    018
+  P33      16    044     SRG       1      B        SRG    018
+  P34      16    045     SRG       1      B        SRG    018
+  P35      16    055     SRG       1      B        SRG    018
+  P37      16    066     SRG       1      B        SRG    018
+  P38      16    086     SRG       1      B        SRG    018
+  P56      16    019     SRG       1      B        SRG    018
+  Q33      16    040     SRG       1      B        SRG    018
+  Q54      16    014     SRG       1      B        SRG    018
+  T57      16    026     SRG       1      B        SRG    018
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       38
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.
+  T58      16    066     SRG       1      B        SRG    018
+  T59      16    011     SRG       1      B        SRG    018
+  T60      16    043     SRG       1      B        SRG    018
+  P27      16    009     SRG       1      B        SRG    018
+  P29      16    017     SRG       1      B        SRG    018
+  P30      16    047     SRG       1      B        SRG    018
+  P36      16    061     SRG       1      B        SRG    018
+  P28      16    016     SRG       1      B        SRG    018
+  SRP       1    025     SRP       1      A        SRP    025
+  SSB       1    017     SSB       1      A        SSB    017
+  SSD       1    008     SSD       1      A        SSD    008
+  STC       1    002     STC       1      A        STC    002
+  C02      16    045     STT       1      B        STT    099
+  C08      16    164     STT       1      B        STT    099
+  STT       1    099     STT       1      A        STT    099
+  SVR       1    025     SVR       1      A        SVR    025
+  I82      16    008     SVR       1      R
+  I83      16    015     SVR       1      R
+  C91      16    808     SVR       1      B        SVR    025
+  F11      16    125     SVR       1      B        SVR    025
+  S11      16    008     SVR       1      B        SVR    025
+  E48      16    125     SVR       1      B        SVR    025
+  E49      16    225     SVR       1      B        SVR    025
+  E50      16    325     SVR       1      B        SVR    025
+  E51      16    425     SVR       1      B        SVR    025
+  F55      16    022     SVR       1      B        SVR    025
+  SVT       1    017     SVT       1      A        SVT    017
+  TAF       1    150     TAF       1      A        TAF    150
+  Y79       0    115     TAF       1
+  Y98       0    215     TAF       1
+  S02      16    215     TAF       1      B        TAF    150
+  S55      16    215     TAF       1      B        TAF    150
+  TAP       1    015     TAP       1      A        TAP    015
+  Y89       0    115     TAP       1
+  V21      16    215     TAP       1      B        TAP    015
+  W44      20    015     TAP       1
+  TLX       1    008     TLX       1      A        TLX    008
+  TPF       1    015     TPF       1      R
+  I35      16    041     VLE       1      B        VLE    017
+  VLE       1    017     VLE       1      A        VLE    017
+
+
+
+
+
+
+
+
+
+
+
+
+</dados>
+  </pagina>
+  <pagina>
+    <dados>
+CELEPAR - COMPANHIA DE PROCESSAMENTO DE DADOS DO PARANA          * EM : 15/03/2012
+SOS - ADMINISTRACAO DE RECURSOS                                  * PAG:       39
+*** RELACAO DE SISTEMA-CLIENTES PARA EVENTOS ***                 * PGM: SOS3P080
+
+*----------------------------------------------------------------*-------------*
+         TIPO                    TIPO   TIPO    SIGLA    CLIENTE
+  SIS     SIS  CLIENTE  PACOTE  PACOTE  FATUR    FAT     FATURAM.</dados>
+  </pagina>
+</Document>
+</XMLData>
