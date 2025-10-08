@@ -1,0 +1,138 @@
+	 $DJDE$ JDE=LSO234,JDL=DFAULT,DUPLEX=NO,COLLATE=NO,END;                                                                             
+1                                                                                                                                    
+	SECRETARIA DE ESTADO DA ADMINISTRACAO E PREVIDENCIA  -  DRH SISTEMA INTEGRADO DE PAGAMENTO DE PESSOAL (SIP)   ESTADO                
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+	I                                                                                                             IREF  - SIP645       I
+	I                             RELATORIO DE OCORRENCIAS NO CALCULO   -     FOLHA DE 03/2012                    IPAG. -      1       I
+	I                                                                                                             IDATA - 20/03/2012   I
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+0                                                                                                                                    
+0FUNCIONARIO DE RG  0003435431 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00440-0202                                             
+0FUNCIONARIO DE RG  0003506754 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+0FUNCIONARIO DE RG  0004614887 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00367-3001                                             
+0FUNCIONARIO DE RG  0005086817 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+0FUNCIONARIO DE RG  0005691427 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00115-9022                                             
+0FUNCIONARIO DE RG  0005724007 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  6900-02-00000-0020                                             
+0FUNCIONARIO DE RG  0006750907 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3002                                             
+0FUNCIONARIO DE RG  0006792995 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00600-0061                                             
+0FUNCIONARIO DE RG  0008401560 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00440-3000                                             
+0FUNCIONARIO DE RG  0008914222 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  6900-02-00000-0300                                             
+0FUNCIONARIO DE RG  0009810021 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00440-0111                                             
+0FUNCIONARIO DE RG  0010049873 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7700-02-00000-0020                                             
+0FUNCIONARIO DE RG  0010431832 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00600-0060                                             
+0FUNCIONARIO DE RG  0011477607 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0281                                             
+0FUNCIONARIO DE RG  0011477607 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0282                                             
+0FUNCIONARIO DE RG  0011855296 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2930-00-00000-0261                                             
+0FUNCIONARIO DE RG  0012321490 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00000-0091                                             
+0FUNCIONARIO DE RG  0012619030 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  1100-02-00000-0701                                             
+0FUNCIONARIO DE RG  0013803935 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  1332-03-00000-0242                                             
+0FUNCIONARIO DE RG  0014595988 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-4000                                             
+0FUNCIONARIO DE RG  0015272554 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0284                                             
+0FUNCIONARIO DE RG  0015272554 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0280                                             
+0FUNCIONARIO DE RG  0016368148 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00600-0060                                             
+0FUNCIONARIO DE RG  0016368148 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00600-0061                                             
+0FUNCIONARIO DE RG  0016882194 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-0142                                             
+0FUNCIONARIO DE RG  0017823043 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00260-0300                                             
+	FUNCIONARIO DE RG  0019123340 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7700-01-00000-0011                                             
+1                                                                                                                                    
+	SECRETARIA DE ESTADO DA ADMINISTRACAO E PREVIDENCIA  -  DRH SISTEMA INTEGRADO DE PAGAMENTO DE PESSOAL (SIP)   ESTADO                
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+	I                                                                                                             IREF  - SIP645       I
+	I                             RELATORIO DE OCORRENCIAS NO CALCULO   -     FOLHA DE 03/2012                    IPAG. -      2       I
+	I                                                                                                             IDATA - 20/03/2012   I
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+0                                                                                                                                    
+0FUNCIONARIO DE RG  0019316882 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00345-0013                                             
+0FUNCIONARIO DE RG  0019407551 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00720-0010                                             
+0FUNCIONARIO DE RG  0019712214 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-02-00000-9000                                             
+0FUNCIONARIO DE RG  0020634383 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+0FUNCIONARIO DE RG  0020810092 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00260-3000                                             
+0FUNCIONARIO DE RG  0030369963 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00264-0100                                             
+0FUNCIONARIO DE RG  0031576490 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00498-0382                                             
+0FUNCIONARIO DE RG  0033175329 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00720-0010                                             
+0FUNCIONARIO DE RG  0033453795 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-3020                                             
+0FUNCIONARIO DE RG  0033754795 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5132-03-00000-0041                                             
+0FUNCIONARIO DE RG  0035140565 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00545-0010                                             
+0FUNCIONARIO DE RG  0035280677 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00260-0090                                             
+0FUNCIONARIO DE RG  0035494090 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00140-0010                                             
+0FUNCIONARIO DE RG  0036092289 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00140-0010                                             
+0FUNCIONARIO DE RG  0036680237 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00259-0421                                             
+0FUNCIONARIO DE RG  0036960698 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00264-0032                                             
+0FUNCIONARIO DE RG  0036974370 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0280                                             
+0FUNCIONARIO DE RG  0036974370 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0282                                             
+0FUNCIONARIO DE RG  0036974370 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7730-00-00000-0283                                             
+0FUNCIONARIO DE RG  0037839825 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00262-1171                                             
+0FUNCIONARIO DE RG  0039082306 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00831-0012                                             
+0FUNCIONARIO DE RG  0039420406 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00110-0100                                             
+0FUNCIONARIO DE RG  0040654224 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00243-0221                                             
+0FUNCIONARIO DE RG  0040879307 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-4582                                             
+0FUNCIONARIO DE RG  0041625376 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  1100-02-00000-0700                                             
+0FUNCIONARIO DE RG  0041725540 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+	FUNCIONARIO DE RG  0042430749 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00741-0262                                             
+1                                                                                                                                    
+	SECRETARIA DE ESTADO DA ADMINISTRACAO E PREVIDENCIA  -  DRH SISTEMA INTEGRADO DE PAGAMENTO DE PESSOAL (SIP)   ESTADO                
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+	I                                                                                                             IREF  - SIP645       I
+	I                             RELATORIO DE OCORRENCIAS NO CALCULO   -     FOLHA DE 03/2012                    IPAG. -      3       I
+	I                                                                                                             IDATA - 20/03/2012   I
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+0                                                                                                                                    
+0FUNCIONARIO DE RG  0042982270 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00570-0432                                             
+0FUNCIONARIO DE RG  0043010727 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00192-0021                                             
+0FUNCIONARIO DE RG  0043186795 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-1651                                             
+0FUNCIONARIO DE RG  0043761595 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00264-0832                                             
+0FUNCIONARIO DE RG  0043769863 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00422-0012                                             
+0FUNCIONARIO DE RG  0044164515 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-0203                                             
+0FUNCIONARIO DE RG  0044603217 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-4000                                             
+0FUNCIONARIO DE RG  0044650878 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00480-0230                                             
+0FUNCIONARIO DE RG  0046611560 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  7700-02-00000-0021                                             
+0FUNCIONARIO DE RG  0047071879 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+0FUNCIONARIO DE RG  0049037821 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00140-0013                                             
+0FUNCIONARIO DE RG  0049223153 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00560-0010                                             
+0FUNCIONARIO DE RG  0050142515 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4900-03-00295-0011                                             
+0FUNCIONARIO DE RG  0051579992 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00292-3000                                             
+0FUNCIONARIO DE RG  0051669797 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00430-3000                                             
+0FUNCIONARIO DE RG  0055199035 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00436-0010                                             
+0FUNCIONARIO DE RG  0055616264 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-1023                                             
+0FUNCIONARIO DE RG  0055651612 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00405-0210                                             
+0FUNCIONARIO DE RG  0056167161 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00367-0050                                             
+0FUNCIONARIO DE RG  0057550651 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00243-0221                                             
+0FUNCIONARIO DE RG  0057798742 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00508-0023                                             
+0FUNCIONARIO DE RG  0058088781 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00720-0031                                             
+0FUNCIONARIO DE RG  0059398490 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00440-3262                                             
+0FUNCIONARIO DE RG  0059945645 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00264-0041                                             
+0FUNCIONARIO DE RG  0060421099 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00140-9070                                             
+0FUNCIONARIO DE RG  0061979310 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00560-0010                                             
+	FUNCIONARIO DE RG  0063131776 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00480-0052                                             
+1                                                                                                                                    
+	SECRETARIA DE ESTADO DA ADMINISTRACAO E PREVIDENCIA  -  DRH SISTEMA INTEGRADO DE PAGAMENTO DE PESSOAL (SIP)   ESTADO                
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+	I                                                                                                             IREF  - SIP645       I
+	I                             RELATORIO DE OCORRENCIAS NO CALCULO   -     FOLHA DE 03/2012                    IPAG. -      4       I
+	I                                                                                                             IDATA - 20/03/2012   I
+	*-------------------------------------------------------------------------------------------------------------*--------------------*
+0                                                                                                                                    
+0FUNCIONARIO DE RG  0063864765 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00000-4492                                             
+0FUNCIONARIO DE RG  0063905828 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00720-0032                                             
+0FUNCIONARIO DE RG  0064488465 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00119-0021                                             
+0FUNCIONARIO DE RG  0064691554 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00370-0011                                             
+0FUNCIONARIO DE RG  0064837117 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00120-3000                                             
+0FUNCIONARIO DE RG  0065568012 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  3500-02-00000-0040                                             
+0FUNCIONARIO DE RG  0067189272 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00295-0010                                             
+0FUNCIONARIO DE RG  0067526252 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00687-0481                                             
+0FUNCIONARIO DE RG  0068008913 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00704-0120                                             
+0FUNCIONARIO DE RG  0069553940 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  4100-03-00011-0441                                             
+0FUNCIONARIO DE RG  0076465061 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00820-3000                                             
+0FUNCIONARIO DE RG  0079870226 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00430-3000                                             
+0FUNCIONARIO DE RG  0089222320 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  1332-03-00000-0201                                             
+0FUNCIONARIO DE RG  0090978586 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00610-3001                                             
+0FUNCIONARIO DE RG  0091073846 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00440-3000                                             
+0FUNCIONARIO DE RG  0091073854 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00440-3000                                             
+0FUNCIONARIO DE RG  0091074354 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+0FUNCIONARIO DE RG  0092432980 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3000                                             
+0FUNCIONARIO DE RG  0094890420 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5130-00-00000-0041                                             
+0FUNCIONARIO DE RG  0096561814 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00800-2000                                             
+0FUNCIONARIO DE RG  0099884371 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00231-3000                                             
+0FUNCIONARIO DE RG  0101684253 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  2726-01-00000-3001                                             
+0FUNCIONARIO DE RG  0102003802 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  5500-02-00600-0013                                             
+	FUNCIONARIO DE RG  0111231923 SEM COMPROVANTE DE PAGAMENTO NO LOCAL  1900-01-00260-0011                                             

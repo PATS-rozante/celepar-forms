@@ -1,0 +1,26 @@
+	 $DJDE$ JDE=LSO232,JDL=DFAULT,DUPLEX=NO,COLLATE=NO,END;                                                                             
+1                                                                                                                                    
+	************************************************************************************************************************************
+	I ESTADO DO PARANA                                                                                               FOLHA -        1 I 
+	I SECRETARIA DE ESTADO DA ADMINISTRACAO                RESUMO DA INTEGRACAO                                    DATA  - 14/03/2012 I 
+	I INTEGRACAO SAE X SIP                                                                                           CODIGO- ERHSP100 I 
+0************************************************************************************************************************************
+-DATA DE REFERENCIA DA FOLHA : 03 / 2012                                                                                             
+-                                                                                                                                    
+	                                                                                                                                    
+0                               1. NUMERO DE REGISTROS LIDOS - FOLHA ...........      209                                            
+	                                  1.1. REGISTROS CERTOS .......................      196                                            
+	                                       . SUPRIMENTOS ..........................       76                                            
+	                                       . CANCELAMENTOS ........................      120                                            
+0                                       . REMOCOES .............................        0                                            
+-                                  1.2. REGISTROS ERRADOS ......................       13                                            
+	                                                                                                                                    
+0                               2. NUMERO DE REGISTROS GRAVADOS - LOCAIS .......       31                                            
+	                                  2.1. IMPLANTACOES ...........................       31                                            
+	                                  2.2. EXCLUSOES ..............................       49                                            
+	                                  2.3. REMOCOES ...............................        0                                            
+	                                  2.4. ALTERACOES DE CARGA HORARIA ............      123                                            
+	                                  2.5. ALTERACOES DE PERIODO FINAL ............        0                                            
+-                                  2.6. ALTERACOES DE LOTACAO ..................        0                                            
+	                                                                                                                                    
+	                               3. NUMERO DE REGISTROS COM CALCULO DE ATRASADOS       159                                            
